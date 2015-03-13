@@ -1,0 +1,304 @@
+Error in global include file: Include file 'c:\sistemas\futura9\libs\gdiplus.h' is not found.#if GDIPLUS_CHECK_PARAMS
+Error in line 4 of gphatchbrush.create (record 2): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_OBJECT
+Error in line 28 of gphatchbrush.foregroundcolor_access (record 2): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_OBJECT
+Error in line 51 of gphatchbrush.backgroundcolor_access (record 2): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_OBJECT
+Error in line 74 of gphatchbrush.hatchstyle_access (record 2): Preprocessor expression is invalid.
+Error in global include file: Include file 'c:\sistemas\futura9\libs\gdiplus.h' is not found.#if GDIPLUS_CHECK_PARAMS
+Error in line 4 of gpsolidbrush.create (record 4): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_OBJECT
+Error in line 24 of gpsolidbrush.brushcolor_access (record 4): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_OBJECT
+Error in line 44 of gpsolidbrush.brushcolor_assign (record 4): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_PARAMS
+Error in line 52 of gpsolidbrush.brushcolor_assign (record 4): Preprocessor expression is invalid.
+Error in global include file: Include file 'c:\sistemas\futura9\libs\gdiplus.h' is not found.#if GDIPLUS_CHECK_PARAMS
+Error in line 4 of gpbrush.clone (record 6): Preprocessor expression is invalid.
+Error in global include file: Include file 'c:\sistemas\futura9\libs\gdiplus.h' is not found.#if GDIPLUS_CHECK_OBJECT
+Error in line 50 of gpfontfamily.isstyleavailable (record 8): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_PARAMS
+Error in line 58 of gpfontfamily.isstyleavailable (record 8): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_OBJECT
+Error in line 75 of gpfontfamily.fontname_access (record 8): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_PARAMS
+Error in line 103 of gpfontfamily.getcellascent (record 8): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_OBJECT
+Error in line 111 of gpfontfamily.getcellascent (record 8): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_PARAMS
+Error in line 134 of gpfontfamily.getemheight (record 8): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_OBJECT
+Error in line 142 of gpfontfamily.getemheight (record 8): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_PARAMS
+Error in line 165 of gpfontfamily.getcelldescent (record 8): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_OBJECT
+Error in line 173 of gpfontfamily.getcelldescent (record 8): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_PARAMS
+Error in line 196 of gpfontfamily.getlinespacing (record 8): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_OBJECT
+Error in line 204 of gpfontfamily.getlinespacing (record 8): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_PARAMS
+Error in line 227 of gpfontfamily.getname (record 8): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_OBJECT
+Error in line 235 of gpfontfamily.getname (record 8): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_PARAMS
+Error in line 296 of gpfontfamily.clone (record 8): Preprocessor expression is invalid.
+Error in global include file: Include file 'c:\sistemas\futura9\libs\gdiplus.h' is not found.#if GDIPLUS_CHECK_OBJECT
+Error in line 2 of gpstringformat.alignment_access (record 10): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_PARAMS
+Error in line 21 of gpstringformat.alignment_assign (record 10): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_OBJECT
+Error in line 28 of gpstringformat.alignment_assign (record 10): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_OBJECT
+Error in line 49 of gpstringformat.formatflags_access (record 10): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_PARAMS
+Error in line 68 of gpstringformat.formatflags_assign (record 10): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_OBJECT
+Error in line 76 of gpstringformat.formatflags_assign (record 10): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_OBJECT
+Error in line 97 of gpstringformat.hotkeyprefix_access (record 10): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_PARAMS
+Error in line 116 of gpstringformat.hotkeyprefix_assign (record 10): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_OBJECT
+Error in line 124 of gpstringformat.hotkeyprefix_assign (record 10): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_OBJECT
+Error in line 145 of gpstringformat.linealignment_access (record 10): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_PARAMS
+Error in line 164 of gpstringformat.linealignment_assign (record 10): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_OBJECT
+Error in line 172 of gpstringformat.linealignment_assign (record 10): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_OBJECT
+Error in line 193 of gpstringformat.trimming_access (record 10): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_PARAMS
+Error in line 212 of gpstringformat.trimming_assign (record 10): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_OBJECT
+Error in line 220 of gpstringformat.trimming_assign (record 10): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_PARAMS
+Error in line 314 of gpstringformat.clone (record 10): Preprocessor expression is invalid.
+Error in global include file: Include file 'c:\sistemas\futura9\libs\gdiplus.h' is not found.#if GDIPLUS_CHECK_PARAMS
+Error in line 8 of gpfont.create (record 12): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_OBJECT
+Error in line 57 of gpfont.style_access (record 12): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_OBJECT
+Error in line 79 of gpfont.unit_access (record 12): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_PARAMS
+Error in line 112 of gpfont.getheight (record 12): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_OBJECT
+Error in line 130 of gpfont.fontname_access (record 12): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_OBJECT
+Error in line 165 of gpfont.size_access (record 12): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_OBJECT
+Error in line 188 of gpfont.getheightgivendpi (record 12): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_PARAMS
+Error in line 196 of gpfont.getheightgivendpi (record 12): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_PARAMS
+Error in line 243 of gpfont.clone (record 12): Preprocessor expression is invalid.
+Error in global include file: Include file 'c:\sistemas\futura9\libs\gdiplus.h' is not found.#if GDIPLUS_CHECK_PARAMS
+Error in line 10 of gppoint.gdippoint_assign (record 14): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_PARAMS
+Error in line 28 of gppoint.gdippointf_assign (record 14): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_PARAMS
+Error in line 42 of gppoint.create (record 14): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_PARAMS
+Error in line 55 of gppoint.set (record 14): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_PARAMS
+Error in line 88 of gppoint.clone (record 14): Preprocessor expression is invalid.
+Error in global include file: Include file 'c:\sistemas\futura9\libs\gdiplus.h' is not found.#if GDIPLUS_CHECK_PARAMS
+Error in line 10 of gpsize.gdipsize_assign (record 16): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_PARAMS
+Error in line 28 of gpsize.gdipsizef_assign (record 16): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_PARAMS
+Error in line 42 of gpsize.create (record 16): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_PARAMS
+Error in line 55 of gpsize.set (record 16): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_PARAMS
+Error in line 68 of gpsize.clone (record 16): Preprocessor expression is invalid.
+Error in global include file: Include file 'c:\sistemas\futura9\libs\gdiplus.h' is not found.#if GDIPLUS_CHECK_PARAMS
+Error in line 4 of gpbitmap.createfromgraphics (record 18): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_PARAMS
+Error in line 30 of gpbitmap.create (record 18): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_PARAMS
+Error in line 58 of gpbitmap.setpixel (record 18): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_OBJECT
+Error in line 66 of gpbitmap.setpixel (record 18): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_PARAMS
+Error in line 84 of gpbitmap.getpixel (record 18): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_OBJECT
+Error in line 91 of gpbitmap.getpixel (record 18): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_PARAMS
+Error in line 110 of gpbitmap.createfromfile (record 18): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_PARAMS
+Error in line 162 of gpbitmap.setresolution (record 18): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_OBJECT
+Error in line 169 of gpbitmap.setresolution (record 18): Preprocessor expression is invalid.
+Error in global include file: Include file 'c:\sistemas\futura9\libs\gdiplus.h' is not found.#if GDIPLUS_CHECK_OBJECT
+Error in line 2 of gpgraphics.dpix_access (record 20): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_OBJECT
+Error in line 25 of gpgraphics.dpiy_access (record 20): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_OBJECT
+Error in line 48 of gpgraphics.drawline (record 20): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_PARAMS
+Error in line 55 of gpgraphics.drawline (record 20): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_OBJECT
+Error in line 75 of gpgraphics.drawrectangle (record 20): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_PARAMS
+Error in line 83 of gpgraphics.drawrectangle (record 20): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_OBJECT
+Error in line 121 of gpgraphics.drawstringa (record 20): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_PARAMS
+Error in line 129 of gpgraphics.drawstringa (record 20): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_OBJECT
+Error in line 188 of gpgraphics.drawstringw (record 20): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_PARAMS
+Error in line 196 of gpgraphics.drawstringw (record 20): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_OBJECT
+Error in line 255 of gpgraphics.drawpie (record 20): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_PARAMS
+Error in line 263 of gpgraphics.drawpie (record 20): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_OBJECT
+Error in line 308 of gpgraphics.fillpie (record 20): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_PARAMS
+Error in line 316 of gpgraphics.fillpie (record 20): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_OBJECT
+Error in line 359 of gpgraphics.drawarc (record 20): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_PARAMS
+Error in line 367 of gpgraphics.drawarc (record 20): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_OBJECT
+Error in line 384 of gpgraphics.drawbezier (record 20): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_PARAMS
+Error in line 392 of gpgraphics.drawbezier (record 20): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_OBJECT
+Error in line 413 of gpgraphics.drawellipse (record 20): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_PARAMS
+Error in line 421 of gpgraphics.drawellipse (record 20): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_OBJECT
+Error in line 462 of gpgraphics.fillrectangle (record 20): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_PARAMS
+Error in line 470 of gpgraphics.fillrectangle (record 20): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_OBJECT
+Error in line 511 of gpgraphics.fillellipse (record 20): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_PARAMS
+Error in line 519 of gpgraphics.fillellipse (record 20): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_OBJECT
+Error in line 557 of gpgraphics.flush (record 20): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_PARAMS
+Error in line 565 of gpgraphics.flush (record 20): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_PARAMS
+Error in line 584 of gpgraphics.createfromhdc (record 20): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_PARAMS
+Error in line 611 of gpgraphics.createfromhwnd (record 20): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_OBJECT
+Error in line 643 of gpgraphics.compositingmode_access (record 20): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_OBJECT
+Error in line 661 of gpgraphics.compositingmode_assign (record 20): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_PARAMS
+Error in line 668 of gpgraphics.compositingmode_assign (record 20): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_OBJECT
+Error in line 684 of gpgraphics.compositingquality_access (record 20): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_OBJECT
+Error in line 702 of gpgraphics.compositingquality_assign (record 20): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_PARAMS
+Error in line 709 of gpgraphics.compositingquality_assign (record 20): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_OBJECT
+Error in line 725 of gpgraphics.interpolationmode_access (record 20): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_OBJECT
+Error in line 742 of gpgraphics.interpolationmode_assign (record 20): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_PARAMS
+Error in line 749 of gpgraphics.interpolationmode_assign (record 20): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_OBJECT
+Error in line 765 of gpgraphics.pagescale_access (record 20): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_OBJECT
+Error in line 783 of gpgraphics.pagescale_assign (record 20): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_PARAMS
+Error in line 791 of gpgraphics.pagescale_assign (record 20): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_OBJECT
+Error in line 807 of gpgraphics.smoothingmode_access (record 20): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_OBJECT
+Error in line 825 of gpgraphics.smoothingmode_assign (record 20): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_PARAMS
+Error in line 832 of gpgraphics.smoothingmode_assign (record 20): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_OBJECT
+Error in line 848 of gpgraphics.pixeloffsetmode_access (record 20): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_OBJECT
+Error in line 866 of gpgraphics.pixeloffsetmode_assign (record 20): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_PARAMS
+Error in line 874 of gpgraphics.pixeloffsetmode_assign (record 20): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_OBJECT
+Error in line 890 of gpgraphics.clipbounds_access (record 20): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_OBJECT
+Error in line 916 of gpgraphics.pageunit_access (record 20): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_OBJECT
+Error in line 935 of gpgraphics.pageunit_assign (record 20): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_PARAMS
+Error in line 942 of gpgraphics.pageunit_assign (record 20): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_OBJECT
+Error in line 958 of gpgraphics.visibleclipbounds_access (record 20): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_OBJECT
+Error in line 985 of gpgraphics.measurestringa (record 20): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_PARAMS
+Error in line 992 of gpgraphics.measurestringa (record 20): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_OBJECT
+Error in line 1067 of gpgraphics.measurestringw (record 20): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_PARAMS
+Error in line 1074 of gpgraphics.measurestringw (record 20): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_OBJECT
+Error in line 1137 of gpgraphics.textrenderinghint_access (record 20): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_OBJECT
+Error in line 1156 of gpgraphics.textrenderinghint_assign (record 20): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_PARAMS
+Error in line 1164 of gpgraphics.textrenderinghint_assign (record 20): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_OBJECT
+Error in line 1180 of gpgraphics.renderingorigin_access (record 20): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_OBJECT
+Error in line 1204 of gpgraphics.renderingorigin_assign (record 20): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_PARAMS
+Error in line 1212 of gpgraphics.renderingorigin_assign (record 20): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_OBJECT
+Error in line 1228 of gpgraphics.textcontrast_access (record 20): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_OBJECT
+Error in line 1248 of gpgraphics.textcontrast_assign (record 20): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_PARAMS
+Error in line 1255 of gpgraphics.textcontrast_assign (record 20): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_OBJECT
+Error in line 1272 of gpgraphics.drawlines (record 20): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_PARAMS
+Error in line 1280 of gpgraphics.drawlines (record 20): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_OBJECT
+Error in line 1304 of gpgraphics.drawlinesfromcursor (record 20): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_PARAMS
+Error in line 1312 of gpgraphics.drawlinesfromcursor (record 20): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_OBJECT
+Error in line 1332 of gpgraphics.drawbeziers (record 20): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_PARAMS
+Error in line 1340 of gpgraphics.drawbeziers (record 20): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_OBJECT
+Error in line 1364 of gpgraphics.drawclosedcurve (record 20): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_PARAMS
+Error in line 1372 of gpgraphics.drawclosedcurve (record 20): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_OBJECT
+Error in line 1396 of gpgraphics.drawbeziersfromcursor (record 20): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_PARAMS
+Error in line 1404 of gpgraphics.drawbeziersfromcursor (record 20): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_OBJECT
+Error in line 1424 of gpgraphics.drawclosedcurvefromcursor (record 20): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_PARAMS
+Error in line 1432 of gpgraphics.drawclosedcurvefromcursor (record 20): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_OBJECT
+Error in line 1452 of gpgraphics.drawcurve (record 20): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_PARAMS
+Error in line 1460 of gpgraphics.drawcurve (record 20): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_OBJECT
+Error in line 1484 of gpgraphics.drawcurvefromcursor (record 20): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_PARAMS
+Error in line 1492 of gpgraphics.drawcurvefromcursor (record 20): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_OBJECT
+Error in line 1512 of gpgraphics.drawpolygon (record 20): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_PARAMS
+Error in line 1520 of gpgraphics.drawpolygon (record 20): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_OBJECT
+Error in line 1544 of gpgraphics.drawpolygonfromcursor (record 20): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_PARAMS
+Error in line 1552 of gpgraphics.drawpolygonfromcursor (record 20): Preprocessor expression is invalid.
+#if GDIPLUS_CHECK_OBJECT
+Error in line 1572 of gpgraphics.drawrectangles (record 20): Preprocessor expression is invalid.
