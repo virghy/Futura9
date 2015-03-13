@@ -158,7 +158,7 @@ COLOR=2
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA["Libro de IVA Compra - Ley 125"]]>
+	<expr><![CDATA["Libro de IVA Compras"]]>
 	<supexpr><![CDATA[]]>
 	<comment><![CDATA[]]>
 	<user><![CDATA[]]>
@@ -170,7 +170,7 @@ COLOR=2
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA[CMONTH(cn_rivacompra.fecha)]]>
+	<expr><![CDATA[NombreMes(m.Mes)]]>
 	<supexpr><![CDATA[]]>
 	<comment><![CDATA[]]>
 	<user><![CDATA[]]>
@@ -182,7 +182,7 @@ COLOR=2
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA[year(cn_rivacompra.fecha)]]>
+	<expr><![CDATA[m.año]]>
 	<supexpr><![CDATA[]]>
 	<comment><![CDATA[]]>
 	<user><![CDATA[]]>
@@ -248,7 +248,7 @@ COLOR=2
 	<user><![CDATA[]]>
 </Reportes>
 <Reportes 
-	platform="WINDOWS " uniqueid="" timestamp="0" objtype="6" objcode="0" name="" vpos="11250.000" hpos="18333.333" height="5104.167" width="104.167" order="" unique=".F." environ=".F." boxchar=" " fillchar=" " pengreen="-1" penblue="-1" fillred="-1" fillgreen="-1" fillblue="-1" pensize="1" penpat="8" fillpat="0" fontface="" fontstyle="0" fontsize="0" mode="0" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="0" double=".F." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="0" topmargin="0" botmargin="0" totaltype="0" resettotal="0" resoid="0" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
+	platform="WINDOWS " uniqueid="" timestamp="0" objtype="6" objcode="0" name="" vpos="11250.000" hpos="16354.167" height="5104.167" width="104.167" order="" unique=".F." environ=".F." boxchar=" " fillchar=" " pengreen="-1" penblue="-1" fillred="-1" fillgreen="-1" fillblue="-1" pensize="1" penpat="8" fillpat="0" fontface="" fontstyle="0" fontsize="0" mode="0" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="0" double=".F." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="0" topmargin="0" botmargin="0" totaltype="0" resettotal="0" resoid="0" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
 	<picture><![CDATA[]]>
 	<tag><![CDATA[]]>
 	<tag2><![CDATA[]]>
@@ -296,7 +296,7 @@ COLOR=2
 	<user><![CDATA[]]>
 </Reportes>
 <Reportes 
-	platform="WINDOWS " uniqueid="" timestamp="0" objtype="5" objcode="0" name="" vpos="11354.167" hpos="9791.667" height="1458.333" width="6562.500" order="" unique=".F." environ=".F." boxchar=" " fillchar=" " pengreen="0" penblue="0" fillred="-1" fillgreen="-1" fillblue="-1" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="1" fontsize="8" mode="1" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="0" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="0" topmargin="0" botmargin="0" totaltype="0" resettotal="0" resoid="1" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
+	platform="WINDOWS " uniqueid="" timestamp="0" objtype="5" objcode="0" name="" vpos="11354.167" hpos="6250.000" height="1458.333" width="6562.500" order="" unique=".F." environ=".F." boxchar=" " fillchar=" " pengreen="0" penblue="0" fillred="-1" fillgreen="-1" fillblue="-1" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="1" fontsize="8" mode="1" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="0" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="0" topmargin="0" botmargin="0" totaltype="0" resettotal="0" resoid="1" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
 	<picture><![CDATA[]]>
 	<tag><![CDATA[]]>
 	<tag2><![CDATA[]]>
@@ -356,7 +356,7 @@ COLOR=2
 	<user><![CDATA[]]>
 </Reportes>
 <Reportes 
-	platform="WINDOWS " uniqueid="" timestamp="0" objtype="6" objcode="0" name="" vpos="13750.000" hpos="3854.167" height="104.167" width="102291.670" order="" unique=".F." environ=".F." boxchar=" " fillchar=" " pengreen="-1" penblue="-1" fillred="-1" fillgreen="-1" fillblue="-1" pensize="1" penpat="8" fillpat="0" fontface="" fontstyle="0" fontsize="0" mode="0" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="0" double=".F." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="1" topmargin="0" botmargin="0" totaltype="0" resettotal="0" resoid="0" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
+	platform="WINDOWS " uniqueid="" timestamp="0" objtype="6" objcode="0" name="" vpos="13750.000" hpos="8854.167" height="2604.167" width="104.167" order="" unique=".F." environ=".F." boxchar=" " fillchar=" " pengreen="-1" penblue="-1" fillred="-1" fillgreen="-1" fillblue="-1" pensize="1" penpat="8" fillpat="0" fontface="" fontstyle="0" fontsize="0" mode="0" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="0" double=".F." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="0" topmargin="0" botmargin="0" totaltype="0" resettotal="0" resoid="0" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
 	<picture><![CDATA[]]>
 	<tag><![CDATA[]]>
 	<tag2><![CDATA[]]>
@@ -368,7 +368,7 @@ COLOR=2
 	<user><![CDATA[]]>
 </Reportes>
 <Reportes 
-	platform="WINDOWS " uniqueid="" timestamp="0" objtype="6" objcode="0" name="" vpos="13750.000" hpos="10937.500" height="2604.167" width="104.167" order="" unique=".F." environ=".F." boxchar=" " fillchar=" " pengreen="-1" penblue="-1" fillred="-1" fillgreen="-1" fillblue="-1" pensize="1" penpat="8" fillpat="0" fontface="" fontstyle="0" fontsize="0" mode="0" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="0" double=".F." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="0" topmargin="0" botmargin="0" totaltype="0" resettotal="0" resoid="0" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
+	platform="WINDOWS " uniqueid="" timestamp="0" objtype="6" objcode="0" name="" vpos="13750.000" hpos="16354.167" height="104.167" width="89791.667" order="" unique=".F." environ=".F." boxchar=" " fillchar=" " pengreen="-1" penblue="-1" fillred="-1" fillgreen="-1" fillblue="-1" pensize="1" penpat="8" fillpat="0" fontface="" fontstyle="0" fontsize="0" mode="0" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="0" double=".F." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="1" topmargin="0" botmargin="0" totaltype="0" resettotal="0" resoid="0" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
 	<picture><![CDATA[]]>
 	<tag><![CDATA[]]>
 	<tag2><![CDATA[]]>
@@ -380,7 +380,7 @@ COLOR=2
 	<user><![CDATA[]]>
 </Reportes>
 <Reportes 
-	platform="WINDOWS " uniqueid="" timestamp="0" objtype="6" objcode="0" name="" vpos="13750.000" hpos="42395.833" height="2604.167" width="104.167" order="" unique=".F." environ=".F." boxchar=" " fillchar=" " pengreen="-1" penblue="-1" fillred="-1" fillgreen="-1" fillblue="-1" pensize="1" penpat="8" fillpat="0" fontface="" fontstyle="0" fontsize="0" mode="0" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="0" double=".F." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="0" topmargin="0" botmargin="0" totaltype="0" resettotal="0" resoid="0" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
+	platform="WINDOWS " uniqueid="" timestamp="0" objtype="6" objcode="0" name="" vpos="13750.000" hpos="40937.500" height="2604.167" width="104.167" order="" unique=".F." environ=".F." boxchar=" " fillchar=" " pengreen="-1" penblue="-1" fillred="-1" fillgreen="-1" fillblue="-1" pensize="1" penpat="8" fillpat="0" fontface="" fontstyle="0" fontsize="0" mode="0" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="0" double=".F." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="0" topmargin="0" botmargin="0" totaltype="0" resettotal="0" resoid="0" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
 	<picture><![CDATA[]]>
 	<tag><![CDATA[]]>
 	<tag2><![CDATA[]]>
@@ -464,7 +464,7 @@ COLOR=2
 	<user><![CDATA[]]>
 </Reportes>
 <Reportes 
-	platform="WINDOWS " uniqueid="" timestamp="0" objtype="5" objcode="0" name="" vpos="13854.167" hpos="12187.500" height="1458.333" width="3645.833" order="" unique=".F." environ=".F." boxchar=" " fillchar=" " pengreen="0" penblue="0" fillred="-1" fillgreen="-1" fillblue="-1" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="1" fontsize="8" mode="1" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="0" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="0" topmargin="0" botmargin="0" totaltype="0" resettotal="0" resoid="1" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
+	platform="WINDOWS " uniqueid="" timestamp="0" objtype="5" objcode="0" name="" vpos="13854.167" hpos="10104.167" height="1458.333" width="3645.833" order="" unique=".F." environ=".F." boxchar=" " fillchar=" " pengreen="0" penblue="0" fillred="-1" fillgreen="-1" fillblue="-1" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="1" fontsize="8" mode="1" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="0" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="0" topmargin="0" botmargin="0" totaltype="0" resettotal="0" resoid="1" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
 	<picture><![CDATA[]]>
 	<tag><![CDATA[]]>
 	<tag2><![CDATA[]]>
@@ -476,7 +476,7 @@ COLOR=2
 	<user><![CDATA[]]>
 </Reportes>
 <Reportes 
-	platform="WINDOWS " uniqueid="" timestamp="0" objtype="5" objcode="0" name="" vpos="13854.167" hpos="18645.833" height="1458.333" width="19687.500" order="" unique=".F." environ=".F." boxchar=" " fillchar=" " pengreen="-1" penblue="-1" fillred="-1" fillgreen="-1" fillblue="-1" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="1" fontsize="8" mode="1" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="0" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="0" topmargin="0" botmargin="0" totaltype="0" resettotal="0" resoid="1" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
+	platform="WINDOWS " uniqueid="" timestamp="0" objtype="5" objcode="0" name="" vpos="13854.167" hpos="17395.833" height="1458.333" width="19687.500" order="" unique=".F." environ=".F." boxchar=" " fillchar=" " pengreen="-1" penblue="-1" fillred="-1" fillgreen="-1" fillblue="-1" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="1" fontsize="8" mode="1" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="0" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="0" topmargin="0" botmargin="0" totaltype="0" resettotal="0" resoid="1" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
 	<picture><![CDATA[]]>
 	<tag><![CDATA[]]>
 	<tag2><![CDATA[]]>
@@ -596,19 +596,19 @@ COLOR=2
 	<user><![CDATA[]]>
 </Reportes>
 <Reportes 
-	platform="WINDOWS " uniqueid="" timestamp="0" objtype="8" objcode="0" name="" vpos="23541.667" hpos="104.167" height="1666.667" width="10416.667" order="" unique=".F." environ=".F." boxchar=" " fillchar="C" pengreen="0" penblue="0" fillred="-1" fillgreen="-1" fillblue="-1" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="0" fontsize="8" mode="1" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="2" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="1" topmargin="0" botmargin="0" totaltype="0" resettotal="1" resoid="1" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="6" supvalchng=".F." 
+	platform="WINDOWS " uniqueid="" timestamp="0" objtype="8" objcode="0" name="" vpos="23541.667" hpos="104.167" height="1666.667" width="9791.667" order="" unique=".F." environ=".F." boxchar=" " fillchar="C" pengreen="0" penblue="0" fillred="-1" fillgreen="-1" fillblue="-1" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="0" fontsize="8" mode="1" ruler="0" rulerlines="1" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="2" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="0" topmargin="0" botmargin="0" totaltype="0" resettotal="1" resoid="1" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="6" supvalchng=".F." 
 	<picture><![CDATA[]]>
 	<tag><![CDATA[]]>
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA[cn_rivacompra.FacturaProveedor]]>
+	<expr><![CDATA[Numero]]>
 	<supexpr><![CDATA[]]>
 	<comment><![CDATA[]]>
 	<user><![CDATA[]]>
 </Reportes>
 <Reportes 
-	platform="WINDOWS " uniqueid="" timestamp="0" objtype="8" objcode="0" name="" vpos="23541.667" hpos="11145.833" height="1666.667" width="6875.000" order="" unique=".F." environ=".F." boxchar=" " fillchar="D" pengreen="0" penblue="0" fillred="-1" fillgreen="-1" fillblue="-1" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="0" fontsize="8" mode="1" ruler="0" rulerlines="1" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="2" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="0" topmargin="0" botmargin="0" totaltype="0" resettotal="1" resoid="1" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="6" supvalchng=".F." 
+	platform="WINDOWS " uniqueid="" timestamp="0" objtype="8" objcode="0" name="" vpos="23541.667" hpos="10208.333" height="1666.667" width="6875.000" order="" unique=".F." environ=".F." boxchar=" " fillchar="D" pengreen="0" penblue="0" fillred="-1" fillgreen="-1" fillblue="-1" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="0" fontsize="8" mode="1" ruler="0" rulerlines="1" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="2" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="0" topmargin="0" botmargin="0" totaltype="0" resettotal="1" resoid="1" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="6" supvalchng=".F." 
 	<picture><![CDATA["@YS"]]>
 	<tag><![CDATA[]]>
 	<tag2><![CDATA[]]>
@@ -620,15 +620,15 @@ COLOR=2
 	<user><![CDATA[]]>
 </Reportes>
 <Reportes 
-	platform="WINDOWS " uniqueid="" timestamp="0" objtype="8" objcode="0" name="" vpos="23541.667" hpos="18541.667" height="1666.667" width="24687.500" order="" unique=".F." environ=".F." boxchar=" " fillchar="C" pengreen="0" penblue="0" fillred="-1" fillgreen="-1" fillblue="-1" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="0" fontsize="8" mode="1" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="2" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="0" topmargin="0" botmargin="0" totaltype="0" resettotal="1" resoid="1" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
+	platform="WINDOWS " uniqueid="" timestamp="0" objtype="8" objcode="0" name="" vpos="23541.667" hpos="17291.667" height="1666.667" width="23854.167" order="" unique=".F." environ=".F." boxchar=" " fillchar="C" pengreen="0" penblue="0" fillred="-1" fillgreen="-1" fillblue="-1" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="0" fontsize="8" mode="1" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="2" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="0" topmargin="0" botmargin="0" totaltype="0" resettotal="1" resoid="1" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="6" supvalchng=".F." 
 	<picture><![CDATA[]]>
 	<tag><![CDATA[]]>
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA[cn_rivacompra.razon]]>
+	<expr><![CDATA[Nombre]]>
 	<supexpr><![CDATA[]]>
-	<comment><![CDATA[ ]]>
+	<comment><![CDATA[]]>
 	<user><![CDATA[]]>
 </Reportes>
 <Reportes 
@@ -716,7 +716,7 @@ COLOR=2
 	<user><![CDATA[]]>
 </Reportes>
 <Reportes 
-	platform="WINDOWS " uniqueid="" timestamp="0" objtype="8" objcode="0" name="" vpos="23645.833" hpos="42604.167" height="1666.667" width="7604.167" order="" unique=".F." environ=".F." boxchar=" " fillchar="C" pengreen="0" penblue="0" fillred="-1" fillgreen="-1" fillblue="-1" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="0" fontsize="8" mode="1" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="2" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="0" topmargin="0" botmargin="0" totaltype="0" resettotal="1" resoid="1" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
+	platform="WINDOWS " uniqueid="" timestamp="0" objtype="8" objcode="0" name="" vpos="23645.833" hpos="41354.167" height="1666.667" width="8854.167" order="" unique=".F." environ=".F." boxchar=" " fillchar="C" pengreen="0" penblue="0" fillred="-1" fillgreen="-1" fillblue="-1" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="0" fontsize="8" mode="1" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="2" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="0" topmargin="0" botmargin="0" totaltype="0" resettotal="1" resoid="1" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
 	<picture><![CDATA[]]>
 	<tag><![CDATA[]]>
 	<tag2><![CDATA[]]>
@@ -1169,99 +1169,17 @@ IF EMPTY(m.sucursal)
 ENDIF
 
 
-TEXT TO cmdSQL noshow
 
-	SELECT     c.FacturaProveedor, c.Fecha, ISNULL(c.Exenta,0)* Cotizacion as Exentas, 
-	ISNULL(c.Gravada,0)* Cotizacion AS Gravadas10, 
-	ISNULL(c.iva10,0)* Cotizacion as Iva10, 
-	ISNULL(c.iva5,0)* Cotizacion  as Iva5, 
-	ISNULL(c.Gravada5,0) * Cotizacion as Gravadas5, 
-	c.Total, p.Razon, p.Ruc, c.TipoAplica as Tipo, 
-	CASE WHEN TIPOAplica = 'M' THEN ISNULL(c.gravada* Cotizacion, 0) ELSE 0 END AS imponible, 
-	c.Sucursal + s.Descripción AS Sucursal
-	FROM         cp_factura AS c left JOIN
-	                      cn_conceptos AS d ON c.IdEmpresa = d.idempresa AND c.IdConcepto = d.idconcepto INNER JOIN
-	                      cp_proveedor AS p ON c.IdEmpresa = p.IdEmpresa AND c.IdProveedor = p.IdProveedor INNER JOIN
-	                      sucursal AS s ON c.IdEmpresa = s.IdEmpresa AND c.Sucursal = s.Sucursal
-	      WHERE c.idempresa IN(?oApp.Empresa)
-	       AND (c.sucursal = ?m.sucursal or ?m.sucursal is null)    
-	        AND MONTH(c.fecha) = ?m.mes  
-	        AND YEAR(c.fecha) = ?m.año
-	        and c.Tipo='G'  
-	        and   c.fecha between ?m.dFecha and ?m.hFecha
-	        AND c.LibroIva=1
-	     
-	union all
-	SELECT     c.FacturaProveedor, c.Fecha, ISNULL(c.Exenta,0)* Cotizacion as Exentas , 
-	ISNULL(c.Gravada,0)* Cotizacion AS Gravadas10, ISNULL(c.iva10,0)* Cotizacion as Iva10, 
-	ISNULL(c.iva5,0)* Cotizacion as Iva5, ISNULL(c.Gravada5,0) * Cotizacion as Gravadas5, 
-	c.Total, p.Razon, p.Ruc, ISNULL(c.TipoAplica,'D') as Tipo, 
-	CASE WHEN TIPOAplica = 'M' THEN ISNULL(c.gravada* Cotizacion, 0) ELSE 0 END AS imponible, 
-	c.Sucursal + s.Descripción AS Sucursal
-	FROM         cp_factura AS c INNER JOIN
-	                      cp_proveedor AS p ON c.IdEmpresa = p.IdEmpresa AND c.IdProveedor = p.IdProveedor INNER JOIN
-	                      sucursal AS s ON c.IdEmpresa = s.IdEmpresa AND c.Sucursal = s.Sucursal
-	  
-	      WHERE c.idempresa IN(?oApp.Empresa)  
-	       AND (c.sucursal = ?m.sucursal or ?m.sucursal is null)    
-	        AND MONTH(c.fecha) = ?m.mes  
-	        AND YEAR(c.fecha) = ?m.año 
-	        and c.Tipo IN ('C')
-	        and   c.fecha between ?m.dFecha and ?m.hFecha
-	        AND c.LibroIva=1
-	      ORDER BY c.Sucursal + s.Descripción,c.fecha, c.FacturaProveedor
-      
+TEXT TO cmdSQL noshow
+	exec dbo.vt_rLibroIVA ?oApp.Empresa,?m.dFecha,?m.hFecha, 'C',?m.Mes,?m.Año,?m.Sucursal,'F',null
 ENDTEXT
+
 
 
 sql(cmdsql,'cn_rivacompra')
 SELECT cn_rivacompra
 
 
-*!*	TEXT TO cmdSQL noshow
-
-*!*	SELECT     c.FacturaProveedor, c.Fecha, c.Exenta* Cotizacion as Exentas , c.Gravada, c.Iva, c.Total, p.Razon, p.Ruc, c.TipoAplica as Tipo, 
-*!*		CASE WHEN TIPOAplica <> 'M' AND Valor = 5 THEN ISNULL(c.gravada* Cotizacion, 0) ELSE 0 END AS gravadas5, 
-*!*		CASE WHEN TIPOAplica <> 'M' AND Valor = 10 THEN ISNULL(c.gravada* Cotizacion, 0) ELSE 0 END AS gravadas10, 
-*!*		CASE WHEN TIPOAplica = 'M' THEN ISNULL(c.gravada* Cotizacion, 0) ELSE 0 END AS imponible, 
-*!*		CASE WHEN TIPOAplica <> 'M' AND Valor = 5 THEN ISNULL(c.iva* Cotizacion, 0) ELSE 0 END AS iva5, 
-*!*		CASE WHEN TIPOAplica <> 'M' AND Valor = 10 THEN ISNULL(c.iva* Cotizacion, 0) ELSE 0 END AS iva10, 
-*!*	                      c.Sucursal + s.Descripción AS Sucursal
-*!*	FROM         cp_factura AS c left JOIN
-*!*	                      cn_conceptos AS d ON c.IdEmpresa = d.idempresa AND c.IdConcepto = d.idconcepto left JOIN
-*!*	                      vt_Iva ON d.IdIva = vt_Iva.Iva INNER JOIN
-*!*	                      cp_proveedor AS p ON c.IdEmpresa = p.IdEmpresa AND c.IdProveedor = p.IdProveedor INNER JOIN
-*!*	                      sucursal AS s ON c.IdEmpresa = s.IdEmpresa AND c.Sucursal = s.Sucursal
-*!*	      WHERE c.idempresa IN('800','801','050')
-*!*	       AND c.sucursal = ?m.sucursal    
-*!*	        AND MONTH(c.fecha) = ?m.mes  
-*!*	        AND YEAR(c.fecha) = ?m.año
-*!*	        and c.Tipo='G'  
-*!*	        and   c.fecha between ?m.dFecha and ?m.hFecha
-*!*	        AND c.IdComprobante not in('UI')
-*!*	     
-*!*	union all
-*!*	SELECT     c.FacturaProveedor, c.Fecha, c.Exenta* Cotizacion as Exentas, c.Gravada, c.Iva, c.Total, p.Razon, p.Ruc, ISNULL(c.TipoAplica,'D') as Tipo, 
-*!*	                      SUM(CASE WHEN d .iva = 5 THEN ISNULL(d .precio * cantidad* Cotizacion, 0) ELSE 0 END) AS gravadas5, 
-*!*	                      SUM(CASE WHEN d .Iva = 10 THEN ISNULL(d .precio * cantidad* Cotizacion, 0) ELSE 0 END) AS gravadas10, 
-*!*	                      SUM(CASE WHEN TIPOAplica = 'M' THEN ISNULL(c.gravada* Cotizacion, 0) ELSE 0 END) AS imponible, SUM(CASE WHEN d .iva = 5 THEN ISNULL(d .Valoriva* Cotizacion, 0) 
-*!*	                      ELSE 0 END) AS iva5, SUM(CASE WHEN d .Iva = 10 THEN ISNULL(d .Valoriva* Cotizacion, 0) ELSE 0 END) AS iva10, c.Sucursal + s.Descripción AS Sucursal
-*!*	FROM         cp_factura AS c INNER JOIN
-*!*	                      cp_proveedor AS p ON c.IdEmpresa = p.IdEmpresa AND c.IdProveedor = p.IdProveedor INNER JOIN
-*!*	                      sucursal AS s ON c.IdEmpresa = s.IdEmpresa AND c.Sucursal = s.Sucursal INNER JOIN
-*!*	                      st_movimiento_Det AS d ON c.IdFactura = d.IdCompra
-*!*	  
-*!*	      WHERE c.idempresa IN('800','801','050')  
-*!*	       AND c.sucursal = ?m.sucursal    
-*!*	        AND MONTH(c.fecha) = ?m.mes  
-*!*	        AND YEAR(c.fecha) = ?m.año 
-*!*	        and c.Tipo = 'C' 
-*!*	        and   c.fecha between ?m.dFecha and ?m.hFecha
-*!*	        AND c.IdComprobante not in('UI')
-*!*		  GROUP BY c.FacturaProveedor, c.Fecha, c.Exenta, c.Gravada, c.Iva, c.Total, p.Razon, p.Ruc, c.TipoAplica, c.Sucursal + s.Descripción, c.Cotizacion
-*!*	      ORDER BY c.Sucursal,c.fecha, c.FacturaProveedor
-*!*	      
-*!*	ENDTEXT
 ENDPROC
 PROCEDURE BeforeOpenTables
 DO seteo

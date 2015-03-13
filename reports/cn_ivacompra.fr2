@@ -5,27 +5,15 @@
 *< FOXBIN2PRG: Version="1.19" SourceFile="cn_ivacompra.frx" /> (Solo para binarios VFP 9 / Only for VFP 9 binaries)
 *
 <Reportes 
-	platform="WINDOWS " uniqueid="" timestamp="0" objtype="1" objcode="53" name="" vpos="1.000" hpos="787.000" height="0.000" width="108846.000" order="" unique=".F." environ=".F." boxchar=" " fillchar=" " pengreen="0" penblue="0" fillred="0" fillgreen="0" fillblue="0" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="1" fontsize="8" mode="0" ruler="2" rulerlines="0" grid=".T." gridv="12" gridh="12" float=".F." stretch=".F." stretchtop=".F." top=".F." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="0" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".T." offset="0" topmargin="0" botmargin="0" totaltype="0" resettotal="0" resoid="1" curpos=".F." supalways=".F." supovflow=".F." suprpcol="0" supgroup="0" supvalchng=".F." 
+	platform="WINDOWS " uniqueid="" timestamp="0" objtype="1" objcode="53" name="" vpos="1.000" hpos="787.000" height="0.000" width="133913.000" order="" unique=".F." environ=".F." boxchar=" " fillchar=" " pengreen="0" penblue="0" fillred="0" fillgreen="0" fillblue="0" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="1" fontsize="8" mode="0" ruler="2" rulerlines="0" grid=".T." gridv="12" gridh="12" float=".F." stretch=".F." stretchtop=".F." top=".F." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="0" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".T." offset="0" topmargin="0" botmargin="0" totaltype="0" resettotal="0" resoid="1" curpos=".F." supalways=".F." supovflow=".F." suprpcol="0" supgroup="0" supvalchng=".F." 
 	<picture><![CDATA[]]>
-	<tag><![CDATA[{8}{0}{18}{0},{0}{1}{0}winspool{0}{0}TOSHIBA e-STUDIO451c PS3{0}{0}192.168.0.17{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}]]>
-	<tag2><![CDATA[VE9TSElCQSBlLVNUVURJTzQ1MWMgUFMzAAAAAAAAAAABBAAGnAAUBVP/gAMCAAkA6gpvCGQAAQABACwBAgABACwBAgABAExldHRlcgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAEAAAACAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUFJJVuIwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgAAAAAABAnECcQJwAAECcAAAAAAAAAAEACFAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAAAAAAAAAAAAEABcSwMAaEMEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB4v2TcHQAAAAAACAD/AAEAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwABAAEAAgAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAEACAABTTVRKAAAAABAAMAJUAE8AUwBIAEkAQgBBACAAZQAtAFMAVABVAEQASQBPADQANQAxAGMAIABQAFMAMwAAAFJlc29sdXRpb24ANjAwZHBpAFBhZ2VTaXplAExldHRlcgBQYWdlUmVnaW9uAABJbnB1dFNsb3QAQXV0bwBNZWRpYVR5cGUAUGxhaW4ARHVwbGV4AE5vbmUAQ29sbGF0ZQBUcnVlAE91dHB1dEJpbgBCaW4yAFN0YXBsaW5nAE9mZgBIb2xlUHVuY2gAT2ZmAFByaW50TW9kZQBOb3JtYWwARElORGlnaXQxADAARElORGlnaXQyADAARElORGlnaXQzADAARElORGlnaXQ0ADAARElORGlnaXQ1ADAARGVwdENvZGUARmFsc2UARENEaWdpdDEAMABEQ0RpZ2l0MgAwAERDRGlnaXQzADAARENEaWdpdDQAMABEQ0RpZ2l0NQAwAENvbG9yUmVzVHlwZQBDb2xvckxvd0dlbmVyYWwARGlzdGluZ3Vpc2hUaGluTGluZXMAVHJ1ZQBCbGFja092ZXJQcmludABUcnVlAFB1cmVCbGFja0dyYXkAQmxhY2tHcmF5QXV0bwBUb25lclNhdmUARmFsc2UAQmxhbmtQYWdlAEZhbHNlAFNtb290aGluZwBUcnVlAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]>
+	<tag><![CDATA[]]>
+	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA[DRIVER=winspool
-DEVICE=TOSHIBA e-STUDIO451c PS3
-OUTPUT=192.168.0.17
-ORIENTATION=1
-PAPERSIZE=9
-SCALE=100
-ASCII=0
-COPIES=1
-DEFAULTSOURCE=1
-PRINTQUALITY=300
+	<expr><![CDATA[ORIENTATION=1
+PAPERSIZE=5
 COLOR=2
-DUPLEX=1
-YRESOLUTION=300
-TTOPTION=2
-COLLATE=1
 ]]>
 	<supexpr><![CDATA[]]>
 	<comment><![CDATA[]]>
@@ -56,7 +44,7 @@ COLLATE=1
 	<user><![CDATA[]]>
 </Reportes>
 <Reportes 
-	platform="WINDOWS " uniqueid="" timestamp="0" objtype="9" objcode="4" name="" vpos="0.000" hpos="0.000" height="1980.000" width="0.000" order="" unique=".F." environ=".F." boxchar=" " fillchar=" " pengreen="0" penblue="0" fillred="0" fillgreen="0" fillblue="0" pensize="0" penpat="0" fillpat="0" fontface="" fontstyle="0" fontsize="0" mode="0" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".F." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="0" double=".F." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="0" topmargin="0" botmargin="0" totaltype="0" resettotal="0" resoid="0" curpos=".F." supalways=".F." supovflow=".F." suprpcol="0" supgroup="0" supvalchng=".F." 
+	platform="WINDOWS " uniqueid="" timestamp="0" objtype="9" objcode="4" name="" vpos="0.000" hpos="0.000" height="1667.000" width="0.000" order="" unique=".F." environ=".F." boxchar=" " fillchar=" " pengreen="0" penblue="0" fillred="0" fillgreen="0" fillblue="0" pensize="0" penpat="0" fillpat="0" fontface="" fontstyle="0" fontsize="0" mode="0" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".F." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="0" double=".F." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="0" topmargin="0" botmargin="0" totaltype="0" resettotal="0" resoid="0" curpos=".F." supalways=".F." supovflow=".F." suprpcol="0" supgroup="0" supvalchng=".F." 
 	<picture><![CDATA[]]>
 	<tag><![CDATA[]]>
 	<tag2><![CDATA[]]>
@@ -92,7 +80,7 @@ COLLATE=1
 	<user><![CDATA[]]>
 </Reportes>
 <Reportes 
-	platform="WINDOWS " uniqueid="" timestamp="0" objtype="9" objcode="8" name="" vpos="0.000" hpos="0.000" height="3750.000" width="0.000" order="" unique=".F." environ=".F." boxchar=" " fillchar=" " pengreen="0" penblue="0" fillred="0" fillgreen="0" fillblue="0" pensize="0" penpat="0" fillpat="0" fontface="" fontstyle="0" fontsize="0" mode="0" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".F." bottom=".F." suptype="0" suprest="0" norepeat=".T." resetrpt="0" pagebreak=".F." colbreak=".T." resetpage=".F." general="0" spacing="0" double=".F." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="0" topmargin="0" botmargin="0" totaltype="0" resettotal="0" resoid="0" curpos=".F." supalways=".F." supovflow=".F." suprpcol="0" supgroup="0" supvalchng=".F." 
+	platform="WINDOWS " uniqueid="" timestamp="0" objtype="9" objcode="8" name="" vpos="0.000" hpos="0.000" height="14375.000" width="0.000" order="" unique=".F." environ=".F." boxchar=" " fillchar=" " pengreen="0" penblue="0" fillred="0" fillgreen="0" fillblue="0" pensize="0" penpat="0" fillpat="0" fontface="" fontstyle="0" fontsize="0" mode="0" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".F." bottom=".F." suptype="0" suprest="0" norepeat=".T." resetrpt="0" pagebreak=".F." colbreak=".T." resetpage=".F." general="0" spacing="0" double=".F." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="0" topmargin="0" botmargin="0" totaltype="0" resettotal="0" resoid="0" curpos=".F." supalways=".F." supovflow=".F." suprpcol="0" supgroup="0" supvalchng=".F." 
 	<picture><![CDATA[]]>
 	<tag><![CDATA[]]>
 	<tag2><![CDATA[]]>
@@ -164,37 +152,61 @@ COLLATE=1
 	<user><![CDATA[]]>
 </Reportes>
 <Reportes 
-	platform="WINDOWS " uniqueid="" timestamp="0" objtype="8" objcode="0" name="" vpos="4166.667" hpos="1250.000" height="2708.333" width="75208.333" order="" unique=".F." environ=".F." boxchar=" " fillchar="C" pengreen="0" penblue="0" fillred="-1" fillgreen="-1" fillblue="-1" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="3" fontsize="16" mode="1" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="2" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="0" topmargin="0" botmargin="0" totaltype="0" resettotal="1" resoid="1" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
+	platform="WINDOWS " uniqueid="" timestamp="0" objtype="8" objcode="0" name="" vpos="4166.667" hpos="1250.000" height="2708.333" width="75208.333" order="" unique=".F." environ=".F." boxchar=" " fillchar="C" pengreen="0" penblue="0" fillred="-1" fillgreen="-1" fillblue="-1" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="3" fontsize="16" mode="1" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="2" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="0" topmargin="0" botmargin="0" totaltype="0" resettotal="1" resoid="1" curpos=".F." supalways=".T." supovflow=".T." suprpcol="0" supgroup="6" supvalchng=".F." 
 	<picture><![CDATA[]]>
 	<tag><![CDATA[]]>
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA["LIBRO DE COMPRAS LEY 125/91"]]>
+	<expr><![CDATA["Libro de IVA Compras"]]>
 	<supexpr><![CDATA[]]>
-	<comment><![CDATA[ ]]>
+	<comment><![CDATA[]]>
 	<user><![CDATA[]]>
 </Reportes>
 <Reportes 
-	platform="WINDOWS " uniqueid="" timestamp="0" objtype="8" objcode="0" name="" vpos="8750.000" hpos="8750.000" height="1666.667" width="21354.167" order="" unique=".F." environ=".F." boxchar=" " fillchar="C" pengreen="0" penblue="0" fillred="-1" fillgreen="-1" fillblue="-1" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="0" fontsize="8" mode="1" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="2" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="0" topmargin="0" botmargin="0" totaltype="0" resettotal="1" resoid="1" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
+	platform="WINDOWS " uniqueid="" timestamp="0" objtype="8" objcode="0" name="" vpos="8750.000" hpos="8750.000" height="1666.667" width="21354.167" order="" unique=".F." environ=".F." boxchar=" " fillchar="C" pengreen="0" penblue="0" fillred="-1" fillgreen="-1" fillblue="-1" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="0" fontsize="8" mode="1" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="2" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="0" topmargin="0" botmargin="0" totaltype="0" resettotal="1" resoid="1" curpos=".F." supalways=".T." supovflow=".T." suprpcol="0" supgroup="6" supvalchng=".F." 
 	<picture><![CDATA[]]>
 	<tag><![CDATA[]]>
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA[CMONTH(cn_rivacompra.fechacomprobante)]]>
+	<expr><![CDATA[NombreMes(m.Mes)]]>
 	<supexpr><![CDATA[]]>
-	<comment><![CDATA[ ]]>
+	<comment><![CDATA[]]>
 	<user><![CDATA[]]>
 </Reportes>
 <Reportes 
-	platform="WINDOWS " uniqueid="" timestamp="0" objtype="8" objcode="0" name="" vpos="8750.000" hpos="37500.000" height="1666.667" width="6354.167" order="" unique=".F." environ=".F." boxchar=" " fillchar="N" pengreen="0" penblue="0" fillred="-1" fillgreen="-1" fillblue="-1" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="0" fontsize="8" mode="1" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="2" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="1" topmargin="0" botmargin="0" totaltype="0" resettotal="1" resoid="1" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
+	platform="WINDOWS " uniqueid="" timestamp="0" objtype="8" objcode="0" name="" vpos="8750.000" hpos="37500.000" height="1666.667" width="6354.167" order="" unique=".F." environ=".F." boxchar=" " fillchar="N" pengreen="0" penblue="0" fillred="-1" fillgreen="-1" fillblue="-1" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="0" fontsize="8" mode="1" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="2" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="1" topmargin="0" botmargin="0" totaltype="0" resettotal="1" resoid="1" curpos=".F." supalways=".T." supovflow=".T." suprpcol="0" supgroup="6" supvalchng=".F." 
 	<picture><![CDATA["9999"]]>
 	<tag><![CDATA[]]>
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA[year(cn_rivacompra.fechacomprobante)]]>
+	<expr><![CDATA[m.año]]>
+	<supexpr><![CDATA[]]>
+	<comment><![CDATA[]]>
+	<user><![CDATA[]]>
+</Reportes>
+<Reportes 
+	platform="WINDOWS " uniqueid="" timestamp="0" objtype="5" objcode="0" name="" vpos="8750.000" hpos="62187.500" height="1458.333" width="4479.167" order="" unique=".F." environ=".F." boxchar=" " fillchar=" " pengreen="0" penblue="0" fillred="-1" fillgreen="-1" fillblue="-1" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="1" fontsize="8" mode="1" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="0" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="0" topmargin="0" botmargin="0" totaltype="0" resettotal="0" resoid="1" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
+	<picture><![CDATA[]]>
+	<tag><![CDATA[]]>
+	<tag2><![CDATA[]]>
+	<penred><![CDATA[0]]>
+	<style><![CDATA[]]>
+	<expr><![CDATA["Periodo"]]>
+	<supexpr><![CDATA[]]>
+	<comment><![CDATA[]]>
+	<user><![CDATA[]]>
+</Reportes>
+<Reportes 
+	platform="WINDOWS " uniqueid="" timestamp="0" objtype="8" objcode="0" name="" vpos="8750.000" hpos="68750.000" height="1666.667" width="17187.500" order="" unique=".F." environ=".F." boxchar=" " fillchar="C" pengreen="0" penblue="0" fillred="-1" fillgreen="-1" fillblue="-1" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="0" fontsize="8" mode="1" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="2" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="0" topmargin="0" botmargin="0" totaltype="0" resettotal="1" resoid="1" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
+	<picture><![CDATA[]]>
+	<tag><![CDATA[]]>
+	<tag2><![CDATA[]]>
+	<penred><![CDATA[0]]>
+	<style><![CDATA[]]>
+	<expr><![CDATA[dtoc(m.dfecha) + " al " + dtoc(m.hfecha)]]>
 	<supexpr><![CDATA[]]>
 	<comment><![CDATA[ ]]>
 	<user><![CDATA[]]>
@@ -224,7 +236,7 @@ COLLATE=1
 	<user><![CDATA[]]>
 </Reportes>
 <Reportes 
-	platform="WINDOWS " uniqueid="" timestamp="0" objtype="7" objcode="4" name="" vpos="11250.000" hpos="1250.000" height="5104.167" width="105104.170" order="" unique=".F." environ=".F." boxchar=" " fillchar=" " pengreen="-1" penblue="-1" fillred="-1" fillgreen="-1" fillblue="-1" pensize="1" penpat="8" fillpat="0" fontface="" fontstyle="0" fontsize="0" mode="0" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="0" double=".F." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="0" topmargin="0" botmargin="0" totaltype="0" resettotal="0" resoid="0" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
+	platform="WINDOWS " uniqueid="" timestamp="0" objtype="7" objcode="4" name="" vpos="11250.000" hpos="1145.833" height="5104.167" width="116458.330" order="" unique=".F." environ=".F." boxchar=" " fillchar=" " pengreen="-1" penblue="-1" fillred="-1" fillgreen="-1" fillblue="-1" pensize="1" penpat="8" fillpat="0" fontface="" fontstyle="0" fontsize="0" mode="0" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="0" double=".F." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="0" topmargin="0" botmargin="0" totaltype="0" resettotal="0" resoid="0" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
 	<picture><![CDATA[]]>
 	<tag><![CDATA[]]>
 	<tag2><![CDATA[]]>
@@ -236,7 +248,7 @@ COLLATE=1
 	<user><![CDATA[]]>
 </Reportes>
 <Reportes 
-	platform="WINDOWS " uniqueid="" timestamp="0" objtype="6" objcode="0" name="" vpos="11250.000" hpos="20833.333" height="5104.167" width="104.167" order="" unique=".F." environ=".F." boxchar=" " fillchar=" " pengreen="-1" penblue="-1" fillred="-1" fillgreen="-1" fillblue="-1" pensize="1" penpat="8" fillpat="0" fontface="" fontstyle="0" fontsize="0" mode="0" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="0" double=".F." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="0" topmargin="0" botmargin="0" totaltype="0" resettotal="0" resoid="0" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
+	platform="WINDOWS " uniqueid="" timestamp="0" objtype="6" objcode="0" name="" vpos="11250.000" hpos="16354.167" height="5104.167" width="104.167" order="" unique=".F." environ=".F." boxchar=" " fillchar=" " pengreen="-1" penblue="-1" fillred="-1" fillgreen="-1" fillblue="-1" pensize="1" penpat="8" fillpat="0" fontface="" fontstyle="0" fontsize="0" mode="0" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="0" double=".F." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="0" topmargin="0" botmargin="0" totaltype="0" resettotal="0" resoid="0" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
 	<picture><![CDATA[]]>
 	<tag><![CDATA[]]>
 	<tag2><![CDATA[]]>
@@ -248,7 +260,7 @@ COLLATE=1
 	<user><![CDATA[]]>
 </Reportes>
 <Reportes 
-	platform="WINDOWS " uniqueid="" timestamp="0" objtype="6" objcode="0" name="" vpos="11250.000" hpos="53750.000" height="5104.167" width="104.167" order="" unique=".F." environ=".F." boxchar=" " fillchar=" " pengreen="-1" penblue="-1" fillred="-1" fillgreen="-1" fillblue="-1" pensize="1" penpat="8" fillpat="0" fontface="" fontstyle="0" fontsize="0" mode="0" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="0" double=".F." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="0" topmargin="0" botmargin="0" totaltype="0" resettotal="0" resoid="0" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
+	platform="WINDOWS " uniqueid="" timestamp="0" objtype="6" objcode="0" name="" vpos="11250.000" hpos="50104.167" height="5104.167" width="104.167" order="" unique=".F." environ=".F." boxchar=" " fillchar=" " pengreen="-1" penblue="-1" fillred="-1" fillgreen="-1" fillblue="-1" pensize="1" penpat="8" fillpat="0" fontface="" fontstyle="0" fontsize="0" mode="0" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="0" double=".F." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="0" topmargin="0" botmargin="0" totaltype="0" resettotal="0" resoid="0" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
 	<picture><![CDATA[]]>
 	<tag><![CDATA[]]>
 	<tag2><![CDATA[]]>
@@ -260,7 +272,7 @@ COLLATE=1
 	<user><![CDATA[]]>
 </Reportes>
 <Reportes 
-	platform="WINDOWS " uniqueid="" timestamp="0" objtype="6" objcode="0" name="" vpos="11250.000" hpos="95000.000" height="5104.167" width="104.167" order="" unique=".F." environ=".F." boxchar=" " fillchar=" " pengreen="-1" penblue="-1" fillred="-1" fillgreen="-1" fillblue="-1" pensize="1" penpat="8" fillpat="0" fontface="" fontstyle="0" fontsize="0" mode="0" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="0" double=".F." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="0" topmargin="0" botmargin="0" totaltype="0" resettotal="0" resoid="0" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
+	platform="WINDOWS " uniqueid="" timestamp="0" objtype="6" objcode="0" name="" vpos="11250.000" hpos="106041.670" height="5104.167" width="104.167" order="" unique=".F." environ=".F." boxchar=" " fillchar=" " pengreen="-1" penblue="-1" fillred="-1" fillgreen="-1" fillblue="-1" pensize="1" penpat="8" fillpat="0" fontface="" fontstyle="0" fontsize="0" mode="0" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="0" double=".F." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="0" topmargin="0" botmargin="0" totaltype="0" resettotal="0" resoid="0" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
 	<picture><![CDATA[]]>
 	<tag><![CDATA[]]>
 	<tag2><![CDATA[]]>
@@ -296,7 +308,7 @@ COLLATE=1
 	<user><![CDATA[]]>
 </Reportes>
 <Reportes 
-	platform="WINDOWS " uniqueid="" timestamp="0" objtype="5" objcode="0" name="" vpos="11354.167" hpos="25000.000" height="1458.333" width="18020.833" order="" unique=".F." environ=".F." boxchar=" " fillchar=" " pengreen="0" penblue="0" fillred="-1" fillgreen="-1" fillblue="-1" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="1" fontsize="8" mode="1" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="0" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="0" topmargin="0" botmargin="0" totaltype="0" resettotal="0" resoid="1" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
+	platform="WINDOWS " uniqueid="" timestamp="0" objtype="5" objcode="0" name="" vpos="11354.167" hpos="22395.833" height="1458.333" width="18020.833" order="" unique=".F." environ=".F." boxchar=" " fillchar=" " pengreen="0" penblue="0" fillred="-1" fillgreen="-1" fillblue="-1" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="1" fontsize="8" mode="1" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="0" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="0" topmargin="0" botmargin="0" totaltype="0" resettotal="0" resoid="1" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
 	<picture><![CDATA[]]>
 	<tag><![CDATA[]]>
 	<tag2><![CDATA[]]>
@@ -308,7 +320,7 @@ COLLATE=1
 	<user><![CDATA[]]>
 </Reportes>
 <Reportes 
-	platform="WINDOWS " uniqueid="" timestamp="0" objtype="5" objcode="0" name="" vpos="11354.167" hpos="67500.000" height="1458.333" width="16666.667" order="" unique=".F." environ=".F." boxchar=" " fillchar=" " pengreen="-1" penblue="-1" fillred="-1" fillgreen="-1" fillblue="-1" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="1" fontsize="8" mode="1" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="0" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="0" topmargin="0" botmargin="0" totaltype="0" resettotal="0" resoid="1" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
+	platform="WINDOWS " uniqueid="" timestamp="0" objtype="5" objcode="0" name="" vpos="11354.167" hpos="68541.667" height="1458.333" width="16666.667" order="" unique=".F." environ=".F." boxchar=" " fillchar=" " pengreen="-1" penblue="-1" fillred="-1" fillgreen="-1" fillblue="-1" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="1" fontsize="8" mode="1" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="0" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="0" topmargin="0" botmargin="0" totaltype="0" resettotal="0" resoid="1" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
 	<picture><![CDATA[]]>
 	<tag><![CDATA[]]>
 	<tag2><![CDATA[]]>
@@ -320,7 +332,7 @@ COLLATE=1
 	<user><![CDATA[]]>
 </Reportes>
 <Reportes 
-	platform="WINDOWS " uniqueid="" timestamp="0" objtype="5" objcode="0" name="" vpos="12604.167" hpos="96250.000" height="2916.667" width="9687.500" order="" unique=".F." environ=".F." boxchar=" " fillchar=" " pengreen="-1" penblue="-1" fillred="-1" fillgreen="-1" fillblue="-1" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="1" fontsize="8" mode="1" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="0" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="0" topmargin="0" botmargin="0" totaltype="0" resettotal="0" resoid="1" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
+	platform="WINDOWS " uniqueid="" timestamp="0" objtype="5" objcode="0" name="" vpos="12604.167" hpos="107291.670" height="2916.667" width="9687.500" order="" unique=".F." environ=".F." boxchar=" " fillchar=" " pengreen="-1" penblue="-1" fillred="-1" fillgreen="-1" fillblue="-1" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="1" fontsize="8" mode="1" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="0" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="0" topmargin="0" botmargin="0" totaltype="0" resettotal="0" resoid="1" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
 	<picture><![CDATA["@I"]]>
 	<tag><![CDATA[]]>
 	<tag2><![CDATA[]]>
@@ -344,7 +356,7 @@ COLLATE=1
 	<user><![CDATA[]]>
 </Reportes>
 <Reportes 
-	platform="WINDOWS " uniqueid="" timestamp="0" objtype="6" objcode="0" name="" vpos="13750.000" hpos="3854.167" height="104.167" width="91250.000" order="" unique=".F." environ=".F." boxchar=" " fillchar=" " pengreen="-1" penblue="-1" fillred="-1" fillgreen="-1" fillblue="-1" pensize="1" penpat="8" fillpat="0" fontface="" fontstyle="0" fontsize="0" mode="0" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="0" double=".F." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="1" topmargin="0" botmargin="0" totaltype="0" resettotal="0" resoid="0" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
+	platform="WINDOWS " uniqueid="" timestamp="0" objtype="6" objcode="0" name="" vpos="13750.000" hpos="8854.167" height="2604.167" width="104.167" order="" unique=".F." environ=".F." boxchar=" " fillchar=" " pengreen="-1" penblue="-1" fillred="-1" fillgreen="-1" fillblue="-1" pensize="1" penpat="8" fillpat="0" fontface="" fontstyle="0" fontsize="0" mode="0" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="0" double=".F." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="0" topmargin="0" botmargin="0" totaltype="0" resettotal="0" resoid="0" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
 	<picture><![CDATA[]]>
 	<tag><![CDATA[]]>
 	<tag2><![CDATA[]]>
@@ -356,7 +368,7 @@ COLLATE=1
 	<user><![CDATA[]]>
 </Reportes>
 <Reportes 
-	platform="WINDOWS " uniqueid="" timestamp="0" objtype="6" objcode="0" name="" vpos="13750.000" hpos="14270.833" height="2604.167" width="104.167" order="" unique=".F." environ=".F." boxchar=" " fillchar=" " pengreen="-1" penblue="-1" fillred="-1" fillgreen="-1" fillblue="-1" pensize="1" penpat="8" fillpat="0" fontface="" fontstyle="0" fontsize="0" mode="0" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="0" double=".F." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="0" topmargin="0" botmargin="0" totaltype="0" resettotal="0" resoid="0" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
+	platform="WINDOWS " uniqueid="" timestamp="0" objtype="6" objcode="0" name="" vpos="13750.000" hpos="16354.167" height="104.167" width="89791.667" order="" unique=".F." environ=".F." boxchar=" " fillchar=" " pengreen="-1" penblue="-1" fillred="-1" fillgreen="-1" fillblue="-1" pensize="1" penpat="8" fillpat="0" fontface="" fontstyle="0" fontsize="0" mode="0" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="0" double=".F." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="1" topmargin="0" botmargin="0" totaltype="0" resettotal="0" resoid="0" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
 	<picture><![CDATA[]]>
 	<tag><![CDATA[]]>
 	<tag2><![CDATA[]]>
@@ -368,7 +380,7 @@ COLLATE=1
 	<user><![CDATA[]]>
 </Reportes>
 <Reportes 
-	platform="WINDOWS " uniqueid="" timestamp="0" objtype="6" objcode="0" name="" vpos="13750.000" hpos="46145.833" height="2604.167" width="104.167" order="" unique=".F." environ=".F." boxchar=" " fillchar=" " pengreen="-1" penblue="-1" fillred="-1" fillgreen="-1" fillblue="-1" pensize="1" penpat="8" fillpat="0" fontface="" fontstyle="0" fontsize="0" mode="0" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="0" double=".F." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="0" topmargin="0" botmargin="0" totaltype="0" resettotal="0" resoid="0" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
+	platform="WINDOWS " uniqueid="" timestamp="0" objtype="6" objcode="0" name="" vpos="13750.000" hpos="40937.500" height="2604.167" width="104.167" order="" unique=".F." environ=".F." boxchar=" " fillchar=" " pengreen="-1" penblue="-1" fillred="-1" fillgreen="-1" fillblue="-1" pensize="1" penpat="8" fillpat="0" fontface="" fontstyle="0" fontsize="0" mode="0" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="0" double=".F." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="0" topmargin="0" botmargin="0" totaltype="0" resettotal="0" resoid="0" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
 	<picture><![CDATA[]]>
 	<tag><![CDATA[]]>
 	<tag2><![CDATA[]]>
@@ -380,7 +392,7 @@ COLLATE=1
 	<user><![CDATA[]]>
 </Reportes>
 <Reportes 
-	platform="WINDOWS " uniqueid="" timestamp="0" objtype="6" objcode="0" name="" vpos="13750.000" hpos="65000.000" height="2604.167" width="104.167" order="" unique=".F." environ=".F." boxchar=" " fillchar=" " pengreen="-1" penblue="-1" fillred="-1" fillgreen="-1" fillblue="-1" pensize="1" penpat="8" fillpat="0" fontface="" fontstyle="0" fontsize="0" mode="0" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="0" double=".F." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="0" topmargin="0" botmargin="0" totaltype="0" resettotal="0" resoid="0" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
+	platform="WINDOWS " uniqueid="" timestamp="0" objtype="6" objcode="0" name="" vpos="13750.000" hpos="59791.667" height="2604.167" width="104.167" order="" unique=".F." environ=".F." boxchar=" " fillchar=" " pengreen="-1" penblue="-1" fillred="-1" fillgreen="-1" fillblue="-1" pensize="1" penpat="8" fillpat="0" fontface="" fontstyle="0" fontsize="0" mode="0" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="0" double=".F." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="0" topmargin="0" botmargin="0" totaltype="0" resettotal="0" resoid="0" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
 	<picture><![CDATA[]]>
 	<tag><![CDATA[]]>
 	<tag2><![CDATA[]]>
@@ -392,7 +404,7 @@ COLLATE=1
 	<user><![CDATA[]]>
 </Reportes>
 <Reportes 
-	platform="WINDOWS " uniqueid="" timestamp="0" objtype="6" objcode="0" name="" vpos="13750.000" hpos="75000.000" height="2604.167" width="104.167" order="" unique=".F." environ=".F." boxchar=" " fillchar=" " pengreen="-1" penblue="-1" fillred="-1" fillgreen="-1" fillblue="-1" pensize="1" penpat="8" fillpat="0" fontface="" fontstyle="0" fontsize="0" mode="0" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="0" double=".F." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="0" topmargin="0" botmargin="0" totaltype="0" resettotal="0" resoid="0" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
+	platform="WINDOWS " uniqueid="" timestamp="0" objtype="6" objcode="0" name="" vpos="13750.000" hpos="67812.500" height="2604.167" width="104.167" order="" unique=".F." environ=".F." boxchar=" " fillchar=" " pengreen="-1" penblue="-1" fillred="-1" fillgreen="-1" fillblue="-1" pensize="1" penpat="8" fillpat="0" fontface="" fontstyle="0" fontsize="0" mode="0" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="0" double=".F." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="0" topmargin="0" botmargin="0" totaltype="0" resettotal="0" resoid="0" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
 	<picture><![CDATA[]]>
 	<tag><![CDATA[]]>
 	<tag2><![CDATA[]]>
@@ -404,7 +416,7 @@ COLLATE=1
 	<user><![CDATA[]]>
 </Reportes>
 <Reportes 
-	platform="WINDOWS " uniqueid="" timestamp="0" objtype="6" objcode="0" name="" vpos="13750.000" hpos="85000.000" height="2604.167" width="104.167" order="" unique=".F." environ=".F." boxchar=" " fillchar=" " pengreen="-1" penblue="-1" fillred="-1" fillgreen="-1" fillblue="-1" pensize="1" penpat="8" fillpat="0" fontface="" fontstyle="0" fontsize="0" mode="0" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="0" double=".F." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="0" topmargin="0" botmargin="0" totaltype="0" resettotal="0" resoid="0" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
+	platform="WINDOWS " uniqueid="" timestamp="0" objtype="6" objcode="0" name="" vpos="13750.000" hpos="77812.500" height="2604.167" width="104.167" order="" unique=".F." environ=".F." boxchar=" " fillchar=" " pengreen="-1" penblue="-1" fillred="-1" fillgreen="-1" fillblue="-1" pensize="1" penpat="8" fillpat="0" fontface="" fontstyle="0" fontsize="0" mode="0" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="0" double=".F." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="0" topmargin="0" botmargin="0" totaltype="0" resettotal="0" resoid="0" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
 	<picture><![CDATA[]]>
 	<tag><![CDATA[]]>
 	<tag2><![CDATA[]]>
@@ -416,7 +428,31 @@ COLLATE=1
 	<user><![CDATA[]]>
 </Reportes>
 <Reportes 
-	platform="WINDOWS " uniqueid="" timestamp="0" objtype="5" objcode="0" name="" vpos="13854.167" hpos="5000.000" height="1458.333" width="4583.333" order="" unique=".F." environ=".F." boxchar=" " fillchar=" " pengreen="0" penblue="0" fillred="-1" fillgreen="-1" fillblue="-1" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="1" fontsize="8" mode="1" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="0" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="0" topmargin="0" botmargin="0" totaltype="0" resettotal="0" resoid="1" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
+	platform="WINDOWS " uniqueid="" timestamp="0" objtype="6" objcode="0" name="" vpos="13750.000" hpos="86041.667" height="2604.167" width="104.167" order="" unique=".F." environ=".F." boxchar=" " fillchar=" " pengreen="-1" penblue="-1" fillred="-1" fillgreen="-1" fillblue="-1" pensize="1" penpat="8" fillpat="0" fontface="" fontstyle="0" fontsize="0" mode="0" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="0" double=".F." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="0" topmargin="0" botmargin="0" totaltype="0" resettotal="0" resoid="0" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
+	<picture><![CDATA[]]>
+	<tag><![CDATA[]]>
+	<tag2><![CDATA[]]>
+	<penred><![CDATA[-1]]>
+	<style><![CDATA[]]>
+	<expr><![CDATA[]]>
+	<supexpr><![CDATA[]]>
+	<comment><![CDATA[]]>
+	<user><![CDATA[]]>
+</Reportes>
+<Reportes 
+	platform="WINDOWS " uniqueid="" timestamp="0" objtype="6" objcode="0" name="" vpos="13750.000" hpos="96041.667" height="2604.167" width="104.167" order="" unique=".F." environ=".F." boxchar=" " fillchar=" " pengreen="-1" penblue="-1" fillred="-1" fillgreen="-1" fillblue="-1" pensize="1" penpat="8" fillpat="0" fontface="" fontstyle="0" fontsize="0" mode="0" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="0" double=".F." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="0" topmargin="0" botmargin="0" totaltype="0" resettotal="0" resoid="0" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
+	<picture><![CDATA[]]>
+	<tag><![CDATA[]]>
+	<tag2><![CDATA[]]>
+	<penred><![CDATA[-1]]>
+	<style><![CDATA[]]>
+	<expr><![CDATA[]]>
+	<supexpr><![CDATA[]]>
+	<comment><![CDATA[]]>
+	<user><![CDATA[]]>
+</Reportes>
+<Reportes 
+	platform="WINDOWS " uniqueid="" timestamp="0" objtype="5" objcode="0" name="" vpos="13854.167" hpos="4062.500" height="1458.333" width="4583.333" order="" unique=".F." environ=".F." boxchar=" " fillchar=" " pengreen="0" penblue="0" fillred="-1" fillgreen="-1" fillblue="-1" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="1" fontsize="8" mode="1" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="0" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="0" topmargin="0" botmargin="0" totaltype="0" resettotal="0" resoid="1" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
 	<picture><![CDATA[]]>
 	<tag><![CDATA[]]>
 	<tag2><![CDATA[]]>
@@ -428,7 +464,7 @@ COLLATE=1
 	<user><![CDATA[]]>
 </Reportes>
 <Reportes 
-	platform="WINDOWS " uniqueid="" timestamp="0" objtype="5" objcode="0" name="" vpos="13854.167" hpos="15833.333" height="1458.333" width="3645.833" order="" unique=".F." environ=".F." boxchar=" " fillchar=" " pengreen="0" penblue="0" fillred="-1" fillgreen="-1" fillblue="-1" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="1" fontsize="8" mode="1" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="0" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="0" topmargin="0" botmargin="0" totaltype="0" resettotal="0" resoid="1" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
+	platform="WINDOWS " uniqueid="" timestamp="0" objtype="5" objcode="0" name="" vpos="13854.167" hpos="10104.167" height="1458.333" width="3645.833" order="" unique=".F." environ=".F." boxchar=" " fillchar=" " pengreen="0" penblue="0" fillred="-1" fillgreen="-1" fillblue="-1" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="1" fontsize="8" mode="1" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="0" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="0" topmargin="0" botmargin="0" totaltype="0" resettotal="0" resoid="1" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
 	<picture><![CDATA[]]>
 	<tag><![CDATA[]]>
 	<tag2><![CDATA[]]>
@@ -440,7 +476,7 @@ COLLATE=1
 	<user><![CDATA[]]>
 </Reportes>
 <Reportes 
-	platform="WINDOWS " uniqueid="" timestamp="0" objtype="5" objcode="0" name="" vpos="13854.167" hpos="22083.333" height="1458.333" width="19687.500" order="" unique=".F." environ=".F." boxchar=" " fillchar=" " pengreen="-1" penblue="-1" fillred="-1" fillgreen="-1" fillblue="-1" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="1" fontsize="8" mode="1" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="0" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="0" topmargin="0" botmargin="0" totaltype="0" resettotal="0" resoid="1" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
+	platform="WINDOWS " uniqueid="" timestamp="0" objtype="5" objcode="0" name="" vpos="13854.167" hpos="17395.833" height="1458.333" width="19687.500" order="" unique=".F." environ=".F." boxchar=" " fillchar=" " pengreen="-1" penblue="-1" fillred="-1" fillgreen="-1" fillblue="-1" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="1" fontsize="8" mode="1" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="0" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="0" topmargin="0" botmargin="0" totaltype="0" resettotal="0" resoid="1" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
 	<picture><![CDATA[]]>
 	<tag><![CDATA[]]>
 	<tag2><![CDATA[]]>
@@ -452,43 +488,67 @@ COLLATE=1
 	<user><![CDATA[]]>
 </Reportes>
 <Reportes 
-	platform="WINDOWS " uniqueid="" timestamp="0" objtype="5" objcode="0" name="" vpos="13854.167" hpos="48750.000" height="1458.333" width="2604.167" order="" unique=".F." environ=".F." boxchar=" " fillchar=" " pengreen="0" penblue="0" fillred="-1" fillgreen="-1" fillblue="-1" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="1" fontsize="8" mode="1" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="0" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="0" topmargin="0" botmargin="0" totaltype="0" resettotal="0" resoid="1" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
+	platform="WINDOWS " uniqueid="" timestamp="0" objtype="5" objcode="0" name="" vpos="13854.167" hpos="43750.000" height="1458.333" width="2291.667" order="" unique=".F." environ=".F." boxchar=" " fillchar=" " pengreen="-1" penblue="-1" fillred="-1" fillgreen="-1" fillblue="-1" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="1" fontsize="8" mode="1" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="0" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="0" topmargin="0" botmargin="0" totaltype="0" resettotal="0" resoid="1" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
 	<picture><![CDATA[]]>
 	<tag><![CDATA[]]>
 	<tag2><![CDATA[]]>
-	<penred><![CDATA[0]]>
+	<penred><![CDATA[-1]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA[" RUC"]]>
+	<expr><![CDATA["RUC"]]>
 	<supexpr><![CDATA[]]>
 	<comment><![CDATA[]]>
 	<user><![CDATA[]]>
 </Reportes>
 <Reportes 
-	platform="WINDOWS " uniqueid="" timestamp="0" objtype="5" objcode="0" name="" vpos="13854.167" hpos="57500.000" height="1458.333" width="5312.500" order="" unique=".F." environ=".F." boxchar=" " fillchar=" " pengreen="0" penblue="0" fillred="-1" fillgreen="-1" fillblue="-1" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="1" fontsize="8" mode="1" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="0" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="0" topmargin="0" botmargin="0" totaltype="0" resettotal="0" resoid="1" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
+	platform="WINDOWS " uniqueid="" timestamp="0" objtype="5" objcode="0" name="" vpos="13854.167" hpos="52187.500" height="1458.333" width="7187.500" order="" unique=".F." environ=".F." boxchar=" " fillchar=" " pengreen="0" penblue="0" fillred="-1" fillgreen="-1" fillblue="-1" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="1" fontsize="8" mode="1" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="0" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="0" topmargin="0" botmargin="0" totaltype="0" resettotal="0" resoid="1" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
 	<picture><![CDATA[]]>
 	<tag><![CDATA[]]>
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA["Gravadas"]]>
+	<expr><![CDATA["Gravadas 5%"]]>
 	<supexpr><![CDATA[]]>
 	<comment><![CDATA[]]>
 	<user><![CDATA[]]>
 </Reportes>
 <Reportes 
-	platform="WINDOWS " uniqueid="" timestamp="0" objtype="5" objcode="0" name="" vpos="13854.167" hpos="66250.000" height="1458.333" width="7500.000" order="" unique=".F." environ=".F." boxchar=" " fillchar=" " pengreen="0" penblue="0" fillred="-1" fillgreen="-1" fillblue="-1" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="1" fontsize="8" mode="1" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="0" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="0" topmargin="0" botmargin="0" totaltype="0" resettotal="0" resoid="1" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
+	platform="WINDOWS " uniqueid="" timestamp="0" objtype="5" objcode="0" name="" vpos="13854.167" hpos="61562.500" height="1458.333" width="4687.500" order="" unique=".F." environ=".F." boxchar=" " fillchar=" " pengreen="0" penblue="0" fillred="-1" fillgreen="-1" fillblue="-1" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="1" fontsize="8" mode="1" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="0" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="0" topmargin="0" botmargin="0" totaltype="0" resettotal="0" resoid="1" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
 	<picture><![CDATA[]]>
 	<tag><![CDATA[]]>
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA["    Impuestos"]]>
+	<expr><![CDATA["    Iva 5%"]]>
 	<supexpr><![CDATA[]]>
 	<comment><![CDATA[]]>
 	<user><![CDATA[]]>
 </Reportes>
 <Reportes 
-	platform="WINDOWS " uniqueid="" timestamp="0" objtype="5" objcode="0" name="" vpos="13854.167" hpos="77500.000" height="1458.333" width="4479.167" order="" unique=".F." environ=".F." boxchar=" " fillchar=" " pengreen="0" penblue="0" fillred="-1" fillgreen="-1" fillblue="-1" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="1" fontsize="8" mode="1" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="0" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="0" topmargin="0" botmargin="0" totaltype="0" resettotal="0" resoid="1" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
+	platform="WINDOWS " uniqueid="" timestamp="0" objtype="5" objcode="0" name="" vpos="13854.167" hpos="69270.833" height="1458.333" width="7812.500" order="" unique=".F." environ=".F." boxchar=" " fillchar=" " pengreen="0" penblue="0" fillred="-1" fillgreen="-1" fillblue="-1" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="1" fontsize="8" mode="1" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="0" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="0" topmargin="0" botmargin="0" totaltype="0" resettotal="0" resoid="1" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
+	<picture><![CDATA[]]>
+	<tag><![CDATA[]]>
+	<tag2><![CDATA[]]>
+	<penred><![CDATA[0]]>
+	<style><![CDATA[]]>
+	<expr><![CDATA["Gravadas 10%"]]>
+	<supexpr><![CDATA[]]>
+	<comment><![CDATA[]]>
+	<user><![CDATA[]]>
+</Reportes>
+<Reportes 
+	platform="WINDOWS " uniqueid="" timestamp="0" objtype="5" objcode="0" name="" vpos="13854.167" hpos="79062.500" height="1458.333" width="5312.500" order="" unique=".F." environ=".F." boxchar=" " fillchar=" " pengreen="0" penblue="0" fillred="-1" fillgreen="-1" fillblue="-1" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="1" fontsize="8" mode="1" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="0" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="0" topmargin="0" botmargin="0" totaltype="0" resettotal="0" resoid="1" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
+	<picture><![CDATA[]]>
+	<tag><![CDATA[]]>
+	<tag2><![CDATA[]]>
+	<penred><![CDATA[0]]>
+	<style><![CDATA[]]>
+	<expr><![CDATA["    Iva 10%"]]>
+	<supexpr><![CDATA[]]>
+	<comment><![CDATA[]]>
+	<user><![CDATA[]]>
+</Reportes>
+<Reportes 
+	platform="WINDOWS " uniqueid="" timestamp="0" objtype="5" objcode="0" name="" vpos="13854.167" hpos="88541.667" height="1458.333" width="4479.167" order="" unique=".F." environ=".F." boxchar=" " fillchar=" " pengreen="0" penblue="0" fillred="-1" fillgreen="-1" fillblue="-1" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="1" fontsize="8" mode="1" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="0" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="0" topmargin="0" botmargin="0" totaltype="0" resettotal="0" resoid="1" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
 	<picture><![CDATA[]]>
 	<tag><![CDATA[]]>
 	<tag2><![CDATA[]]>
@@ -500,7 +560,7 @@ COLLATE=1
 	<user><![CDATA[]]>
 </Reportes>
 <Reportes 
-	platform="WINDOWS " uniqueid="" timestamp="0" objtype="5" objcode="0" name="" vpos="13854.167" hpos="90000.000" height="1458.333" width="2812.500" order="" unique=".F." environ=".F." boxchar=" " fillchar=" " pengreen="0" penblue="0" fillred="-1" fillgreen="-1" fillblue="-1" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="1" fontsize="8" mode="1" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="0" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="0" topmargin="0" botmargin="0" totaltype="0" resettotal="0" resoid="1" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
+	platform="WINDOWS " uniqueid="" timestamp="0" objtype="5" objcode="0" name="" vpos="13854.167" hpos="101041.670" height="1458.333" width="2812.500" order="" unique=".F." environ=".F." boxchar=" " fillchar=" " pengreen="0" penblue="0" fillred="-1" fillgreen="-1" fillblue="-1" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="1" fontsize="8" mode="1" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="0" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="0" topmargin="0" botmargin="0" totaltype="0" resettotal="0" resoid="1" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
 	<picture><![CDATA[]]>
 	<tag><![CDATA[]]>
 	<tag2><![CDATA[]]>
@@ -536,79 +596,91 @@ COLLATE=1
 	<user><![CDATA[]]>
 </Reportes>
 <Reportes 
-	platform="WINDOWS " uniqueid="" timestamp="0" objtype="8" objcode="0" name="" vpos="23541.667" hpos="3750.000" height="1666.667" width="10104.167" order="" unique=".F." environ=".F." boxchar=" " fillchar="C" pengreen="0" penblue="0" fillred="-1" fillgreen="-1" fillblue="-1" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="0" fontsize="8" mode="1" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="2" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="1" topmargin="0" botmargin="0" totaltype="0" resettotal="1" resoid="1" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
+	platform="WINDOWS " uniqueid="" timestamp="0" objtype="8" objcode="0" name="" vpos="23541.667" hpos="104.167" height="1666.667" width="9791.667" order="" unique=".F." environ=".F." boxchar=" " fillchar="C" pengreen="0" penblue="0" fillred="-1" fillgreen="-1" fillblue="-1" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="0" fontsize="8" mode="1" ruler="0" rulerlines="1" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="2" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="0" topmargin="0" botmargin="0" totaltype="0" resettotal="1" resoid="1" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="6" supvalchng=".F." 
 	<picture><![CDATA[]]>
 	<tag><![CDATA[]]>
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA[cn_rivacompra.comprobante]]>
-	<supexpr><![CDATA[]]>
-	<comment><![CDATA[ ]]>
-	<user><![CDATA[]]>
-</Reportes>
-<Reportes 
-	platform="WINDOWS " uniqueid="" timestamp="0" objtype="8" objcode="0" name="" vpos="23541.667" hpos="14583.333" height="1666.667" width="6354.167" order="" unique=".F." environ=".F." boxchar=" " fillchar="D" pengreen="0" penblue="0" fillred="-1" fillgreen="-1" fillblue="-1" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="0" fontsize="8" mode="1" ruler="0" rulerlines="1" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="2" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="0" topmargin="0" botmargin="0" totaltype="0" resettotal="1" resoid="1" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="6" supvalchng=".F." 
-	<picture><![CDATA[]]>
-	<tag><![CDATA[]]>
-	<tag2><![CDATA[]]>
-	<penred><![CDATA[0]]>
-	<style><![CDATA[]]>
-	<expr><![CDATA[cn_rivacompra.fechacomprobante]]>
+	<expr><![CDATA[Numero]]>
 	<supexpr><![CDATA[]]>
 	<comment><![CDATA[]]>
 	<user><![CDATA[]]>
 </Reportes>
 <Reportes 
-	platform="WINDOWS " uniqueid="" timestamp="0" objtype="8" objcode="0" name="" vpos="23541.667" hpos="22083.333" height="1666.667" width="23854.167" order="" unique=".F." environ=".F." boxchar=" " fillchar="C" pengreen="0" penblue="0" fillred="-1" fillgreen="-1" fillblue="-1" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="0" fontsize="8" mode="1" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="2" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="0" topmargin="0" botmargin="0" totaltype="0" resettotal="1" resoid="1" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
+	platform="WINDOWS " uniqueid="" timestamp="0" objtype="8" objcode="0" name="" vpos="23541.667" hpos="10208.333" height="1666.667" width="6875.000" order="" unique=".F." environ=".F." boxchar=" " fillchar="D" pengreen="0" penblue="0" fillred="-1" fillgreen="-1" fillblue="-1" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="0" fontsize="8" mode="1" ruler="0" rulerlines="1" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="2" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="0" topmargin="0" botmargin="0" totaltype="0" resettotal="1" resoid="1" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="6" supvalchng=".F." 
+	<picture><![CDATA["@YS"]]>
+	<tag><![CDATA[]]>
+	<tag2><![CDATA[]]>
+	<penred><![CDATA[0]]>
+	<style><![CDATA[]]>
+	<expr><![CDATA[cn_rivacompra.fecha]]>
+	<supexpr><![CDATA[]]>
+	<comment><![CDATA[]]>
+	<user><![CDATA[]]>
+</Reportes>
+<Reportes 
+	platform="WINDOWS " uniqueid="" timestamp="0" objtype="8" objcode="0" name="" vpos="23541.667" hpos="17291.667" height="1666.667" width="23854.167" order="" unique=".F." environ=".F." boxchar=" " fillchar="C" pengreen="0" penblue="0" fillred="-1" fillgreen="-1" fillblue="-1" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="0" fontsize="8" mode="1" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="2" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="0" topmargin="0" botmargin="0" totaltype="0" resettotal="1" resoid="1" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="6" supvalchng=".F." 
 	<picture><![CDATA[]]>
 	<tag><![CDATA[]]>
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA[cn_rivacompra.razon]]>
+	<expr><![CDATA[Nombre]]>
 	<supexpr><![CDATA[]]>
-	<comment><![CDATA[ ]]>
+	<comment><![CDATA[]]>
 	<user><![CDATA[]]>
 </Reportes>
 <Reportes 
-	platform="WINDOWS " uniqueid="" timestamp="0" objtype="8" objcode="0" name="" vpos="23541.667" hpos="46354.167" height="1666.667" width="7500.000" order="" unique=".F." environ=".F." boxchar=" " fillchar="C" pengreen="0" penblue="0" fillred="-1" fillgreen="-1" fillblue="-1" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="0" fontsize="8" mode="1" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".T." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="2" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="0" topmargin="0" botmargin="0" totaltype="0" resettotal="1" resoid="1" curpos=".F." supalways=".T." supovflow=".F." suprpcol="0" supgroup="0" supvalchng=".F." 
-	<picture><![CDATA[]]>
-	<tag><![CDATA[]]>
-	<tag2><![CDATA[]]>
-	<penred><![CDATA[0]]>
-	<style><![CDATA[]]>
-	<expr><![CDATA[cn_rivacompra.ruc]]>
-	<supexpr><![CDATA[len( ALLTRIM(ruc) ) > 8]]>
-	<comment><![CDATA[ ]]>
-	<user><![CDATA[]]>
-</Reportes>
-<Reportes 
-	platform="WINDOWS " uniqueid="" timestamp="0" objtype="8" objcode="0" name="" vpos="23541.667" hpos="55000.000" height="1666.667" width="9895.833" order="" unique=".F." environ=".F." boxchar=" " fillchar="Y" pengreen="0" penblue="0" fillred="-1" fillgreen="-1" fillblue="-1" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="0" fontsize="8" mode="1" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="2" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="1" topmargin="0" botmargin="0" totaltype="0" resettotal="1" resoid="1" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="6" supvalchng=".F." 
+	platform="WINDOWS " uniqueid="" timestamp="0" objtype="8" objcode="0" name="" vpos="23541.667" hpos="48854.167" height="1666.667" width="11041.667" order="" unique=".F." environ=".F." boxchar=" " fillchar="Y" pengreen="0" penblue="0" fillred="-1" fillgreen="-1" fillblue="-1" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="0" fontsize="8" mode="1" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="2" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="1" topmargin="0" botmargin="0" totaltype="0" resettotal="1" resoid="1" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="6" supvalchng=".F." 
 	<picture><![CDATA["999,999,999,999"]]>
 	<tag><![CDATA[]]>
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA[cn_rivacompra.gravadas]]>
+	<expr><![CDATA[cn_rivacompra.gravadas5]]>
 	<supexpr><![CDATA[]]>
 	<comment><![CDATA[ ]]>
 	<user><![CDATA[]]>
 </Reportes>
 <Reportes 
-	platform="WINDOWS " uniqueid="" timestamp="0" objtype="8" objcode="0" name="" vpos="23541.667" hpos="65000.000" height="1666.667" width="9895.833" order="" unique=".F." environ=".F." boxchar=" " fillchar="Y" pengreen="0" penblue="0" fillred="-1" fillgreen="-1" fillblue="-1" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="0" fontsize="8" mode="1" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="2" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="1" topmargin="0" botmargin="0" totaltype="0" resettotal="1" resoid="1" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
+	platform="WINDOWS " uniqueid="" timestamp="0" objtype="8" objcode="0" name="" vpos="23541.667" hpos="60312.500" height="1666.667" width="7604.167" order="" unique=".F." environ=".F." boxchar=" " fillchar="Y" pengreen="0" penblue="0" fillred="-1" fillgreen="-1" fillblue="-1" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="0" fontsize="8" mode="1" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="2" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="1" topmargin="0" botmargin="0" totaltype="0" resettotal="1" resoid="1" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
+	<picture><![CDATA["999,999,999"]]>
+	<tag><![CDATA[]]>
+	<tag2><![CDATA[]]>
+	<penred><![CDATA[0]]>
+	<style><![CDATA[]]>
+	<expr><![CDATA[ cn_rivacompra.iva5]]>
+	<supexpr><![CDATA[]]>
+	<comment><![CDATA[ cn_rivacompra.iva5]]>
+	<user><![CDATA[]]>
+</Reportes>
+<Reportes 
+	platform="WINDOWS " uniqueid="" timestamp="0" objtype="8" objcode="0" name="" vpos="23541.667" hpos="66562.500" height="1666.667" width="11041.667" order="" unique=".F." environ=".F." boxchar=" " fillchar="Y" pengreen="0" penblue="0" fillred="-1" fillgreen="-1" fillblue="-1" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="0" fontsize="8" mode="1" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="2" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="1" topmargin="0" botmargin="0" totaltype="0" resettotal="1" resoid="1" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="6" supvalchng=".F." 
 	<picture><![CDATA["999,999,999,999"]]>
 	<tag><![CDATA[]]>
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA[cn_rivacompra.iva]]>
+	<expr><![CDATA[cn_rivacompra.gravadas10]]>
 	<supexpr><![CDATA[]]>
 	<comment><![CDATA[ ]]>
 	<user><![CDATA[]]>
 </Reportes>
 <Reportes 
-	platform="WINDOWS " uniqueid="" timestamp="0" objtype="8" objcode="0" name="" vpos="23541.667" hpos="75000.000" height="1666.667" width="9895.833" order="" unique=".F." environ=".F." boxchar=" " fillchar="Y" pengreen="0" penblue="0" fillred="-1" fillgreen="-1" fillblue="-1" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="0" fontsize="8" mode="1" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="2" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="1" topmargin="0" botmargin="0" totaltype="0" resettotal="1" resoid="1" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
+	platform="WINDOWS " uniqueid="" timestamp="0" objtype="8" objcode="0" name="" vpos="23541.667" hpos="78125.000" height="1666.667" width="7604.167" order="" unique=".F." environ=".F." boxchar=" " fillchar="Y" pengreen="0" penblue="0" fillred="-1" fillgreen="-1" fillblue="-1" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="0" fontsize="8" mode="1" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="2" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="1" topmargin="0" botmargin="0" totaltype="0" resettotal="1" resoid="1" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
+	<picture><![CDATA["999,999,999"]]>
+	<tag><![CDATA[]]>
+	<tag2><![CDATA[]]>
+	<penred><![CDATA[0]]>
+	<style><![CDATA[]]>
+	<expr><![CDATA[cn_rivacompra.iva10]]>
+	<supexpr><![CDATA[]]>
+	<comment><![CDATA[ ]]>
+	<user><![CDATA[]]>
+</Reportes>
+<Reportes 
+	platform="WINDOWS " uniqueid="" timestamp="0" objtype="8" objcode="0" name="" vpos="23541.667" hpos="84583.333" height="1666.667" width="11041.667" order="" unique=".F." environ=".F." boxchar=" " fillchar="Y" pengreen="0" penblue="0" fillred="-1" fillgreen="-1" fillblue="-1" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="0" fontsize="8" mode="1" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="2" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="1" topmargin="0" botmargin="0" totaltype="0" resettotal="1" resoid="1" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
 	<picture><![CDATA["999,999,999,999"]]>
 	<tag><![CDATA[]]>
 	<tag2><![CDATA[]]>
@@ -620,19 +692,19 @@ COLLATE=1
 	<user><![CDATA[]]>
 </Reportes>
 <Reportes 
-	platform="WINDOWS " uniqueid="" timestamp="0" objtype="8" objcode="0" name="" vpos="23541.667" hpos="85000.000" height="1666.667" width="9895.833" order="" unique=".F." environ=".F." boxchar=" " fillchar="N" pengreen="0" penblue="0" fillred="-1" fillgreen="-1" fillblue="-1" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="0" fontsize="8" mode="1" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="2" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="1" topmargin="0" botmargin="0" totaltype="0" resettotal="1" resoid="1" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
+	platform="WINDOWS " uniqueid="" timestamp="0" objtype="8" objcode="0" name="" vpos="23541.667" hpos="94583.333" height="1666.667" width="11041.667" order="" unique=".F." environ=".F." boxchar=" " fillchar="N" pengreen="0" penblue="0" fillred="-1" fillgreen="-1" fillblue="-1" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="0" fontsize="8" mode="1" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="2" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="1" topmargin="0" botmargin="0" totaltype="0" resettotal="1" resoid="1" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
 	<picture><![CDATA["999,999,999,999"]]>
 	<tag><![CDATA[]]>
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA[cn_rivacompra.gravadas+ cn_rivacompra.exentas+ cn_rivacompra.iva]]>
+	<expr><![CDATA[cn_rivacompra.gravadas5 + gravadas10+ cn_rivacompra.exentas+ cn_rivacompra.iva5 + iva10 + imponible]]>
 	<supexpr><![CDATA[]]>
 	<comment><![CDATA[ ]]>
 	<user><![CDATA[]]>
 </Reportes>
 <Reportes 
-	platform="WINDOWS " uniqueid="" timestamp="0" objtype="8" objcode="0" name="" vpos="23541.667" hpos="95208.333" height="1666.667" width="9895.833" order="" unique=".F." environ=".F." boxchar=" " fillchar="Y" pengreen="0" penblue="0" fillred="-1" fillgreen="-1" fillblue="-1" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="0" fontsize="8" mode="1" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="2" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="1" topmargin="0" botmargin="0" totaltype="0" resettotal="1" resoid="1" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="6" supvalchng=".F." 
+	platform="WINDOWS " uniqueid="" timestamp="0" objtype="8" objcode="0" name="" vpos="23541.667" hpos="104791.670" height="1666.667" width="11041.667" order="" unique=".F." environ=".F." boxchar=" " fillchar="Y" pengreen="0" penblue="0" fillred="-1" fillgreen="-1" fillblue="-1" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="0" fontsize="8" mode="1" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="2" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="1" topmargin="0" botmargin="0" totaltype="0" resettotal="1" resoid="1" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="6" supvalchng=".F." 
 	<picture><![CDATA["999,999,999,999"]]>
 	<tag><![CDATA[]]>
 	<tag2><![CDATA[]]>
@@ -644,7 +716,19 @@ COLLATE=1
 	<user><![CDATA[]]>
 </Reportes>
 <Reportes 
-	platform="WINDOWS " uniqueid="" timestamp="0" objtype="6" objcode="0" name="" vpos="30000.000" hpos="1250.000" height="104.167" width="105104.170" order="" unique=".F." environ=".F." boxchar=" " fillchar=" " pengreen="-1" penblue="-1" fillred="-1" fillgreen="-1" fillblue="-1" pensize="1" penpat="8" fillpat="0" fontface="" fontstyle="0" fontsize="0" mode="0" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="0" double=".F." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="1" topmargin="0" botmargin="0" totaltype="0" resettotal="0" resoid="0" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
+	platform="WINDOWS " uniqueid="" timestamp="0" objtype="8" objcode="0" name="" vpos="23645.833" hpos="41354.167" height="1666.667" width="8854.167" order="" unique=".F." environ=".F." boxchar=" " fillchar="C" pengreen="0" penblue="0" fillred="-1" fillgreen="-1" fillblue="-1" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="0" fontsize="8" mode="1" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="2" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="0" topmargin="0" botmargin="0" totaltype="0" resettotal="1" resoid="1" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
+	<picture><![CDATA[]]>
+	<tag><![CDATA[]]>
+	<tag2><![CDATA[]]>
+	<penred><![CDATA[0]]>
+	<style><![CDATA[]]>
+	<expr><![CDATA[ruc]]>
+	<supexpr><![CDATA[]]>
+	<comment><![CDATA[ ]]>
+	<user><![CDATA[]]>
+</Reportes>
+<Reportes 
+	platform="WINDOWS " uniqueid="" timestamp="0" objtype="6" objcode="0" name="" vpos="29687.500" hpos="1250.000" height="104.167" width="116458.330" order="" unique=".F." environ=".F." boxchar=" " fillchar=" " pengreen="-1" penblue="-1" fillred="-1" fillgreen="-1" fillblue="-1" pensize="1" penpat="8" fillpat="0" fontface="" fontstyle="0" fontsize="0" mode="0" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="0" double=".F." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="1" topmargin="0" botmargin="0" totaltype="0" resettotal="0" resoid="0" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
 	<picture><![CDATA[]]>
 	<tag><![CDATA[]]>
 	<tag2><![CDATA[]]>
@@ -656,7 +740,7 @@ COLLATE=1
 	<user><![CDATA[]]>
 </Reportes>
 <Reportes 
-	platform="WINDOWS " uniqueid="" timestamp="0" objtype="8" objcode="0" name="" vpos="32187.500" hpos="1250.000" height="1666.667" width="18854.167" order="" unique=".F." environ=".F." boxchar=" " fillchar="C" pengreen="0" penblue="0" fillred="-1" fillgreen="-1" fillblue="-1" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="2" fontsize="8" mode="1" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="2" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="0" topmargin="0" botmargin="0" totaltype="0" resettotal="1" resoid="1" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
+	platform="WINDOWS " uniqueid="" timestamp="0" objtype="8" objcode="0" name="" vpos="31875.000" hpos="1250.000" height="1666.667" width="18854.167" order="" unique=".F." environ=".F." boxchar=" " fillchar="C" pengreen="0" penblue="0" fillred="-1" fillgreen="-1" fillblue="-1" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="2" fontsize="8" mode="1" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="2" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="0" topmargin="0" botmargin="0" totaltype="0" resettotal="1" resoid="1" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
 	<picture><![CDATA[]]>
 	<tag><![CDATA[]]>
 	<tag2><![CDATA[]]>
@@ -668,7 +752,7 @@ COLLATE=1
 	<user><![CDATA[]]>
 </Reportes>
 <Reportes 
-	platform="WINDOWS " uniqueid="" timestamp="0" objtype="8" objcode="0" name="" vpos="32187.500" hpos="88854.167" height="1666.667" width="17500.000" order="" unique=".F." environ=".F." boxchar=" " fillchar="C" pengreen="0" penblue="0" fillred="-1" fillgreen="-1" fillblue="-1" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="2" fontsize="8" mode="1" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="2" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="1" topmargin="0" botmargin="0" totaltype="0" resettotal="1" resoid="1" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
+	platform="WINDOWS " uniqueid="" timestamp="0" objtype="8" objcode="0" name="" vpos="31875.000" hpos="99895.833" height="1666.667" width="17500.000" order="" unique=".F." environ=".F." boxchar=" " fillchar="C" pengreen="0" penblue="0" fillred="-1" fillgreen="-1" fillblue="-1" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="2" fontsize="8" mode="1" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="2" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="1" topmargin="0" botmargin="0" totaltype="0" resettotal="1" resoid="1" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
 	<picture><![CDATA[]]>
 	<tag><![CDATA[]]>
 	<tag2><![CDATA[]]>
@@ -680,7 +764,7 @@ COLLATE=1
 	<user><![CDATA[]]>
 </Reportes>
 <Reportes 
-	platform="WINDOWS " uniqueid="" timestamp="0" objtype="7" objcode="4" name="" vpos="39270.833" hpos="1250.000" height="3437.500" width="105104.170" order="" unique=".F." environ=".F." boxchar=" " fillchar=" " pengreen="0" penblue="0" fillred="-1" fillgreen="-1" fillblue="-1" pensize="1" penpat="8" fillpat="0" fontface="" fontstyle="0" fontsize="0" mode="0" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="0" double=".F." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="0" topmargin="0" botmargin="0" totaltype="0" resettotal="0" resoid="0" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
+	platform="WINDOWS " uniqueid="" timestamp="0" objtype="7" objcode="4" name="" vpos="38958.333" hpos="1250.000" height="11041.667" width="116458.330" order="" unique=".F." environ=".F." boxchar=" " fillchar=" " pengreen="0" penblue="0" fillred="-1" fillgreen="-1" fillblue="-1" pensize="1" penpat="8" fillpat="0" fontface="" fontstyle="0" fontsize="0" mode="0" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="0" double=".F." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="0" topmargin="0" botmargin="0" totaltype="0" resettotal="0" resoid="0" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
 	<picture><![CDATA[]]>
 	<tag><![CDATA[]]>
 	<tag2><![CDATA[]]>
@@ -692,7 +776,295 @@ COLLATE=1
 	<user><![CDATA[]]>
 </Reportes>
 <Reportes 
-	platform="WINDOWS " uniqueid="" timestamp="0" objtype="8" objcode="0" name="" vpos="40208.333" hpos="2500.000" height="1666.667" width="36354.167" order="" unique=".F." environ=".F." boxchar=" " fillchar="C" pengreen="0" penblue="0" fillred="-1" fillgreen="-1" fillblue="-1" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="0" fontsize="8" mode="1" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="2" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="0" topmargin="0" botmargin="0" totaltype="0" resettotal="1" resoid="1" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
+	platform="WINDOWS " uniqueid="" timestamp="0" objtype="8" objcode="0" name="" vpos="39895.833" hpos="2708.333" height="1666.667" width="36354.167" order="" unique=".F." environ=".F." boxchar=" " fillchar="C" pengreen="0" penblue="0" fillred="-1" fillgreen="-1" fillblue="-1" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="0" fontsize="8" mode="1" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="2" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="0" topmargin="0" botmargin="0" totaltype="0" resettotal="1" resoid="1" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
+	<picture><![CDATA[]]>
+	<tag><![CDATA[]]>
+	<tag2><![CDATA[]]>
+	<penred><![CDATA[0]]>
+	<style><![CDATA[]]>
+	<expr><![CDATA["Directos"]]>
+	<supexpr><![CDATA[]]>
+	<comment><![CDATA[ ]]>
+	<user><![CDATA[]]>
+</Reportes>
+<Reportes 
+	platform="WINDOWS " uniqueid="" timestamp="0" objtype="8" objcode="0" name="" vpos="39895.833" hpos="49062.500" height="1666.667" width="11041.667" order="" unique=".F." environ=".F." boxchar=" " fillchar="Y" pengreen="0" penblue="0" fillred="-1" fillgreen="-1" fillblue="-1" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="0" fontsize="8" mode="1" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="2" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="1" topmargin="0" botmargin="0" totaltype="2" resettotal="1" resoid="1" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="6" supvalchng=".F." 
+	<picture><![CDATA["999,999,999,999"]]>
+	<tag><![CDATA[]]>
+	<tag2><![CDATA[]]>
+	<penred><![CDATA[0]]>
+	<style><![CDATA[]]>
+	<expr><![CDATA[iif(Tipo='D',cn_rivacompra.gravadas5,0)]]>
+	<supexpr><![CDATA[]]>
+	<comment><![CDATA[ ]]>
+	<user><![CDATA[]]>
+</Reportes>
+<Reportes 
+	platform="WINDOWS " uniqueid="" timestamp="0" objtype="8" objcode="0" name="" vpos="39895.833" hpos="60520.833" height="1666.667" width="7604.167" order="" unique=".F." environ=".F." boxchar=" " fillchar="Y" pengreen="0" penblue="0" fillred="-1" fillgreen="-1" fillblue="-1" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="0" fontsize="8" mode="1" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="2" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="1" topmargin="0" botmargin="0" totaltype="2" resettotal="1" resoid="1" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
+	<picture><![CDATA["999,999,999"]]>
+	<tag><![CDATA[]]>
+	<tag2><![CDATA[]]>
+	<penred><![CDATA[0]]>
+	<style><![CDATA[]]>
+	<expr><![CDATA[iif(Tipo='D',cn_rivacompra.iva5,0)]]>
+	<supexpr><![CDATA[]]>
+	<comment><![CDATA[ ]]>
+	<user><![CDATA[]]>
+</Reportes>
+<Reportes 
+	platform="WINDOWS " uniqueid="" timestamp="0" objtype="8" objcode="0" name="" vpos="39895.833" hpos="66770.833" height="1666.667" width="11041.667" order="" unique=".F." environ=".F." boxchar=" " fillchar="Y" pengreen="0" penblue="0" fillred="-1" fillgreen="-1" fillblue="-1" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="0" fontsize="8" mode="1" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="2" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="1" topmargin="0" botmargin="0" totaltype="2" resettotal="1" resoid="1" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="6" supvalchng=".F." 
+	<picture><![CDATA["999,999,999,999"]]>
+	<tag><![CDATA[]]>
+	<tag2><![CDATA[]]>
+	<penred><![CDATA[0]]>
+	<style><![CDATA[]]>
+	<expr><![CDATA[iif(Tipo='D',cn_rivacompra.gravadas10,0)]]>
+	<supexpr><![CDATA[]]>
+	<comment><![CDATA[ ]]>
+	<user><![CDATA[]]>
+</Reportes>
+<Reportes 
+	platform="WINDOWS " uniqueid="" timestamp="0" objtype="8" objcode="0" name="" vpos="39895.833" hpos="78333.333" height="1666.667" width="7604.167" order="" unique=".F." environ=".F." boxchar=" " fillchar="Y" pengreen="0" penblue="0" fillred="-1" fillgreen="-1" fillblue="-1" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="0" fontsize="8" mode="1" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="2" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="1" topmargin="0" botmargin="0" totaltype="2" resettotal="1" resoid="1" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
+	<picture><![CDATA["999,999,999"]]>
+	<tag><![CDATA[]]>
+	<tag2><![CDATA[]]>
+	<penred><![CDATA[0]]>
+	<style><![CDATA[]]>
+	<expr><![CDATA[iif(Tipo='D',cn_rivacompra.iva10,0)]]>
+	<supexpr><![CDATA[]]>
+	<comment><![CDATA[ ]]>
+	<user><![CDATA[]]>
+</Reportes>
+<Reportes 
+	platform="WINDOWS " uniqueid="" timestamp="0" objtype="8" objcode="0" name="" vpos="39895.833" hpos="84791.667" height="1666.667" width="11041.667" order="" unique=".F." environ=".F." boxchar=" " fillchar="Y" pengreen="0" penblue="0" fillred="-1" fillgreen="-1" fillblue="-1" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="0" fontsize="8" mode="1" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="2" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="1" topmargin="0" botmargin="0" totaltype="2" resettotal="1" resoid="1" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
+	<picture><![CDATA["999,999,999,999"]]>
+	<tag><![CDATA[]]>
+	<tag2><![CDATA[]]>
+	<penred><![CDATA[0]]>
+	<style><![CDATA[]]>
+	<expr><![CDATA[iif(Tipo='D',cn_rivacompra.exentas,0)]]>
+	<supexpr><![CDATA[]]>
+	<comment><![CDATA[ ]]>
+	<user><![CDATA[]]>
+</Reportes>
+<Reportes 
+	platform="WINDOWS " uniqueid="" timestamp="0" objtype="8" objcode="0" name="" vpos="39895.833" hpos="94791.667" height="1666.667" width="11041.667" order="" unique=".F." environ=".F." boxchar=" " fillchar="N" pengreen="0" penblue="0" fillred="-1" fillgreen="-1" fillblue="-1" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="0" fontsize="8" mode="1" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="2" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="1" topmargin="0" botmargin="0" totaltype="2" resettotal="1" resoid="1" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
+	<picture><![CDATA["999,999,999,999"]]>
+	<tag><![CDATA[]]>
+	<tag2><![CDATA[]]>
+	<penred><![CDATA[0]]>
+	<style><![CDATA[]]>
+	<expr><![CDATA[iif(Tipo='D',cn_rivacompra.gravadas5 + gravadas10+ cn_rivacompra.exentas+ cn_rivacompra.iva5 + iva10 + imponible,0)]]>
+	<supexpr><![CDATA[]]>
+	<comment><![CDATA[ ]]>
+	<user><![CDATA[]]>
+</Reportes>
+<Reportes 
+	platform="WINDOWS " uniqueid="" timestamp="0" objtype="8" objcode="0" name="" vpos="39895.833" hpos="104791.670" height="1666.667" width="11041.667" order="" unique=".F." environ=".F." boxchar=" " fillchar="Y" pengreen="0" penblue="0" fillred="-1" fillgreen="-1" fillblue="-1" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="0" fontsize="8" mode="1" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="2" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="1" topmargin="0" botmargin="0" totaltype="2" resettotal="1" resoid="1" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="6" supvalchng=".F." 
+	<picture><![CDATA["999,999,999,999"]]>
+	<tag><![CDATA[]]>
+	<tag2><![CDATA[]]>
+	<penred><![CDATA[0]]>
+	<style><![CDATA[]]>
+	<expr><![CDATA[iif(Tipo='D',Imponible,0)]]>
+	<supexpr><![CDATA[]]>
+	<comment><![CDATA[ ]]>
+	<user><![CDATA[]]>
+</Reportes>
+<Reportes 
+	platform="WINDOWS " uniqueid="" timestamp="0" objtype="8" objcode="0" name="" vpos="42395.833" hpos="2708.333" height="1666.667" width="36354.167" order="" unique=".F." environ=".F." boxchar=" " fillchar="C" pengreen="0" penblue="0" fillred="-1" fillgreen="-1" fillblue="-1" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="0" fontsize="8" mode="1" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="2" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="0" topmargin="0" botmargin="0" totaltype="0" resettotal="1" resoid="1" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
+	<picture><![CDATA[]]>
+	<tag><![CDATA[]]>
+	<tag2><![CDATA[]]>
+	<penred><![CDATA[0]]>
+	<style><![CDATA[]]>
+	<expr><![CDATA["Indirectos"]]>
+	<supexpr><![CDATA[]]>
+	<comment><![CDATA[ ]]>
+	<user><![CDATA[]]>
+</Reportes>
+<Reportes 
+	platform="WINDOWS " uniqueid="" timestamp="0" objtype="8" objcode="0" name="" vpos="42395.833" hpos="49062.500" height="1666.667" width="11041.667" order="" unique=".F." environ=".F." boxchar=" " fillchar="Y" pengreen="0" penblue="0" fillred="-1" fillgreen="-1" fillblue="-1" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="0" fontsize="8" mode="1" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="2" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="1" topmargin="0" botmargin="0" totaltype="2" resettotal="1" resoid="1" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="6" supvalchng=".F." 
+	<picture><![CDATA["999,999,999,999"]]>
+	<tag><![CDATA[]]>
+	<tag2><![CDATA[]]>
+	<penred><![CDATA[0]]>
+	<style><![CDATA[]]>
+	<expr><![CDATA[iif(Tipo='I',cn_rivacompra.gravadas5,0)]]>
+	<supexpr><![CDATA[]]>
+	<comment><![CDATA[ ]]>
+	<user><![CDATA[]]>
+</Reportes>
+<Reportes 
+	platform="WINDOWS " uniqueid="" timestamp="0" objtype="8" objcode="0" name="" vpos="42395.833" hpos="60520.833" height="1666.667" width="7604.167" order="" unique=".F." environ=".F." boxchar=" " fillchar="Y" pengreen="0" penblue="0" fillred="-1" fillgreen="-1" fillblue="-1" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="0" fontsize="8" mode="1" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="2" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="1" topmargin="0" botmargin="0" totaltype="2" resettotal="1" resoid="1" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
+	<picture><![CDATA["999,999,999"]]>
+	<tag><![CDATA[]]>
+	<tag2><![CDATA[]]>
+	<penred><![CDATA[0]]>
+	<style><![CDATA[]]>
+	<expr><![CDATA[iif(Tipo='I',cn_rivacompra.iva5,0)]]>
+	<supexpr><![CDATA[]]>
+	<comment><![CDATA[ ]]>
+	<user><![CDATA[]]>
+</Reportes>
+<Reportes 
+	platform="WINDOWS " uniqueid="" timestamp="0" objtype="8" objcode="0" name="" vpos="42395.833" hpos="66770.833" height="1666.667" width="11041.667" order="" unique=".F." environ=".F." boxchar=" " fillchar="Y" pengreen="0" penblue="0" fillred="-1" fillgreen="-1" fillblue="-1" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="0" fontsize="8" mode="1" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="2" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="1" topmargin="0" botmargin="0" totaltype="2" resettotal="1" resoid="1" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="6" supvalchng=".F." 
+	<picture><![CDATA["999,999,999,999"]]>
+	<tag><![CDATA[]]>
+	<tag2><![CDATA[]]>
+	<penred><![CDATA[0]]>
+	<style><![CDATA[]]>
+	<expr><![CDATA[iif(Tipo='I',cn_rivacompra.gravadas10,0)]]>
+	<supexpr><![CDATA[]]>
+	<comment><![CDATA[ ]]>
+	<user><![CDATA[]]>
+</Reportes>
+<Reportes 
+	platform="WINDOWS " uniqueid="" timestamp="0" objtype="8" objcode="0" name="" vpos="42395.833" hpos="78333.333" height="1666.667" width="7604.167" order="" unique=".F." environ=".F." boxchar=" " fillchar="Y" pengreen="0" penblue="0" fillred="-1" fillgreen="-1" fillblue="-1" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="0" fontsize="8" mode="1" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="2" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="1" topmargin="0" botmargin="0" totaltype="2" resettotal="1" resoid="1" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
+	<picture><![CDATA["999,999,999"]]>
+	<tag><![CDATA[]]>
+	<tag2><![CDATA[]]>
+	<penred><![CDATA[0]]>
+	<style><![CDATA[]]>
+	<expr><![CDATA[iif(Tipo='I',cn_rivacompra.iva10,0)]]>
+	<supexpr><![CDATA[]]>
+	<comment><![CDATA[ ]]>
+	<user><![CDATA[]]>
+</Reportes>
+<Reportes 
+	platform="WINDOWS " uniqueid="" timestamp="0" objtype="8" objcode="0" name="" vpos="42395.833" hpos="84791.667" height="1666.667" width="11041.667" order="" unique=".F." environ=".F." boxchar=" " fillchar="Y" pengreen="0" penblue="0" fillred="-1" fillgreen="-1" fillblue="-1" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="0" fontsize="8" mode="1" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="2" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="1" topmargin="0" botmargin="0" totaltype="2" resettotal="1" resoid="1" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
+	<picture><![CDATA["999,999,999,999"]]>
+	<tag><![CDATA[]]>
+	<tag2><![CDATA[]]>
+	<penred><![CDATA[0]]>
+	<style><![CDATA[]]>
+	<expr><![CDATA[iif(Tipo='I',cn_rivacompra.exentas,0)]]>
+	<supexpr><![CDATA[]]>
+	<comment><![CDATA[ ]]>
+	<user><![CDATA[]]>
+</Reportes>
+<Reportes 
+	platform="WINDOWS " uniqueid="" timestamp="0" objtype="8" objcode="0" name="" vpos="42395.833" hpos="94791.667" height="1666.667" width="11041.667" order="" unique=".F." environ=".F." boxchar=" " fillchar="N" pengreen="0" penblue="0" fillred="-1" fillgreen="-1" fillblue="-1" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="0" fontsize="8" mode="1" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="2" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="1" topmargin="0" botmargin="0" totaltype="2" resettotal="1" resoid="1" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
+	<picture><![CDATA["999,999,999,999"]]>
+	<tag><![CDATA[]]>
+	<tag2><![CDATA[]]>
+	<penred><![CDATA[0]]>
+	<style><![CDATA[]]>
+	<expr><![CDATA[iif(Tipo='I',cn_rivacompra.gravadas5 + gravadas10+ cn_rivacompra.exentas+ cn_rivacompra.iva5 + iva10 + imponible,0)]]>
+	<supexpr><![CDATA[]]>
+	<comment><![CDATA[ ]]>
+	<user><![CDATA[]]>
+</Reportes>
+<Reportes 
+	platform="WINDOWS " uniqueid="" timestamp="0" objtype="8" objcode="0" name="" vpos="42395.833" hpos="104791.670" height="1666.667" width="11041.667" order="" unique=".F." environ=".F." boxchar=" " fillchar="Y" pengreen="0" penblue="0" fillred="-1" fillgreen="-1" fillblue="-1" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="0" fontsize="8" mode="1" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="2" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="1" topmargin="0" botmargin="0" totaltype="2" resettotal="1" resoid="1" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="6" supvalchng=".F." 
+	<picture><![CDATA["999,999,999,999"]]>
+	<tag><![CDATA[]]>
+	<tag2><![CDATA[]]>
+	<penred><![CDATA[0]]>
+	<style><![CDATA[]]>
+	<expr><![CDATA[iif(Tipo='I',Imponible,0)]]>
+	<supexpr><![CDATA[]]>
+	<comment><![CDATA[ ]]>
+	<user><![CDATA[]]>
+</Reportes>
+<Reportes 
+	platform="WINDOWS " uniqueid="" timestamp="0" objtype="8" objcode="0" name="" vpos="44895.833" hpos="2708.333" height="1666.667" width="36354.167" order="" unique=".F." environ=".F." boxchar=" " fillchar="C" pengreen="0" penblue="0" fillred="-1" fillgreen="-1" fillblue="-1" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="0" fontsize="8" mode="1" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="2" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="0" topmargin="0" botmargin="0" totaltype="0" resettotal="1" resoid="1" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
+	<picture><![CDATA[]]>
+	<tag><![CDATA[]]>
+	<tag2><![CDATA[]]>
+	<penred><![CDATA[0]]>
+	<style><![CDATA[]]>
+	<expr><![CDATA["Importaciones"]]>
+	<supexpr><![CDATA[]]>
+	<comment><![CDATA[ ]]>
+	<user><![CDATA[]]>
+</Reportes>
+<Reportes 
+	platform="WINDOWS " uniqueid="" timestamp="0" objtype="8" objcode="0" name="" vpos="44895.833" hpos="49062.500" height="1666.667" width="11041.667" order="" unique=".F." environ=".F." boxchar=" " fillchar="Y" pengreen="0" penblue="0" fillred="-1" fillgreen="-1" fillblue="-1" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="0" fontsize="8" mode="1" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="2" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="1" topmargin="0" botmargin="0" totaltype="2" resettotal="1" resoid="1" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="6" supvalchng=".F." 
+	<picture><![CDATA["999,999,999,999"]]>
+	<tag><![CDATA[]]>
+	<tag2><![CDATA[]]>
+	<penred><![CDATA[0]]>
+	<style><![CDATA[]]>
+	<expr><![CDATA[iif(Tipo='M',cn_rivacompra.gravadas5,0)]]>
+	<supexpr><![CDATA[]]>
+	<comment><![CDATA[ ]]>
+	<user><![CDATA[]]>
+</Reportes>
+<Reportes 
+	platform="WINDOWS " uniqueid="" timestamp="0" objtype="8" objcode="0" name="" vpos="44895.833" hpos="60520.833" height="1666.667" width="7604.167" order="" unique=".F." environ=".F." boxchar=" " fillchar="Y" pengreen="0" penblue="0" fillred="-1" fillgreen="-1" fillblue="-1" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="0" fontsize="8" mode="1" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="2" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="1" topmargin="0" botmargin="0" totaltype="2" resettotal="1" resoid="1" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
+	<picture><![CDATA["999,999,999"]]>
+	<tag><![CDATA[]]>
+	<tag2><![CDATA[]]>
+	<penred><![CDATA[0]]>
+	<style><![CDATA[]]>
+	<expr><![CDATA[iif(Tipo='M',cn_rivacompra.iva5,0)]]>
+	<supexpr><![CDATA[]]>
+	<comment><![CDATA[ ]]>
+	<user><![CDATA[]]>
+</Reportes>
+<Reportes 
+	platform="WINDOWS " uniqueid="" timestamp="0" objtype="8" objcode="0" name="" vpos="44895.833" hpos="66770.833" height="1666.667" width="11041.667" order="" unique=".F." environ=".F." boxchar=" " fillchar="Y" pengreen="0" penblue="0" fillred="-1" fillgreen="-1" fillblue="-1" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="0" fontsize="8" mode="1" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="2" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="1" topmargin="0" botmargin="0" totaltype="2" resettotal="1" resoid="1" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="6" supvalchng=".F." 
+	<picture><![CDATA["999,999,999,999"]]>
+	<tag><![CDATA[]]>
+	<tag2><![CDATA[]]>
+	<penred><![CDATA[0]]>
+	<style><![CDATA[]]>
+	<expr><![CDATA[iif(Tipo='M',cn_rivacompra.gravadas10,0)]]>
+	<supexpr><![CDATA[]]>
+	<comment><![CDATA[ ]]>
+	<user><![CDATA[]]>
+</Reportes>
+<Reportes 
+	platform="WINDOWS " uniqueid="" timestamp="0" objtype="8" objcode="0" name="" vpos="44895.833" hpos="78333.333" height="1666.667" width="7604.167" order="" unique=".F." environ=".F." boxchar=" " fillchar="Y" pengreen="0" penblue="0" fillred="-1" fillgreen="-1" fillblue="-1" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="0" fontsize="8" mode="1" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="2" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="1" topmargin="0" botmargin="0" totaltype="2" resettotal="1" resoid="1" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
+	<picture><![CDATA["999,999,999"]]>
+	<tag><![CDATA[]]>
+	<tag2><![CDATA[]]>
+	<penred><![CDATA[0]]>
+	<style><![CDATA[]]>
+	<expr><![CDATA[iif(Tipo='M',cn_rivacompra.iva10,0)]]>
+	<supexpr><![CDATA[]]>
+	<comment><![CDATA[ ]]>
+	<user><![CDATA[]]>
+</Reportes>
+<Reportes 
+	platform="WINDOWS " uniqueid="" timestamp="0" objtype="8" objcode="0" name="" vpos="44895.833" hpos="84791.667" height="1666.667" width="11041.667" order="" unique=".F." environ=".F." boxchar=" " fillchar="Y" pengreen="0" penblue="0" fillred="-1" fillgreen="-1" fillblue="-1" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="0" fontsize="8" mode="1" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="2" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="1" topmargin="0" botmargin="0" totaltype="2" resettotal="1" resoid="1" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
+	<picture><![CDATA["999,999,999,999"]]>
+	<tag><![CDATA[]]>
+	<tag2><![CDATA[]]>
+	<penred><![CDATA[0]]>
+	<style><![CDATA[]]>
+	<expr><![CDATA[iif(Tipo='M',cn_rivacompra.exentas,0)]]>
+	<supexpr><![CDATA[]]>
+	<comment><![CDATA[ ]]>
+	<user><![CDATA[]]>
+</Reportes>
+<Reportes 
+	platform="WINDOWS " uniqueid="" timestamp="0" objtype="8" objcode="0" name="" vpos="44895.833" hpos="94791.667" height="1666.667" width="11041.667" order="" unique=".F." environ=".F." boxchar=" " fillchar="N" pengreen="0" penblue="0" fillred="-1" fillgreen="-1" fillblue="-1" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="0" fontsize="8" mode="1" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="2" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="1" topmargin="0" botmargin="0" totaltype="2" resettotal="1" resoid="1" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
+	<picture><![CDATA["999,999,999,999"]]>
+	<tag><![CDATA[]]>
+	<tag2><![CDATA[]]>
+	<penred><![CDATA[0]]>
+	<style><![CDATA[]]>
+	<expr><![CDATA[iif(Tipo='M',cn_rivacompra.gravadas5 + gravadas10+ cn_rivacompra.exentas+ cn_rivacompra.iva5 + iva10 + imponible,0)]]>
+	<supexpr><![CDATA[]]>
+	<comment><![CDATA[ ]]>
+	<user><![CDATA[]]>
+</Reportes>
+<Reportes 
+	platform="WINDOWS " uniqueid="" timestamp="0" objtype="8" objcode="0" name="" vpos="44895.833" hpos="104791.670" height="1666.667" width="11041.667" order="" unique=".F." environ=".F." boxchar=" " fillchar="Y" pengreen="0" penblue="0" fillred="-1" fillgreen="-1" fillblue="-1" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="0" fontsize="8" mode="1" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="2" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="1" topmargin="0" botmargin="0" totaltype="2" resettotal="1" resoid="1" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="6" supvalchng=".F." 
+	<picture><![CDATA["999,999,999,999"]]>
+	<tag><![CDATA[]]>
+	<tag2><![CDATA[]]>
+	<penred><![CDATA[0]]>
+	<style><![CDATA[]]>
+	<expr><![CDATA[iif(Tipo='M',Imponible,0)]]>
+	<supexpr><![CDATA[]]>
+	<comment><![CDATA[ ]]>
+	<user><![CDATA[]]>
+</Reportes>
+<Reportes 
+	platform="WINDOWS " uniqueid="" timestamp="0" objtype="8" objcode="0" name="" vpos="47395.833" hpos="2708.333" height="1666.667" width="36354.167" order="" unique=".F." environ=".F." boxchar=" " fillchar="C" pengreen="0" penblue="0" fillred="-1" fillgreen="-1" fillblue="-1" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="0" fontsize="8" mode="1" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="2" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="0" topmargin="0" botmargin="0" totaltype="0" resettotal="1" resoid="1" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
 	<picture><![CDATA[]]>
 	<tag><![CDATA[]]>
 	<tag2><![CDATA[]]>
@@ -704,31 +1076,55 @@ COLLATE=1
 	<user><![CDATA[]]>
 </Reportes>
 <Reportes 
-	platform="WINDOWS " uniqueid="" timestamp="0" objtype="8" objcode="0" name="" vpos="40208.333" hpos="55000.000" height="1666.667" width="9895.833" order="" unique=".F." environ=".F." boxchar=" " fillchar="Y" pengreen="0" penblue="0" fillred="-1" fillgreen="-1" fillblue="-1" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="0" fontsize="8" mode="1" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="2" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="1" topmargin="0" botmargin="0" totaltype="2" resettotal="1" resoid="1" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="6" supvalchng=".F." 
+	platform="WINDOWS " uniqueid="" timestamp="0" objtype="8" objcode="0" name="" vpos="47395.833" hpos="49062.500" height="1666.667" width="11041.667" order="" unique=".F." environ=".F." boxchar=" " fillchar="Y" pengreen="0" penblue="0" fillred="-1" fillgreen="-1" fillblue="-1" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="0" fontsize="8" mode="1" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="2" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="1" topmargin="0" botmargin="0" totaltype="2" resettotal="1" resoid="1" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="6" supvalchng=".F." 
 	<picture><![CDATA["999,999,999,999"]]>
 	<tag><![CDATA[]]>
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA[cn_rivacompra.gravadas]]>
+	<expr><![CDATA[cn_rivacompra.gravadas5]]>
 	<supexpr><![CDATA[]]>
 	<comment><![CDATA[ ]]>
 	<user><![CDATA[]]>
 </Reportes>
 <Reportes 
-	platform="WINDOWS " uniqueid="" timestamp="0" objtype="8" objcode="0" name="" vpos="40208.333" hpos="65000.000" height="1666.667" width="9895.833" order="" unique=".F." environ=".F." boxchar=" " fillchar="Y" pengreen="0" penblue="0" fillred="-1" fillgreen="-1" fillblue="-1" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="0" fontsize="8" mode="1" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="2" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="1" topmargin="0" botmargin="0" totaltype="2" resettotal="1" resoid="1" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
+	platform="WINDOWS " uniqueid="" timestamp="0" objtype="8" objcode="0" name="" vpos="47395.833" hpos="60520.833" height="1666.667" width="7604.167" order="" unique=".F." environ=".F." boxchar=" " fillchar="Y" pengreen="0" penblue="0" fillred="-1" fillgreen="-1" fillblue="-1" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="0" fontsize="8" mode="1" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="2" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="1" topmargin="0" botmargin="0" totaltype="2" resettotal="1" resoid="1" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
+	<picture><![CDATA["999,999,999"]]>
+	<tag><![CDATA[]]>
+	<tag2><![CDATA[]]>
+	<penred><![CDATA[0]]>
+	<style><![CDATA[]]>
+	<expr><![CDATA[cn_rivacompra.iva5]]>
+	<supexpr><![CDATA[]]>
+	<comment><![CDATA[ ]]>
+	<user><![CDATA[]]>
+</Reportes>
+<Reportes 
+	platform="WINDOWS " uniqueid="" timestamp="0" objtype="8" objcode="0" name="" vpos="47395.833" hpos="66770.833" height="1666.667" width="11041.667" order="" unique=".F." environ=".F." boxchar=" " fillchar="Y" pengreen="0" penblue="0" fillred="-1" fillgreen="-1" fillblue="-1" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="0" fontsize="8" mode="1" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="2" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="1" topmargin="0" botmargin="0" totaltype="2" resettotal="1" resoid="1" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="6" supvalchng=".F." 
 	<picture><![CDATA["999,999,999,999"]]>
 	<tag><![CDATA[]]>
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA[cn_rivacompra.iva]]>
+	<expr><![CDATA[cn_rivacompra.gravadas10]]>
 	<supexpr><![CDATA[]]>
 	<comment><![CDATA[ ]]>
 	<user><![CDATA[]]>
 </Reportes>
 <Reportes 
-	platform="WINDOWS " uniqueid="" timestamp="0" objtype="8" objcode="0" name="" vpos="40208.333" hpos="75000.000" height="1666.667" width="9895.833" order="" unique=".F." environ=".F." boxchar=" " fillchar="Y" pengreen="0" penblue="0" fillred="-1" fillgreen="-1" fillblue="-1" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="0" fontsize="8" mode="1" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="2" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="1" topmargin="0" botmargin="0" totaltype="2" resettotal="1" resoid="1" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
+	platform="WINDOWS " uniqueid="" timestamp="0" objtype="8" objcode="0" name="" vpos="47395.833" hpos="78333.333" height="1666.667" width="7604.167" order="" unique=".F." environ=".F." boxchar=" " fillchar="Y" pengreen="0" penblue="0" fillred="-1" fillgreen="-1" fillblue="-1" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="0" fontsize="8" mode="1" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="2" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="1" topmargin="0" botmargin="0" totaltype="2" resettotal="1" resoid="1" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
+	<picture><![CDATA["999,999,999"]]>
+	<tag><![CDATA[]]>
+	<tag2><![CDATA[]]>
+	<penred><![CDATA[0]]>
+	<style><![CDATA[]]>
+	<expr><![CDATA[cn_rivacompra.iva10]]>
+	<supexpr><![CDATA[]]>
+	<comment><![CDATA[ ]]>
+	<user><![CDATA[]]>
+</Reportes>
+<Reportes 
+	platform="WINDOWS " uniqueid="" timestamp="0" objtype="8" objcode="0" name="" vpos="47395.833" hpos="84791.667" height="1666.667" width="11041.667" order="" unique=".F." environ=".F." boxchar=" " fillchar="Y" pengreen="0" penblue="0" fillred="-1" fillgreen="-1" fillblue="-1" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="0" fontsize="8" mode="1" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="2" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="1" topmargin="0" botmargin="0" totaltype="2" resettotal="1" resoid="1" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
 	<picture><![CDATA["999,999,999,999"]]>
 	<tag><![CDATA[]]>
 	<tag2><![CDATA[]]>
@@ -740,19 +1136,19 @@ COLLATE=1
 	<user><![CDATA[]]>
 </Reportes>
 <Reportes 
-	platform="WINDOWS " uniqueid="" timestamp="0" objtype="8" objcode="0" name="" vpos="40208.333" hpos="85000.000" height="1666.667" width="9895.833" order="" unique=".F." environ=".F." boxchar=" " fillchar="N" pengreen="0" penblue="0" fillred="-1" fillgreen="-1" fillblue="-1" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="0" fontsize="8" mode="1" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="2" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="1" topmargin="0" botmargin="0" totaltype="2" resettotal="1" resoid="1" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
+	platform="WINDOWS " uniqueid="" timestamp="0" objtype="8" objcode="0" name="" vpos="47395.833" hpos="94791.667" height="1666.667" width="11041.667" order="" unique=".F." environ=".F." boxchar=" " fillchar="N" pengreen="0" penblue="0" fillred="-1" fillgreen="-1" fillblue="-1" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="0" fontsize="8" mode="1" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="2" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="1" topmargin="0" botmargin="0" totaltype="2" resettotal="1" resoid="1" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="0" supvalchng=".F." 
 	<picture><![CDATA["999,999,999,999"]]>
 	<tag><![CDATA[]]>
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA[cn_rivacompra.gravadas+ cn_rivacompra.exentas+ cn_rivacompra.iva]]>
+	<expr><![CDATA[cn_rivacompra.gravadas5 + gravadas10+ cn_rivacompra.exentas+ cn_rivacompra.iva5 + iva10 + imponible]]>
 	<supexpr><![CDATA[]]>
 	<comment><![CDATA[ ]]>
 	<user><![CDATA[]]>
 </Reportes>
 <Reportes 
-	platform="WINDOWS " uniqueid="" timestamp="0" objtype="8" objcode="0" name="" vpos="40208.333" hpos="95000.000" height="1666.667" width="9895.833" order="" unique=".F." environ=".F." boxchar=" " fillchar="Y" pengreen="0" penblue="0" fillred="-1" fillgreen="-1" fillblue="-1" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="0" fontsize="8" mode="1" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="2" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="1" topmargin="0" botmargin="0" totaltype="2" resettotal="1" resoid="1" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="6" supvalchng=".F." 
+	platform="WINDOWS " uniqueid="" timestamp="0" objtype="8" objcode="0" name="" vpos="47395.833" hpos="104791.670" height="1666.667" width="11041.667" order="" unique=".F." environ=".F." boxchar=" " fillchar="Y" pengreen="0" penblue="0" fillred="-1" fillgreen="-1" fillblue="-1" pensize="0" penpat="0" fillpat="0" fontface="Arial" fontstyle="0" fontsize="8" mode="1" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".T." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="2" double=".T." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="1" topmargin="0" botmargin="0" totaltype="2" resettotal="1" resoid="1" curpos=".F." supalways=".T." supovflow=".F." suprpcol="3" supgroup="6" supvalchng=".F." 
 	<picture><![CDATA["999,999,999,999"]]>
 	<tag><![CDATA[]]>
 	<tag2><![CDATA[]]>
@@ -764,31 +1160,30 @@ COLLATE=1
 	<user><![CDATA[]]>
 </Reportes>
 <Reportes 
-	platform="WINDOWS " uniqueid="" timestamp="0" objtype="25" objcode="0" name="dataenvironment" vpos="0.000" hpos="0.000" height="0.000" width="0.000" order="" unique=".F." environ=".F." boxchar=" " fillchar=" " pengreen="0" penblue="0" fillred="0" fillgreen="0" fillblue="0" pensize="0" penpat="0" fillpat="0" fontface="" fontstyle="0" fontsize="0" mode="0" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".F." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="0" double=".F." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="0" topmargin="0" botmargin="0" totaltype="0" resettotal="0" resoid="0" curpos=".F." supalways=".F." supovflow=".F." suprpcol="0" supgroup="0" supvalchng=".F." 
+	platform="WINDOWS " uniqueid="" timestamp="0" objtype="25" objcode="0" name="dataenvironment" vpos="0.000" hpos="0.000" height="0.000" width="0.000" order="" unique=".F." environ=".T." boxchar=" " fillchar=" " pengreen="0" penblue="0" fillred="0" fillgreen="0" fillblue="0" pensize="0" penpat="0" fillpat="0" fontface="" fontstyle="0" fontsize="0" mode="0" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".F." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="0" double=".F." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="0" topmargin="0" botmargin="0" totaltype="0" resettotal="0" resoid="0" curpos=".F." supalways=".F." supovflow=".F." suprpcol="0" supgroup="0" supvalchng=".F." 
 	<picture><![CDATA[]]>
 	<tag><![CDATA[
-PROCEDURE BeforeOpenTables
-DO seteo
+PROCEDURE Init
+IF EMPTY(m.sucursal)
+	m.sucursal=null
+ENDIF
+
+
+
+TEXT TO cmdSQL noshow
+	exec dbo.cn_rLibroIVA ?oApp.Empresa,?m.dFecha,?m.hFecha, 'C',?m.Mes,?m.Año,?m.Sucursal,'F',null
+ENDTEXT
+
+
+
+sql(cmdsql,'cn_rivacompra')
+SELECT cn_rivacompra
 
 
 ENDPROC
-PROCEDURE Init
+PROCEDURE BeforeOpenTables
+DO seteo
 
-cmdsql = "SELECT cn_iva.sucursal, cn_iva.comprobante, " +;
- "cn_iva.fechacomprobante, cp_proveedor.razon, " +;
-  "Cp_proveedor.ruc, cn_iva.código, CASE WHEN CN_IVA.TIPO <> 'M' THEN cn_iva.gravadas else 0 end as gravadas, " +;
-	" CASE WHEN CN_IVA.TIPO = 'M' THEN cn_iva.gravadas else 0 end as imponible, " +;
-   "cn_iva.exentas, cn_iva.iva " +;
-    "FROM  cn_iva INNER JOIN cp_proveedor " + ;
-    "ON  cn_iva.código = cp_proveedor.idproveedor " +;
-     "WHERE cn_iva.idempresa = ?oApp.Empresa " + ;
-     "AND cp_proveedor.idempresa = ?oApp.Empresa " +;
-      "AND cn_iva.sucursal = ?m.sucursal " +;
-       "AND MONTH(cn_iva.fechacomprobante) = ?m.mes " +;
-       "AND YEAR(cn_iva.fechacomprobante) = ?m.año " +;
-        "AND cn_iva.tipoiva = 'C' " + "ORDER BY cn_iva.fechacomprobante, cn_iva.comprobante "
-sql(cmdsql,'cn_rivacompra')
-SELECT cn_rivacompra
 
 ENDPROC
 ]]>

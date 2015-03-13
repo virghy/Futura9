@@ -8,75 +8,20 @@
 DEFINE CLASS dataenvironment AS dataenvironment 
  	*< CLASSDATA: Baseclass="dataenvironment" Timestamp="" Scale="" Uniqueid="" ClassIcon="1" />
 
-	*-- OBJECTDATA items order determines ZOrder / El orden de los items OBJECTDATA determina el ZOrder 
-	*< OBJECTDATA: ObjPath="Cursoradapter1" UniqueID="" Timestamp="" />
-
 	DataSource = .NULL.
-	DataSourceType = "ODBC"
-	Height = 200
-	Left = 647
+	Height = 0
+	Left = 0
 	Name = "Dataenvironment"
-	Top = 241
-	Width = 520
-
-	ADD OBJECT 'Cursoradapter1' AS cursoradapter WITH ;
-		Alias = "cursoradapter1", ;
-		CursorSchema = <fb2p_value>AUDITFECHA T, AUDITUSUARIO C(10), CLIENTE C(50), DESCRIPCION M, ESTADO C(1), FECHA T, FECHAENTREGA T, FIN T, IDCLIENTE C(10), IDEMPRESA C(3), IDMONEDA C(3), IDPROYECTO I, IDTECNICO C(4), IDVENDEDOR C(4), INICIO T, LOCALIDAD C(50), NOMBRE C(50), NRO I, PBENEFICIOS N(5, 2), PGASTOS N(5, 2), PPERDIDAS N(5, 2), PRESUPUESTO Y, RESPONSABLE1 C(50), RESPONSABLE2 C(50), DECIMPORTE I, DECLAA I, DECMEDICION I, DECNPI I, DECPRECIO I</fb2p_value>, ;
-		Flags = 0, ;
-		Height = 90, ;
-		KeyFieldList = IDEMPRESA, IDPROYECTO, ;
-		Left = 10, ;
-		Name = "Cursoradapter1", ;
-		Prepared = .T., ;
-		SelectCmd = <fb2p_value>select AuditFecha, AuditUsuario, Cliente, Descripcion, Estado, Fecha, FechaEntrega, Fin, IdCliente, IdEmpresa, IdMoneda, IdProyecto, IdTecnico, IdVendedor, Inicio, Localidad, Nombre, Nro, PBeneficios, PGastos, PPerdidas, Presupuesto, Responsable1, Responsable2, decImporte, decLAA, decMedicion, decNPI, decPrecio from pr_Proyecto</fb2p_value>, ;
-		SendUpdates = .T., ;
-		Tables = pr_Proyecto, ;
-		Top = 20, ;
-		UpdatableFieldList = <fb2p_value>AUDITFECHA, AUDITUSUARIO, CLIENTE, DESCRIPCION, ESTADO, FECHA, FECHAENTREGA, FIN, IDCLIENTE, IDEMPRESA, IDMONEDA, IDPROYECTO, IDTECNICO, IDVENDEDOR, INICIO, LOCALIDAD, NOMBRE, NRO, PBENEFICIOS, PGASTOS, PPERDIDAS, PRESUPUESTO, RESPONSABLE1, RESPONSABLE2, DECIMPORTE, DECLAA, DECMEDICION, DECNPI, DECPRECIO</fb2p_value>, ;
-		UpdateNameList = <fb2p_value>AUDITFECHA pr_Proyecto.AuditFecha, AUDITUSUARIO pr_Proyecto.AuditUsuario, CLIENTE pr_Proyecto.Cliente, DESCRIPCION pr_Proyecto.Descripcion, ESTADO pr_Proyecto.Estado, FECHA pr_Proyecto.Fecha, FECHAENTREGA pr_Proyecto.FechaEntrega, FIN pr_Proyecto.Fin, IDCLIENTE pr_Proyecto.IdCliente, IDEMPRESA pr_Proyecto.IdEmpresa, IDMONEDA pr_Proyecto.IdMoneda, IDPROYECTO pr_Proyecto.IdProyecto, IDTECNICO pr_Proyecto.IdTecnico, IDVENDEDOR pr_Proyecto.IdVendedor, INICIO pr_Proyecto.Inicio, LOCALIDAD pr_Proyecto.Localidad, NOMBRE pr_Proyecto.Nombre, NRO pr_Proyecto.Nro, PBENEFICIOS pr_Proyecto.PBeneficios, PGASTOS pr_Proyecto.PGastos, PPERDIDAS pr_Proyecto.PPerdidas, PRESUPUESTO pr_Proyecto.Presupuesto, RESPONSABLE1 pr_Proyecto.Responsable1, RESPONSABLE2 pr_Proyecto.Responsable2, DECIMPORTE pr_Proyecto.decImporte, DECLAA pr_Proyecto.decLAA, DECMEDICION pr_Proyecto.decMedicion, DECNPI pr_Proyecto.decNPI, DECPRECIO pr_Proyecto.decPrecio</fb2p_value>, ;
-		UseDeDataSource = .F., ;
-		Width = 90
-		*< END OBJECT: BaseClass="cursoradapter" />
-	
-	PROCEDURE Cursoradapter1.AutoOpen
-		*** Setup code: DO NOT REMOVE
-		if not pemstatus(This, '__VFPSetup', 5)
-			This.AddProperty('__VFPSetup', 1)
-			This.Init()
-		endif
-		*** End of Setup code: DO NOT REMOVE
-		
-	ENDPROC
-
-	PROCEDURE Cursoradapter1.Init
-		*** Setup code: DO NOT REMOVE
-		local llReturn
-		do case
-			case not pemstatus(This, '__VFPSetup', 5)
-				This.AddProperty('__VFPSetup', 0)
-			case This.__VFPSetup = 1
-				This.__VFPSetup = 2
-			case This.__VFPSetup = 2
-				This.__VFPSetup = 0
-				return
-		endcase
-		set multilocks on
-		llReturn = dodefault()
-		*** End of Setup code: DO NOT REMOVE
-		
-		*** Setup code: DO NOT REMOVE
-		if This.__VFPSetup = 1
-			This.__VFPSetup = 2
-		endif
-		return llReturn
-		*** End of Setup code: DO NOT REMOVE
-		
-	ENDPROC
+	Top = 0
+	Width = 0
 
 ENDDEFINE
 
 DEFINE CLASS tsmaintform12 AS tsmaintform OF "..\libs\tsbase.vcx" 
  	*< CLASSDATA: Baseclass="form" Timestamp="" Scale="" Uniqueid="" />
+
+	*-- OBJECTDATA items order determines ZOrder / El orden de los items OBJECTDATA determina el ZOrder 
+	*< OBJECTDATA: ObjPath="Olecontrol1" UniqueID="" Timestamp="" />
 
 	DataSession = 1
 	DoCreate = .T.
@@ -87,5 +32,13 @@ DEFINE CLASS tsmaintform12 AS tsmaintform OF "..\libs\tsbase.vcx"
 	Pageframe1.Page1.Name = "Page1"
 	Pageframe1.Page2.grdList.Name = "grdList"
 	Pageframe1.Page2.Name = "Page2"
+
+	ADD OBJECT 'Olecontrol1' AS olecontrol WITH ;
+		Height = 169, ;
+		Left = 48, ;
+		Name = "Olecontrol1", ;
+		Top = 72, ;
+		Width = 301
+		*< END OBJECT: BaseClass="olecontrol" OLEObject="c:\windows\system32\richtx32.ocx" Value="0M8R4KGxGuEAAAAAAAAAAAAAAAAAAAAAPgADAP7/CQAGAAAAAAAAAAAAAAABAAAAAQAAAAAAAAAAEAAAAgAAAAEAAAD+////AAAAAAAAAAD////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////9/////v////7///8EAAAA/v///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////1IAbwBvAHQAIABFAG4AdAByAHkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWAAUA//////////8BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPD5EjS8HMwBAwAAAIACAAAAAAAAAwBPAGwAZQBPAGIAagBlAGMAdABEAGEAdABhAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB4AAgEDAAAAAgAAAP////8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA2QAAAAAAAAADAEEAYwBjAGUAcwBzAE8AYgBqAFMAaQB0AGUARABhAHQAYQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJgACAP///////////////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAABPAAAAAAAAAAMAQwBoAGEAbgBnAGUAZABQAHIAbwBwAHMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcAAIA////////////////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwAAAN8AAAAAAAAABQAAAAIAAAD+////BAAAAAgAAAAGAAAABwAAAP7///8JAAAA/v////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////9giHw7j9cbELm1BAIcAJQCIUM0EggAAAAcHwAAdxEAACFDNBIBAAYArQAAAAAA//8AAP////8AAAAAAAAAAAAATwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAABcAAAA4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgcWhqIFp0dVFoYTtqZGZuW2lhZXRyIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAACACwAAAEFwcGVhcmFuY2UACQAAAEkKAAAAAQAAAA0AAABCdWxsZXRJbmRlbnQAEQAAAE4NAAAABwAAAAAAAAAAAAAAEAAAAERpc2FibGVOb1Njcm9sbAAFAAAATAAAAAAMAAAAUmlnaHRNYXJnaW4AEQAAAE4NAAAABwAAAAAAAAAFAACAAAAAAAAAAQADAAEAAQACAAgAAAB7XHJ0ZjFcYW5zaVxhbnNpY3BnMTI1MlxkZWZmMHtcZm9udHRibHtcZjBcZm5pbFxmY2hhcnNldDAgQXJpYWw7fX0NClx2aWV3a2luZDRcdWMxXHBhcmRcbGFuZzE1MzcwXGZzMTcgT2xlY29udHJvbDENClxwYXIgfQ0KAABRAFQAUwB5AHMAdABlAG0AXAAAAAAAFgAAFpZmBAAVAAAVKWcEAAAAAAAAAAAACwAAAFNjcm9sbEJhcnMACQAAAEkKAAAAAwAAAAUAAABUZXh0ABQAAABIAAAAAAsAAABPbGVjb250cm9sMQ0AAABBdXRvVmVyYk1lbnUABQAAAEwAAAAABcgLAAB4e/sFwB8AANAVYAXUHwAAGBZgBQ4AAAC4WfsFmAoAAPB4+wW4CgAAOHn7BeYKAACAefsFDAsAAMh5+wU0CwAAEHr7BWALAABYevsFMg0AAGh/+wWyEAAAOIv7BYgLAACgevsF9B8AAGAWYAUIIAAAqBZgBTAgAADwFmAFzBAAAICL+wVuIAAAOBdgBYwgAACAF2AFnCAAAMgXYAWUCwAA6Hr7BdwQAADIi/sFvCAAABAYYAWUDAAAAH77BQInAADQhWAFGicAABiGYAVeJQAA4JP6BcYlAABIg2AFJiYAANiDYAWSJQAAKJT6BfYlAACQg2AFViYAACCEYAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" />
 
 ENDDEFINE

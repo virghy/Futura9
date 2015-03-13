@@ -91,11 +91,9 @@ DEFINE CLASS tsmaintform1 AS tsmaintform OF "..\libs\tsbase.vcx"
 		cmdsql = select Descripcion,IdPais from bs_paises order by descripcion, ;
 		ControlSource = "bs_dpto.idpais", ;
 		cursor = cPais, ;
-		Height = 22, ;
 		Left = 105, ;
 		Name = "Tscombobox1", ;
-		Top = 82, ;
-		Width = 252
+		Top = 82
 		*< END OBJECT: ClassLib="..\libs\tsbase.vcx" BaseClass="combobox" />
 
 	ADD OBJECT 'Pageframe1.Page1.Tslabel1' AS tslabel WITH ;
@@ -129,10 +127,5 @@ DEFINE CLASS tsmaintform1 AS tsmaintform OF "..\libs\tsbase.vcx"
 		Top = 34, ;
 		Width = 68
 		*< END OBJECT: ClassLib="..\libs\tsbase.vcx" BaseClass="textbox" />
-	
-	PROCEDURE Pageframe1.Page1.Activate
-		this.Refresh()
-		
-	ENDPROC
 
 ENDDEFINE

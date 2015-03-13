@@ -254,8 +254,7 @@ COLOR=2
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA["Enero
-"]]>
+	<expr><![CDATA["Enero"]]>
 	<supexpr><![CDATA[]]>
 	<comment><![CDATA[]]>
 	<user><![CDATA[]]>
@@ -267,8 +266,7 @@ COLOR=2
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA["Feb
-"]]>
+	<expr><![CDATA["Feb"]]>
 	<supexpr><![CDATA[]]>
 	<comment><![CDATA[]]>
 	<user><![CDATA[]]>
@@ -292,8 +290,7 @@ COLOR=2
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA["Abr
-"]]>
+	<expr><![CDATA["Abr"]]>
 	<supexpr><![CDATA[]]>
 	<comment><![CDATA[]]>
 	<user><![CDATA[]]>
@@ -305,8 +302,7 @@ COLOR=2
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA["May
-"]]>
+	<expr><![CDATA["May"]]>
 	<supexpr><![CDATA[]]>
 	<comment><![CDATA[]]>
 	<user><![CDATA[]]>
@@ -318,8 +314,7 @@ COLOR=2
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA["Jun
-"]]>
+	<expr><![CDATA["Jun"]]>
 	<supexpr><![CDATA[]]>
 	<comment><![CDATA[]]>
 	<user><![CDATA[]]>
@@ -331,8 +326,7 @@ COLOR=2
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA["Jul
-"]]>
+	<expr><![CDATA["Jul"]]>
 	<supexpr><![CDATA[]]>
 	<comment><![CDATA[]]>
 	<user><![CDATA[]]>
@@ -344,8 +338,7 @@ COLOR=2
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA["Ago
-"]]>
+	<expr><![CDATA["Ago"]]>
 	<supexpr><![CDATA[]]>
 	<comment><![CDATA[]]>
 	<user><![CDATA[]]>
@@ -357,8 +350,7 @@ COLOR=2
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA["Set
-"]]>
+	<expr><![CDATA["Set"]]>
 	<supexpr><![CDATA[]]>
 	<comment><![CDATA[]]>
 	<user><![CDATA[]]>
@@ -370,8 +362,7 @@ COLOR=2
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA["Oct
-"]]>
+	<expr><![CDATA["Oct"]]>
 	<supexpr><![CDATA[]]>
 	<comment><![CDATA[]]>
 	<user><![CDATA[]]>
@@ -383,8 +374,7 @@ COLOR=2
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA["Nov
-"]]>
+	<expr><![CDATA["Nov"]]>
 	<supexpr><![CDATA[]]>
 	<comment><![CDATA[]]>
 	<user><![CDATA[]]>
@@ -396,8 +386,7 @@ COLOR=2
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA["Dic
-"]]>
+	<expr><![CDATA["Dic"]]>
 	<supexpr><![CDATA[]]>
 	<comment><![CDATA[]]>
 	<user><![CDATA[]]>
@@ -409,8 +398,7 @@ COLOR=2
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA["Total
-"]]>
+	<expr><![CDATA["Total"]]>
 	<supexpr><![CDATA[]]>
 	<comment><![CDATA[]]>
 	<user><![CDATA[]]>
@@ -446,8 +434,7 @@ COLOR=2
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA["Importe
-"]]>
+	<expr><![CDATA["Importe"]]>
 	<supexpr><![CDATA[]]>
 	<comment><![CDATA[]]>
 	<user><![CDATA[]]>
@@ -459,8 +446,7 @@ COLOR=2
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA["Cant
-"]]>
+	<expr><![CDATA["Cant"]]>
 	<supexpr><![CDATA[]]>
 	<comment><![CDATA[]]>
 	<user><![CDATA[]]>
@@ -472,8 +458,7 @@ COLOR=2
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA["Importe
-"]]>
+	<expr><![CDATA["Importe"]]>
 	<supexpr><![CDATA[]]>
 	<comment><![CDATA[]]>
 	<user><![CDATA[]]>
@@ -485,8 +470,7 @@ COLOR=2
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA["Cant
-"]]>
+	<expr><![CDATA["Cant"]]>
 	<supexpr><![CDATA[]]>
 	<comment><![CDATA[]]>
 	<user><![CDATA[]]>
@@ -498,8 +482,7 @@ COLOR=2
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA["Importe
-"]]>
+	<expr><![CDATA["Importe"]]>
 	<supexpr><![CDATA[]]>
 	<comment><![CDATA[]]>
 	<user><![CDATA[]]>
@@ -511,8 +494,7 @@ COLOR=2
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA["Cant
-"]]>
+	<expr><![CDATA["Cant"]]>
 	<supexpr><![CDATA[]]>
 	<comment><![CDATA[]]>
 	<user><![CDATA[]]>
@@ -524,8 +506,7 @@ COLOR=2
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA["Importe
-"]]>
+	<expr><![CDATA["Importe"]]>
 	<supexpr><![CDATA[]]>
 	<comment><![CDATA[]]>
 	<user><![CDATA[]]>
@@ -537,8 +518,7 @@ COLOR=2
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA["Cant
-"]]>
+	<expr><![CDATA["Cant"]]>
 	<supexpr><![CDATA[]]>
 	<comment><![CDATA[]]>
 	<user><![CDATA[]]>
@@ -550,8 +530,7 @@ COLOR=2
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA["Importe
-"]]>
+	<expr><![CDATA["Importe"]]>
 	<supexpr><![CDATA[]]>
 	<comment><![CDATA[]]>
 	<user><![CDATA[]]>
@@ -563,8 +542,7 @@ COLOR=2
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA["Cant
-"]]>
+	<expr><![CDATA["Cant"]]>
 	<supexpr><![CDATA[]]>
 	<comment><![CDATA[]]>
 	<user><![CDATA[]]>
@@ -576,8 +554,7 @@ COLOR=2
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA["Importe
-"]]>
+	<expr><![CDATA["Importe"]]>
 	<supexpr><![CDATA[]]>
 	<comment><![CDATA[]]>
 	<user><![CDATA[]]>
@@ -589,8 +566,7 @@ COLOR=2
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA["Cant
-"]]>
+	<expr><![CDATA["Cant"]]>
 	<supexpr><![CDATA[]]>
 	<comment><![CDATA[]]>
 	<user><![CDATA[]]>
@@ -602,8 +578,7 @@ COLOR=2
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA["Importe
-"]]>
+	<expr><![CDATA["Importe"]]>
 	<supexpr><![CDATA[]]>
 	<comment><![CDATA[]]>
 	<user><![CDATA[]]>
@@ -615,8 +590,7 @@ COLOR=2
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA["Cant
-"]]>
+	<expr><![CDATA["Cant"]]>
 	<supexpr><![CDATA[]]>
 	<comment><![CDATA[]]>
 	<user><![CDATA[]]>
@@ -628,8 +602,7 @@ COLOR=2
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA["Importe
-"]]>
+	<expr><![CDATA["Importe"]]>
 	<supexpr><![CDATA[]]>
 	<comment><![CDATA[]]>
 	<user><![CDATA[]]>
@@ -641,8 +614,7 @@ COLOR=2
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA["Cant
-"]]>
+	<expr><![CDATA["Cant"]]>
 	<supexpr><![CDATA[]]>
 	<comment><![CDATA[]]>
 	<user><![CDATA[]]>
@@ -654,8 +626,7 @@ COLOR=2
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA["Importe
-"]]>
+	<expr><![CDATA["Importe"]]>
 	<supexpr><![CDATA[]]>
 	<comment><![CDATA[]]>
 	<user><![CDATA[]]>
@@ -667,8 +638,7 @@ COLOR=2
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA["Cant
-"]]>
+	<expr><![CDATA["Cant"]]>
 	<supexpr><![CDATA[]]>
 	<comment><![CDATA[]]>
 	<user><![CDATA[]]>
@@ -680,8 +650,7 @@ COLOR=2
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA["Importe
-"]]>
+	<expr><![CDATA["Importe"]]>
 	<supexpr><![CDATA[]]>
 	<comment><![CDATA[]]>
 	<user><![CDATA[]]>
@@ -693,8 +662,7 @@ COLOR=2
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA["Cant
-"]]>
+	<expr><![CDATA["Cant"]]>
 	<supexpr><![CDATA[]]>
 	<comment><![CDATA[]]>
 	<user><![CDATA[]]>
@@ -706,8 +674,7 @@ COLOR=2
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA["Importe
-"]]>
+	<expr><![CDATA["Importe"]]>
 	<supexpr><![CDATA[]]>
 	<comment><![CDATA[]]>
 	<user><![CDATA[]]>
@@ -719,8 +686,7 @@ COLOR=2
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA["Cant
-"]]>
+	<expr><![CDATA["Cant"]]>
 	<supexpr><![CDATA[]]>
 	<comment><![CDATA[]]>
 	<user><![CDATA[]]>
@@ -732,8 +698,7 @@ COLOR=2
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA["Importe
-"]]>
+	<expr><![CDATA["Importe"]]>
 	<supexpr><![CDATA[]]>
 	<comment><![CDATA[]]>
 	<user><![CDATA[]]>
@@ -745,8 +710,7 @@ COLOR=2
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA["Cant
-"]]>
+	<expr><![CDATA["Cant"]]>
 	<supexpr><![CDATA[]]>
 	<comment><![CDATA[]]>
 	<user><![CDATA[]]>
@@ -758,8 +722,7 @@ COLOR=2
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA["Importe
-"]]>
+	<expr><![CDATA["Importe"]]>
 	<supexpr><![CDATA[]]>
 	<comment><![CDATA[]]>
 	<user><![CDATA[]]>
@@ -771,8 +734,7 @@ COLOR=2
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA["Cant
-"]]>
+	<expr><![CDATA["Cant"]]>
 	<supexpr><![CDATA[]]>
 	<comment><![CDATA[]]>
 	<user><![CDATA[]]>

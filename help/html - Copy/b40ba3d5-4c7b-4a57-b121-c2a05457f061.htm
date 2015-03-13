@@ -1,0 +1,406 @@
+﻿<html DIR="LTR" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:MSHelp="http://msdn.microsoft.com/mshelp">
+
+  <head>
+
+    <META HTTP-EQUIV="Content-Type" CONTENT="text/html; CHARSET=utf-8" />
+
+    <META NAME="save" CONTENT="history" />
+
+    <title>LOCAL Command</title>
+
+    
+
+    <link rel="stylesheet" type="text/css" href="../local/Classic.css">
+
+      
+
+    </link>
+
+    
+
+    <script src="../local/EventUtilities.js">
+
+      
+
+    </script>
+
+    <script src="../local/SplitScreen.js">
+
+      
+
+    </script>
+
+    <script src="../local/Dropdown.js">
+
+      
+
+    </script>
+
+    <script src="../local/script.js">
+
+      
+
+    </script>
+
+  </head>
+
+  <body>
+
+
+    <input type="hidden" id="userDataCache" class="userDataStyle">
+
+    </input>
+
+    <input type="hidden" id="hiddenScrollOffset">
+
+    </input>
+
+    <img id="dropDownImage" style="display:none; height:0; width:0;" alt="Filter choices image" src="../local/drpdown.gif">
+
+      
+
+      
+
+    </img>
+
+    <img id="dropDownHoverImage" style="display:none; height:0; width:0;" alt="DropDownHover image" src="../local/drpdown_orange.gif">
+
+      
+
+      
+
+    </img>
+
+    <img id="collapseImage" style="display:none; height:0; width:0;" alt="Collapse image" src="../local/collapse_all.gif">
+
+      
+
+      
+
+    </img>
+
+    <img id="expandImage" style="display:none; height:0; width:0;" alt="Expand image" src="../local/expand_all.gif">
+
+      
+
+      
+
+    </img>
+
+    <img id="collapseAllImage" style="display:none; height:0; width:0;" alt="CollapseAll image" src="../local/collall.gif">
+
+      
+
+      
+
+    </img>
+
+    <img id="expandAllImage" style="display:none; height:0; width:0;" alt="ExpandAll image" src="../local/expall.gif">
+
+      
+
+      
+
+    </img>
+
+    <img id="copyImage" style="display:none; height:0; width:0;" alt="Copy image" src="../local/copycode.gif">
+
+      
+
+      
+
+    </img>
+
+    <img id="copyHoverImage" style="display:none; height:0; width:0;" alt="CopyHover image" src="../local/copycodeHighlight.gif">
+
+      
+
+      
+
+    </img>
+
+    <div id="header">
+
+      <table width="100%" id="topTable">
+
+        <tr id="headerTableRow1">
+
+          <td align="left">
+
+            <span id="runningHeaderText">
+
+              Visual FoxPro 9.0 SP2
+
+            </span>
+
+          </td>
+
+        </tr>
+
+        <tr id="headerTableRow2">
+
+          <td align="left">
+
+            <span id="nsrTitle">LOCAL Command</span>
+
+          </td>
+
+        </tr>
+
+        <tr id="headerTableRow3">
+
+          <td>
+
+            <a href="#seeAlsoToggle" onclick="OpenSection(seeAlsoToggle)">See Also</a> 
+
+									</td>
+
+        </tr>
+
+      </table>
+
+      <table width="100%" id="bottomTable" cellspacing="0" cellpadding="0">
+
+        <tr>
+
+          <td>
+
+            <span onclick="ExpandCollapseAll(toggleAllImage)" style="cursor:default;" onkeypress="ExpandCollapseAll_CheckKey(toggleAllImage)" tabindex="0">
+
+              <img ID="toggleAllImage" class="toggleAll" alt="CollapseAll image" src="../local/collall.gif">
+
+                
+
+                
+
+              </img>
+
+              <label id="collapseAllLabel" for="toggleAllImage" style="display: none;">
+
+                Collapse All
+
+              </label>
+
+              <label id="expandAllLabel" for="toggleAllImage" style="display: none;">
+
+                Expand All
+
+              </label> </span>
+
+            <span id="languageFilterToolTip" style="cursor:default;" onmouseover="languageFilterImage.src=dropDownHoverImage.src;" onmouseout="languageFilterImage.src=dropDownImage.src;" tabindex="0">
+
+              <img id="languageFilterImage" alt="Filter choices image" src="../local/drpdown.gif">
+
+                
+
+                
+
+              </img>
+
+              <label id="showAllLabel" for="languageFilterImage" style="display: none;">
+
+                Language Filter: 
+
+                    All
+
+                  
+
+              </label>
+
+              <label id="multipleLabel" for="languageFilterImage" style="display: none;">
+
+                Language Filter: 
+
+                    Multiple
+
+                  
+
+              </label>
+
+              <label id="vbLabel" for="languageFilterImage" style="display: none;">
+
+                Language Filter: 
+
+                    Visual Basic
+
+                  
+
+              </label>
+
+              <label id="csLabel" for="languageFilterImage" style="display: none;">
+
+                Language Filter: 
+
+                    C#
+
+                  
+
+              </label>
+
+              <label id="cLabel" for="languageFilterImage" style="display: none;">
+
+                Language Filter: 
+
+                    C++
+
+                  
+
+              </label>
+
+              <label id="jsharpLabel" for="languageFilterImage" style="display: none;">
+
+                Language Filter: 
+
+                    J#
+
+                  
+
+              </label>
+
+              <label id="jsLabel" for="languageFilterImage" style="display: none;">
+
+                Language Filter: 
+
+                    JScript
+
+                  
+
+              </label>
+
+            </span>
+
+          </td>
+
+        </tr>
+
+      </table>
+
+      <div id="languageSpan" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+        <input type="checkbox" name="languageFilter" onClick="SetLanguage(this)" id="vbDeclarationCheckbox" />
+
+        <label class="languageFilter" for="vbDeclarationCheckbox">Visual Basic (Declaration)</label>
+
+        <br />
+
+        <input type="checkbox" name="languageFilter" onClick="SetLanguage(this)" id="vbUsageCheckbox" />
+
+        <label class="languageFilter" for="vbUsageCheckbox">Visual Basic (Usage)</label>
+
+        <br />
+
+        <input type="checkbox" name="languageFilter" onClick="SetLanguage(this)" id="csCheckbox" />
+
+        <label class="languageFilter" for="csCheckbox">C#</label>
+
+        <br />
+
+        <input type="checkbox" name="languageFilter" onClick="SetLanguage(this)" id="cCheckbox" />
+
+        <label class="languageFilter" for="cCheckbox">C++</label>
+
+        <br />
+
+        <input type="checkbox" name="languageFilter" onClick="SetLanguage(this)" id="jsharpCheckbox" />
+
+        <label class="languageFilter" for="jsharpCheckbox">J#</label>
+
+        <br />
+
+        <input type="checkbox" name="languageFilter" onClick="SetLanguage(this)" id="jsCheckbox" />
+
+        <label class="languageFilter" for="jsCheckbox">JScript</label>
+
+        <br />
+
+      </div>
+
+    </div>
+
+    <div id="mainSection">
+
+      <div id="mainBody">
+
+        <div id="allHistory" class="saveHistory" onsave="saveAll()" onload="loadAll()">
+
+        </div>
+
+        <font color="DarkGray"></font><p />
+
+    <p>Creates local variables and variable arrays. There are two versions of the syntax.</p>
+
+  <div id="syntaxSection" class="section"><div id="syntaxCodeBlocks" class="code"><span codeLanguage="other"><table width="100%" cellspacing="0" cellpadding="0"><tr><th align="left"></th></tr><tr><td><pre>
+
+LOCAL <span class="parameter">Var1</span> [ AS <span class="parameter">type</span> [ OF <span class="parameter">ClassLib </span>] ] | [ <span class="parameter">ArrayName1</span>( <span class="parameter">nRows1</span> [, <span class="parameter">nColumns1 </span>] ) [ AS <span class="parameter">type</span> [ OF <span class="parameter">ClassLib </span>] ] ]
+
+    [, <span class="parameter">Var2</span> [ AS <span class="parameter">type</span> [ OF <span class="parameter">ClassLib </span>] ] | [, <span class="parameter">ArrayName2</span>( <span class="parameter">nRows2</span> [, <span class="parameter">nColumns2 </span>] ) [ AS <span class="parameter">type</span> [ OF <span class="parameter">ClassLib </span>] ] ]</pre></td></tr></table></span><span codeLanguage="other"><table width="100%" cellspacing="0" cellpadding="0"><tr><th align="left"></th></tr><tr><td><pre>
+
+LOCAL [ ARRAY ] <span class="parameter">ArrayName1</span>( <span class="parameter">nRows1</span> [, <span class="parameter">nColumns1 </span>] ) [ AS <span class="parameter">type</span> [OF <span class="parameter">ClassLib </span>] ]
+
+    [, <span class="parameter">ArrayName2</span>( <span class="parameter">nRows2</span> [, <span class="parameter">nColumns2 </span>] ) [ AS <span class="parameter">type</span> [ OF <span class="parameter">ClassLib </span>] ] ]</pre></td></tr></table></span></div></div><p /><h4 class="subHeading">Parameters</h4>
+
+    
+
+      <dl><dt><span class="nonLinkTerms">LOCAL <span class="parameter">VarList</span></span></dt><dd>
+
+          <p>Specifies one or more local variables to create. Use commas to separate multiple items in <span class="parameter">VarList</span>.</p>
+
+          <p>The single letters A through J and M are reserved and cannot be used as variable names.</p>
+
+        </dd></dl><dl><dt><span class="nonLinkTerms">[ ARRAY ] <span class="parameter">ArrayName1</span>( <span class="parameter">nRows1</span>[, <span class="parameter">nColumns1 </span>] ) [, <span class="parameter">ArrayName2</span>( <span class="parameter">nRows2</span>[, <span class="parameter">nColumns2 </span>] ) ] ... </span></dt><dd>
+
+          <p>Specifies one or more local arrays to create. For more information about arrays, see <span class="linkTerms"><a href="/html/17270153-1977-40bc-9f17-ab0132b20e90.htm">DIMENSION Command</a></span>.</p>
+
+        </dd></dl><dl><dt><span class="nonLinkTerms">[ AS <span class="parameter">type</span>[ OF <span class="parameter">ClassLib</span>] ] </span></dt><dd>
+
+          <p>Specifies the data type of the variable or array and the class library containing the type description of <span class="parameter">type</span> on which this variable or array is based.</p>
+
+          <p>When you specify a valid class name, Visual FoxPro uses the type library, if you specify a <span class="linkTerms"><a href="/html/083621c1-2f21-4759-801a-3b143c09a213.htm">ProgID Property (Visual FoxPro)</a></span>, or instantiates an object to get a list of properties, methods, and events. If the specified class name is not found, Visual FoxPro displays a list box of available classes.   </p>
+
+          <p>You can use the AS clause to implement strong typing. IntelliSense functionality is available for object and variable references only when they are strongly typed. For more information, see <span class="linkTerms"><a href="/html/21d951a7-46de-46cc-a5f1-32421bcef366.htm">How to: Implement Strong Typing for Class, Object, and Variable Code</a></span>. </p>
+
+        </dd></dl>
+
+    
+
+  <h1 class="heading"><span onclick="ExpandCollapse(remarksToggle)" style="cursor:default;" onkeypress="ExpandCollapse_CheckKey(remarksToggle)" tabindex="0"><img id="remarksToggle" onload="OnLoadImage()" class="toggle" name="toggleSwitch" alt="Expand image" src="../local/expand_all.gif"></img>Remarks</span></h1><div id="remarksSection" class="section" name="collapseableSection" style="display: none;">
+
+    
+
+      <p>You can use and modify local variables and variable arrays only within the procedure or function in which they are created and cannot be accessed by higher or lower-level programs. After the procedure or function containing the local variables and arrays completes execution, local variables and arrays are released.</p>
+
+      <p>Variables and arrays created with LOCAL are initialized to False (.F.). </p>
+
+      <p>You must declare any variables or arrays that you want local prior to assigning values to them. If you assign a value to a variable or array in a program and later declare it as local using LOCAL, Visual FoxPro generates a syntax error.</p>
+
+      <p>You can pass local variables by reference.</p>
+
+      <p>You cannot abbreviate LOCAL because LOCAL and LOCATE have the same first four letters.</p>
+
+    
+
+  </div><h1 class="heading"><span onclick="ExpandCollapse(seeAlsoToggle)" style="cursor:default;" onkeypress="ExpandCollapse_CheckKey(seeAlsoToggle)" tabindex="0"><img id="seeAlsoToggle" onload="OnLoadImage()" class="toggle" name="toggleSwitch" alt="Expand image" src="../local/expand_all.gif"></img>See Also</span></h1><div id="seeAlsoSection" class="section" name="collapseableSection" style="display: none;"><h4 class="subHeading">Reference</h4><span class="linkTerms"><a href="/html/bb1bfa3c-23f2-49b1-92c6-115b9abce375.htm">PRIVATE Command</a></span><br /><span class="linkTerms"><a href="/html/684369d5-737d-4d42-b018-12f34634cbbc.htm">PUBLIC Command</a></span><br /><h4 class="subHeading">Other Resources</h4><span class="linkTerms"><a href="/html/1b0b5237-6e5d-43cd-b3a6-6ebe7a470a0e.htm">Commands (Visual FoxPro)</a></span><br /><br /></div></div>
+
+      <div id="footer">
+
+        <div class="footerLine">
+
+          <img width="100%" height="3px" alt="Footer image" src="../local/footer.gif">
+
+            
+
+            
+
+          </img>
+
+        </div>
+
+        <a href="http://go.microsoft.com/fwlink/?LinkId=50040"></a>© Microsoft Corporation. All rights reserved.
+
+      </div>
+
+    </div>
+
+  </body>
+
+</html>

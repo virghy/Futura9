@@ -134,7 +134,7 @@ DEFINE CLASS tsmaintform1 AS tsmaintform OF "..\libs\tsbase.vcx"
 		Left = 21, ;
 		Name = "lblPresupuesto", ;
 		TabIndex = 5, ;
-		Top = 112, ;
+		Top = 109, ;
 		Width = 74
 		*< END OBJECT: ClassLib="..\libs\tsbase.vcx" BaseClass="label" />
 
@@ -146,7 +146,7 @@ DEFINE CLASS tsmaintform1 AS tsmaintform OF "..\libs\tsbase.vcx"
 		Height = 22, ;
 		Left = 119, ;
 		Name = "Tscombobox1", ;
-		Top = 109, ;
+		Top = 106, ;
 		Width = 216
 		*< END OBJECT: ClassLib="..\libs\tsbase.vcx" BaseClass="combobox" />
 

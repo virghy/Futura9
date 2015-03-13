@@ -1,0 +1,367 @@
+﻿<html DIR="LTR" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:MSHelp="http://msdn.microsoft.com/mshelp">
+
+  <head>
+
+    <META HTTP-EQUIV="Content-Type" CONTENT="text/html; CHARSET=utf-8" />
+
+    <META NAME="save" CONTENT="history" />
+
+    <title>Beautify Options Dialog Box</title>
+
+    
+
+    <link rel="stylesheet" type="text/css" href="../local/Classic.css">
+
+      
+
+    </link>
+
+    
+
+    <script src="../local/EventUtilities.js">
+
+      
+
+    </script>
+
+    <script src="../local/SplitScreen.js">
+
+      
+
+    </script>
+
+    <script src="../local/Dropdown.js">
+
+      
+
+    </script>
+
+    <script src="../local/script.js">
+
+      
+
+    </script>
+
+  </head>
+
+  <body>
+
+
+
+    <input type="hidden" id="userDataCache" class="userDataStyle">
+
+    </input>
+
+    <input type="hidden" id="hiddenScrollOffset">
+
+    </input>
+
+    <img id="dropDownImage" style="display:none; height:0; width:0;" alt="Filter choices image" src="../local/drpdown.gif">
+
+      
+
+      
+
+    </img>
+
+    <img id="dropDownHoverImage" style="display:none; height:0; width:0;" alt="DropDownHover image" src="../local/drpdown_orange.gif">
+
+      
+
+      
+
+    </img>
+
+    <img id="copyImage" style="display:none; height:0; width:0;" alt="Copy image" src="../local/copycode.gif">
+
+      
+
+      
+
+    </img>
+
+    <img id="copyHoverImage" style="display:none; height:0; width:0;" alt="CopyHover image" src="../local/copycodeHighlight.gif">
+
+      
+
+      
+
+    </img>
+
+    <div id="header">
+
+      <table width="100%" id="topTable">
+
+        <tr id="headerTableRow1">
+
+          <td align="left">
+
+            <span id="runningHeaderText">
+
+              Visual FoxPro 9.0 SP2
+
+            </span>
+
+          </td>
+
+        </tr>
+
+        <tr id="headerTableRow2">
+
+          <td align="left">
+
+            <span id="nsrTitle">Beautify Options Dialog Box</span>
+
+          </td>
+
+        </tr>
+
+        <tr id="headerTableRow3">
+
+          <td>
+
+            <a href="#seeAlsoNoToggle" onclick="OpenSection(seeAlsoNoToggle)">
+
+              See Also
+
+            </a>
+
+          </td>
+
+        </tr>
+
+      </table>
+
+      <table width="100%" id="bottomTable" cellspacing="0" cellpadding="0">
+
+        <tr>
+
+          <td>
+
+            <span id="languageFilterToolTip" style="cursor:default;" onmouseover="languageFilterImage.src=dropDownHoverImage.src;" onmouseout="languageFilterImage.src=dropDownImage.src;" tabindex="0">
+
+              <img id="languageFilterImage" alt="Filter choices image" src="../local/drpdown.gif">
+
+                
+
+                
+
+              </img>
+
+              <label id="showAllLabel" for="languageFilterImage" style="display: none;">
+
+                Language Filter: 
+
+                    All
+
+                  
+
+              </label>
+
+              <label id="multipleLabel" for="languageFilterImage" style="display: none;">
+
+                Language Filter: 
+
+                    Multiple
+
+                  
+
+              </label>
+
+              <label id="vbLabel" for="languageFilterImage" style="display: none;">
+
+                Language Filter: 
+
+                    Visual Basic
+
+                  
+
+              </label>
+
+              <label id="csLabel" for="languageFilterImage" style="display: none;">
+
+                Language Filter: 
+
+                    C#
+
+                  
+
+              </label>
+
+              <label id="cLabel" for="languageFilterImage" style="display: none;">
+
+                Language Filter: 
+
+                    C++
+
+                  
+
+              </label>
+
+              <label id="jsharpLabel" for="languageFilterImage" style="display: none;">
+
+                Language Filter: 
+
+                    J#
+
+                  
+
+              </label>
+
+              <label id="jsLabel" for="languageFilterImage" style="display: none;">
+
+                Language Filter: 
+
+                    JScript
+
+                  
+
+              </label>
+
+            </span>
+
+          </td>
+
+        </tr>
+
+      </table>
+
+      <div id="languageSpan" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+        <input type="checkbox" name="languageFilter" onClick="SetLanguage(this)" id="vbDeclarationCheckbox" />
+
+        <label class="languageFilter" for="vbDeclarationCheckbox">Visual Basic (Declaration)</label>
+
+        <br />
+
+        <input type="checkbox" name="languageFilter" onClick="SetLanguage(this)" id="vbUsageCheckbox" />
+
+        <label class="languageFilter" for="vbUsageCheckbox">Visual Basic (Usage)</label>
+
+        <br />
+
+        <input type="checkbox" name="languageFilter" onClick="SetLanguage(this)" id="csCheckbox" />
+
+        <label class="languageFilter" for="csCheckbox">C#</label>
+
+        <br />
+
+        <input type="checkbox" name="languageFilter" onClick="SetLanguage(this)" id="cCheckbox" />
+
+        <label class="languageFilter" for="cCheckbox">C++</label>
+
+        <br />
+
+        <input type="checkbox" name="languageFilter" onClick="SetLanguage(this)" id="jsharpCheckbox" />
+
+        <label class="languageFilter" for="jsharpCheckbox">J#</label>
+
+        <br />
+
+        <input type="checkbox" name="languageFilter" onClick="SetLanguage(this)" id="jsCheckbox" />
+
+        <label class="languageFilter" for="jsCheckbox">JScript</label>
+
+        <br />
+
+      </div>
+
+    </div>
+
+    <div id="mainSection">
+
+      <div id="mainBody">
+
+        <div id="allHistory" class="saveHistory" onsave="saveAll()" onload="loadAll()">
+
+        </div>
+
+        <font color="DarkGray"></font><p />
+
+    <p>Makes it possible for you to specify capitalization and indentation styles for program code appearing in an editing window. When a program file is open in the editing window, selecting the Beautify command from the Tools menu opens the Beautify Options dialog box.</p>
+
+  <h1 class="heading">Capitalization</h1><div id="sectionSection0" class="seeAlsoNoToggleSection">
+
+      <dl><dt><span class="nonLinkTerms">
+
+          <b>Keywords</b>
+
+        </span></dt><dd>
+
+          <p>Provides ways to format keywords: UPPERCASE, lowercase, Mixed Case, or No change</p>
+
+        </dd></dl><dl><dt><span class="nonLinkTerms">
+
+          <b>Symbols</b>
+
+        </span></dt><dd>
+
+          <p>Provides ways to represent symbols: UPPERCASE, lowercase, Match with first occurrence, or No change. </p>
+
+          <p>Match with first occurrence only affects the symbols available within the current editing window. </p>
+
+        </dd></dl>
+
+    </div><h1 class="heading">Indentation</h1><div id="sectionSection1" class="seeAlsoNoToggleSection">
+
+      <dl><dt><span class="nonLinkTerms">
+
+          <b>Types of indent</b>
+
+        </span></dt><dd>
+
+          <p>Provides ways to indent text using Tabs, Spaces, or No Change. </p>
+
+          <p>When selecting Spaces, type or select the number of spaces used to indent the text. </p>
+
+        </dd></dl><dl><dt><span class="nonLinkTerms">
+
+          <b>Text to indent</b>
+
+        </span></dt><dd>
+
+          <p>Makes it possible for you to specify what types of text should be indented. </p>
+
+          <p>
+
+            <b>Comment</b>   Indents all text lines beginning with the comment identifier (*).   </p>
+
+          <p>
+
+            <b>Continuation lines</b>   Indents lines following the semicolon (;), which indicates the first line continuation mark. The indentation for <b>Continuation lines</b> continues at the same level until a new command line is entered. </p>
+
+        </dd></dl><dl><dt><span class="nonLinkTerms">
+
+          <b>Extra indent beneath</b>
+
+        </span></dt><dd>
+
+          <p>Provides extra indentation for the lines following the beginning of procedures and DO CASE control structures.</p>
+
+        </dd></dl>
+
+    </div><h1 class="heading"><span id="seeAlsoNoToggle">See Also</span></h1><div id="seeAlsoSection" class="seeAlsoNoToggleSection"><h4 class="subHeading">Reference</h4><span class="linkTerms"><a href="/html/b9135dea-0f0f-4f06-b3b4-5984cf290359.htm">Editing Window</a></span><br /><span class="linkTerms"><a href="/html/6a82d564-1c3b-464b-af61-aca4a3fed7c8.htm">_BEAUTIFY System Variable</a></span><br /><span class="linkTerms"><a href="/html/e14df662-850c-499f-8643-67caefcf2fb2.htm">Macros Dialog Box</a></span><br /><h4 class="subHeading">Other Resources</h4><span class="linkTerms"><a href="/html/add2e5cc-7210-44c2-9c33-8ad2527d7dbf.htm">Dialog Boxes (Visual FoxPro)</a></span><br /><br /></div></div>
+
+      <div id="footer">
+
+        <div class="footerLine">
+
+          <img width="100%" height="3px" alt="Footer image" src="../local/footer.gif">
+
+            
+
+            
+
+          </img>
+
+        </div>
+
+        <a href="http://go.microsoft.com/fwlink/?LinkId=50040"></a>© Microsoft Corporation. All rights reserved.
+
+      </div>
+
+    </div>
+
+  </body>
+
+</html>
