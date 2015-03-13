@@ -314,7 +314,8 @@ COLOR=2
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA[""]]>
+	<expr><![CDATA["
+"]]>
 	<supexpr><![CDATA[]]>
 	<comment><![CDATA[]]>
 	<user><![CDATA[]]>
@@ -338,7 +339,8 @@ COLOR=2
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA["U.M."]]>
+	<expr><![CDATA["U.M.
+"]]>
 	<supexpr><![CDATA[]]>
 	<comment><![CDATA[]]>
 	<user><![CDATA[]]>
@@ -350,7 +352,8 @@ COLOR=2
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA["Cantidad"]]>
+	<expr><![CDATA["Cantidad
+"]]>
 	<supexpr><![CDATA[]]>
 	<comment><![CDATA[]]>
 	<user><![CDATA[]]>
@@ -362,7 +365,8 @@ COLOR=2
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA["PrecioProm."]]>
+	<expr><![CDATA["Precio
+Prom."]]>
 	<supexpr><![CDATA[]]>
 	<comment><![CDATA[]]>
 	<user><![CDATA[]]>
@@ -374,7 +378,8 @@ COLOR=2
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA["CostoProm."]]>
+	<expr><![CDATA["Costo
+Prom."]]>
 	<supexpr><![CDATA[]]>
 	<comment><![CDATA[]]>
 	<user><![CDATA[]]>
@@ -386,7 +391,8 @@ COLOR=2
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA["ImporteTotal"]]>
+	<expr><![CDATA["Importe
+Total"]]>
 	<supexpr><![CDATA[]]>
 	<comment><![CDATA[]]>
 	<user><![CDATA[]]>
@@ -398,7 +404,8 @@ COLOR=2
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA["CostoTotal"]]>
+	<expr><![CDATA["Costo
+Total"]]>
 	<supexpr><![CDATA[]]>
 	<comment><![CDATA[]]>
 	<user><![CDATA[]]>
@@ -410,7 +417,9 @@ COLOR=2
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA["% Util"]]>
+	<expr><![CDATA["% 
+Util
+"]]>
 	<supexpr><![CDATA[]]>
 	<comment><![CDATA[]]>
 	<user><![CDATA[]]>
