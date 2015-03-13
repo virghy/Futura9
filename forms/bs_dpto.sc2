@@ -129,5 +129,10 @@ DEFINE CLASS tsmaintform1 AS tsmaintform OF "..\libs\tsbase.vcx"
 		Top = 34, ;
 		Width = 68
 		*< END OBJECT: ClassLib="..\libs\tsbase.vcx" BaseClass="textbox" />
+	
+	PROCEDURE Pageframe1.Page1.Activate
+		this.Refresh()
+		
+	ENDPROC
 
 ENDDEFINE
