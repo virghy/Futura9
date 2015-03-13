@@ -59,15 +59,18 @@ Temporary Items
 *.dbc
 *.dcx
 *.dct
-*.dbf
-*.fpt
-*.cdx
+#*.dbf
+#*.fpt
+#*.cdx
 *.tmp
 *.fpx
 *.bak
 *.exe
 *.zip
 *.rar
+*.err
+*.lbx
+*.lbt
 
 
 images/
@@ -75,6 +78,6 @@ backup.cmd/
 BD/
 Imagenes/
 Temp/
-update
+update/
 
 
