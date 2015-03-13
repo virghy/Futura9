@@ -63,12 +63,9 @@ Temporary Items
 *.fpt
 *.cdx
 *.tmp
-*.xml
-*.bmp
-*.jpg
-*.gif
 *.fpx
 *.bak
+*.exe
 
 
 bitmaps/
