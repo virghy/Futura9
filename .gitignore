@@ -71,6 +71,9 @@ Temporary Items
 *.err
 *.lbx
 *.lbt
+futura.ini
+errores.dbf
+errores.fpt
 
 
 images/

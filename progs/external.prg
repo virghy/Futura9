@@ -1,4 +1,5 @@
 EXTERNAL ARRAY tafiles
+EXTERNAL PROCEDURE _CREPORTE
 EXTERNAL FORM  ;
          FORMS\prd_formula.scx
 EXTERNAL FORM FORMS\prd_menu.scx

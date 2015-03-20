@@ -102,6 +102,7 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
  	*< CLASSDATA: Baseclass="form" Timestamp="" Scale="" Uniqueid="" />
 
 	*-- OBJECTDATA items order determines ZOrder / El orden de los items OBJECTDATA determina el ZOrder 
+	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.Negocio" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.totales" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.totales.descuento" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.totales.subtotal" UniqueID="" Timestamp="" />
@@ -149,26 +150,28 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.Tsgrid1.dSerie.Text1" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.Tsgrid1.hSerie.Header1" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.Tsgrid1.hSerie.Text1" UniqueID="" Timestamp="" />
+	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.txtCliente1" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.nombre" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.Proyecto" UniqueID="" Timestamp="" />
+	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.IdCliente1" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.direc" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.idcliente" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.sucursal" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.cotizacion" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.condicion" UniqueID="" Timestamp="" />
+	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.Tslabel1" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.Tipo" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.Moneda1" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.Tslabel8" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.Tslabel16" UniqueID="" Timestamp="" />
+	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.Tslabel8" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.Tslabel2" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.Tslabel3" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.Negocio" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.Tslabel14" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.Tslabel4" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.Tslabel5" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.Tslabel6" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.Tslabel9" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.txtCliente1" UniqueID="" Timestamp="" />
+	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.fecha" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.txtRuc" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.NroComprob" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.Tslabel11" UniqueID="" Timestamp="" />
@@ -182,7 +185,6 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.Tslabel10" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.vendedor" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.Idnegocio1" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.fecha" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.lblRef" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.cboRef" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.txtNroRef" UniqueID="" Timestamp="" />
@@ -191,8 +193,6 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.edtNotas" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.lblNotas" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.txtTipoImpuesto" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.IdCliente1" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.Tslabel1" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.lblNrocontrato" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.txtNrocontrato2" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.Page3.Ts3dshape2" UniqueID="" Timestamp="" />
@@ -336,7 +336,7 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 		Top = 131, ;
 		Visible = .T., ;
 		Width = 96, ;
-		ZOrderSet = 37
+		ZOrderSet = 39
 		*< END OBJECT: ClassLib="..\libs\tsbase.vcx" BaseClass="combobox" />
 
 	ADD OBJECT 'Pageframe1.PAGE1.condicion' AS tscombobox WITH ;
@@ -354,7 +354,7 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 		TabIndex = 13, ;
 		Top = 82, ;
 		Width = 183, ;
-		ZOrderSet = 8
+		ZOrderSet = 11
 		*< END OBJECT: ClassLib="..\libs\tsbase.vcx" BaseClass="combobox" />
 
 	ADD OBJECT 'Pageframe1.PAGE1.cotizacion' AS tstextbox WITH ;
@@ -367,7 +367,7 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 		TabIndex = 8, ;
 		Top = 130, ;
 		Width = 72, ;
-		ZOrderSet = 7
+		ZOrderSet = 10
 		*< END OBJECT: ClassLib="..\libs\tsbase.vcx" BaseClass="textbox" />
 
 	ADD OBJECT 'Pageframe1.PAGE1.direc' AS tstextbox WITH ;
@@ -382,7 +382,7 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 		Top = 82, ;
 		Visible = .T., ;
 		Width = 358, ;
-		ZOrderSet = 4
+		ZOrderSet = 7
 		*< END OBJECT: ClassLib="..\libs\tsbase.vcx" BaseClass="textbox" />
 
 	ADD OBJECT 'Pageframe1.PAGE1.edtNotas' AS tseditbox WITH ;
@@ -395,7 +395,7 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 		TabIndex = 20, ;
 		Top = 347, ;
 		Width = 168, ;
-		ZOrderSet = 41
+		ZOrderSet = 43
 		*< END OBJECT: ClassLib="..\libs\tsbase.vcx" BaseClass="editbox" />
 
 	ADD OBJECT 'Pageframe1.PAGE1.factura' AS tstextbox WITH ;
@@ -412,7 +412,7 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 		Top = 10, ;
 		Value = 0, ;
 		Width = 134, ;
-		ZOrderSet = 26
+		ZOrderSet = 29
 		*< END OBJECT: ClassLib="..\libs\tsbase.vcx" BaseClass="textbox" />
 
 	ADD OBJECT 'Pageframe1.PAGE1.fecha' AS tstextbox WITH ;
@@ -425,7 +425,7 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 		TabIndex = 2, ;
 		Top = 10, ;
 		Width = 72, ;
-		ZOrderSet = 22
+		ZOrderSet = 24
 		*< END OBJECT: ClassLib="..\libs\tsbase.vcx" BaseClass="textbox" />
 
 	ADD OBJECT 'Pageframe1.PAGE1.idcliente' AS campo_clave WITH ;
@@ -455,7 +455,7 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 		tabla = vt_clientes, ;
 		Top = 58, ;
 		Width = 72, ;
-		ZOrderSet = 5
+		ZOrderSet = 8
 		*< END OBJECT: ClassLib="..\libs\tsbase.vcx" BaseClass="textbox" />
 
 	ADD OBJECT 'Pageframe1.PAGE1.IdCliente1' AS campo_clave WITH ;
@@ -478,7 +478,7 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 		tabla = vt_clientes, ;
 		Top = 154, ;
 		Width = 72, ;
-		ZOrderSet = 5
+		ZOrderSet = 6
 		*< END OBJECT: ClassLib="..\libs\tsbase.vcx" BaseClass="textbox" />
 
 	ADD OBJECT 'Pageframe1.PAGE1.Idnegocio1' AS idnegocio WITH ;
@@ -491,7 +491,7 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 		Top = 34, ;
 		Visible = .F., ;
 		Width = 72, ;
-		ZOrderSet = 34
+		ZOrderSet = 37
 		*< END OBJECT: ClassLib="..\libs\futura.vcx" BaseClass="textbox" />
 
 	ADD OBJECT 'Pageframe1.PAGE1.Idproyecto1' AS idproyecto WITH ;
@@ -503,7 +503,7 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 		Top = 34, ;
 		Visible = .T., ;
 		Width = 72, ;
-		ZOrderSet = 40
+		ZOrderSet = 42
 		*< END OBJECT: ClassLib="..\libs\futura.vcx" BaseClass="textbox" />
 
 	ADD OBJECT 'Pageframe1.PAGE1.lblNotas' AS tslabel WITH ;
@@ -514,7 +514,7 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 		TabIndex = 19, ;
 		Top = 331, ;
 		Width = 33, ;
-		ZOrderSet = 42
+		ZOrderSet = 44
 		*< END OBJECT: ClassLib="..\libs\tsbase.vcx" BaseClass="label" />
 
 	ADD OBJECT 'Pageframe1.PAGE1.lblNrocontrato' AS tslabel WITH ;
@@ -524,7 +524,8 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 		Name = "lblNrocontrato", ;
 		TabIndex = 26, ;
 		Top = 154, ;
-		Width = 97
+		Width = 97, ;
+		ZOrderSet = 46
 		*< END OBJECT: ClassLib="..\libs\tsbase.vcx" BaseClass="label" />
 
 	ADD OBJECT 'Pageframe1.PAGE1.lblRef' AS tslabel WITH ;
@@ -536,7 +537,7 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 		TabIndex = 37, ;
 		Top = 134, ;
 		Visible = .T., ;
-		ZOrderSet = 36
+		ZOrderSet = 38
 		*< END OBJECT: ClassLib="..\libs\tsbase.vcx" BaseClass="label" />
 
 	ADD OBJECT 'Pageframe1.PAGE1.ListaPrecio' AS tscombobox WITH ;
@@ -556,7 +557,7 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 		TabIndex = 14, ;
 		Top = 106, ;
 		Width = 183, ;
-		ZOrderSet = 31
+		ZOrderSet = 34
 		*< END OBJECT: ClassLib="..\libs\tsbase.vcx" BaseClass="combobox" />
 
 	ADD OBJECT 'Pageframe1.PAGE1.Moneda1' AS cbomoneda WITH ;
@@ -572,7 +573,7 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 		tipo = C, ;
 		Top = 130, ;
 		Width = 156, ;
-		ZOrderSet = 10
+		ZOrderSet = 14
 		*< END OBJECT: ClassLib="..\libs\futura.vcx" BaseClass="combobox" />
 
 	ADD OBJECT 'Pageframe1.PAGE1.Negocio' AS tstextbox WITH ;
@@ -586,7 +587,7 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 		Top = 34, ;
 		Visible = .T., ;
 		Width = 284, ;
-		ZOrderSet = 15
+		ZOrderSet = 0
 		*< END OBJECT: ClassLib="..\libs\tsbase.vcx" BaseClass="textbox" />
 
 	ADD OBJECT 'Pageframe1.PAGE1.nom_vendedor' AS tstextbox WITH ;
@@ -598,7 +599,7 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 		TabIndex = 29, ;
 		Top = 106, ;
 		Width = 284, ;
-		ZOrderSet = 29
+		ZOrderSet = 32
 		*< END OBJECT: ClassLib="..\libs\tsbase.vcx" BaseClass="textbox" />
 
 	ADD OBJECT 'Pageframe1.PAGE1.nombre' AS tstextbox WITH ;
@@ -612,7 +613,7 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 		TabIndex = 28, ;
 		Top = 58, ;
 		Width = 177, ;
-		ZOrderSet = 2
+		ZOrderSet = 4
 		*< END OBJECT: ClassLib="..\libs\tsbase.vcx" BaseClass="textbox" />
 
 	ADD OBJECT 'Pageframe1.PAGE1.NroComprob' AS tstextbox WITH ;
@@ -626,7 +627,7 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 		TabIndex = 30, ;
 		Top = 10, ;
 		Width = 49, ;
-		ZOrderSet = 23
+		ZOrderSet = 26
 		*< END OBJECT: ClassLib="..\libs\tsbase.vcx" BaseClass="textbox" />
 
 	ADD OBJECT 'Pageframe1.PAGE1.Proyecto' AS tstextbox WITH ;
@@ -640,7 +641,7 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 		TabIndex = 25, ;
 		Top = 34, ;
 		Width = 284, ;
-		ZOrderSet = 3
+		ZOrderSet = 5
 		*< END OBJECT: ClassLib="..\libs\tsbase.vcx" BaseClass="textbox" />
 
 	ADD OBJECT 'Pageframe1.PAGE1.sucursal' AS tscombobox WITH ;
@@ -660,7 +661,7 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 		TabIndex = 11, ;
 		Top = 34, ;
 		Width = 183, ;
-		ZOrderSet = 6
+		ZOrderSet = 9
 		*< END OBJECT: ClassLib="..\libs\tsbase.vcx" BaseClass="combobox" />
 
 	ADD OBJECT 'Pageframe1.PAGE1.Tipo' AS tscombobox WITH ;
@@ -681,7 +682,7 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 		TabIndex = 12, ;
 		Top = 58, ;
 		Width = 183, ;
-		ZOrderSet = 9
+		ZOrderSet = 13
 		*< END OBJECT: ClassLib="..\libs\tsbase.vcx" BaseClass="combobox" />
 
 	ADD OBJECT 'Pageframe1.PAGE1.totales' AS container WITH ;
@@ -694,7 +695,7 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 		TabStop = .F., ;
 		Top = 328, ;
 		Width = 516, ;
-		ZOrderSet = 0
+		ZOrderSet = 1
 		*< END OBJECT: BaseClass="container" />
 
 	ADD OBJECT 'Pageframe1.PAGE1.totales.CalculoManual' AS tscheckbox WITH ;
@@ -1025,7 +1026,7 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 		variablevista = m.idfactura, ;
 		variablevista2 = m.idremision, ;
 		Width = 697, ;
-		ZOrderSet = 1, ;
+		ZOrderSet = 2, ;
 		Column1.ControlSource = "vt_vdetfactu.idproducto", ;
 		Column1.FontSize = 8, ;
 		Column1.Name = "producto", ;
@@ -1358,7 +1359,7 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 		TabIndex = 41, ;
 		Top = 157, ;
 		Width = 86, ;
-		ZOrderSet = 11
+		ZOrderSet = 12
 		*< END OBJECT: ClassLib="..\libs\tsbase.vcx" BaseClass="label" />
 
 	ADD OBJECT 'Pageframe1.PAGE1.Tslabel10' AS tslabel WITH ;
@@ -1369,7 +1370,7 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 		Name = "Tslabel10", ;
 		TabIndex = 38, ;
 		Top = 109, ;
-		ZOrderSet = 32
+		ZOrderSet = 35
 		*< END OBJECT: ClassLib="..\libs\tsbase.vcx" BaseClass="label" />
 
 	ADD OBJECT 'Pageframe1.PAGE1.Tslabel11' AS tslabel WITH ;
@@ -1381,7 +1382,7 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 		TabIndex = 40, ;
 		Top = 85, ;
 		Visible = .T., ;
-		ZOrderSet = 24
+		ZOrderSet = 27
 		*< END OBJECT: ClassLib="..\libs\tsbase.vcx" BaseClass="label" />
 
 	ADD OBJECT 'Pageframe1.PAGE1.Tslabel12' AS tslabel WITH ;
@@ -1394,7 +1395,7 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 		TabIndex = 44, ;
 		Top = 109, ;
 		Width = 57, ;
-		ZOrderSet = 25
+		ZOrderSet = 28
 		*< END OBJECT: ClassLib="..\libs\tsbase.vcx" BaseClass="label" />
 
 	ADD OBJECT 'Pageframe1.PAGE1.Tslabel13' AS tslabel WITH ;
@@ -1405,7 +1406,7 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 		Name = "Tslabel13", ;
 		TabIndex = 36, ;
 		Top = 13, ;
-		ZOrderSet = 30
+		ZOrderSet = 33
 		*< END OBJECT: ClassLib="..\libs\tsbase.vcx" BaseClass="label" />
 
 	ADD OBJECT 'Pageframe1.PAGE1.Tslabel14' AS tslabel WITH ;
@@ -1418,7 +1419,7 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 		Top = 33, ;
 		Visible = .F., ;
 		Width = 50, ;
-		ZOrderSet = 16
+		ZOrderSet = 19
 		*< END OBJECT: ClassLib="..\libs\tsbase.vcx" BaseClass="label" />
 
 	ADD OBJECT 'Pageframe1.PAGE1.Tslabel15' AS tslabel WITH ;
@@ -1431,7 +1432,7 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 		Top = 33, ;
 		Visible = .T., ;
 		Width = 51, ;
-		ZOrderSet = 39
+		ZOrderSet = 41
 		*< END OBJECT: ClassLib="..\libs\tsbase.vcx" BaseClass="label" />
 
 	ADD OBJECT 'Pageframe1.PAGE1.Tslabel16' AS tslabel WITH ;
@@ -1444,7 +1445,7 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 		TabIndex = 43, ;
 		Top = 62, ;
 		Width = 24, ;
-		ZOrderSet = 11
+		ZOrderSet = 15
 		*< END OBJECT: ClassLib="..\libs\tsbase.vcx" BaseClass="label" />
 
 	ADD OBJECT 'Pageframe1.PAGE1.Tslabel2' AS tslabel WITH ;
@@ -1455,7 +1456,7 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 		Name = "Tslabel2", ;
 		TabIndex = 46, ;
 		Top = 37, ;
-		ZOrderSet = 13
+		ZOrderSet = 17
 		*< END OBJECT: ClassLib="..\libs\tsbase.vcx" BaseClass="label" />
 
 	ADD OBJECT 'Pageframe1.PAGE1.Tslabel3' AS tslabel WITH ;
@@ -1466,7 +1467,7 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 		Name = "Tslabel3", ;
 		TabIndex = 47, ;
 		Top = 133, ;
-		ZOrderSet = 14
+		ZOrderSet = 18
 		*< END OBJECT: ClassLib="..\libs\tsbase.vcx" BaseClass="label" />
 
 	ADD OBJECT 'Pageframe1.PAGE1.Tslabel4' AS tslabel WITH ;
@@ -1477,7 +1478,7 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 		Name = "Tslabel4", ;
 		TabIndex = 48, ;
 		Top = 133, ;
-		ZOrderSet = 17
+		ZOrderSet = 20
 		*< END OBJECT: ClassLib="..\libs\tsbase.vcx" BaseClass="label" />
 
 	ADD OBJECT 'Pageframe1.PAGE1.Tslabel5' AS tslabel WITH ;
@@ -1488,7 +1489,7 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 		Name = "Tslabel5", ;
 		TabIndex = 33, ;
 		Top = 13, ;
-		ZOrderSet = 18
+		ZOrderSet = 21
 		*< END OBJECT: ClassLib="..\libs\tsbase.vcx" BaseClass="label" />
 
 	ADD OBJECT 'Pageframe1.PAGE1.Tslabel6' AS tslabel WITH ;
@@ -1499,7 +1500,7 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 		Name = "Tslabel6", ;
 		TabIndex = 34, ;
 		Top = 61, ;
-		ZOrderSet = 19
+		ZOrderSet = 22
 		*< END OBJECT: ClassLib="..\libs\tsbase.vcx" BaseClass="label" />
 
 	ADD OBJECT 'Pageframe1.PAGE1.Tslabel7' AS tslabel WITH ;
@@ -1511,7 +1512,7 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 		TabIndex = 45, ;
 		Top = 13, ;
 		Visible = .T., ;
-		ZOrderSet = 27
+		ZOrderSet = 30
 		*< END OBJECT: ClassLib="..\libs\tsbase.vcx" BaseClass="label" />
 
 	ADD OBJECT 'Pageframe1.PAGE1.Tslabel8' AS tslabel WITH ;
@@ -1524,7 +1525,7 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 		TabIndex = 42, ;
 		Top = 61, ;
 		Width = 41, ;
-		ZOrderSet = 11
+		ZOrderSet = 16
 		*< END OBJECT: ClassLib="..\libs\tsbase.vcx" BaseClass="label" />
 
 	ADD OBJECT 'Pageframe1.PAGE1.Tslabel9' AS tslabel WITH ;
@@ -1535,7 +1536,7 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 		Name = "Tslabel9", ;
 		TabIndex = 39, ;
 		Top = 85, ;
-		ZOrderSet = 20
+		ZOrderSet = 23
 		*< END OBJECT: ClassLib="..\libs\tsbase.vcx" BaseClass="label" />
 
 	ADD OBJECT 'Pageframe1.PAGE1.txtCliente1' AS tstextbox WITH ;
@@ -1549,7 +1550,7 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 		TabIndex = 27, ;
 		Top = 154, ;
 		Width = 182, ;
-		ZOrderSet = 2
+		ZOrderSet = 3
 		*< END OBJECT: ClassLib="..\libs\tsbase.vcx" BaseClass="textbox" />
 
 	ADD OBJECT 'Pageframe1.PAGE1.txtNrocontrato2' AS tstextbox WITH ;
@@ -1561,7 +1562,8 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 		Name = "txtNrocontrato2", ;
 		TabIndex = 9, ;
 		Top = 154, ;
-		Width = 156
+		Width = 156, ;
+		ZOrderSet = 47
 		*< END OBJECT: ClassLib="..\libs\tsbase.vcx" BaseClass="textbox" />
 
 	ADD OBJECT 'Pageframe1.PAGE1.txtNroRef' AS tstextbox WITH ;
@@ -1577,7 +1579,7 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 		Value = 0, ;
 		Visible = .T., ;
 		Width = 84, ;
-		ZOrderSet = 38
+		ZOrderSet = 40
 		*< END OBJECT: ClassLib="..\libs\tsbase.vcx" BaseClass="textbox" />
 
 	ADD OBJECT 'Pageframe1.PAGE1.txtOrdenservicio' AS tstextbox WITH ;
@@ -1593,7 +1595,7 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 		Top = 10, ;
 		Visible = .T., ;
 		Width = 72, ;
-		ZOrderSet = 28
+		ZOrderSet = 31
 		*< END OBJECT: ClassLib="..\libs\tsbase.vcx" BaseClass="textbox" />
 
 	ADD OBJECT 'Pageframe1.PAGE1.txtRuc' AS tstextbox WITH ;
@@ -1605,7 +1607,7 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 		TabIndex = 5, ;
 		Top = 58, ;
 		Width = 80, ;
-		ZOrderSet = 22
+		ZOrderSet = 25
 		*< END OBJECT: ClassLib="..\libs\tsbase.vcx" BaseClass="textbox" />
 
 	ADD OBJECT 'Pageframe1.PAGE1.txtTipoImpuesto' AS tstextbox WITH ;
@@ -1619,7 +1621,7 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 		TabIndex = 24, ;
 		Top = 34, ;
 		Width = 44, ;
-		ZOrderSet = 43
+		ZOrderSet = 45
 		*< END OBJECT: ClassLib="..\libs\tsbase.vcx" BaseClass="textbox" />
 
 	ADD OBJECT 'Pageframe1.PAGE1.vendedor' AS campo_clave WITH ;
@@ -1642,7 +1644,7 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 		tabla = vt_vendedores v,bs_personas p, ;
 		Top = 106, ;
 		Width = 72, ;
-		ZOrderSet = 33
+		ZOrderSet = 36
 		*< END OBJECT: ClassLib="..\libs\tsbase.vcx" BaseClass="textbox" />
 
 	ADD OBJECT 'Pageframe1.Page3.ImporteCuotas' AS tstextbox WITH ;
