@@ -1,0 +1,807 @@
+SCCTEXT Version 4.0.0.2
+OBJTYPE N(2,0),OBJCODE N(2,0),NAME M(4,0),PROMPT M(4,0),COMMAND M(4,0),MESSAGE M(4,0),PROCTYPE N(1,0),PROCEDURE M(4,0),SETUPTYPE N(1,0),SETUP M(4,0),CLEANTYPE N(1,0),CLEANUP M(4,0),MARK C(1,0),KEYNAME M(4,0),KEYLABEL M(4,0),SKIPFOR M(4,0),NAMECHANGE L(1,0),NUMITEMS N(2,0),LEVELNAME C(10,0),ITEMNUM C(3,0),COMMENT M(4,0),LOCATION N(2,0),SCHEME N(2,0),SYSRES N(1,0),RESNAME M(4,0)
+1252
+[OBJTYPE] 1
+[OBJCODE] 22
+[PROCTYPE] 1
+[START PROCEDURE]
+*-- (C) MICROSOFT CORPORATION 1995[END PROCEDURE]
+[SETUPTYPE] 1
+[CLEANTYPE] 1
+[START CLEANUP]
+
+IF _VFP.startmode = 4
+     RELEASE PAD _system OF _MSYSMENU
+ENDIF
+IF sql("Select * from sys_sistemas where Area = 'FTR' or Area = 'SYS' order by sistema ",'cSistemas') > 0
+     SELECT csistemas
+     i = 1
+     SCAN
+          DEFINE BAR i OF sistemas PROMPT sistema
+          ccomando = "'" + ALLTRIM(csistemas.idsistema) + "'"
+          ON SELECTION BAR i OF SISTEMAS oApp.DoSys(&cComando)
+          i = i + 1
+     ENDSCAN
+     USE IN csistemas
+ENDIF
+
+ON BAR 100 OF _qx713dsus ACTIVATE POPUP _Ejercicios 
+
+DEFINE POPUP _Ejercicios MARGIN RELATIVE SHADOW COLOR SCHEME 4
+IF sql("Select * from Ejercicios where IdEmpresa=?oApp.Empresa ",'cSistemas') > 0
+     SELECT csistemas
+     i = 1
+     SCAN
+          DEFINE BAR i OF _Ejercicios PROMPT ALLTRIM(STR(Ejercicio)) MESSAGE "Cambia el ejercicio actual a " + ALLTRIM(STR(Ejercicio))
+          ccomando = "'" + ALLTRIM(STR(Ejercicio)) + "'"
+          ON SELECTION BAR i OF _Ejercicios oApp.DoEjercicio(&cComando) 
+          i = i + 1
+     ENDSCAN
+     USE IN csistemas
+ENDIF
+[END CLEANUP]
+[BINSTART MARK]
+CHECKSUM=41332
+[BINEND MARK]
+[ITEMNUM]   0
+[OBJTYPE] 2
+[OBJCODE] 1
+[NAME] _MSYSMENU
+[PROCTYPE] 1
+[BINSTART MARK]
+CHECKSUM=57840
+[BINEND MARK]
+[NUMITEMS] 6
+[LEVELNAME] _MSYSMENU 
+[ITEMNUM]   0
+[SCHEME] 3
+[OBJTYPE] 3
+[OBJCODE] 77
+[NAME] pad
+[PROMPT] \<Archivo
+[MESSAGE] "Crear, guardar, eliminar y restaurar registros, cerrar formularios, imprimir informes o salir del Sistema"
+[BINSTART MARK]
+CHECKSUM=57840
+[BINEND MARK]
+[KEYNAME] ALT+A
+[KEYLABEL] ALT+A
+[LEVELNAME] _MSYSMENU 
+[ITEMNUM]   1
+[OBJTYPE] 2
+[NAME] archivo
+[PROCTYPE] 1
+[START PROCEDURE]
+
+[END PROCEDURE]
+[BINSTART MARK]
+CHECKSUM=57840
+[BINEND MARK]
+[NUMITEMS] 13
+[LEVELNAME] archivo   
+[ITEMNUM]   0
+[SCHEME] 4
+[OBJTYPE] 3
+[OBJCODE] 67
+[PROMPT] \<Nuevo
+[COMMAND] OAPP.OTOOLBAR.CMDNEW.CLICK()
+[MESSAGE] "Crea un nuevo registro en el formulario activo."
+[BINSTART MARK]
+CHECKSUM=57840
+[BINEND MARK]
+[KEYNAME] F9
+[KEYLABEL] F9
+[START SKIPFOR]
+.NOT. formisobject() .OR.  .NOT. toolbarenabled("cmdNew")[END SKIPFOR]
+[LEVELNAME] archivo   
+[ITEMNUM]   1
+[OBJTYPE] 3
+[OBJCODE] 67
+[PROMPT] \<Modificar
+[COMMAND] OAPP.OTOOLBAR.CMDEDIT.CLICK()
+[MESSAGE] "Modifica los datos del formulario activo."
+[BINSTART MARK]
+CHECKSUM=57840
+[BINEND MARK]
+[KEYNAME] CTRL+M
+[KEYLABEL] CTRL+M
+[START SKIPFOR]
+.NOT. formisobject() .OR.  .NOT. toolbarenabled("cmdEdit")[END SKIPFOR]
+[LEVELNAME] archivo   
+[ITEMNUM]   2
+[OBJTYPE] 3
+[OBJCODE] 67
+[PROMPT] \<Cerrar
+[COMMAND] OAPP.OTOOLBAR.CMDCLOSE.CLICK()
+[MESSAGE] "Cierra el formulario activo."
+[BINSTART MARK]
+CHECKSUM=57840
+[BINEND MARK]
+[START SKIPFOR]
+.NOT. formisobject() .OR.  .NOT. toolbarenabled("cmdClose")[END SKIPFOR]
+[LEVELNAME] archivo   
+[ITEMNUM]   3
+[OBJTYPE] 3
+[OBJCODE] 78
+[PROMPT] \-
+[BINSTART MARK]
+CHECKSUM=57840
+[BINEND MARK]
+[LEVELNAME] archivo   
+[ITEMNUM]   4
+[OBJTYPE] 3
+[OBJCODE] 67
+[PROMPT] \<Guardar
+[COMMAND] OAPP.OTOOLBAR.CMDSAVE.CLICK()
+[MESSAGE] "Guarda el registro actual en el formulario activo."
+[BINSTART MARK]
+CHECKSUM=57840
+[BINEND MARK]
+[KEYNAME] F12
+[KEYLABEL] F12
+[START SKIPFOR]
+.NOT. formisobject() .OR.  .NOT. toolbarenabled("cmdSave")[END SKIPFOR]
+[LEVELNAME] archivo   
+[ITEMNUM]   5
+[OBJTYPE] 3
+[OBJCODE] 67
+[PROMPT] \<Restaurar
+[COMMAND] OAPP.OTOOLBAR.CMDRESTORE.CLICK()
+[MESSAGE] "Restaura los valores originales del registro actual en el formulario activo."
+[BINSTART MARK]
+CHECKSUM=57840
+[BINEND MARK]
+[KEYNAME] CTRL+E
+[KEYLABEL] CTRL+E
+[START SKIPFOR]
+.NOT. formisobject() .OR.  .NOT. toolbarenabled("cmdRestore")[END SKIPFOR]
+[LEVELNAME] archivo   
+[ITEMNUM]   6
+[OBJTYPE] 3
+[OBJCODE] 67
+[PROMPT] \<Eliminar
+[COMMAND] _SCREEN.ACTIVEFORM.DELETE()
+[MESSAGE] "Elimina el registro actual del formulario activo."
+[BINSTART MARK]
+CHECKSUM=57840
+[BINEND MARK]
+[KEYNAME] CTRL+D
+[KEYLABEL] CTRL+D
+[START SKIPFOR]
+.NOT. formisobject() .OR. TYPE("oApp.oToolBar") <> "O" .OR.  .NOT. _SCREEN.activeform.lallowdelete[END SKIPFOR]
+[LEVELNAME] archivo   
+[ITEMNUM]   7
+[OBJTYPE] 3
+[OBJCODE] 78
+[PROMPT] \-
+[BINSTART MARK]
+CHECKSUM=57840
+[BINEND MARK]
+[LEVELNAME] archivo   
+[ITEMNUM]   8
+[OBJTYPE] 3
+[OBJCODE] 67
+[PROMPT] \<Imprimir informes ...
+[COMMAND] OAPP.DOFORM("ARBOL")
+[MESSAGE] "Ejecuta el informe y el formulario de selección."
+[BINSTART MARK]
+CHECKSUM=57840
+[BINEND MARK]
+[KEYNAME] CTRL+P
+[KEYLABEL] CTRL+P
+[LEVELNAME] archivo   
+[ITEMNUM]   9
+[OBJTYPE] 3
+[OBJCODE] 67
+[PROMPT] \<Exportar Datos...
+[COMMAND] OAPP.DOFORM("SYS_EXPORTAR")
+[MESSAGE] "Exporta datos del sistema."
+[BINSTART MARK]
+CHECKSUM=57840
+[BINEND MARK]
+[LEVELNAME] archivo   
+[ITEMNUM]  10
+[OBJTYPE] 3
+[OBJCODE] 80
+[PROMPT] C\<onfigurar impresión
+[MESSAGE] "Cambia la distribución de página y la configuración de impresora."
+[PROCTYPE] 1
+[START PROCEDURE]
+#NAME _1y2199loh
+LOCAL lcolderror
+lcolderror = ON('ERROR')
+ON ERROR *
+= SYS(1037)
+ON ERROR &lcOldError
+*--[END PROCEDURE]
+[BINSTART MARK]
+CHECKSUM=57840
+[BINEND MARK]
+[LEVELNAME] archivo   
+[ITEMNUM]  11
+[OBJTYPE] 3
+[OBJCODE] 78
+[PROMPT] \-
+[BINSTART MARK]
+CHECKSUM=57840
+[BINEND MARK]
+[LEVELNAME] archivo   
+[ITEMNUM]  12
+[OBJTYPE] 3
+[OBJCODE] 67
+[PROMPT] Salir de Sistema
+[COMMAND] CLEAR EVENTS
+[MESSAGE] "Sale del Sistema "
+[BINSTART MARK]
+CHECKSUM=57840
+[BINEND MARK]
+[KEYNAME] ALT+F4
+[KEYLABEL] ALT+F4
+[LEVELNAME] archivo   
+[ITEMNUM]  13
+[OBJTYPE] 3
+[OBJCODE] 77
+[NAME] _MSM_EDIT
+[PROMPT] \<Edición
+[MESSAGE] "Modifica texto o la selección actual."
+[BINSTART MARK]
+CHECKSUM=57840
+[BINEND MARK]
+[KEYNAME] ALT+E
+[KEYLABEL] ALT+E
+[LEVELNAME] _MSYSMENU 
+[ITEMNUM]   2
+[OBJTYPE] 2
+[NAME] ediciÓn
+[PROCTYPE] 1
+[BINSTART MARK]
+CHECKSUM=57840
+[BINEND MARK]
+[NUMITEMS] 11
+[LEVELNAME] ediciÓn   
+[ITEMNUM]   0
+[SCHEME] 4
+[OBJTYPE] 3
+[OBJCODE] 78
+[NAME] _med_undo
+[PROMPT] \<Deshacer
+[MESSAGE] "Deshace el último cambio realizado al control actual del formulario activo"
+[BINSTART MARK]
+CHECKSUM=57840
+[BINEND MARK]
+[KEYNAME] CTRL+Z
+[KEYLABEL] CTRL+Z
+[LEVELNAME] ediciÓn   
+[ITEMNUM]   1
+[OBJTYPE] 3
+[OBJCODE] 78
+[NAME] _med_redo
+[PROMPT] \<Rehacer
+[MESSAGE] "Repite el último cambio realizado al control actual del formulario activo."
+[BINSTART MARK]
+CHECKSUM=57840
+[BINEND MARK]
+[KEYNAME] CTRL+R
+[KEYLABEL] CTRL+R
+[LEVELNAME] ediciÓn   
+[ITEMNUM]   2
+[OBJTYPE] 3
+[OBJCODE] 78
+[PROMPT] \-
+[BINSTART MARK]
+CHECKSUM=57840
+[BINEND MARK]
+[LEVELNAME] ediciÓn   
+[ITEMNUM]   3
+[OBJTYPE] 3
+[OBJCODE] 78
+[NAME] _med_cut
+[PROMPT] Cor\<tar
+[MESSAGE] "Quita la selección y la coloca en el Portapapeles."
+[BINSTART MARK]
+CHECKSUM=57840
+[BINEND MARK]
+[KEYNAME] CTRL+X
+[KEYLABEL] CTRL+X
+[LEVELNAME] ediciÓn   
+[ITEMNUM]   4
+[OBJTYPE] 3
+[OBJCODE] 78
+[NAME] _MED_COPY
+[PROMPT] \<Copiar
+[MESSAGE] "Copia la selección al Portapapeles."
+[BINSTART MARK]
+CHECKSUM=57840
+[BINEND MARK]
+[KEYNAME] CTRL+C
+[KEYLABEL] CTRL+C
+[LEVELNAME] ediciÓn   
+[ITEMNUM]   5
+[OBJTYPE] 3
+[OBJCODE] 78
+[NAME] _MED_PASTE
+[PROMPT] \<Pegar
+[MESSAGE] "Pega el contenido del Portapapeles."
+[BINSTART MARK]
+CHECKSUM=57840
+[BINEND MARK]
+[KEYNAME] CTRL+V
+[KEYLABEL] CTRL+V
+[LEVELNAME] ediciÓn   
+[ITEMNUM]   6
+[OBJTYPE] 3
+[OBJCODE] 78
+[PROMPT] \-
+[BINSTART MARK]
+CHECKSUM=57840
+[BINEND MARK]
+[LEVELNAME] ediciÓn   
+[ITEMNUM]   7
+[OBJTYPE] 3
+[OBJCODE] 67
+[PROMPT] \<Buscar
+[COMMAND] OAPP.OTOOLBAR.CMDBUSCAR.CLICK()
+[MESSAGE] "Busca datos en el formulario activo."
+[BINSTART MARK]
+CHECKSUM=57840
+[BINEND MARK]
+[KEYNAME] CTRL+B
+[KEYLABEL] CTRL+B
+[START SKIPFOR]
+.NOT. formisobject() .OR.  .NOT. toolbarenabled("cmdBuscar")[END SKIPFOR]
+[LEVELNAME] ediciÓn   
+[ITEMNUM]   8
+[OBJTYPE] 3
+[OBJCODE] 78
+[NAME] _med_slcta
+[PROMPT] Se\<leccionar todo
+[MESSAGE] "Selecciona todo el texto del control actual del formulario activo."
+[BINSTART MARK]
+CHECKSUM=57840
+[BINEND MARK]
+[KEYNAME] CTRL+A
+[KEYLABEL] CTRL+A
+[LEVELNAME] ediciÓn   
+[ITEMNUM]   9
+[OBJTYPE] 3
+[OBJCODE] 77
+[PROMPT] \-
+[BINSTART MARK]
+CHECKSUM=57840
+[BINEND MARK]
+[LEVELNAME] ediciÓn   
+[ITEMNUM]  10
+[OBJTYPE] 2
+[NAME] _23d13skoq
+[PROCTYPE] 1
+[BINSTART MARK]
+CHECKSUM=57840
+[BINEND MARK]
+[LEVELNAME] _23d13skoq
+[ITEMNUM]   0
+[SCHEME] 4
+[OBJTYPE] 3
+[OBJCODE] 67
+[PROMPT] Mostrar Barra de Sistemas
+[COMMAND] notyet()
+[BINSTART MARK]
+CHECKSUM=57840
+[BINEND MARK]
+[LEVELNAME] ediciÓn   
+[ITEMNUM]  11
+[OBJTYPE] 3
+[OBJCODE] 77
+[NAME] _administracion
+[PROMPT] A\<dministración
+[MESSAGE] "Registrarse, cambiar la contraseña y acceder a todos los formularios de mantenimiento"
+[BINSTART MARK]
+CHECKSUM=57840
+[BINEND MARK]
+[KEYNAME] ALT+D
+[KEYLABEL] ALT+D
+[LEVELNAME] _MSYSMENU 
+[ITEMNUM]   3
+[OBJTYPE] 2
+[NAME] _qx713dsus
+[PROCTYPE] 1
+[BINSTART MARK]
+CHECKSUM=57840
+[BINEND MARK]
+[NUMITEMS] 7
+[LEVELNAME] _qx713dsus
+[ITEMNUM]   0
+[SCHEME] 4
+[OBJTYPE] 3
+[OBJCODE] 80
+[PROMPT] \<Registro
+[MESSAGE] "Registrarse como otro usuario."
+[PROCTYPE] 1
+[START PROCEDURE]
+#NAME _1y2199lor
+LOCAL lcuserlevel
+= oapp.login()
+oapp.domenu()
+oapp.dosys(oapp.sistema)
+*--[END PROCEDURE]
+[BINSTART MARK]
+CHECKSUM=57840
+[BINEND MARK]
+[START SKIPFOR]
+.NOT. EMPTY(WONTOP())[END SKIPFOR]
+[LEVELNAME] _qx713dsus
+[ITEMNUM]   1
+[OBJTYPE] 3
+[OBJCODE] 67
+[PROMPT] C\<ambiar contraseña
+[COMMAND] DO FORM CHNGPSWD
+[MESSAGE] "Cambia la contraseña para el usuario actual"
+[BINSTART MARK]
+CHECKSUM=57840
+[BINEND MARK]
+[START SKIPFOR]
+.NOT. EMPTY(WONTOP()) .AND. verificar()[END SKIPFOR]
+[LEVELNAME] _qx713dsus
+[ITEMNUM]   2
+[OBJTYPE] 3
+[OBJCODE] 67
+[PROMPT] \<Usuarios
+[COMMAND] OAPP.DOFORM("EMPLOYEE")
+[MESSAGE] "Agrega, modifica o elimina usuarios"
+[BINSTART MARK]
+CHECKSUM=57840
+[BINEND MARK]
+[START SKIPFOR]
+verificar()  or .NOT. oapp.permisos(15) [END SKIPFOR]
+[LEVELNAME] _qx713dsus
+[ITEMNUM]   3
+[OBJTYPE] 3
+[OBJCODE] 78
+[PROMPT] \-
+[BINSTART MARK]
+CHECKSUM=57840
+[BINEND MARK]
+[LEVELNAME] _qx713dsus
+[ITEMNUM]   4
+[OBJTYPE] 3
+[OBJCODE] 77
+[PROMPT] \<Sistema
+[BINSTART MARK]
+CHECKSUM=57840
+[BINEND MARK]
+[LEVELNAME] _qx713dsus
+[ITEMNUM]   5
+[OBJTYPE] 2
+[NAME] _09o0v4rap
+[PROCTYPE] 1
+[BINSTART MARK]
+CHECKSUM=57840
+[BINEND MARK]
+[NUMITEMS] 7
+[LEVELNAME] _09o0v4rap
+[ITEMNUM]   0
+[SCHEME] 4
+[OBJTYPE] 3
+[OBJCODE] 67
+[PROMPT] Seguridad y Grupos de Usuarios
+[COMMAND] OAPP.DOFORM('SYS_GRUPOS')
+[BINSTART MARK]
+CHECKSUM=57840
+[BINEND MARK]
+[START SKIPFOR]
+.NOT. oapp.permisos(3) .OR. oapp.sistema = 'SYS'[END SKIPFOR]
+[LEVELNAME] _09o0v4rap
+[ITEMNUM]   1
+[OBJTYPE] 3
+[OBJCODE] 78
+[PROMPT] \-
+[BINSTART MARK]
+CHECKSUM=57840
+[BINEND MARK]
+[LEVELNAME] _09o0v4rap
+[ITEMNUM]   2
+[OBJTYPE] 3
+[OBJCODE] 67
+[PROMPT] Configuración
+[COMMAND] OAPP.DOFORM('BS_CONFIG')
+[BINSTART MARK]
+CHECKSUM=57840
+[BINEND MARK]
+[LEVELNAME] _09o0v4rap
+[ITEMNUM]   3
+[OBJTYPE] 3
+[OBJCODE] 67
+[PROMPT] Empresa
+[COMMAND] OAPP.DOFORM('EMPRESA')
+[BINSTART MARK]
+CHECKSUM=57840
+[BINEND MARK]
+[START SKIPFOR]
+.NOT. oapp.permisos(16) [END SKIPFOR]
+[LEVELNAME] _09o0v4rap
+[ITEMNUM]   4
+[OBJTYPE] 3
+[OBJCODE] 78
+[PROMPT] \-
+[BINSTART MARK]
+CHECKSUM=57840
+[BINEND MARK]
+[LEVELNAME] _09o0v4rap
+[ITEMNUM]   5
+[OBJTYPE] 3
+[OBJCODE] 67
+[PROMPT] SQL
+[COMMAND] OAPP.DOFORM('SYS_SQL')
+[BINSTART MARK]
+CHECKSUM=57840
+[BINEND MARK]
+[LEVELNAME] _09o0v4rap
+[ITEMNUM]   6
+[OBJTYPE] 3
+[OBJCODE] 80
+[PROMPT] Abrir DBF...
+[PROCTYPE] 1
+[START PROCEDURE]
+Use ? in 0 ALIAS _xTabla
+IF USED('_xTabla')
+	SELECT _xTabla
+	BROWSE
+	USE IN _xTabla
+ENDIF
+	[END PROCEDURE]
+[BINSTART MARK]
+CHECKSUM=57840
+[BINEND MARK]
+[LEVELNAME] _09o0v4rap
+[ITEMNUM]   7
+[OBJTYPE] 3
+[OBJCODE] 77
+[PROMPT] \-
+[BINSTART MARK]
+CHECKSUM=57840
+[BINEND MARK]
+[LEVELNAME] _qx713dsus
+[ITEMNUM]   6
+[OBJTYPE] 2
+[NAME] _2df19dbg7
+[PROCTYPE] 1
+[BINSTART MARK]
+CHECKSUM=57840
+[BINEND MARK]
+[LEVELNAME] _2df19dbg7
+[ITEMNUM]   0
+[SCHEME] 4
+[OBJTYPE] 3
+[OBJCODE] 77
+[NAME] 100
+[PROMPT] \<Ejercicios
+[BINSTART MARK]
+CHECKSUM=57840
+[BINEND MARK]
+[LEVELNAME] _qx713dsus
+[ITEMNUM]   7
+[OBJTYPE] 2
+[NAME] Ejercicios
+[PROCTYPE] 1
+[BINSTART MARK]
+CHECKSUM=57840
+[BINEND MARK]
+[LEVELNAME] Ejercicios
+[ITEMNUM]   0
+[SCHEME] 4
+[OBJTYPE] 3
+[OBJCODE] 77
+[NAME] _system
+[PROMPT] Utilidades
+[MESSAGE] "Ventanas Seguimiento, Depuración y Vista, suspender, reanudar y cancelar programas"
+[BINSTART MARK]
+CHECKSUM=57840
+[BINEND MARK]
+[KEYNAME] ALT+P
+[KEYLABEL] ALT+P
+[LEVELNAME] _MSYSMENU 
+[ITEMNUM]   4
+[OBJTYPE] 2
+[NAME] utilidades
+[PROCTYPE] 1
+[BINSTART MARK]
+CHECKSUM=57840
+[BINEND MARK]
+[NUMITEMS] 8
+[LEVELNAME] utilidades
+[ITEMNUM]   0
+[SCHEME] 4
+[OBJTYPE] 3
+[OBJCODE] 78
+[NAME] _MTI_WATCH
+[PROMPT] \<Seguimiento
+[MESSAGE] "Muestra la ventana Seguimiento"
+[BINSTART MARK]
+CHECKSUM=57840
+[BINEND MARK]
+[LEVELNAME] utilidades
+[ITEMNUM]   1
+[OBJTYPE] 3
+[OBJCODE] 78
+[NAME] _mtl_debugger
+[PROMPT] De\<puración
+[MESSAGE] "Muestra la ventana Depuración."
+[BINSTART MARK]
+CHECKSUM=57840
+[BINEND MARK]
+[LEVELNAME] utilidades
+[ITEMNUM]   2
+[OBJTYPE] 3
+[OBJCODE] 78
+[NAME] _mwi_view
+[PROMPT] \<Vista
+[MESSAGE] "Muestra la ventana Vista"
+[BINSTART MARK]
+CHECKSUM=57840
+[BINEND MARK]
+[LEVELNAME] utilidades
+[ITEMNUM]   3
+[OBJTYPE] 3
+[OBJCODE] 78
+[NAME] _mwi_cmd
+[PROMPT] \<Comandos
+[MESSAGE] "Muestra la ventana Comandos"
+[BINSTART MARK]
+CHECKSUM=57840
+[BINEND MARK]
+[KEYNAME] CTRL+F2
+[KEYLABEL] Ctrl+F2
+[LEVELNAME] utilidades
+[ITEMNUM]   4
+[OBJTYPE] 3
+[OBJCODE] 78
+[PROMPT] \-
+[BINSTART MARK]
+CHECKSUM=57840
+[BINEND MARK]
+[LEVELNAME] utilidades
+[ITEMNUM]   5
+[OBJTYPE] 3
+[OBJCODE] 78
+[NAME] _mpr_suspend
+[PROMPT] S\<uspender
+[MESSAGE] "Suspende el programa que está en ejecución"
+[BINSTART MARK]
+CHECKSUM=57840
+[BINEND MARK]
+[LEVELNAME] utilidades
+[ITEMNUM]   6
+[OBJTYPE] 3
+[OBJCODE] 78
+[NAME] _mpr_resum
+[PROMPT] \<Reanudar
+[MESSAGE] "Reanuda la ejecución del programa suspendido actualmente"
+[BINSTART MARK]
+CHECKSUM=57840
+[BINEND MARK]
+[LEVELNAME] utilidades
+[ITEMNUM]   7
+[OBJTYPE] 3
+[OBJCODE] 78
+[NAME] _mpr_cancl
+[PROMPT] Ca\<ncelar
+[MESSAGE] "Detiene la ejecución del programa actual"
+[BINSTART MARK]
+CHECKSUM=57840
+[BINEND MARK]
+[LEVELNAME] utilidades
+[ITEMNUM]   8
+[OBJTYPE] 3
+[OBJCODE] 77
+[PROMPT] Sistemas
+[BINSTART MARK]
+CHECKSUM=57840
+[BINEND MARK]
+[LEVELNAME] _MSYSMENU 
+[ITEMNUM]   5
+[OBJTYPE] 2
+[NAME] Sistemas
+[PROCTYPE] 1
+[BINSTART MARK]
+CHECKSUM=57840
+[BINEND MARK]
+[NUMITEMS] 1
+[LEVELNAME] Sistemas  
+[ITEMNUM]   0
+[SCHEME] 4
+[OBJTYPE] 3
+[OBJCODE] 78
+[PROMPT] Probando
+[BINSTART MARK]
+CHECKSUM=57840
+[BINEND MARK]
+[LEVELNAME] Sistemas  
+[ITEMNUM]   1
+[OBJTYPE] 3
+[OBJCODE] 77
+[NAME] _MSM_SYSTM
+[PROMPT] Ay\<uda
+[MESSAGE] "Muestra Ayuda sobre Tastrade"
+[BINSTART MARK]
+CHECKSUM=57840
+[BINEND MARK]
+[KEYNAME] ALT+U
+[KEYLABEL] ALT+U
+[LEVELNAME] _MSYSMENU 
+[ITEMNUM]   6
+[OBJTYPE] 2
+[NAME] help
+[PROCTYPE] 1
+[BINSTART MARK]
+CHECKSUM=57840
+[BINEND MARK]
+[NUMITEMS] 5
+[LEVELNAME] help      
+[ITEMNUM]   0
+[SCHEME] 4
+[OBJTYPE] 3
+[OBJCODE] 78
+[NAME] _MST_HPSCH
+[PROMPT] \<Contenido
+[BINSTART MARK]
+CHECKSUM=57840
+[BINEND MARK]
+[KEYNAME] F1
+[KEYLABEL] F1
+[LEVELNAME] help      
+[ITEMNUM]   1
+[OBJTYPE] 3
+[OBJCODE] 78
+[NAME] _MST_HELP
+[PROMPT] Buscar ayuda Sobre...
+[MESSAGE] "Busca temas de Ayuda por palabra clave"
+[BINSTART MARK]
+CHECKSUM=57840
+[BINEND MARK]
+[LEVELNAME] help      
+[ITEMNUM]   2
+[OBJTYPE] 3
+[OBJCODE] 78
+[NAME] _MST_TECHS
+[PROMPT] \<Soporte técnico
+[MESSAGE] "Ofrece información sobre cómo obtener ayuda técnica adicional"
+[BINSTART MARK]
+CHECKSUM=57840
+[BINEND MARK]
+[LEVELNAME] help      
+[ITEMNUM]   3
+[OBJTYPE] 3
+[OBJCODE] 78
+[PROMPT] \-
+[BINSTART MARK]
+CHECKSUM=57840
+[BINEND MARK]
+[LEVELNAME] help      
+[ITEMNUM]   4
+[OBJTYPE] 3
+[OBJCODE] 80
+[PROMPT] \<Acerca de Sistema de Gestión Financiera
+[MESSAGE] "Muestra información sobre esta aplicación y la configuración del sistema"
+[PROCTYPE] 1
+[START PROCEDURE]
+LOCAL loaboutbox, lcVersion
+SET CLASSLIB TO about ADDITIVE
+AGETFILEVERSION(LAVERSION, "futura.EXE")
+IF TYPE('laVersion(4)')<>'U'
+	lcVersion = LAVERSION(4)
+ELSE
+	lcVersion = "2.0"
+ENDIF
+
+loaboutbox = CREATEOBJECT("AboutBox", "Futura Software", lcVersion ,  ;
+             "Copyright © 1999-2007 - Virginio González",  ;
+             "Reservados todos los derechos" + CHR(13) +  ;
+             "Asistencia Técnica : 0981-426145" + CHR(13) +  ;
+             "E-Mail : vgonzalez@futura.com.py" + CHR(13) +  ;
+             "www.futura.com.py", "BITMAPS\fondo800.jpg")
+loaboutbox.show()
+RELEASE CLASSLIB about.vcx[END PROCEDURE]
+[BINSTART MARK]
+CHECKSUM=57840
+[BINEND MARK]
+[LEVELNAME] help      
+[ITEMNUM]   5
+[EOF]

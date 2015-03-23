@@ -1,0 +1,1688 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+<Styles>
+  <Style ss:ID="s21">
+   <Alignment ss:Vertical="Bottom" />
+   <Borders/>
+   <Font ss:FontName="Arial" ss:Size="10"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s22">
+   <Alignment ss:Vertical="Bottom"  ss:Horizontal="Left"/>
+   <Borders/>
+   <Font ss:FontName="Arial" ss:Size="16" ss:Bold="1" ss:Italic="1"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s23">
+   <Alignment ss:Vertical="Bottom"  ss:Horizontal="Right"/>
+   <Borders/>
+   <Font ss:FontName="Arial" ss:Size="8" ss:Italic="1"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s24">
+   <Alignment ss:Vertical="Bottom"  ss:Horizontal="Left"/>
+   <Borders/>
+   <Font ss:FontName="Arial" ss:Size="8" ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s25">
+   <Alignment ss:Vertical="Bottom"  ss:Horizontal="Left"/>
+   <Borders/>
+   <Font ss:FontName="Arial" ss:Size="8"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s26">
+   <Alignment ss:Vertical="Bottom"  ss:Horizontal="Right"/>
+   <Borders/>
+   <Font ss:FontName="Arial" ss:Size="8"/>
+   <Interior/>
+   <NumberFormat ss:Format="###,###,##0"/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s27">
+   <Alignment ss:Vertical="Bottom"  ss:Horizontal="Right"/>
+   <Borders/>
+   <Font ss:FontName="Arial" ss:Size="8"/>
+   <Interior/>
+   <NumberFormat ss:Format="########0"/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s28">
+   <Alignment ss:Vertical="Bottom"  ss:Horizontal="Right"/>
+   <Borders/>
+   <Font ss:FontName="Arial" ss:Size="8" ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s29">
+   <Alignment ss:Vertical="Bottom"  ss:Horizontal="Right"/>
+   <Borders/>
+   <Font ss:FontName="Arial" ss:Size="8" ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat ss:Format="###,###,##0.00"/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s30">
+   <Alignment ss:Vertical="Bottom"  ss:Horizontal="Left"/>
+   <Borders/>
+   <Font ss:FontName="Arial" ss:Size="8" ss:Italic="1"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+</Styles>
+<Worksheet ss:Name="Sheet">
+
+<Table ss:ExpandedColumnCount="4" ss:ExpandedRowCount="445" x:FullColumns="1"
+ x:FullRows="1" ss:StyleID="s21"> 
+<Row ss:Index="3" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s22"><Data ss:Type="String">Balance General</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s23"><Data ss:Type="String">GANADERA LA CONCORDIA SA</Data></Cell>
+</Row>
+<Row ss:Index="5" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s24"><Data ss:Type="String">Moneda: Guaranies</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s25"><Data ss:Type="String">Sucursal</Data></Cell>
+<Cell  ss:Index="4" ss:StyleID="s25"><Data ss:Type="String">CENTRAL</Data></Cell>
+</Row>
+<Row ss:Index="6" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">Periodo</Data></Cell>
+<Cell  ss:Index="2" ss:StyleID="s25"><Data ss:Type="String">01/01/2014 al 31/12/2014</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s25"><Data ss:Type="String">Centro Costo</Data></Cell>
+<Cell  ss:Index="4" ss:StyleID="s25"><Data ss:Type="String">Todos</Data></Cell>
+</Row>
+<Row ss:Index="8" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s24"><Data ss:Type="String">Cuenta</Data></Cell>
+<Cell  ss:Index="2" ss:StyleID="s24"><Data ss:Type="String">Descripción
+</Data></Cell>
+<Cell  ss:Index="4" ss:StyleID="s24"><Data ss:Type="String">Saldo</Data></Cell>
+</Row>
+<Row ss:Index="10" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">1000000  ACTIVO</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">258490232626</Data></Cell>
+</Row>
+<Row ss:Index="11" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">1010000  ACTIVO CORRIENTE</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">122491848322</Data></Cell>
+</Row>
+<Row ss:Index="12" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">1010100  DISPONIBILIDADES</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">1100533176</Data></Cell>
+</Row>
+<Row ss:Index="13" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">1010101  CAJA</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">889670719</Data></Cell>
+</Row>
+<Row ss:Index="14" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">101010101Caja</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">138880092</Data></Cell>
+</Row>
+<Row ss:Index="15" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">101010103Recaudaciones a Depositar</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">750790627</Data></Cell>
+</Row>
+<Row ss:Index="16" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">1010102  BANCOS CTA CTE Gs.</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">128351048</Data></Cell>
+</Row>
+<Row ss:Index="17" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">101010201Banco Regional Cta Cte Gs.</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">947262</Data></Cell>
+</Row>
+<Row ss:Index="18" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">101010202Banco ITAU Cta. Cte. Gs.</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">9530044</Data></Cell>
+</Row>
+<Row ss:Index="19" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">101010203Banco Sudameris Cta. Cte Gs.</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">99136142</Data></Cell>
+</Row>
+<Row ss:Index="20" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">101010204Banco Continetnal Cta Cte Gs.</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">5935885</Data></Cell>
+</Row>
+<Row ss:Index="21" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">101010205Banco BBVA Cta Cte Gs.</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">7499184</Data></Cell>
+</Row>
+<Row ss:Index="22" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">101010206Banco HSBC Cta.Cte Gs.</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">5302531</Data></Cell>
+</Row>
+<Row ss:Index="23" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">1010103  BANCOS CTA CTE U$S</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">82511409</Data></Cell>
+</Row>
+<Row ss:Index="24" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">101010301Banco REgional Cta.Cte. U$S</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">5113432</Data></Cell>
+</Row>
+<Row ss:Index="25" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">101010302Banco ITAU Cta.Cte U$S</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">16972310</Data></Cell>
+</Row>
+<Row ss:Index="26" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">101010303Banco Sudameris Cta.Cte U$S</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">45198783</Data></Cell>
+</Row>
+<Row ss:Index="27" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">101010304Banco Continental  Cta Cte U$S</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">7887083</Data></Cell>
+</Row>
+<Row ss:Index="28" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">101010305Banco BBVA Cta.Cte. U$S</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">7339801</Data></Cell>
+</Row>
+<Row ss:Index="29" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">1010200  CREDITOS</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">3553123971</Data></Cell>
+</Row>
+<Row ss:Index="30" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">1010201  CLIENTES</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">138752406</Data></Cell>
+</Row>
+<Row ss:Index="31" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">101020101Clientes</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">138752406</Data></Cell>
+</Row>
+<Row ss:Index="32" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">1010202  DEUDORES VARIOS</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">2476762706</Data></Cell>
+</Row>
+<Row ss:Index="33" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">101020201Deudores Varios</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">2476762706</Data></Cell>
+</Row>
+<Row ss:Index="34" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">1010207  PROVISIONES</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">930508859</Data></Cell>
+</Row>
+<Row ss:Index="35" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">101020701Anticipo Im. a La Renta IRACIS</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">2982084</Data></Cell>
+</Row>
+<Row ss:Index="36" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">101020702Retencion IVA</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">544416662</Data></Cell>
+</Row>
+<Row ss:Index="37" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">101020704I.V.A Credito 10% IRAGRO</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row ss:Index="38" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">101020706IVA Credito Fiscal</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">383110113</Data></Cell>
+</Row>
+<Row ss:Index="39" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">1010208  PRESTAMOS AL PERSONAL</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">7100000</Data></Cell>
+</Row>
+<Row ss:Index="40" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">101020801Prestamos al Personal Ofi.</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">600000</Data></Cell>
+</Row>
+<Row ss:Index="41" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">101020802Prestamos al Personal Ch.</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">6500000</Data></Cell>
+</Row>
+<Row ss:Index="42" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">1010300  BIENES DE CAMBIO</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">73683950271</Data></Cell>
+</Row>
+<Row ss:Index="43" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">1010301  BIENES BIOLOGICOS</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">72147101555</Data></Cell>
+</Row>
+<Row ss:Index="44" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">101030102Vacas</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">26564179057</Data></Cell>
+</Row>
+<Row ss:Index="45" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">101030103Novillos</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">8535796227</Data></Cell>
+</Row>
+<Row ss:Index="46" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">101030104Vaquillas</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">5083100613</Data></Cell>
+</Row>
+<Row ss:Index="47" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">101030105Toros</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">4183775840</Data></Cell>
+</Row>
+<Row ss:Index="48" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">101030106Desmamantes Hembras</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">3912548474</Data></Cell>
+</Row>
+<Row ss:Index="49" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">101030107Desmamantes MAchos</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">8040884486</Data></Cell>
+</Row>
+<Row ss:Index="50" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">101030108Terneros</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">15826816858</Data></Cell>
+</Row>
+<Row ss:Index="51" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">1010302  HACIENDA OVINA</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">8200000</Data></Cell>
+</Row>
+<Row ss:Index="52" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">101030202Carneros</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">400000</Data></Cell>
+</Row>
+<Row ss:Index="53" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">101030204Capones</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">1800000</Data></Cell>
+</Row>
+<Row ss:Index="54" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">101030205Borregas</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">400000</Data></Cell>
+</Row>
+<Row ss:Index="55" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">101030206Ovinos-vientres</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">5600000</Data></Cell>
+</Row>
+<Row ss:Index="57" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">1010303  HACIENDA EQUINA</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">1067526136</Data></Cell>
+</Row>
+<Row ss:Index="58" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">101030301Equinos</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">898143625</Data></Cell>
+</Row>
+<Row ss:Index="59" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">101030304Mulas</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">169382511</Data></Cell>
+</Row>
+<Row ss:Index="60" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">1010304  PRODUCTOS DE INSEMINACION ARTIFICIAL</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">91309645</Data></Cell>
+</Row>
+<Row ss:Index="61" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">101030401Semen</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">91309645</Data></Cell>
+</Row>
+<Row ss:Index="62" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">1010305  PRODUCTOS AGRICOLAS</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">369812935</Data></Cell>
+</Row>
+<Row ss:Index="63" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">101030505Existencia Chia 2014</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">369812935</Data></Cell>
+</Row>
+<Row ss:Index="64" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">1010307  MATERIAS PRIMAS</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row ss:Index="65" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">101030701Materiales p/Elaboracion de Balanceados</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row ss:Index="66" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">101030702Maiz para Elaboracion de Balanceados</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row ss:Index="67" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">1010400  OTROS ACTIVOS</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">44154240902</Data></Cell>
+</Row>
+<Row ss:Index="68" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">1010401  SEGUROS</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">76120287</Data></Cell>
+</Row>
+<Row ss:Index="69" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">101040101Seguros a Vencer</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">76120287</Data></Cell>
+</Row>
+<Row ss:Index="70" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">1010402  INTERESES A VENCER</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">20798120615</Data></Cell>
+</Row>
+<Row ss:Index="71" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">101040201Intereses a Vencer Regional</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">212597261</Data></Cell>
+</Row>
+<Row ss:Index="72" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">101040202Intereses a Vencer ITAU</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">879780685</Data></Cell>
+</Row>
+<Row ss:Index="73" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">101040203Intereses a Vencer HSBC</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">345747945</Data></Cell>
+</Row>
+<Row ss:Index="74" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">101040204Intereses a Vencer Sudameris</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">13425589665</Data></Cell>
+</Row>
+<Row ss:Index="75" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">101040206Intereses a Vencer BBVA</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">551598905</Data></Cell>
+</Row>
+<Row ss:Index="76" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">101040207Intereses a Vencer ITAU ( Moneda Extranjera)</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">5382806154</Data></Cell>
+</Row>
+<Row ss:Index="77" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">1010403  OTROS ACTIVOS</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">23280000000</Data></Cell>
+</Row>
+<Row ss:Index="78" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">101040304Aciones en Empresa Rancho  13 S.A</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">23280000000</Data></Cell>
+</Row>
+<Row ss:Index="79" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">1020000  ACTIVO NO CORRIENTE</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">135998384304</Data></Cell>
+</Row>
+<Row ss:Index="80" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">1020200  BIENES DE USO</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">135998384304</Data></Cell>
+</Row>
+<Row ss:Index="81" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">1020201  INMUEBLES</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">129798934526</Data></Cell>
+</Row>
+<Row ss:Index="82" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">102020101Inmuebles Villa Hayes</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">94024577049</Data></Cell>
+</Row>
+<Row ss:Index="83" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">102020102Inmuebles San Pedro</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">35774357477</Data></Cell>
+</Row>
+<Row ss:Index="84" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">1020202  MEJORAS EN INMUEBLES</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">3263631039</Data></Cell>
+</Row>
+<Row ss:Index="85" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">102020201Mejoras incorporadas 2007/2008/2009</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">540353534</Data></Cell>
+</Row>
+<Row ss:Index="86" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">102020202Mejoras por Mecanizacion S.P</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">1822198137</Data></Cell>
+</Row>
+<Row ss:Index="87" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">102020203Mejoras Estancia Chaco</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">281237097</Data></Cell>
+</Row>
+<Row ss:Index="88" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">102020204Mejoras Oficinas Asuncion</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">141997488</Data></Cell>
+</Row>
+<Row ss:Index="89" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">102020205Pasturas</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">133512427</Data></Cell>
+</Row>
+<Row ss:Index="90" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">102020207Tajamares, Bebederos, Aguadas y Pozos</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">150761649</Data></Cell>
+</Row>
+<Row ss:Index="91" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">102020208Carreteras y Puentes</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">50945427</Data></Cell>
+</Row>
+<Row ss:Index="92" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">102020209Instalaciones Electricas</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">33876587</Data></Cell>
+</Row>
+<Row ss:Index="93" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">102020210Alambrados y Portones</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">86001063</Data></Cell>
+</Row>
+<Row ss:Index="94" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">102020211Bretes, Mangas y Cañerias</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">22747630</Data></Cell>
+</Row>
+<Row ss:Index="95" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">1020203  RODADOS</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">1342972820</Data></Cell>
+</Row>
+<Row ss:Index="96" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">102020301Camionetas</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">1022966917</Data></Cell>
+</Row>
+<Row ss:Index="97" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">102020302Camiones</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">303602612</Data></Cell>
+</Row>
+<Row ss:Index="98" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">102020303Motocicletas</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">16403291</Data></Cell>
+</Row>
+<Row ss:Index="99" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">1020204  HERRAMIENTAS Y EQUIPOS</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">635452210</Data></Cell>
+</Row>
+<Row ss:Index="100" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">102020402Motosierras</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">5314764</Data></Cell>
+</Row>
+<Row ss:Index="101" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">102020403Motobombas y Motores</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">463950462</Data></Cell>
+</Row>
+<Row ss:Index="102" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">102020404Hidrolavadoras</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">2021168</Data></Cell>
+</Row>
+<Row ss:Index="104" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">102020405Transformadores y Generadores</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">147959896</Data></Cell>
+</Row>
+<Row ss:Index="105" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">102020406Equipos y Herramientas Varias</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">16205920</Data></Cell>
+</Row>
+<Row ss:Index="106" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">1020205  IMPLEMENTOS AGRICOLAS</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">3330899898</Data></Cell>
+</Row>
+<Row ss:Index="107" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">102020501Tractores</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">2097360037</Data></Cell>
+</Row>
+<Row ss:Index="108" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">102020502Rotativas</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">24037565</Data></Cell>
+</Row>
+<Row ss:Index="109" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">102020503Rastras</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">313060280</Data></Cell>
+</Row>
+<Row ss:Index="110" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">102020504Trailas</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">104162780</Data></Cell>
+</Row>
+<Row ss:Index="111" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">102020505Enfardadoras</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">707016509</Data></Cell>
+</Row>
+<Row ss:Index="112" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">102020506Rolo</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">85262727</Data></Cell>
+</Row>
+<Row ss:Index="113" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">1020206  MUEBLES Y UTILES</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">601335816</Data></Cell>
+</Row>
+<Row ss:Index="114" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">102020601Muebles y Utiles Administracion</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">581612157</Data></Cell>
+</Row>
+<Row ss:Index="115" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">102020602Muebles y Utiles Establecimientos</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">19723659</Data></Cell>
+</Row>
+<Row ss:Index="116" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">1020207  EQUIPOS INFORMATICOS</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">79633846</Data></Cell>
+</Row>
+<Row ss:Index="117" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">102020701Equipos informaticos</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">79633846</Data></Cell>
+</Row>
+<Row ss:Index="118" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">1020208  AVION</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">2434194180</Data></Cell>
+</Row>
+<Row ss:Index="119" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">102020801Avion</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">2434194180</Data></Cell>
+</Row>
+<Row ss:Index="120" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">1020209  DEPRECIACION ACUMULADAS</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">-5488670031</Data></Cell>
+</Row>
+<Row ss:Index="121" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">102020901Depreciacion Acumuladas Años Anteriors</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">-3991303473</Data></Cell>
+</Row>
+<Row ss:Index="122" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">102020902Dep.Acum. Mejoras 2007/2008/2009</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">-64504544</Data></Cell>
+</Row>
+<Row ss:Index="123" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">102020903Dep.Acum. Mejoras Mecanizacion S.P</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">-95035944</Data></Cell>
+</Row>
+<Row ss:Index="124" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">102020904Dep.Acum. Mejoras Estancias Chaco</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">-33488049</Data></Cell>
+</Row>
+<Row ss:Index="125" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">102020905Dep.Acum. Mejoras Asuncion</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">-25123672</Data></Cell>
+</Row>
+<Row ss:Index="126" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">102020906Dep.Acum.. Pasturas</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">-11126036</Data></Cell>
+</Row>
+<Row ss:Index="127" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">102020907Dep.Acum. Tajamares/bebed.aguadas/pozos</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">-14072278</Data></Cell>
+</Row>
+<Row ss:Index="128" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">102020908Dep.Acum. Carreteras y Puentes</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">-5094543</Data></Cell>
+</Row>
+<Row ss:Index="129" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">102020909Dep.Acum.Alamb. Portones. Corrales</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">-8004029</Data></Cell>
+</Row>
+<Row ss:Index="130" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">102020910Dep.Acum. Bretes,Mangas y Cañerias</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">-2283990</Data></Cell>
+</Row>
+<Row ss:Index="131" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">102020911Dep.Acum.Camionetas</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">-150259028</Data></Cell>
+</Row>
+<Row ss:Index="132" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">102020912Dep.Acum. Camiones</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">-28300825</Data></Cell>
+</Row>
+<Row ss:Index="133" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">102020913Dep.Acum.. Motocicletas</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">-1848725</Data></Cell>
+</Row>
+<Row ss:Index="134" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">102020914Dep.Acum.. Motobombas y Motores</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">-10503646</Data></Cell>
+</Row>
+<Row ss:Index="135" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">102020915Dep.Acum. Hidrolavadoras</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">-404234</Data></Cell>
+</Row>
+<Row ss:Index="136" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">102020916Dep.Acum. Transformadores y Generadores</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">-7428163</Data></Cell>
+</Row>
+<Row ss:Index="137" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">102020917Dep.Acum. Equip y Herramientas</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">-1371257</Data></Cell>
+</Row>
+<Row ss:Index="138" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">102020918Dep.Acum. Tractores</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">-263364893</Data></Cell>
+</Row>
+<Row ss:Index="139" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">102020919Dep.Acum.Rotativas</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">-6188044</Data></Cell>
+</Row>
+<Row ss:Index="140" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">102020920Dep.Acum. Rastras</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">-45343850</Data></Cell>
+</Row>
+<Row ss:Index="141" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">102020921Dep.Acum.  Trailas</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">-26814859</Data></Cell>
+</Row>
+<Row ss:Index="142" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">102020922Dep.Acum. Rolo Ripper</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">-17052545</Data></Cell>
+</Row>
+<Row ss:Index="143" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">102020923Dep.Acum. Muebles y Utiles ADM</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">-118671623</Data></Cell>
+</Row>
+<Row ss:Index="144" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">102020924Dep.Acum.Muebles y Utiles Est.</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">-3296597</Data></Cell>
+</Row>
+<Row ss:Index="145" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">102020925Dep.Acum. Equipos Informaticos</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">-25736559</Data></Cell>
+</Row>
+<Row ss:Index="146" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">102020926Dep.Acum. Avion</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">-498348979</Data></Cell>
+</Row>
+<Row ss:Index="147" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">102020927Dep. Acum. Motosierras</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">-607879</Data></Cell>
+</Row>
+<Row ss:Index="148" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">102020928Dep.Acum.Enfardadoras y Secadoras</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">-29704108</Data></Cell>
+</Row>
+<Row ss:Index="149" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">102020929Dep.Acum.Instalaciones Electricas</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">-3387659</Data></Cell>
+</Row>
+<Row ss:Index="151" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">2000000  PASIVO</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">78871903406</Data></Cell>
+</Row>
+<Row ss:Index="152" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">2010000  PASIVOS CORRIENTES</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">31354953005</Data></Cell>
+</Row>
+<Row ss:Index="153" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">2010100  PROVEEDORES</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">1943927739</Data></Cell>
+</Row>
+<Row ss:Index="154" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">2010101  Proveedores Varios</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row ss:Index="155" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">2010106  Proveedores Locales</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">1943927739</Data></Cell>
+</Row>
+<Row ss:Index="156" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">2010200  CUENTAS A PAGAR</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">426572009</Data></Cell>
+</Row>
+<Row ss:Index="157" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">2010211  Cuentas Varias Locales</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">426572009</Data></Cell>
+</Row>
+<Row ss:Index="158" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">2010300  PROVISIONES</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">48185410</Data></Cell>
+</Row>
+<Row ss:Index="159" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">2010301  I.P.S. Aportes y Retenciones a Pagar</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">48185410</Data></Cell>
+</Row>
+<Row ss:Index="160" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">2010400  OTRAS CUENTAS A PAGAR</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">22462720</Data></Cell>
+</Row>
+<Row ss:Index="161" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">2010405  Honorarios a Pagar</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">22462720</Data></Cell>
+</Row>
+<Row ss:Index="162" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">2010700  PRESTAMOS BANCARIOS CORTO PLAZO</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">7672895199</Data></Cell>
+</Row>
+<Row ss:Index="163" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">2010701  Banco Regional C.P</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">1082000000</Data></Cell>
+</Row>
+<Row ss:Index="164" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">2010702  Banco ITAU C.P</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">1690000000</Data></Cell>
+</Row>
+<Row ss:Index="165" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">2010703  Banco HSBC C.P</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">900000000</Data></Cell>
+</Row>
+<Row ss:Index="166" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">2010704  Banco Sudameris C.P</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">1325000000</Data></Cell>
+</Row>
+<Row ss:Index="167" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">2010706  Banco BBVA C.P</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">720000000</Data></Cell>
+</Row>
+<Row ss:Index="168" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">2010707  BAnco Itau C.P ( Moneda Extranjera)</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">1955895199</Data></Cell>
+</Row>
+<Row ss:Index="169" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">2010900  CHEQUES DIFERIDOS</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">377344108</Data></Cell>
+</Row>
+<Row ss:Index="170" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">2010901  Banco Regional Cta Cte Gs. (cheq. Diferidos</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">377344108</Data></Cell>
+</Row>
+<Row ss:Index="171" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">2011000  PASIVOS TRANSITORIOS</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">20863565820</Data></Cell>
+</Row>
+<Row ss:Index="172" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">2011010  INTERESES A DEVENGAR</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">20798120615</Data></Cell>
+</Row>
+<Row ss:Index="173" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">201101001Intereses a Devengar REgional</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">5595403415</Data></Cell>
+</Row>
+<Row ss:Index="174" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">201101002Intereses a Devengar ITAU</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">879780685</Data></Cell>
+</Row>
+<Row ss:Index="175" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">201101003Intereses a Devengar HSBC</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">345747945</Data></Cell>
+</Row>
+<Row ss:Index="176" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">201101004Intereses a Devengar Sudameris</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">13425589665</Data></Cell>
+</Row>
+<Row ss:Index="177" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">201101006Intereses a Devengar BBVA</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">551598905</Data></Cell>
+</Row>
+<Row ss:Index="178" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">2011011  INTERESES A PAGAR</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">65445205</Data></Cell>
+</Row>
+<Row ss:Index="179" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">201101102Intereses a Pagar Bco HSBC</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">65445205</Data></Cell>
+</Row>
+<Row ss:Index="180" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">2020000  PASIVOS NO CORRIENTES</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">47516950401</Data></Cell>
+</Row>
+<Row ss:Index="181" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">2020100  PRESTAMOS BANCARIOS</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">47516950401</Data></Cell>
+</Row>
+<Row ss:Index="182" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">2020101  Banco Regional L.P</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">562000000</Data></Cell>
+</Row>
+<Row ss:Index="183" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">2020102  Banco Itau L.P</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">3070000000</Data></Cell>
+</Row>
+<Row ss:Index="184" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">2020103  Banco HSBC L.P</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">2400000000</Data></Cell>
+</Row>
+<Row ss:Index="185" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">2020104  Banco Sudameris L.P</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">23850000000</Data></Cell>
+</Row>
+<Row ss:Index="186" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">2020106  Banco BBVA L.P</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">1440000000</Data></Cell>
+</Row>
+<Row ss:Index="187" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">2020107  BAnco Itau L.P ( Moneda Extranjera)</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">16194950401</Data></Cell>
+</Row>
+<Row ss:Index="188" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">3000000  PATRIMONIO NETO</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">175932603300</Data></Cell>
+</Row>
+<Row ss:Index="189" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">3010000  CAPITAL, RESERVAS Y RESULTADOS</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">175932603300</Data></Cell>
+</Row>
+<Row ss:Index="190" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">3010100  CAPITAL</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">13300343151</Data></Cell>
+</Row>
+<Row ss:Index="191" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">3010101  Capital</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">10000000000</Data></Cell>
+</Row>
+<Row ss:Index="192" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">3010102  Aportes a Capitalizar</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">3300343151</Data></Cell>
+</Row>
+<Row ss:Index="193" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">3010200  RESERVAS</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">162632260149</Data></Cell>
+</Row>
+<Row ss:Index="194" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">3010201  Reserva de Revaluo</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">24119766174</Data></Cell>
+</Row>
+<Row ss:Index="195" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">3010202  Reservas Legal</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">2501807289</Data></Cell>
+</Row>
+<Row ss:Index="196" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">3010203  REservas estatutarias y Facultativas</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">42485170263</Data></Cell>
+</Row>
+<Row ss:Index="198" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">3010204  Revaluo Extraordinario</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">93525516423</Data></Cell>
+</Row>
+<Row ss:Index="199" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">3010300  RESULTADOS</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row ss:Index="200" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">3010303  Perdidas del Ejercicio</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s27"><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row ss:Index="201" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">4000000  INGRESOS</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">59958888515</Data></Cell>
+</Row>
+<Row ss:Index="202" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">4010000  INGRESOS POR VENTAS</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">28901882596</Data></Cell>
+</Row>
+<Row ss:Index="203" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">4010100  VENTA DE HACIENDAS</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">28901882596</Data></Cell>
+</Row>
+<Row ss:Index="204" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">4010101  Venta de Hacienda Vacunas</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">28901882596</Data></Cell>
+</Row>
+<Row ss:Index="205" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">4020000  OTROS INGRESOS</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">30411428711</Data></Cell>
+</Row>
+<Row ss:Index="206" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">4020100  Ingresos por Alquiler de Avion</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">234117083</Data></Cell>
+</Row>
+<Row ss:Index="207" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">4020200  Ingresos por Serv. de fletes</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">5266000</Data></Cell>
+</Row>
+<Row ss:Index="208" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">4020400  Ingresos por Arrendamientos de Campos</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">1299119627</Data></Cell>
+</Row>
+<Row ss:Index="209" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">4020700  Ingresos por Vta de B.Activo Fijo</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">268181818</Data></Cell>
+</Row>
+<Row ss:Index="210" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">4021000  Ingresos Por Venta de Soja</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">321732123</Data></Cell>
+</Row>
+<Row ss:Index="211" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">4021200  Ingresos Varios</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">530400470</Data></Cell>
+</Row>
+<Row ss:Index="212" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">4021300  Produccion Ganadera</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">22791918269</Data></Cell>
+</Row>
+<Row ss:Index="213" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">4021400  REsult. Por Cambios VR-CV Act. Biologicos Compras</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">447479603</Data></Cell>
+</Row>
+<Row ss:Index="214" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">4021500  Resul. por Cambios VR-CV ACt, Biologicos Ventas</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">313787747</Data></Cell>
+</Row>
+<Row ss:Index="215" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">4021600  Resul. Por Valuar Hac. A VR-CV</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">-127652479</Data></Cell>
+</Row>
+<Row ss:Index="216" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">4021700  REsultados por Cambios VR-CV Inv. Inicial</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">4327078450</Data></Cell>
+</Row>
+<Row ss:Index="217" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">4030000  PARTIDAS EXTRAORDINARIAS</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">645577208</Data></Cell>
+</Row>
+<Row ss:Index="218" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">4030100  Ganancias por Diferencia de Cambios</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">645577208</Data></Cell>
+</Row>
+<Row ss:Index="219" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5000000  EGRESOS</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">56273162596</Data></Cell>
+</Row>
+<Row ss:Index="220" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5010000  COSTOS</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">28631713711</Data></Cell>
+</Row>
+<Row ss:Index="221" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5010100  Costo de Venta Hacienda Vacuna</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">28013529831</Data></Cell>
+</Row>
+<Row ss:Index="222" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5010600  Costo Produccion Soja 2013-2014</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">549382612</Data></Cell>
+</Row>
+<Row ss:Index="223" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5010700  Costo de Venta de Bienes de Activo Fijo</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">68801268</Data></Cell>
+</Row>
+<Row ss:Index="224" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5020000  GASTOS DE EXPLOTACION RELACIONAD.OBTEN.HACIENDAS</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">12079575109</Data></Cell>
+</Row>
+<Row ss:Index="225" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5020100  SUELDOS - ESTABLECIMIIENTOS</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">2882704480</Data></Cell>
+</Row>
+<Row ss:Index="226" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5020101  Sueldos y jornales Establecimientos</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">1221414271</Data></Cell>
+</Row>
+<Row ss:Index="227" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5020102  Sueldos Administradores - Establecimientos</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">506346156</Data></Cell>
+</Row>
+<Row ss:Index="228" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5020103  Aportes Patronal Establecimientos</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">285886731</Data></Cell>
+</Row>
+<Row ss:Index="229" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5020104  Indemnizaciones y Preavisos - Establecimientos</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">3853477</Data></Cell>
+</Row>
+<Row ss:Index="230" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5020105  Vacaciones - Establecimientos</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">4815167</Data></Cell>
+</Row>
+<Row ss:Index="231" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5020106  Aguinaldos - Establecimientos</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">144643720</Data></Cell>
+</Row>
+<Row ss:Index="232" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5020108  Gratificaciones - Establecimientos</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">163100000</Data></Cell>
+</Row>
+<Row ss:Index="233" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5020111  Sueldos y Jornales GND. Estab</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">552644958</Data></Cell>
+</Row>
+<Row ss:Index="234" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5020200  HONORARIOS</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">25194545</Data></Cell>
+</Row>
+<Row ss:Index="235" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5020201  Honorarios Veterinarios Est.</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">16558182</Data></Cell>
+</Row>
+<Row ss:Index="236" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5020202  Honorarios Varios - Establecimientos</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">8636363</Data></Cell>
+</Row>
+<Row ss:Index="237" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5020300  ALQUILERES Y SERVICIOS PUBLICOS</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">238787593</Data></Cell>
+</Row>
+<Row ss:Index="238" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5020301  Arrendamientos y Alquileres Pagados</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">228571428</Data></Cell>
+</Row>
+<Row ss:Index="239" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5020303  Comunicaciones - Establecimiento</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">10216165</Data></Cell>
+</Row>
+<Row ss:Index="240" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5020400  REPARACION Y MANTENIMIENTOS EN GRAL ESTABLECIMIENTOS</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">307315199</Data></Cell>
+</Row>
+<Row ss:Index="241" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5020401  Mantenimientos de Instalciones y Mejoras</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">67181467</Data></Cell>
+</Row>
+<Row ss:Index="242" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5020402  Mantenimientos y REparaciones de Viviendas</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">5808419</Data></Cell>
+</Row>
+<Row ss:Index="243" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5020403  Mantenimientos y REparaciones de Alambradas</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">35056151</Data></Cell>
+</Row>
+<Row ss:Index="245" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5020404  Mantenimientos y REparaciones de Corrales</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">5652365</Data></Cell>
+</Row>
+<Row ss:Index="246" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5020406  Mantenimientos y Reparacion de Instalaciones Electricas</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">41889297</Data></Cell>
+</Row>
+<Row ss:Index="247" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5020407  Limpieza de Pasturas</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">26899261</Data></Cell>
+</Row>
+<Row ss:Index="248" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5020408  Estudios de Riego</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">31818182</Data></Cell>
+</Row>
+<Row ss:Index="249" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5020409  Intereses por Mecanizacion</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">93010057</Data></Cell>
+</Row>
+<Row ss:Index="250" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5020500  REPARACIONES Y MANTENIMIENTOS HERRAM.EQUIPOS.IMPLEMENTOS</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">210197744</Data></Cell>
+</Row>
+<Row ss:Index="251" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5020501  Mantenimientos Herramientas y Equipos</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">83243470</Data></Cell>
+</Row>
+<Row ss:Index="252" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5020502  Mantenimientos Maquinarias e Implementos</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">119559780</Data></Cell>
+</Row>
+<Row ss:Index="253" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5020503  Herramientas para Taller de Mantenimientos</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">7394494</Data></Cell>
+</Row>
+<Row ss:Index="254" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5020600  RODADOS - ESTABLECIMIENTOS</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">161176063</Data></Cell>
+</Row>
+<Row ss:Index="255" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5020601  Reparacion y Mantenimientos de Rodados -Establecimientos</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">137116515</Data></Cell>
+</Row>
+<Row ss:Index="256" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5020602  Seguros Camiones - Establecimientos</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">9305510</Data></Cell>
+</Row>
+<Row ss:Index="257" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5020603  Seguros Camioneta - Establecimientos</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">14754038</Data></Cell>
+</Row>
+<Row ss:Index="258" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5020700  COMBUSTIBLES Y LUBRICANTES</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">543959798</Data></Cell>
+</Row>
+<Row ss:Index="259" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5020701  Combustibles y Lubricantes p/Establecimientos</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">339283860</Data></Cell>
+</Row>
+<Row ss:Index="260" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5020702  Combustibles y Lubricantes Camionetas -Estancias</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">63471909</Data></Cell>
+</Row>
+<Row ss:Index="261" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5020703  Combustibles y Lubricantes p/ Herramientas y Equipos</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">11702715</Data></Cell>
+</Row>
+<Row ss:Index="262" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5020704  Combustibles y Lubricantes p/Implementos y Maquinarias</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">14900001</Data></Cell>
+</Row>
+<Row ss:Index="263" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5020705  Combustibles y Lubricantes Camiones</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">111732990</Data></Cell>
+</Row>
+<Row ss:Index="264" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5020706  Combustible y Lubricantes p/uso sanitacion y otros</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">2868323</Data></Cell>
+</Row>
+<Row ss:Index="265" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5020800  SANITACION Y REPRODUCCION</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">1050010084</Data></Cell>
+</Row>
+<Row ss:Index="266" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5020801  Sanitacion Ganados</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">665882445</Data></Cell>
+</Row>
+<Row ss:Index="267" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5020803  Gastos de Reproduccion</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">154701728</Data></Cell>
+</Row>
+<Row ss:Index="268" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5020804  Sanitacion Equina / Ovina</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">2039193</Data></Cell>
+</Row>
+<Row ss:Index="269" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5020805  Servicios de Trazabilidad</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">24738546</Data></Cell>
+</Row>
+<Row ss:Index="270" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5020806  Servicios de Caravanas</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">28969899</Data></Cell>
+</Row>
+<Row ss:Index="271" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5020807  Fizcalizaciones por Vacunacion</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">162143991</Data></Cell>
+</Row>
+<Row ss:Index="272" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5020808  Gastos de Registros ARP y Brangus</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">11534282</Data></Cell>
+</Row>
+<Row ss:Index="273" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5020900  SUPLEMENTACION DE GANADOS</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">2808089655</Data></Cell>
+</Row>
+<Row ss:Index="274" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5020901  Suplementacion Mineral</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">310105568</Data></Cell>
+</Row>
+<Row ss:Index="275" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5020902  Suplementacion Balanceados</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">944389462</Data></Cell>
+</Row>
+<Row ss:Index="276" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5020903  Suplementacion Equina</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">14660725</Data></Cell>
+</Row>
+<Row ss:Index="277" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5020904  Suplementacion Feed Lood</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">1119946627</Data></Cell>
+</Row>
+<Row ss:Index="278" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5020906  Gtos por SErvicio de Ensilaje Feedlood</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">418987273</Data></Cell>
+</Row>
+<Row ss:Index="279" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5021000  GASTOS GENERALES ESTABLECIMIENTO</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">1673947624</Data></Cell>
+</Row>
+<Row ss:Index="280" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5021010  Gastos Varios - Establecimientos</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">85466304</Data></Cell>
+</Row>
+<Row ss:Index="281" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5021013  Gastos por Equipos de Montar</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">23061666</Data></Cell>
+</Row>
+<Row ss:Index="282" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5021014  Gastos de Movilidad y Viaticos</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">16820187</Data></Cell>
+</Row>
+<Row ss:Index="283" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5021015  Gastos No Deducibles - Estab.</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">804093576</Data></Cell>
+</Row>
+<Row ss:Index="284" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5021016  Manuntencion al Personal</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">338126398</Data></Cell>
+</Row>
+<Row ss:Index="285" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5021017  Regalias</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">14468441</Data></Cell>
+</Row>
+<Row ss:Index="286" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5021019  Gastos de Fin de Año del Establecimiento</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">12250690</Data></Cell>
+</Row>
+<Row ss:Index="287" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5021020  Fletes Internos Est.</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">379660362</Data></Cell>
+</Row>
+<Row ss:Index="288" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5021200  DEPRECIACIONES,MORTANDAD Y CONSUMOS</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">2178192324</Data></Cell>
+</Row>
+<Row ss:Index="289" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5021201  Mortandad Hacienda</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">2182548324</Data></Cell>
+</Row>
+<Row ss:Index="290" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5021202  Consumo Hacienda</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">-4356000</Data></Cell>
+</Row>
+<Row ss:Index="292" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5030000  GASTOS DE VENTAS</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">888352764</Data></Cell>
+</Row>
+<Row ss:Index="293" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5030100  Fletes por Ventas</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">586231672</Data></Cell>
+</Row>
+<Row ss:Index="294" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5030200  Comisiones sobre Ventas</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">6745455</Data></Cell>
+</Row>
+<Row ss:Index="295" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5030300  Guias</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">154314000</Data></Cell>
+</Row>
+<Row ss:Index="296" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5030400  Formularios para Guias</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">1345000</Data></Cell>
+</Row>
+<Row ss:Index="297" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5030500  Certificaciones Hacienda Vacuna</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">108038637</Data></Cell>
+</Row>
+<Row ss:Index="298" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5030600  Bonos Rurales</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">31678000</Data></Cell>
+</Row>
+<Row ss:Index="299" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5040000  GASTOS ADMINISTRATIVOS</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">5509644703</Data></Cell>
+</Row>
+<Row ss:Index="300" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5040100  SUELDOS OFICINA</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">620462487</Data></Cell>
+</Row>
+<Row ss:Index="301" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5040101  Sueldos y Jornales Oficina</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">291507402</Data></Cell>
+</Row>
+<Row ss:Index="302" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5040102  Aportes Patronal - Oficina</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">48243779</Data></Cell>
+</Row>
+<Row ss:Index="303" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5040104  Vacaciones - Oficina</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">2307692</Data></Cell>
+</Row>
+<Row ss:Index="304" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5040105  Aguinaldos - Oficinas</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">26248129</Data></Cell>
+</Row>
+<Row ss:Index="305" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5040107  Gratificaciones- Oficinas</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">42200000</Data></Cell>
+</Row>
+<Row ss:Index="306" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5040109  Sueldos Choferes</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">165347982</Data></Cell>
+</Row>
+<Row ss:Index="307" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5040110  Aporte patronal Choferes</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">27282412</Data></Cell>
+</Row>
+<Row ss:Index="308" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5040111  Aguinaldos Choferes</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">1959706</Data></Cell>
+</Row>
+<Row ss:Index="309" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5040112  Sueldos Choferes GND</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">15365385</Data></Cell>
+</Row>
+<Row ss:Index="310" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5040200  REMUNERACION PERSONAL SUPERIOR</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">583818183</Data></Cell>
+</Row>
+<Row ss:Index="311" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5040201  Rem.Pers. Sup. Luis Saccarello</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">405954549</Data></Cell>
+</Row>
+<Row ss:Index="312" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5040202  REm.Pers. Sup. Adriana Saccarello</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">177863634</Data></Cell>
+</Row>
+<Row ss:Index="313" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5040300  HONORARIOS PROFESIONALES</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">290263167</Data></Cell>
+</Row>
+<Row ss:Index="314" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5040301  Honorarios Asesores Of.</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">96615425</Data></Cell>
+</Row>
+<Row ss:Index="315" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5040302  Honorarios Profesionales Varios Of.</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">193647742</Data></Cell>
+</Row>
+<Row ss:Index="316" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5040400  ALQUILERES</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">294976662</Data></Cell>
+</Row>
+<Row ss:Index="317" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5040401  Alquiler Oficina</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">294976662</Data></Cell>
+</Row>
+<Row ss:Index="318" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5040500  SERVICIOS PUBLICOS</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">69130769</Data></Cell>
+</Row>
+<Row ss:Index="319" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5040501  Agua - Luz Of.</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">9132728</Data></Cell>
+</Row>
+<Row ss:Index="320" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5040502  Comunicaciones - Oficina</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">59998041</Data></Cell>
+</Row>
+<Row ss:Index="321" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5040600  RODADOS</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">2614569</Data></Cell>
+</Row>
+<Row ss:Index="322" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5040601  Seguros Camioneta - Oficina</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">457812</Data></Cell>
+</Row>
+<Row ss:Index="323" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5040602  Mantenimientos y Reparaciones Rodados Oficina</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">40909</Data></Cell>
+</Row>
+<Row ss:Index="324" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5040603  Combustibles y Lubricantes - Oficina</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">2115848</Data></Cell>
+</Row>
+<Row ss:Index="325" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5040700  IMPUESTOS</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">105364905</Data></Cell>
+</Row>
+<Row ss:Index="326" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5040701  Impuestos Inmobiliarios</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">74861418</Data></Cell>
+</Row>
+<Row ss:Index="327" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5040702  Patentes comerciales</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">28406640</Data></Cell>
+</Row>
+<Row ss:Index="328" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5040703  Patentes de Rodados</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">2096847</Data></Cell>
+</Row>
+<Row ss:Index="329" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5040800  GASTOS GENERALES DE ADMINISTRACION</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">2504795296</Data></Cell>
+</Row>
+<Row ss:Index="330" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5040801  Gastos Varios</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">92821386</Data></Cell>
+</Row>
+<Row ss:Index="331" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5040802  Impresos y Utiles</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">8982980</Data></Cell>
+</Row>
+<Row ss:Index="332" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5040803  Mantenimientos Equipos de Oficina</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">25030413</Data></Cell>
+</Row>
+<Row ss:Index="333" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5040804  Fletes Varios</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">219826546</Data></Cell>
+</Row>
+<Row ss:Index="334" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5040805  Gastos de Asamblea</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">136364</Data></Cell>
+</Row>
+<Row ss:Index="335" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5040806  Gastos por Servicios de Seguridad</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">3444758</Data></Cell>
+</Row>
+<Row ss:Index="336" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5040807  Gastos No Deducibles</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">600023165</Data></Cell>
+</Row>
+<Row ss:Index="337" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5040808  Multas y Recargos</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">714940</Data></Cell>
+</Row>
+<Row ss:Index="339" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5040809  IVA Gastos 10%</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">13178902</Data></Cell>
+</Row>
+<Row ss:Index="340" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5040811  Gastos de Fin de Año Of.</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">8412531</Data></Cell>
+</Row>
+<Row ss:Index="341" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5040812  Cuotas Sociales</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">12528000</Data></Cell>
+</Row>
+<Row ss:Index="342" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5040813  Depreciaciones del Ejercicio</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">1507195311</Data></Cell>
+</Row>
+<Row ss:Index="343" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5040814  Donaciones</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">12500000</Data></Cell>
+</Row>
+<Row ss:Index="344" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5040900  GASTOS DEL AVION</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">487645535</Data></Cell>
+</Row>
+<Row ss:Index="345" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5040901  Mantenimientos y Reparacion Aeronave</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">12976762</Data></Cell>
+</Row>
+<Row ss:Index="346" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5040902  Combustibles y Lubricantes Aeronave</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">106527943</Data></Cell>
+</Row>
+<Row ss:Index="347" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5040903  Honorarios Varios - Avion</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">231554480</Data></Cell>
+</Row>
+<Row ss:Index="348" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5040904  Tasas, impuestos Aereos</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">766031</Data></Cell>
+</Row>
+<Row ss:Index="349" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5040905  Gastos No Deducibles - Avion</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">74864871</Data></Cell>
+</Row>
+<Row ss:Index="350" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5040906  Seguros Avion</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">50155448</Data></Cell>
+</Row>
+<Row ss:Index="351" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5040907  Servicio de Hangarage</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">10800000</Data></Cell>
+</Row>
+<Row ss:Index="352" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5041000  GASTOS DPTOS GND</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">550573130</Data></Cell>
+</Row>
+<Row ss:Index="353" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5041010  Dpto Bs. As.</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">53789480</Data></Cell>
+</Row>
+<Row ss:Index="354" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5041011  Dpto. Uruguay</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">215629501</Data></Cell>
+</Row>
+<Row ss:Index="355" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5041012  Dpto. EEUU</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">210076825</Data></Cell>
+</Row>
+<Row ss:Index="356" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5041013  Dptos - Publitel</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">71077324</Data></Cell>
+</Row>
+<Row ss:Index="357" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5050000  GASTOS FINANCIEROS Y BANCARIOS</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">7401698421</Data></Cell>
+</Row>
+<Row ss:Index="358" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5050100  INTERESES</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">7193987728</Data></Cell>
+</Row>
+<Row ss:Index="359" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5050101  Intereses Corrientes</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">7098183975</Data></Cell>
+</Row>
+<Row ss:Index="360" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5050102  Intereses Moratorios</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">60843817</Data></Cell>
+</Row>
+<Row ss:Index="361" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5050103  Intereses Punitorios</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">34959936</Data></Cell>
+</Row>
+<Row ss:Index="362" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5050200  GASTOS BANCARIOS</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">207710693</Data></Cell>
+</Row>
+<Row ss:Index="363" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5050201  Gastos por Sobregiros</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">68275146</Data></Cell>
+</Row>
+<Row ss:Index="364" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5050202  Comisiones bancarias</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">128163905</Data></Cell>
+</Row>
+<Row ss:Index="365" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5050203  Gastos por Descuentos de Cheques</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">11271642</Data></Cell>
+</Row>
+<Row ss:Index="366" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5060000  OTROS GASTOS</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">857477298</Data></Cell>
+</Row>
+<Row ss:Index="367" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5060200  Perdida por Diferencia de Cambio</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">857477298</Data></Cell>
+</Row>
+<Row ss:Index="368" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5080000  GASTOS ADMINISTRACION 2</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">755727183</Data></Cell>
+</Row>
+<Row ss:Index="369" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5080100  SUELDOS Y JORNALES ADM2</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">48074818</Data></Cell>
+</Row>
+<Row ss:Index="370" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5080101  Sueldos y Jornales ADM 2</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">27611548</Data></Cell>
+</Row>
+<Row ss:Index="371" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5080102  Aporte Patronal ADM 2</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">4555899</Data></Cell>
+</Row>
+<Row ss:Index="372" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5080103  Aguinaldos ADM 2</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">7802217</Data></Cell>
+</Row>
+<Row ss:Index="373" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5080104  Sueldos y Jornales GND ADM 2</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">8105154</Data></Cell>
+</Row>
+<Row ss:Index="374" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5080200  HONORARIOS ADM 2</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">527163636</Data></Cell>
+</Row>
+<Row ss:Index="375" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5080201  Honorarios Varios ADM 2</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">527163636</Data></Cell>
+</Row>
+<Row ss:Index="376" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5080300  ALQUILERES Y SERV. PUBL-ADM2</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">28341103</Data></Cell>
+</Row>
+<Row ss:Index="377" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5080301  Alquileres Adm 2</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">16970483</Data></Cell>
+</Row>
+<Row ss:Index="378" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5080302  Agua-Luz - TElef.- Internet ADM2</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">11370620</Data></Cell>
+</Row>
+<Row ss:Index="379" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5080400  RODADOS ADM 2</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">43767936</Data></Cell>
+</Row>
+<Row ss:Index="380" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5080401  Mantenimientos y REparaciones Rod ADM 2</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">25153318</Data></Cell>
+</Row>
+<Row ss:Index="381" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5080402  Comb. y Lub. Adm 2</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">950000</Data></Cell>
+</Row>
+<Row ss:Index="382" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5080403  Seguros Rodados ADM 2</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">17664618</Data></Cell>
+</Row>
+<Row ss:Index="383" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5080500  GASTOS GENERALES ADM 2</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">108379690</Data></Cell>
+</Row>
+<Row ss:Index="384" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5080501  Gastos Varios ADM 2</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">82416200</Data></Cell>
+</Row>
+<Row ss:Index="386" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5080502  GND ADM 2</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">25963490</Data></Cell>
+</Row>
+<Row ss:Index="387" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5090000  GASTOS AGRICULTURA</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">148973407</Data></Cell>
+</Row>
+<Row ss:Index="388" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5090100  SUELDOS Y JORNALES AGRIC.</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">46283333</Data></Cell>
+</Row>
+<Row ss:Index="389" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5090102  Sueldos y Jornales GND Agricultura</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">46283333</Data></Cell>
+</Row>
+<Row ss:Index="390" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5090200  HONORARIOS</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">15000000</Data></Cell>
+</Row>
+<Row ss:Index="391" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5090201  Honorarios Agricultura</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">15000000</Data></Cell>
+</Row>
+<Row ss:Index="392" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5090300  MANTENIMIENTOS Y REPARACIONES</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">351363</Data></Cell>
+</Row>
+<Row ss:Index="393" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5090301  Mant. Y Repar. Maq y Equipos Agricultura</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">351363</Data></Cell>
+</Row>
+<Row ss:Index="394" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5090400  RODADOS</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">177273</Data></Cell>
+</Row>
+<Row ss:Index="395" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5090401  Mantenimientos Motos</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">177273</Data></Cell>
+</Row>
+<Row ss:Index="396" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5090500  COMBUSTIBLES Y LUBRICANTES</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">3590100</Data></Cell>
+</Row>
+<Row ss:Index="397" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5090501  Combu y Lub. - Camionetas agric.</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">647273</Data></Cell>
+</Row>
+<Row ss:Index="398" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5090502  Comb. y Lub. Motos /Heram y Equip/ OtrosAgric</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">2942827</Data></Cell>
+</Row>
+<Row ss:Index="399" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5090600  ESTUDIO Y LIMPIEZA DE SUELOS</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">36090909</Data></Cell>
+</Row>
+<Row ss:Index="400" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5090601  Estudios y Analisis de Suelos/Semillas</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">500000</Data></Cell>
+</Row>
+<Row ss:Index="401" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5090602  Subsuelacion de Tierras</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">35590909</Data></Cell>
+</Row>
+<Row ss:Index="402" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5090700  GASTOS GENERALES DE AGRICULTURA</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">47480429</Data></Cell>
+</Row>
+<Row ss:Index="403" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5090701  Gastos Varios -Agricultura</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">2323503</Data></Cell>
+</Row>
+<Row ss:Index="404" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5090703  Gastos de Movilidad y Viaticos Agricultura</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">12268934</Data></Cell>
+</Row>
+<Row ss:Index="405" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5090706  Manuntencion al Personal Agricultura</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">2621392</Data></Cell>
+</Row>
+<Row ss:Index="406" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5090707  GND Agricultura</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">19284610</Data></Cell>
+</Row>
+<Row ss:Index="407" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s25"><Data ss:Type="String">5090708  Flete - Agricultura</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s26"><Data ss:Type="Number">10981990</Data></Cell>
+</Row>
+<Row ss:Index="409" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s28"><Data ss:Type="String">RESULTADO DEL EJERCICIO</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s29"><Data ss:Type="Number">3685725919.00</Data></Cell>
+</Row>
+<Row ss:Index="445" ss:AutoFitHeight="1">
+<Cell  ss:Index="1" ss:StyleID="s30"><Data ss:Type="String">Pág. 9</Data></Cell>
+<Cell  ss:Index="3" ss:StyleID="s23"><Data ss:Type="String">18/03/2015 10:21:34</Data></Cell>
+</Row>
+</Table>
+
+ </Worksheet>
+
+</Workbook>
+
