@@ -42,7 +42,7 @@ DEFINE CLASS button AS container
 	*</DefinedPropArrayMethod>
 
 	HIDDEN imgleftfocused,imgleftnotfocused,imgmiddlefocused,imgmiddlenotfocused,imgrightfocused,imgrightnotfocused,initialised,lblfocusedcolor,lblnotfocusedcolor
-	PROTECTED Init,Resize
+	PROTECTED init,resize
 	BackStyle = 0
 	bloqueaubicacion = .F.
 	BorderWidth = 0

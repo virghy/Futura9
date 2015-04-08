@@ -229,7 +229,8 @@ COLLATE=0
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA["MES:"]]>
+	<expr><![CDATA["MES:
+"]]>
 	<supexpr><![CDATA[]]>
 	<comment><![CDATA[ ]]>
 	<user><![CDATA[]]>
@@ -241,7 +242,8 @@ COLLATE=0
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA["AÑO:"]]>
+	<expr><![CDATA["AÑO:
+"]]>
 	<supexpr><![CDATA[]]>
 	<comment><![CDATA[]]>
 	<user><![CDATA[]]>
@@ -313,7 +315,8 @@ COLLATE=0
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA["Documento"]]>
+	<expr><![CDATA["Documento
+"]]>
 	<supexpr><![CDATA[]]>
 	<comment><![CDATA[]]>
 	<user><![CDATA[]]>
@@ -349,7 +352,9 @@ COLLATE=0
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[-1]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA["ImportacionesBase Imponible"]]>
+	<expr><![CDATA["Importaciones
+Base Imponible
+"]]>
 	<supexpr><![CDATA[]]>
 	<comment><![CDATA[]]>
 	<user><![CDATA[]]>

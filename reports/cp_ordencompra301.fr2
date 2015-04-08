@@ -216,7 +216,8 @@ COLLATE=1
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[-1]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA["Europa 2357 e/ Suecia y Gral. SantosTel.: (595 21) 228 055 Fax: (595 21) 220588"]]>
+	<expr><![CDATA["Europa 2357 e/ Suecia y Gral. Santos
+Tel.: (595 21) 228 055 Fax: (595 21) 220588"]]>
 	<supexpr><![CDATA[]]>
 	<comment><![CDATA[]]>
 	<user><![CDATA[]]>
@@ -228,7 +229,8 @@ COLLATE=1
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[-1]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA["E-mail: info@e2.com.py - web: www.e2.com.pyAsuncion - Paraguay"]]>
+	<expr><![CDATA["E-mail: info@e2.com.py - web: www.e2.com.py
+Asuncion - Paraguay"]]>
 	<supexpr><![CDATA[]]>
 	<comment><![CDATA[]]>
 	<user><![CDATA[]]>
@@ -612,7 +614,8 @@ COLLATE=1
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA["Cantidad"]]>
+	<expr><![CDATA["Cantidad
+"]]>
 	<supexpr><![CDATA[]]>
 	<comment><![CDATA[]]>
 	<user><![CDATA[]]>
@@ -624,7 +627,8 @@ COLLATE=1
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA["Código/Articulo"]]>
+	<expr><![CDATA["Código/Articulo
+"]]>
 	<supexpr><![CDATA[]]>
 	<comment><![CDATA[]]>
 	<user><![CDATA[]]>
@@ -636,7 +640,8 @@ COLLATE=1
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA["Pago"]]>
+	<expr><![CDATA["Pago
+"]]>
 	<supexpr><![CDATA[]]>
 	<comment><![CDATA[]]>
 	<user><![CDATA[]]>
@@ -648,7 +653,8 @@ COLLATE=1
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA["Descripcion"]]>
+	<expr><![CDATA["Descripcion
+"]]>
 	<supexpr><![CDATA[]]>
 	<comment><![CDATA[]]>
 	<user><![CDATA[]]>
@@ -660,7 +666,8 @@ COLLATE=1
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA["Precio Unitario"]]>
+	<expr><![CDATA["Precio Unitario
+"]]>
 	<supexpr><![CDATA[]]>
 	<comment><![CDATA[]]>
 	<user><![CDATA[]]>
@@ -672,7 +679,8 @@ COLLATE=1
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA["TOTAL"]]>
+	<expr><![CDATA["TOTAL
+"]]>
 	<supexpr><![CDATA[]]>
 	<comment><![CDATA[]]>
 	<user><![CDATA[]]>
@@ -684,7 +692,8 @@ COLLATE=1
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA[""]]>
+	<expr><![CDATA["
+"]]>
 	<supexpr><![CDATA[]]>
 	<comment><![CDATA[]]>
 	<user><![CDATA[]]>
@@ -852,7 +861,8 @@ COLLATE=1
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA["Expedición y Tramitación"]]>
+	<expr><![CDATA["Expedición y Tramitación
+"]]>
 	<supexpr><![CDATA[]]>
 	<comment><![CDATA[]]>
 	<user><![CDATA[]]>
@@ -912,7 +922,8 @@ COLLATE=1
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA["Otros Servicios"]]>
+	<expr><![CDATA["Otros Servicios
+"]]>
 	<supexpr><![CDATA[]]>
 	<comment><![CDATA[]]>
 	<user><![CDATA[]]>
@@ -1068,7 +1079,8 @@ COLLATE=1
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA["TOTAL"]]>
+	<expr><![CDATA["TOTAL
+"]]>
 	<supexpr><![CDATA[]]>
 	<comment><![CDATA[]]>
 	<user><![CDATA[]]>

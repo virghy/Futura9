@@ -289,7 +289,8 @@ COLLATE=1
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA[""]]>
+	<expr><![CDATA["
+"]]>
 	<supexpr><![CDATA[]]>
 	<comment><![CDATA[]]>
 	<user><![CDATA[]]>
@@ -313,7 +314,8 @@ COLLATE=1
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA["Stock Actual"]]>
+	<expr><![CDATA["Stock Actual
+"]]>
 	<supexpr><![CDATA[]]>
 	<comment><![CDATA[ ]]>
 	<user><![CDATA[]]>
@@ -325,7 +327,8 @@ COLLATE=1
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA["Dias de Rotación"]]>
+	<expr><![CDATA["Dias de Rotación
+"]]>
 	<supexpr><![CDATA[]]>
 	<comment><![CDATA[]]>
 	<user><![CDATA[]]>

@@ -41,7 +41,7 @@ DEFINE CLASS outlooknavbar AS container
 		*p: _memberdata		&& XML Metadata for customizable properties
 	*</DefinedPropArrayMethod>
 
-	PROTECTED Init,version
+	PROTECTED init,version
 	Anchor = 7
 	BackColor = 255,255,255
 	displayshrinkbutton = .T.		&& Specify if Shrink button will be displayed or not.
@@ -515,7 +515,7 @@ DEFINE CLASS overflowpanelbutton AS container
 	*</DefinedPropArrayMethod>
 
 	HIDDEN imgfocusednotselected,imgfocusedselected,imgnotfocusedselected
-	PROTECTED Init
+	PROTECTED init
 	BackStyle = 0
 	BorderWidth = 0
 	Height = 31
@@ -736,7 +736,7 @@ DEFINE CLASS pane AS page
 		*p: _memberdata		&& XML Metadata for customizable properties
 	*</DefinedPropArrayMethod>
 
-	PROTECTED Destroy,Init
+	PROTECTED destroy,Init
 	BackColor = 255,255,255
 	Caption = "Page1"
 	Height = 136
@@ -814,7 +814,7 @@ DEFINE CLASS panel AS container
 		*p: _memberdata		&& XML Metadata for customizable properties
 	*</DefinedPropArrayMethod>
 
-	PROTECTED Init
+	PROTECTED init
 	BorderWidth = 0
 	Height = 32
 	Name = "panel"
@@ -876,7 +876,7 @@ DEFINE CLASS panelbutton AS container
 	*</DefinedPropArrayMethod>
 
 	HIDDEN imgfocusednotselected,imgfocusedselected,imgnotfocusedselected,lblnotselectedcolor,lblselectedcolor
-	PROTECTED Init
+	PROTECTED init
 	BackStyle = 0
 	BorderWidth = 0
 	Height = 32
@@ -1093,7 +1093,7 @@ DEFINE CLASS panelvertical AS control
 		*p: _memberdata		&& XML Metadata for customizable properties
 	*</DefinedPropArrayMethod>
 
-	PROTECTED Init,MouseEnter,MouseLeave
+	PROTECTED init,mouseenter,mouseleave
 	BorderWidth = 0
 	caption = ("")		&& Specifies the text displayed in an object's caption.
 	focusedbackcolor = .F.		&& Specifies the backcolor when panel is focused.
@@ -1265,7 +1265,7 @@ DEFINE CLASS shrinkbutton AS control
 	*</DefinedPropArrayMethod>
 
 	HIDDEN imgfocusednotshrunk,imgfocusedshrunk,imgnotfocusednotshrunk,imgnotfocusedshrunk,shrunk
-	PROTECTED Click,Init
+	PROTECTED click,init
 	BorderWidth = 0
 	Height = 18
 	imgfocusednotshrunk = .F.		&& Path and name of the button's image displayed when button is focused and not shrunk.
@@ -1394,7 +1394,7 @@ DEFINE CLASS splitterhorizontal AS control
 		*p: _memberdata		&& XML Metadata for customizable properties
 	*</DefinedPropArrayMethod>
 
-	PROTECTED Destroy,Init
+	PROTECTED destroy,Init
 	BorderWidth = 0
 	Height = 8
 	MousePointer = 7
@@ -1580,7 +1580,7 @@ DEFINE CLASS title AS control
 		*p: _memberdata		&& XML Metadata for customizable properties
 	*</DefinedPropArrayMethod>
 
-	PROTECTED Init
+	PROTECTED init
 	Anchor = 11
 	BackStyle = 0
 	caption = .F.		&& Specifies the text displayed in an object's caption.

@@ -13,7 +13,7 @@ DEFINE CLASS pane AS page
 		*p: _memberdata		&& XML Metadata for customizable properties
 	*</DefinedPropArrayMethod>
 
-	PROTECTED Destroy,Init
+	PROTECTED destroy,Init
 	BackColor = 255,255,255
 	Caption = "Page1"
 	Height = 156
@@ -282,7 +282,7 @@ DEFINE CLASS toolbox AS container
 		*p: _memberdata		&& XML Metadata for customizable properties
 	*</DefinedPropArrayMethod>
 
-	PROTECTED Init,Resize,version
+	PROTECTED init,resize,version
 	Anchor = 15
 	BackColor = 255,255,255
 	Height = 400

@@ -122,7 +122,8 @@ COLOR=2
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[-1]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA["         1         2         3         4         5         6         7         8         9123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890"]]>
+	<expr><![CDATA["         1         2         3         4         5         6         7         8         9
+123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890"]]>
 	<supexpr><![CDATA[1=2]]>
 	<comment><![CDATA[]]>
 	<user><![CDATA[]]>
@@ -134,7 +135,8 @@ COLOR=2
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA["Cuenta"]]>
+	<expr><![CDATA["Cuenta
+"]]>
 	<supexpr><![CDATA[]]>
 	<comment><![CDATA[]]>
 	<user><![CDATA[]]>

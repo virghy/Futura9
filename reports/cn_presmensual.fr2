@@ -494,7 +494,8 @@ COLOR=2
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA["Presupuesto"]]>
+	<expr><![CDATA["Presupuesto
+"]]>
 	<supexpr><![CDATA[1 <= m.ni]]>
 	<comment><![CDATA[]]>
 	<user><![CDATA[]]>

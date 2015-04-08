@@ -4450,7 +4450,7 @@ DEFINE CLASS tsifcombo AS combobox 		&& Cuadro combinado especial para "búsqueda
 		*p: orden
 	*</DefinedPropArrayMethod>
 
-	PROTECTED RowSourceType,Style
+	PROTECTED rowsourcetype,style
 	calias = 		&& Contiene el alias donde hacer la búsqueda.
 	cdestino = 
 	cfield = 		&& Campo al que aplicar EVAL() cuando se muestre la parte de cuadro de texto.

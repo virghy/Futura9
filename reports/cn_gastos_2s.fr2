@@ -662,7 +662,8 @@ COLOR=2
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA["Existencia de Ganado(Cabezas)"]]>
+	<expr><![CDATA["Existencia de Ganado(Cabezas)
+"]]>
 	<supexpr><![CDATA[1 <= m.ni]]>
 	<comment><![CDATA[ ]]>
 	<user><![CDATA[]]>
@@ -1190,7 +1191,8 @@ COLOR=2
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA["Incidencia por Cabeza"]]>
+	<expr><![CDATA["Incidencia por Cabeza
+"]]>
 	<supexpr><![CDATA[nivel <= m.ni]]>
 	<comment><![CDATA[]]>
 	<user><![CDATA[]]>

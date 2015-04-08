@@ -249,7 +249,9 @@ TTOPTION=1
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA["Importe Factura"]]>
+	<expr><![CDATA["Importe 
+Factura
+"]]>
 	<supexpr><![CDATA[]]>
 	<comment><![CDATA[]]>
 	<user><![CDATA[]]>
@@ -261,7 +263,8 @@ TTOPTION=1
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA["Total en Cuenta Cte."]]>
+	<expr><![CDATA["Total en 
+Cuenta Cte."]]>
 	<supexpr><![CDATA[]]>
 	<comment><![CDATA[]]>
 	<user><![CDATA[]]>
@@ -273,7 +276,9 @@ TTOPTION=1
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA["Total Pagado"]]>
+	<expr><![CDATA["Total 
+Pagado
+"]]>
 	<supexpr><![CDATA[]]>
 	<comment><![CDATA[]]>
 	<user><![CDATA[]]>
@@ -285,7 +290,9 @@ TTOPTION=1
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA["Saldoa Pagar"]]>
+	<expr><![CDATA["Saldo
+a Pagar
+"]]>
 	<supexpr><![CDATA[]]>
 	<comment><![CDATA[]]>
 	<user><![CDATA[]]>

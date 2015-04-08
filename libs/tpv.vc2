@@ -2992,7 +2992,7 @@ DEFINE CLASS post AS custom
 		*p: valordescuento		&& Valor del Descuento
 	*</DefinedPropArrayMethod>
 
-	HIDDEN AddObject,AddProperty,BaseClass,Class,CloneObject,Comment,ControlCount,Controls,Error,Height,HelpContextID,Name,NewObject,Objects,ParentClass,Parent,Picture,ReadExpression,ReadMethod,RemoveObject,ResetToDefault,SaveAsClass,ShowWhatsThis,Tag,Width,WriteExpression,WriteMethod
+	HIDDEN addobject,addproperty,baseclass,class,cloneobject,comment,controlcount,controls,error,height,helpcontextid,name,newobject,objects,parentclass,parent,picture,readexpression,readmethod,removeobject,resettodefault,saveasclass,showwhatsthis,tag,width,writeexpression,writemethod
 	caja = Caja 01 - Cajero: (22)  Virginio Gonzalez
 	cliente = 
 	cpbte = 

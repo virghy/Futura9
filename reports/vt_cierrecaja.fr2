@@ -458,7 +458,8 @@ COLOR=2
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA[""]]>
+	<expr><![CDATA["
+"]]>
 	<supexpr><![CDATA[]]>
 	<comment><![CDATA[]]>
 	<user><![CDATA[]]>
@@ -482,7 +483,8 @@ COLOR=2
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA["Ingresos"]]>
+	<expr><![CDATA["Ingresos
+"]]>
 	<supexpr><![CDATA[]]>
 	<comment><![CDATA[]]>
 	<user><![CDATA[]]>
@@ -494,7 +496,8 @@ COLOR=2
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA["Egresos"]]>
+	<expr><![CDATA["Egresos
+"]]>
 	<supexpr><![CDATA[]]>
 	<comment><![CDATA[]]>
 	<user><![CDATA[]]>
@@ -602,7 +605,8 @@ COLOR=2
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA["1. Cobros"]]>
+	<expr><![CDATA["1. Cobros
+"]]>
 	<supexpr><![CDATA[left(Orden,2)='03']]>
 	<comment><![CDATA[]]>
 	<user><![CDATA[]]>
@@ -626,7 +630,8 @@ COLOR=2
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA["2. Ventas Contado"]]>
+	<expr><![CDATA["2. Ventas Contado
+"]]>
 	<supexpr><![CDATA[left(Orden,2)='03']]>
 	<comment><![CDATA[]]>
 	<user><![CDATA[]]>
@@ -662,7 +667,8 @@ COLOR=2
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA["3. Ventas Credito"]]>
+	<expr><![CDATA["3. Ventas Credito
+"]]>
 	<supexpr><![CDATA[left(Orden,2)='03']]>
 	<comment><![CDATA[]]>
 	<user><![CDATA[]]>
@@ -734,7 +740,8 @@ COLOR=2
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA["Cambio Divisa"]]>
+	<expr><![CDATA["Cambio Divisa
+"]]>
 	<supexpr><![CDATA[CambioDivisa + (Valorizado1*-1)>0]]>
 	<comment><![CDATA[]]>
 	<user><![CDATA[]]>
@@ -782,7 +789,8 @@ COLOR=2
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA["Total Ventas ( 2+3)"]]>
+	<expr><![CDATA["Total Ventas ( 2+3)
+"]]>
 	<supexpr><![CDATA[]]>
 	<comment><![CDATA[]]>
 	<user><![CDATA[]]>
@@ -794,7 +802,8 @@ COLOR=2
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA["Total Ingresos ( 1+2)"]]>
+	<expr><![CDATA["Total Ingresos ( 1+2)
+"]]>
 	<supexpr><![CDATA[]]>
 	<comment><![CDATA[]]>
 	<user><![CDATA[]]>
@@ -830,7 +839,8 @@ COLOR=2
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA["Saldo en Caja"]]>
+	<expr><![CDATA["Saldo en Caja
+"]]>
 	<supexpr><![CDATA[]]>
 	<comment><![CDATA[]]>
 	<user><![CDATA[]]>
@@ -854,7 +864,8 @@ COLOR=2
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA["Declarado"]]>
+	<expr><![CDATA["Declarado
+"]]>
 	<supexpr><![CDATA[]]>
 	<comment><![CDATA[]]>
 	<user><![CDATA[]]>
@@ -878,7 +889,8 @@ COLOR=2
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA["Diferencia"]]>
+	<expr><![CDATA["Diferencia
+"]]>
 	<supexpr><![CDATA[]]>
 	<comment><![CDATA[]]>
 	<user><![CDATA[]]>

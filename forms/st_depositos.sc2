@@ -11,6 +11,7 @@ DEFINE CLASS dataenvironment AS dataenvironment
 	*-- OBJECTDATA items order determines ZOrder / El orden de los items OBJECTDATA determina el ZOrder 
 	*< OBJECTDATA: ObjPath="Cursor1" UniqueID="" Timestamp="" />
 
+	DataSource = .NULL.
 	Height = 200
 	InitialSelectedAlias = "st_depositos"
 	Left = 42
@@ -74,7 +75,7 @@ DEFINE CLASS tsmaintform1 AS tsmaintform OF "..\libs\tsbase.vcx"
 		Name = "CBOSUCURSAL1", ;
 		TabIndex = 3, ;
 		Top = 82, ;
-		Width = 192
+		Width = 198
 		*< END OBJECT: ClassLib="..\libs\futura.vcx" BaseClass="combobox" />
 
 	ADD OBJECT 'Pageframe1.Page1.lblDescripción' AS tslabel WITH ;

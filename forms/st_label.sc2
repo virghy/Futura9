@@ -73,6 +73,11 @@ DEFINE CLASS form1 AS tsbaseform OF "..\libs\tsbase.vcx"
 	*< OBJECTDATA: ObjPath="Tslabel1" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Tslabel12" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Tslabel9" UniqueID="" Timestamp="" />
+	*< OBJECTDATA: ObjPath="nombre" UniqueID="" Timestamp="" />
+	*< OBJECTDATA: ObjPath="PROVEEDOR" UniqueID="" Timestamp="" />
+	*< OBJECTDATA: ObjPath="Tslabel13" UniqueID="" Timestamp="" />
+	*< OBJECTDATA: ObjPath="Tslabel14" UniqueID="" Timestamp="" />
+	*< OBJECTDATA: ObjPath="fac_prov" UniqueID="" Timestamp="" />
 
 	*<DefinedPropArrayMethod>
 		*p: listaprecio
@@ -83,13 +88,14 @@ DEFINE CLASS form1 AS tsbaseform OF "..\libs\tsbase.vcx"
 	ctoolbar = 
 	DoCreate = .T.
 	editmode = .T.
-	Height = 452
+	Height = 486
 	listaprecio = 
 	MaxButton = .F.
 	MinButton = .T.
 	Name = "Form1"
 	Width = 668
 	lblRequerido.Name = "lblRequerido"
+	lblRequerido.TabIndex = 13
 
 	ADD OBJECT 'Cantidad' AS tsspinner WITH ;
 		Height = 22, ;
@@ -137,8 +143,8 @@ DEFINE CLASS form1 AS tsbaseform OF "..\libs\tsbase.vcx"
 		RowSource = "Codigo de Barras,YUTY-01,Etiquetas comunes,COMUN", ;
 		RowSourceType = 1, ;
 		StatusBarText = "Tipo de etiqueta a imprimir.", ;
-		TabIndex = 12, ;
-		Top = 413, ;
+		TabIndex = 15, ;
+		Top = 448, ;
 		Value = ("YUTY-01"), ;
 		Width = 159, ;
 		ZOrderSet = 6
@@ -176,8 +182,8 @@ DEFINE CLASS form1 AS tsbaseform OF "..\libs\tsbase.vcx"
 		RowSource = "LPT1,LPT2,LPT3", ;
 		RowSourceType = 1, ;
 		StatusBarText = "Tipo de etiqueta a imprimir.", ;
-		TabIndex = 12, ;
-		Top = 413, ;
+		TabIndex = 16, ;
+		Top = 448, ;
 		Value = ("LPT2"), ;
 		Width = 56, ;
 		ZOrderSet = 6
@@ -192,9 +198,9 @@ DEFINE CLASS form1 AS tsbaseform OF "..\libs\tsbase.vcx"
 		Picture = ..\bitmaps\undo.bmp, ;
 		SpecialEffect = 2, ;
 		StatusBarText = "Elimina todas las etiquetas agregas a la lista", ;
-		TabIndex = 14, ;
+		TabIndex = 18, ;
 		ToolTipText = "Deshacer la lista", ;
-		Top = 413, ;
+		Top = 448, ;
 		Width = 41, ;
 		ZOrderSet = 9
 		*< END OBJECT: BaseClass="commandbutton" />
@@ -208,9 +214,9 @@ DEFINE CLASS form1 AS tsbaseform OF "..\libs\tsbase.vcx"
 		Picture = ..\bitmaps\_save.bmp, ;
 		SpecialEffect = 2, ;
 		StatusBarText = "Ejecuta el nuevo filtro y agrega a la lista existente", ;
-		TabIndex = 13, ;
+		TabIndex = 17, ;
 		ToolTipText = "Ejecutar y agregar a la lista", ;
-		Top = 413, ;
+		Top = 448, ;
 		Width = 41, ;
 		ZOrderSet = 8
 		*< END OBJECT: BaseClass="commandbutton" />
@@ -224,9 +230,9 @@ DEFINE CLASS form1 AS tsbaseform OF "..\libs\tsbase.vcx"
 		Picture = ..\bitmaps\wzprint.bmp, ;
 		SpecialEffect = 2, ;
 		StatusBarText = "Imprime las etiquetas según el formato seleccionado.", ;
-		TabIndex = 15, ;
+		TabIndex = 19, ;
 		ToolTipText = "Imprmir", ;
-		Top = 413, ;
+		Top = 448, ;
 		Width = 41, ;
 		ZOrderSet = 2
 		*< END OBJECT: BaseClass="commandbutton" />
@@ -238,8 +244,8 @@ DEFINE CLASS form1 AS tsbaseform OF "..\libs\tsbase.vcx"
 		Left = 576, ;
 		Name = "Command2", ;
 		SpecialEffect = 2, ;
-		TabIndex = 16, ;
-		Top = 411, ;
+		TabIndex = 20, ;
+		Top = 446, ;
 		Width = 75, ;
 		ZOrderSet = 3
 		*< END OBJECT: BaseClass="commandbutton" />
@@ -273,9 +279,9 @@ DEFINE CLASS form1 AS tsbaseform OF "..\libs\tsbase.vcx"
 		Height = 75, ;
 		Left = 624, ;
 		Name = "Detalle1", ;
-		TabIndex = 11, ;
+		TabIndex = 14, ;
 		tabla = Etiquetas, ;
-		Top = 216, ;
+		Top = 251, ;
 		valor = " ", ;
 		Width = 42, ;
 		ZOrderSet = 7, ;
@@ -292,6 +298,16 @@ DEFINE CLASS form1 AS tsbaseform OF "..\libs\tsbase.vcx"
 		RemoveItem.Top = 38, ;
 		RemoveItem.Width = 32
 		*< END OBJECT: ClassLib="..\libs\tsbase.vcx" BaseClass="commandgroup" />
+
+	ADD OBJECT 'fac_prov' AS tstextbox WITH ;
+		Height = 21, ;
+		Left = 468, ;
+		Name = "fac_prov", ;
+		requerido = .T., ;
+		TabIndex = 12, ;
+		Top = 144, ;
+		Width = 177
+		*< END OBJECT: ClassLib="..\libs\tsbase.vcx" BaseClass="textbox" />
 
 	ADD OBJECT 'Familia' AS tscombobox WITH ;
 		BoundColumn = 2, ;
@@ -320,14 +336,14 @@ DEFINE CLASS form1 AS tsbaseform OF "..\libs\tsbase.vcx"
 		ColumnCount = 7, ;
 		DeleteMark = .F., ;
 		FontSize = 8, ;
-		Height = 256, ;
+		Height = 234, ;
 		Left = 1, ;
 		Name = "Grid1", ;
 		Panel = 1, ;
 		RowHeight = 17, ;
 		ScrollBars = 2, ;
-		TabIndex = 17, ;
-		Top = 134, ;
+		TabIndex = 21, ;
+		Top = 191, ;
 		Width = 611, ;
 		ZOrderSet = 4, ;
 		Column1.ColumnOrder = 2, ;
@@ -522,10 +538,48 @@ DEFINE CLASS form1 AS tsbaseform OF "..\libs\tsbase.vcx"
 		ZOrderSet = 11
 		*< END OBJECT: ClassLib="..\libs\tsbase.vcx" BaseClass="combobox" />
 
+	ADD OBJECT 'nombre' AS tstextbox WITH ;
+		Comment = "", ;
+		ControlSource = "", ;
+		editable = .F., ;
+		Enabled = .F., ;
+		Height = 22, ;
+		Left = 168, ;
+		Name = "nombre", ;
+		TabIndex = 25, ;
+		Top = 144, ;
+		Width = 216, ;
+		ZOrderSet = 3
+		*< END OBJECT: ClassLib="..\libs\tsbase.vcx" BaseClass="textbox" />
+
+	ADD OBJECT 'PROVEEDOR' AS campo_clave WITH ;
+		condicionextra = idempresa=?oapp.empresa, ;
+		condicionvalidacion = !empty(cp_vCompra.idproveedor), ;
+		DateFormat = 0, ;
+		datoayuda = PROVEEDORES, ;
+		Height = 22, ;
+		indice = idProveedor, ;
+		indice1 = , ;
+		Left = 108, ;
+		mensajeerror = Código de Proveedor no existe, ;
+		mensajevalidacion = , ;
+		Name = "PROVEEDOR", ;
+		objeto = this.parent.nombre, ;
+		objeto2 = , ;
+		origen = R, ;
+		requerido = .T., ;
+		retorna = razon, ;
+		retorna2 = , ;
+		TabIndex = 11, ;
+		tabla = cp_proveedor, ;
+		Top = 144, ;
+		Width = 59
+		*< END OBJECT: ClassLib="..\libs\tsbase.vcx" BaseClass="textbox" />
+
 	ADD OBJECT 'Ts3dshape1' AS ts3dshape WITH ;
 		BackColor = 128,128,128, ;
 		BackStyle = 0, ;
-		Height = 115, ;
+		Height = 171, ;
 		Left = 1, ;
 		Name = "Ts3dshape1", ;
 		Top = 9, ;
@@ -539,7 +593,7 @@ DEFINE CLASS form1 AS tsbaseform OF "..\libs\tsbase.vcx"
 		Height = 47, ;
 		Left = 1, ;
 		Name = "Ts3dshape2", ;
-		Top = 401, ;
+		Top = 436, ;
 		Width = 659, ;
 		ZOrderSet = 0
 		*< END OBJECT: ClassLib="..\libs\tsbase.vcx" BaseClass="shape" />
@@ -552,7 +606,7 @@ DEFINE CLASS form1 AS tsbaseform OF "..\libs\tsbase.vcx"
 		Height = 16, ;
 		Left = 31, ;
 		Name = "Tslabel1", ;
-		TabIndex = 28, ;
+		TabIndex = 33, ;
 		Top = 99, ;
 		Width = 79, ;
 		ZOrderSet = 29
@@ -566,7 +620,7 @@ DEFINE CLASS form1 AS tsbaseform OF "..\libs\tsbase.vcx"
 		Height = 16, ;
 		Left = 66, ;
 		Name = "Tslabel10", ;
-		TabIndex = 20, ;
+		TabIndex = 26, ;
 		Top = 25, ;
 		Width = 44, ;
 		ZOrderSet = 25
@@ -580,7 +634,7 @@ DEFINE CLASS form1 AS tsbaseform OF "..\libs\tsbase.vcx"
 		Height = 16, ;
 		Left = 434, ;
 		Name = "Tslabel11", ;
-		TabIndex = 22, ;
+		TabIndex = 28, ;
 		Top = 27, ;
 		Width = 32, ;
 		ZOrderSet = 12
@@ -596,10 +650,32 @@ DEFINE CLASS form1 AS tsbaseform OF "..\libs\tsbase.vcx"
 		Height = 16, ;
 		Left = 22, ;
 		Name = "Tslabel12", ;
-		TabIndex = 25, ;
+		TabIndex = 31, ;
 		Top = 3, ;
 		Width = 70, ;
 		ZOrderSet = 30
+		*< END OBJECT: ClassLib="..\libs\tsbase.vcx" BaseClass="label" />
+
+	ADD OBJECT 'Tslabel13' AS tslabel WITH ;
+		Caption = "Proveedor", ;
+		FontBold = .F., ;
+		Height = 22, ;
+		Left = 47, ;
+		Name = "Tslabel13", ;
+		TabIndex = 23, ;
+		Top = 144, ;
+		Width = 60
+		*< END OBJECT: ClassLib="..\libs\tsbase.vcx" BaseClass="label" />
+
+	ADD OBJECT 'Tslabel14' AS tslabel WITH ;
+		Caption = "Nro. Factura", ;
+		FontBold = .F., ;
+		Height = 17, ;
+		Left = 399, ;
+		Name = "Tslabel14", ;
+		TabIndex = 36, ;
+		Top = 144, ;
+		Width = 67
 		*< END OBJECT: ClassLib="..\libs\tsbase.vcx" BaseClass="label" />
 
 	ADD OBJECT 'Tslabel2' AS tslabel WITH ;
@@ -610,8 +686,8 @@ DEFINE CLASS form1 AS tsbaseform OF "..\libs\tsbase.vcx"
 		Height = 16, ;
 		Left = 16, ;
 		Name = "Tslabel2", ;
-		TabIndex = 29, ;
-		Top = 416, ;
+		TabIndex = 34, ;
+		Top = 451, ;
 		Width = 82, ;
 		ZOrderSet = 5
 		*< END OBJECT: ClassLib="..\libs\tsbase.vcx" BaseClass="label" />
@@ -624,7 +700,7 @@ DEFINE CLASS form1 AS tsbaseform OF "..\libs\tsbase.vcx"
 		Height = 16, ;
 		Left = 32, ;
 		Name = "Tslabel3", ;
-		TabIndex = 18, ;
+		TabIndex = 22, ;
 		Top = 49, ;
 		Width = 78, ;
 		ZOrderSet = 28
@@ -638,7 +714,7 @@ DEFINE CLASS form1 AS tsbaseform OF "..\libs\tsbase.vcx"
 		Height = 16, ;
 		Left = 200, ;
 		Name = "Tslabel4", ;
-		TabIndex = 19, ;
+		TabIndex = 24, ;
 		Top = 49, ;
 		Width = 33, ;
 		ZOrderSet = 27
@@ -652,7 +728,7 @@ DEFINE CLASS form1 AS tsbaseform OF "..\libs\tsbase.vcx"
 		Height = 16, ;
 		Left = 432, ;
 		Name = "Tslabel5", ;
-		TabIndex = 21, ;
+		TabIndex = 27, ;
 		Top = 51, ;
 		Width = 34, ;
 		ZOrderSet = 26
@@ -666,7 +742,7 @@ DEFINE CLASS form1 AS tsbaseform OF "..\libs\tsbase.vcx"
 		Height = 16, ;
 		Left = 438, ;
 		Name = "Tslabel6", ;
-		TabIndex = 23, ;
+		TabIndex = 29, ;
 		Top = 76, ;
 		Width = 28, ;
 		ZOrderSet = 24
@@ -680,7 +756,7 @@ DEFINE CLASS form1 AS tsbaseform OF "..\libs\tsbase.vcx"
 		Height = 16, ;
 		Left = 23, ;
 		Name = "Tslabel7", ;
-		TabIndex = 27, ;
+		TabIndex = 32, ;
 		Top = 74, ;
 		Width = 87, ;
 		ZOrderSet = 22
@@ -694,7 +770,7 @@ DEFINE CLASS form1 AS tsbaseform OF "..\libs\tsbase.vcx"
 		Height = 16, ;
 		Left = 411, ;
 		Name = "Tslabel8", ;
-		TabIndex = 24, ;
+		TabIndex = 30, ;
 		Top = 99, ;
 		Width = 55, ;
 		ZOrderSet = 23
@@ -708,8 +784,8 @@ DEFINE CLASS form1 AS tsbaseform OF "..\libs\tsbase.vcx"
 		Height = 16, ;
 		Left = 424, ;
 		Name = "Tslabel9", ;
-		TabIndex = 29, ;
-		Top = 417, ;
+		TabIndex = 35, ;
+		Top = 452, ;
 		Width = 82, ;
 		ZOrderSet = 5
 		*< END OBJECT: ClassLib="..\libs\tsbase.vcx" BaseClass="label" />
@@ -790,6 +866,7 @@ DEFINE CLASS form1 AS tsbaseform OF "..\libs\tsbase.vcx"
 
 	PROCEDURE cmdEjecutar.Click
 		Local CMDSQL
+		
 		m.DEPOSITO = Thisform.DEPOSITO.Value
 		m.IDPROI = Thisform.TXTDPRODUCTO.Value
 		m.IDPROF = Thisform.TXTHPRODUCTO.Value
@@ -820,33 +897,50 @@ DEFINE CLASS form1 AS tsbaseform OF "..\libs\tsbase.vcx"
 			CFILTRO = CFILTRO+" AND Linea = '"+Alltrim(Thisform.LINEA.Value)+"' "
 		Endif
 		CFILTRO = CFILTRO+" AND prod.IdEmpresa = ?oApp.Empresa "
+		
+		If  .Not. Empty(Thisform.provEEDOR.Value) .And.  .Not. Empty(Thisform.fac_prov.Value)
+			TEXT TO CMDSQL TEXTMERGE  NOSHOW
+						SELECT     prod.Descripcion AS Producto, m.IdProducto, pre.Precio, SUM(m.Cantidad) AS Stock,catalogo=ISNULL(catalogo,''), pre.Moneda
+					FROM    cp_Factura f inner join dbo.st_movimiento_Det m on f.idfactura = m.IDCompra INNER JOIN
+					                      dbo.st_Producto prod ON m.IdEmpresa = prod.IdEmpresa AND m.IdProducto = prod.IdProducto LEFT OUTER JOIN
+					                      dbo.vt_Precios pre ON prod.IdEmpresa = pre.IdEmpresa AND prod.IdProducto = pre.IdProducto and pre.IdLista = ?m.IDLISTA
+					where m.IdEmpresa = ?oApp.Empresa  and f.IdProveedor= '<<thisform.proveEDOR.Value>>' and f.facturaproveedor = '<<Thisform.fac_prov.Value>>'
+					GROUP BY prod.Descripcion, m.IdProducto, pre.Precio,Catalogo,pre.Moneda
+			ENDTEXT
+		Else
 		If  .Not. Empty(Thisform.TXTNROMOV.Value) .And.  .Not. Empty(Thisform.CBOCOMPROBANTE.Value)
 			TEXT TO CMDSQL NOSHOW
-						SELECT     prod.Descripcion AS Producto, m.IdProducto, pre.Precio, SUM(m.Cantidad) AS Stock,catalogo=ISNULL(catalogo,''), pre.IdMoneda
+						SELECT     prod.Descripcion AS Producto, m.IdProducto, pre.Precio, SUM(m.Cantidad) AS Stock,catalogo=ISNULL(catalogo,''), pre.Moneda
 					FROM         dbo.st_movimiento_Det m INNER JOIN
 					                      dbo.st_Producto prod ON m.IdEmpresa = prod.IdEmpresa AND m.IdProducto = prod.IdProducto LEFT OUTER JOIN
-					                      dbo.vt_Precios pre ON prod.IdEmpresa = pre.IdEmpresa AND prod.IdProducto = pre.IdProducto
+					                      dbo.vt_Precios pre ON prod.IdEmpresa = pre.IdEmpresa AND prod.IdProducto = pre.IdProducto and pre.IdLista = ?m.IDLISTA
 					where m.IdEmpresa = ?oApp.Empresa  and m.IdComprobante = ?m.Cpbt and m.número = ?m.Numero
-					GROUP BY prod.Descripcion, m.IdProducto, pre.Precio,Catalogo,IdMoneda
+					GROUP BY prod.Descripcion, m.IdProducto, pre.Precio,Catalogo,pre.Moneda
 			ENDTEXT
 		Else
 			TEXT TO CMDSQL TEXTMERGE NOSHOW
-				SELECT     prod.Descripcion AS Producto, pre.Precio, s.Cantidad as Stock, prod.IdProducto,catalogo=ISNULL(catalogo,''),Pre.IdMoneda
+				SELECT     prod.Descripcion AS Producto, pre.Precio, s.Cantidad as Stock, prod.IdProducto,catalogo=ISNULL(catalogo,''),Pre.Moneda
 				FROM         dbo.st_Producto prod 
 								inner join dbo.st_SaldoStock(?oApp.Empresa,null,?m.deposito,?m.hfecha) s
 						      ON prod.IdEmpresa = s.IdEmpresa AND prod.IdProducto = s.IdProducto LEFT OUTER JOIN
-				                      dbo.vt_Precios pre ON prod.IdEmpresa = pre.IdEmpresa AND prod.IdProducto = pre.IdProducto
+				                      dbo.vt_Precios pre ON prod.IdEmpresa = pre.IdEmpresa AND prod.IdProducto = pre.IdProducto and pre.IdLista = ?m.IDLISTA
 				where <<cFiltro>>
-				GROUP BY prod.Descripcion, pre.Precio, s.Cantidad, prod.IdProducto,Catalogo,IdMoneda
+				GROUP BY prod.Descripcion, pre.Precio, s.Cantidad, prod.IdProducto,Catalogo,pre.Moneda
 		
 			ENDTEXT
-		Endif
+		ENDIF
+		ENDIF
+		
 		If Thisform.RUNSQL(CMDSQL, 'Stock')>0
 			If Eof('Stock')
 				Messagebox("No existe ningun producto con su precio asignado.", 48, "Futura")
 				Return .F.
 			Endif
-		Endif
+		ENDIF
+		SELECT etiquetas 
+		DELETE ALL
+		
+		
 		Select STOCK
 		Scan
 			If  .Not. PRECIO>0 .Or. Isnull(PRECIO)
@@ -855,10 +949,10 @@ DEFINE CLASS form1 AS tsbaseform OF "..\libs\tsbase.vcx"
 				Case MSG=2
 					Return
 				Case MSG=6
-					Insert Into etiquetas (CANTIDAD, IDPRODUCTO, PRODUCTO, STOCK, PRECIO,Referencia,Moneda) Values (Iif(STOCK.STOCK>NCAN .Or. STOCK.STOCK=-1, NCAN, STOCK.STOCK), STOCK.IDPRODUCTO, STOCK.PRODUCTO, Iif(STOCK.STOCK=-1, .Null., STOCK.STOCK), STOCK.PRECIO,stock.catalogo,Stock.IdMoneda)
+					Insert Into etiquetas (CANTIDAD, IDPRODUCTO, PRODUCTO, STOCK, PRECIO,Referencia,Moneda) Values (Iif(STOCK.STOCK>NCAN .Or. STOCK.STOCK=-1, NCAN, STOCK.STOCK), STOCK.IDPRODUCTO, STOCK.PRODUCTO, Iif(STOCK.STOCK=-1, .Null., STOCK.STOCK), STOCK.PRECIO,stock.catalogo,Stock.Moneda)
 				Endcase
 			Else
-				Insert Into etiquetas (CANTIDAD, IDPRODUCTO, PRODUCTO, STOCK, PRECIO,Referencia,Moneda) Values (Iif(STOCK.STOCK>NCAN .Or. STOCK.STOCK=-1, NCAN, STOCK.STOCK), STOCK.IDPRODUCTO, STOCK.PRODUCTO, Iif(STOCK.STOCK=-1, .Null., STOCK.STOCK), STOCK.PRECIO,stock.catalogo,Stock.IdMoneda)
+				Insert Into etiquetas (CANTIDAD, IDPRODUCTO, PRODUCTO, STOCK, PRECIO,Referencia,Moneda) Values (Iif(STOCK.STOCK>NCAN .Or. STOCK.STOCK=-1, NCAN, STOCK.STOCK), STOCK.IDPRODUCTO, STOCK.PRODUCTO, Iif(STOCK.STOCK=-1, .Null., STOCK.STOCK), STOCK.PRECIO,stock.catalogo,Stock.Moneda)
 			Endif
 		Endscan
 		Thisform.GRID1.Refresh()

@@ -30,7 +30,7 @@ DEFINE CLASS themedcontainer AS container
 		*p: _memberdata		&& XML Metadata for customizable properties
 	*</DefinedPropArrayMethod>
 
-	PROTECTED Init
+	PROTECTED init
 	Anchor = 15
 	BackColor = 255,255,255
 	Height = 400
@@ -251,7 +251,7 @@ DEFINE CLASS themedtitlecontainer AS control
 		*p: _memberdata		&& XML Metadata for customizable properties
 	*</DefinedPropArrayMethod>
 
-	PROTECTED Init
+	PROTECTED init
 	Anchor = 15
 	BackColor = 255,255,255
 	caption = .F.		&& Specifies the text displayed in an object's caption.
@@ -476,7 +476,7 @@ ENDDEFINE
 DEFINE CLASS themedtitlepageframe AS pageframe 
  	*< CLASSDATA: Baseclass="pageframe" Timestamp="" Scale="Pixels" Uniqueid="" />
 
-	PROTECTED Resize
+	PROTECTED resize
 	ActivePage = 1
 	Anchor = 7
 	BorderWidth = 0

@@ -22,7 +22,7 @@ DEFINE CLASS explorerbar AS container
 		*p: _memberdata		&& XML Metadata for customizable properties
 	*</DefinedPropArrayMethod>
 
-	PROTECTED Init,Resize
+	PROTECTED init,Resize
 	Anchor = 7
 	BorderWidth = 0
 	custombuilder = Double click here to open Builder
@@ -212,7 +212,7 @@ DEFINE CLASS explorergroup AS container
 	*</DefinedPropArrayMethod>
 
 	HIDDEN initialheight
-	PROTECTED GotFocus,Init,Resize
+	PROTECTED gotfocus,Init,Resize
 	BackStyle = 0
 	BorderWidth = 0
 	custombuilder = Double click here to open Builder
