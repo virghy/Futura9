@@ -44,21 +44,21 @@ Temporary Items
 
 
 # Archivos de VFP
-*.scx
-*.sct
-*.vcx
-*.vct
-*.frx
-*.frt
-*.mnx
-*.mnt
-*.pjx
-*.pjt
-*.app
-*.mpr
-*.dbc
-*.dcx
-*.dct
+#*.scx
+#*.sct
+#*.vcx
+#*.vct
+#*.frx
+#*.frt
+#*.mnx
+#*.mnt
+#*.pjx
+#*.pjt
+#*.app
+#*.mpr
+#*.dbc
+#*.dcx
+#*.dct
 #*.dbf
 #*.fpt
 #*.cdx
@@ -69,8 +69,8 @@ Temporary Items
 *.zip
 *.rar
 *.err
-*.lbx
-*.lbt
+#*.lbx
+#*.lbt
 futura.ini
 errores.dbf
 errores.fpt
