@@ -16,22 +16,22 @@ DEFINE CLASS dataenvironment AS dataenvironment
 	DataSource = (oApp.HndConn)
 	DataSourceType = "ODBC"
 	Height = 200
-	Left = 321
+	Left = 105
 	Name = "Dataenvironment"
-	Top = 178
+	Top = 141
 	Width = 520
 
 	ADD OBJECT 'Cursoradapter1' AS cursoradapter WITH ;
 		Alias = "bs_Barrios", ;
 		CursorSchema = DESCRIPCION C(50), IDBARRIO C(10), IDCIUDAD C(10), ;
 		Flags = 0, ;
-		Height = 90, ;
+		Height = 83, ;
 		KeyFieldList = IDBARRIO, ;
 		Left = 10, ;
 		Name = "Cursoradapter1", ;
 		SelectCmd = select Descripcion, IdBarrio, IdCiudad from bs_Barrios, ;
 		Tables = bs_Barrios, ;
-		Top = 20, ;
+		Top = 12, ;
 		UpdatableFieldList = DESCRIPCION, IDBARRIO, IDCIUDAD, ;
 		UpdateNameList = DESCRIPCION bs_Barrios.Descripcion, IDBARRIO bs_Barrios.IdBarrio, IDCIUDAD bs_Barrios.IdCiudad, ;
 		UseDeDataSource = .T., ;

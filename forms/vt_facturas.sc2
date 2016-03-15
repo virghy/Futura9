@@ -2337,7 +2337,8 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 			ELSE
 		*		REPORT FORM (cTipo.NombreFormato)  TO PRINTER NOPAGEEJECT 
 		*		REPORT FORM (cTipo.NombreFormato)  TO PRINTER NOPAGEEJECT 
-				REPORT FORM (cTipo.NombreFormato)  PREVIEW
+		*		REPORT FORM (cTipo.NombreFormato)  PREVIEW
+				oApp.DoReport(cTipo.NombreFormato,'PREVIEW')
 			ENDIF
 									
 		ELSE
@@ -2795,7 +2796,11 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 	ENDPROC
 
 	PROCEDURE Pageframe1.PAGE1.Moneda1.InteractiveChange
-		THIS.PARENT.COTIZACION.VALUE = COTIZACION(THIS.VALUE, 'V', THIS.PARENT.FECHA.VALUE)
+		IF thisform.editmode
+			THIS.PARENT.COTIZACION.VALUE = COTIZACION(THIS.VALUE, 'V', THIS.PARENT.FECHA.VALUE)
+		ENDIF
+		
+		
 	ENDPROC
 
 	PROCEDURE Pageframe1.PAGE1.Moneda1.LostFocus
@@ -2829,11 +2834,11 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 		Local TIPOFINAL
 		TIPOFINAL = XVENTA.TIPO_IVA="C"
 		m.IDCOMPROB = This.Value
-		Thisform.PAGEFRAME1.PAGE1.TOTALES.EXENTO.Visible =  .Not. TIPOFINAL or VT_VFACTURA.TOTALMANUAL
-		Thisform.PAGEFRAME1.PAGE1.TOTALES.GRAVADO.Visible =  .Not. TIPOFINAL or VT_VFACTURA.TOTALMANUAL
+		Thisform.PAGEFRAME1.PAGE1.TOTALES.EXENTO.Visible =  .Not. TIPOFINAL or nvl(VT_VFACTURA.TOTALMANUAL,.f.)
+		Thisform.PAGEFRAME1.PAGE1.TOTALES.GRAVADO.Visible =  .Not. TIPOFINAL or nvl(VT_VFACTURA.TOTALMANUAL,.f.)
 		Thisform.PAGEFRAME1.PAGE1.TOTALES.SUBTOTAL.Visible =  .Not. TIPOFINAL
-		Thisform.PAGEFRAME1.PAGE1.TOTALES.LBLGRAVADO.Visible =  .Not. TIPOFINAL  or VT_VFACTURA.TOTALMANUAL
-		Thisform.PAGEFRAME1.PAGE1.TOTALES.LBLEXENTO.Visible =  .Not. TIPOFINAL or VT_VFACTURA.TOTALMANUAL
+		Thisform.PAGEFRAME1.PAGE1.TOTALES.LBLGRAVADO.Visible =  .Not. TIPOFINAL  or nvl(VT_VFACTURA.TOTALMANUAL,.f.)
+		Thisform.PAGEFRAME1.PAGE1.TOTALES.LBLEXENTO.Visible =  .Not. TIPOFINAL or nvl(VT_VFACTURA.TOTALMANUAL,.f.)
 		Thisform.PAGEFRAME1.PAGE1.TOTALES.LBLIVA.Visible =  .Not. TIPOFINAL 
 		Thisform.PAGEFRAME1.PAGE1.TOTALES.LBLSUBTOTAL.Visible =  .Not. TIPOFINAL
 		Thisform.PAGEFRAME1.PAGE1.TSGRID1.PRECIO.ControlSource = Iif(TIPOFINAL, 'vt_vDetFactu.real', 'vt_vDetFactu.precio')
@@ -2909,9 +2914,9 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 	PROCEDURE Pageframe1.PAGE1.totales.Refresh
 		
 		Local LNTOTAL, LNDESCUENTO, LNPORCDESCUENTO
-		This.IVA.EDITABLE = VT_VFACTURA.TOTALMANUAL
-		this.exento.editable=VT_VFACTURA.TOTALMANUAL
-		this.gravado.editable=VT_VFACTURA.TOTALMANUAL
+		This.IVA.EDITABLE = nvl(VT_VFACTURA.TOTALMANUAL,.f.)
+		this.exento.editable=nvl(VT_VFACTURA.TOTALMANUAL,.f.)
+		this.gravado.editable=nvl(VT_VFACTURA.TOTALMANUAL,.f.)
 		
 		
 		If Thisform.EDITMODE
@@ -2951,7 +2956,7 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 				This.EXENTO.Value = 0
 			ENDIF
 			
-			If  .Not. VT_VFACTURA.TOTALMANUAL
+			If  .Not. nvl(VT_VFACTURA.TOTALMANUAL,.f.)
 				If XVENTA.TIPO_IVA<>'C'
 					If This.Parent.TSGRID1.TOTALES(3)<>0 OR This.Parent.TSGRID1.TOTALES(4)<>0 
 						m.Gravada5= ROUND(This.Parent.TSGRID1.TOTALES(3)-This.Parent.TSGRID1.TOTALES(3)*LNPORCDESCUENTO/100,nrodecimales) 

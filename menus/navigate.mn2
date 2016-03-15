@@ -5,7 +5,7 @@
 *< FOXBIN2PRG: Version="1.19" SourceFile="navigate.mnx" /> (Solo para binarios VFP 9 / Only for VFP 9 binaries)
 *
 *<MenuType>1</MenuType>
-*<MenuLocation>BEFORE _MWINDOW</MenuLocation>
+*<MenuLocation>AFTER _MWINDOW</MenuLocation>
 
 *<MenuCode>
 DEFINE MENU _MSYSMENU BAR

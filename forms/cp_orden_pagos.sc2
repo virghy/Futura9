@@ -165,6 +165,7 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 		*p: facturaeditado
 		*p: moneda_def		&& moneda por defecto
 		*p: moneda_doc		&& el codigo de moneda del documento a pagar
+		*p: nombreformato
 		*p: sucursal_def		&& Sucursal por defecto
 		*p: tipo_fact		&& Tipo de factura de compra por defecto
 		*p: valor_iva		&& valor del iva
@@ -189,6 +190,7 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 	moneda_def = 		&& moneda por defecto
 	moneda_doc = 		&& el codigo de moneda del documento a pagar
 	Name = "Tsmaintform1"
+	nombreformato = cp_OrdenPago
 	repetirvalores = Fecha
 	tabla1 = cp_vordenpago
 	tabla2 = cp_vorddet_pago
@@ -1072,7 +1074,7 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 		editable = .T., ;
 		Height = 60, ;
 		Left = 107, ;
-		MaxLength = 200, ;
+		MaxLength = 500, ;
 		Name = "Tseditbox1", ;
 		TabIndex = 7, ;
 		Top = 130, ;
@@ -1407,7 +1409,11 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 			= ESCRIBIRINI(LCREPORT, 'OrdenPago', 'OPCIONES')
 		ENDIF
 		
-		REPORT FORM (LCREPORT) TO PRINTER PROMPT NOCONSOLE PREVIEW 
+		*REPORT FORM (LCREPORT) TO PRINTER PROMPT NOCONSOLE PREVIEW
+		oApp.DoReport(this.nombreformato,'PREVIEW')
+		
+		
+		 
 		
 		
 	ENDPROC
@@ -1419,19 +1425,22 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 		LOCAL LCTIPO, LCCONDICION, STRSQL
 		STRSQL = "Select valor from bs_constante where constante = "+"'"+"MONEDA_COMPRA"+"'"+"AND idempresa = "+"'"+OAPP.EMPRESA+"'"
 		IF SQL(STRSQL, 'vparam')>0
-		THIS.MONEDA_DEF = VPARAM.VALOR
+			THIS.MONEDA_DEF = VPARAM.VALOR
 		ENDIF
 		IF  .NOT. EMPTY(OAPP.SUCURSAL)
-		THIS.SUCURSAL_DEF = OAPP.SUCURSAL
+			THIS.SUCURSAL_DEF = OAPP.SUCURSAL
 		ENDIF
 		STRSQL = "Select valor from bs_constante where constante = "+"'"+"TIPO_COMPROBANTE_COMPRA"+"'"+"AND idempresa = "+"'"+OAPP.EMPRESA+"'"
 		IF SQL(STRSQL, 'vparam')>0
-		THIS.TIPO_FACT = VPARAM.VALOR
+			THIS.TIPO_FACT = VPARAM.VALOR
 		ENDIF
 		STRSQL = "Select valor from bs_constante where constante = "+"'"+"CONDICION_COMPRA"+"'"+"AND idempresa = "+"'"+OAPP.EMPRESA+"'"
 		IF SQL(STRSQL, 'vparam')>0
-		THIS.CONDICION_DEF = VPARAM.VALOR
+			THIS.CONDICION_DEF = VPARAM.VALOR
 		ENDIF
+		
+		this.nombreformato=oApp.LeerConstante('CP_NOMBRE_OP')
+		                  
 	ENDPROC
 
 	PROCEDURE save

@@ -1,6 +1,6 @@
 *       *********************************************************
 *       *                                                         
-*       * 23/03/2015              RST.MPR               11:51:18  
+*       * 07/10/2015              RST.MPR               10:01:17  
 *       *                                                         
 *       *********************************************************
 *       *                                                         
@@ -40,7 +40,7 @@ DEFINE BAR 2 OF movimiento PROMPT "\-"
 DEFINE BAR 3 OF movimiento PROMPT "Produccion" ;
 	SKIP FOR !oApp.Permisos(484)
 ON SELECTION BAR 1 OF movimiento ;
-	DO _4b70peqtw ;
+	DO _4gp0lh7k7 ;
 	IN LOCFILE("FUTURA9\MENUS\RST" ,"MPX;MPR|FXP;PRG" ,"WHERE is RST?")
 ON SELECTION BAR 3 OF movimiento oApp.DoForm('rs_movimiento')
 
@@ -57,7 +57,7 @@ ON SELECTION MENU _MSYSMENU *-- (C) MICROSOFT CORPORATION 1995
 
 *       *********************************************************
 *       *                                                         
-*       * _4B70PEQTW  ON SELECTION BAR 1 OF POPUP movimiento      
+*       * _4GP0LH7K7  ON SELECTION BAR 1 OF POPUP movimiento      
 *       *                                                         
 *       * Procedure Origin:                                       
 *       *                                                         
@@ -68,7 +68,7 @@ ON SELECTION MENU _MSYSMENU *-- (C) MICROSOFT CORPORATION 1995
 *       *                                                         
 *       *********************************************************
 *
-PROCEDURE _4b70peqtw
+PROCEDURE _4gp0lh7k7
 TEXT TO cmdsql TEXTMERGE NOSHOW
 	SELECT IdCaja FROM vt_caja
 		where idEmpresa=?oApp.Empresa

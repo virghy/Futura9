@@ -1,12 +1,12 @@
 *       *********************************************************
 *       *                                                         
-*       * 23/03/2015             BASE.MPR               11:51:17  
+*       * 24/02/2016             BASE.MPR               07:31:37  
 *       *                                                         
 *       *********************************************************
 *       *                                                         
 *       * Virginio Gonzalez                                       
 *       *                                                         
-*       * Copyright (C) 2015 Futura Software                      
+*       * Copyright (C) 2016 Futura Software                      
 *       * Address                                                 
 *       * City,     Zip                                           
 *       *                                                         
@@ -74,7 +74,7 @@ ON SELECTION BAR 7 OF definicion oApp.DoForm('bs_dpto')
 ON SELECTION BAR 8 OF definicion oApp.Doform('bs_paises')
 ON SELECTION BAR 10 OF definicion OAPP.DOFORM('BS_IVA')
 ON SELECTION BAR 12 OF definicion ;
-	DO _4b70peqkd ;
+	DO _4kn0g4siw ;
 	IN LOCFILE("FUTURA9\MENUS\BASE" ,"MPX;MPR|FXP;PRG" ,"WHERE is BASE?")
 ON SELECTION BAR 13 OF definicion oApp.DoForm('sys_impresion')
 
@@ -82,7 +82,7 @@ ON SELECTION MENU _MSYSMENU *-- (C) MICROSOFT CORPORATION 1995
 
 *       *********************************************************
 *       *                                                         
-*       * _4B70PEQKD  ON SELECTION BAR 12 OF POPUP definicion     
+*       * _4KN0G4SIW  ON SELECTION BAR 12 OF POPUP definicion     
 *       *                                                         
 *       * Procedure Origin:                                       
 *       *                                                         
@@ -93,16 +93,34 @@ ON SELECTION MENU _MSYSMENU *-- (C) MICROSOFT CORPORATION 1995
 *       *                                                         
 *       *********************************************************
 *
-PROCEDURE _4b70peqkd
+PROCEDURE _4kn0g4siw
 DO seteo
 WAIT WINDOW NOCLEAR NOWAIT "Actualizando Objetos..."
 USE sysobjetos
 SCAN
  TEXT TO cmdsql NOSHOW
 	
+	--Si no existe
 	IF (select COUNT(*) from sys_objetos where IdObjeto= ?sysobjetos.IdObjeto)=0
-		INSERT sys_objetos(IdObjeto,IdSistema,Descripcion,Tipo)
-				values (?sysobjetos.IdObjeto,?sysobjetos.IdSistema,?sysobjetos.Descripcion,?sysobjetos.Tipo)
+	begin
+		INSERT sys_objetos(IdObjeto,IdSistema,Descripcion,Tipo,
+						Archivo,Imagen,Version)
+				values (?sysobjetos.IdObjeto,?sysobjetos.IdSistema,?sysobjetos.Descripcion,?sysobjetos.Tipo,
+				?sysobjetos.Archivo,?sysobjetos.Imagen,?sysobjetos.Version)
+	END
+	ELSE
+	-- Si existe
+	BEGIN
+		IF (select COUNT(*) from sys_objetos where IdObjeto= ?sysobjetos.IdObjeto AND ISNULL(Version,0)<?sysobjetos.Version)>0
+		UPDATE sys_objetos
+		SET Archivo = ?ALLTRIM(sysobjetos.Archivo),
+			Imagen =?ALLTRIM(sysobjetos.Imagen),
+			Version = ?sysobjetos.Version
+		where IdObjeto = ?sysobjetos.IdObjeto	
+	END
+	
+	
+	
 	
  ENDTEXT
  = sql(cmdsql,'c')

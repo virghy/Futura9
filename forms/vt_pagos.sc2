@@ -125,17 +125,20 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.NroCuenta" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.Moneda1" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.cotizacion" UniqueID="" Timestamp="" />
+	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.tsSucursal" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.Tslabel8" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.Tslabel13" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.Tslabel1" UniqueID="" Timestamp="" />
+	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.Tslabel11" UniqueID="" Timestamp="" />
+	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.Tslabel12" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.Tslabel2" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.Tslabel3" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.Tslabel4" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.Tslabel5" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.Tstextbox1" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.Tslabel7" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.num_recibo" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.fecha" UniqueID="" Timestamp="" />
+	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.Tslabel14" UniqueID="" Timestamp="" />
+	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.txtACuenta" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.idpago" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.cbotip_reci" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.Tslabel6" UniqueID="" Timestamp="" />
@@ -143,11 +146,8 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.ApliMonto" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.Idcobrador" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.Tslabel10" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.Tslabel11" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.Tslabel12" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.tsSucursal" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.Tslabel14" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.txtACuenta" UniqueID="" Timestamp="" />
+	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.Tslabel13" UniqueID="" Timestamp="" />
+	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.Tstextbox1" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.chkAplica" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.Tscommandbutton1" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.Olecontrol1" UniqueID="" Timestamp="" />
@@ -409,7 +409,7 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 		Name = "Olecontrol1", ;
 		Top = 430, ;
 		Width = 396
-		*< END OBJECT: BaseClass="olecontrol" OLEObject="c:\windows\syswow64\mscomctl.ocx" Value="0M8R4KGxGuEAAAAAAAAAAAAAAAAAAAAAPgADAP7/CQAGAAAAAAAAAAAAAAABAAAAAQAAAAAAAAAAEAAAAgAAAAEAAAD+////AAAAAAAAAAD////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////9/////v////7////+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////1IAbwBvAHQAIABFAG4AdAByAHkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWAAUA//////////8BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKCTuhoNw88BAwAAAEABAAAAAAAAAwBPAGwAZQBPAGIAagBlAGMAdABEAGEAdABhAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB4AAgEDAAAAAgAAAP////8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAADAEEAYwBjAGUAcwBzAE8AYgBqAFMAaQB0AGUARABhAHQAYQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJgACAP///////////////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAABcAAAAAAAAAAMAQwBoAGEAbgBnAGUAZABQAHIAbwBwAHMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcAAIA////////////////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwAAAAQAAAAAAAAABAAAAAIAAAD+/////v////7///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////8iOgU1iYXREbFqAMDwKDYoIUM0EggAAADuKAAApwEAAAGKq5cAAAYAHAAAAAAAAAAAAMhCAAAAAAHvzasAAAUAXAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAACQAAAA4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA5MzY4MjY1RS04NUZFLTExZDEtOEJFMy0wMDAwRjg3NTREQTEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAAAD//////////2S/GAAf3uy9AQAFAGS/GAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==" />
+		*< END OBJECT: BaseClass="olecontrol" OLEObject="c:\windows\syswow64\mscomctl.ocx" Value="0M8R4KGxGuEAAAAAAAAAAAAAAAAAAAAAPgADAP7/CQAGAAAAAAAAAAAAAAABAAAAAQAAAAAAAAAAEAAAAgAAAAEAAAD+////AAAAAAAAAAD////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////9/////v////7////+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////1IAbwBvAHQAIABFAG4AdAByAHkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWAAUA//////////8BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALDTBvN7BtEBAwAAAEABAAAAAAAAAwBPAGwAZQBPAGIAagBlAGMAdABEAGEAdABhAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB4AAgEDAAAAAgAAAP////8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAADAEEAYwBjAGUAcwBzAE8AYgBqAFMAaQB0AGUARABhAHQAYQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJgACAP///////////////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAABcAAAAAAAAAAMAQwBoAGEAbgBnAGUAZABQAHIAbwBwAHMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcAAIA////////////////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwAAAAQAAAAAAAAABAAAAAIAAAD+/////v////7///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////8iOgU1iYXREbFqAMDwKDYoIUM0EggAAADuKAAApwEAAAGKq5cAAAYAHAAAAAAAAAAAAMhCAAAAAAHvzasAAAUAXAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAACQAAAA4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA5MzY4MjY1RS04NUZFLTExZDEtOEJFMy0wMDAwRjg3NTREQTEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8Ka8AAYAAAD//////////4DpGQAf3uy9AQAFAIDpGQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==" />
 
 	ADD OBJECT 'Pageframe1.PAGE1.Pageframe1' AS pageframe WITH ;
 		ErasePage = .T., ;
@@ -1207,7 +1207,9 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 
 	PROCEDURE imprimir
 		m.IdRecibo= vt_vPagos.IdPago
-		REPORT FORM vt_recibo_full PREVIEW 
+		REPORT FORM vt_recibo_pa PREVIEW 
+		
+		
 		
 	ENDPROC
 

@@ -109,11 +109,11 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.totales.iva" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.totales.lblGravado" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.totales.lblIva" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.totales.Tslabel7" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.totales.Tslabel5" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.totales.lblExento" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.totales.Tslabel2" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.totales.lblSubTotal" UniqueID="" Timestamp="" />
+	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.totales.Tslabel2" UniqueID="" Timestamp="" />
+	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.totales.lblExento" UniqueID="" Timestamp="" />
+	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.totales.Tslabel5" UniqueID="" Timestamp="" />
+	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.totales.Tslabel7" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.totales.porcentaje" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.totales.total" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.totales.exento" UniqueID="" Timestamp="" />
@@ -158,8 +158,8 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.condicion" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.Tipo" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.Moneda1" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.Tslabel16" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.Tslabel8" UniqueID="" Timestamp="" />
+	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.Tslabel16" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.Tslabel2" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.Tslabel3" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.Negocio" UniqueID="" Timestamp="" />
@@ -202,10 +202,10 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 	*< OBJECTDATA: ObjPath="Pageframe1.Page3.Tslabel2" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.Page3.lblEntrega" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.Page3.Tslabel5" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Pageframe1.Page3.Tslabel4" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Pageframe1.Page3.Tslabel3" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Pageframe1.Page3.Tslabel7" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.Page3.Tslabel8" UniqueID="" Timestamp="" />
+	*< OBJECTDATA: ObjPath="Pageframe1.Page3.Tslabel7" UniqueID="" Timestamp="" />
+	*< OBJECTDATA: ObjPath="Pageframe1.Page3.Tslabel3" UniqueID="" Timestamp="" />
+	*< OBJECTDATA: ObjPath="Pageframe1.Page3.Tslabel4" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.Page3.Tstextbox5" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.Page3.Tslabel11" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.Page3.txtEntrega" UniqueID="" Timestamp="" />
@@ -213,10 +213,10 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 	*< OBJECTDATA: ObjPath="Pageframe1.Page3.Tstextbox6" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.Page3.Tstextbox4" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.Page3.Tslabel9" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Pageframe1.Page3.Tstextbox7" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Pageframe1.Page3.Tslabel10" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.Page3.NroPagare" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.Page3.Tslabel12" UniqueID="" Timestamp="" />
+	*< OBJECTDATA: ObjPath="Pageframe1.Page3.Tstextbox7" UniqueID="" Timestamp="" />
+	*< OBJECTDATA: ObjPath="Pageframe1.Page3.Tslabel10" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.Page3.Tstextbox2" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.Page3.total" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.Page3.ImporteCuotas" UniqueID="" Timestamp="" />
@@ -1028,25 +1028,25 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 		Column10.ColumnOrder = 6, ;
 		Column10.ControlSource = "vt_vdetfactu.pneto", ;
 		Column10.FontSize = 8, ;
-		Column10.InputMask = "999,999", ;
+		Column10.InputMask = "999,999,999", ;
 		Column10.Name = "pNeto", ;
 		Column10.Width = 57, ;
 		Column11.BackColor = 227,235,238, ;
 		Column11.ControlSource = "pneto/cantidad", ;
 		Column11.FontSize = 8, ;
-		Column11.InputMask = "999,999.99", ;
+		Column11.InputMask = "999,999,999.99", ;
 		Column11.Name = "PesoProm", ;
 		Column11.ReadOnly = .T., ;
 		Column11.Width = 57, ;
 		Column12.ControlSource = "vt_vdetfactu.pgancho", ;
 		Column12.FontSize = 8, ;
-		Column12.InputMask = "999,999", ;
+		Column12.InputMask = "999,999,999", ;
 		Column12.Name = "Kg", ;
 		Column12.Width = 69, ;
 		Column13.BackColor = 227,235,238, ;
 		Column13.ControlSource = "itotal/pgancho", ;
 		Column13.FontSize = 8, ;
-		Column13.InputMask = "999,999,999", ;
+		Column13.InputMask = "999,999,999,999", ;
 		Column13.Name = "PrecioGancho", ;
 		Column13.Width = 82, ;
 		Column2.ControlSource = "vt_vdetfactu.descripcion", ;
@@ -1095,7 +1095,7 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 		Column9.ColumnOrder = 5, ;
 		Column9.ControlSource = "vt_vdetfactu.pbruto", ;
 		Column9.FontSize = 8, ;
-		Column9.InputMask = "999,999", ;
+		Column9.InputMask = "999,999,999", ;
 		Column9.Name = "pBruto", ;
 		Column9.Width = 56
 		*< END OBJECT: ClassLib="..\libs\tsbase.vcx" BaseClass="grid" />
@@ -1723,7 +1723,7 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 		Option2.Name = "Option2", ;
 		Option2.Top = 12, ;
 		Option2.Width = 144
-		*< END OBJECT: ClassLib="..\..\casalatina\futura9\libs\tsbase.vcx" BaseClass="optiongroup" />
+		*< END OBJECT: ClassLib="..\libs\tsbase.vcx" BaseClass="optiongroup" />
 
 	ADD OBJECT 'Pageframe1.Page3.total' AS tstextbox WITH ;
 		Alignment = 1, ;
@@ -1787,7 +1787,7 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 		TabIndex = 13, ;
 		Top = 33, ;
 		Width = 132
-		*< END OBJECT: ClassLib="..\..\casalatina\futura9\libs\tsbase.vcx" BaseClass="commandbutton" />
+		*< END OBJECT: ClassLib="..\libs\tsbase.vcx" BaseClass="commandbutton" />
 
 	ADD OBJECT 'Pageframe1.Page3.Tscommandbutton3' AS tscommandbutton WITH ;
 		Caption = "Imprimir Chequera", ;
@@ -1797,7 +1797,7 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 		TabIndex = 13, ;
 		Top = 33, ;
 		Width = 132
-		*< END OBJECT: ClassLib="..\..\casalatina\futura9\libs\tsbase.vcx" BaseClass="commandbutton" />
+		*< END OBJECT: ClassLib="..\libs\tsbase.vcx" BaseClass="commandbutton" />
 
 	ADD OBJECT 'Pageframe1.Page3.Tsgrid1' AS tsgrid WITH ;
 		ColumnCount = 5, ;

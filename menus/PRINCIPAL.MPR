@@ -1,12 +1,12 @@
 *       *********************************************************
 *       *                                                         
-*       * 08/04/2015           PRINCIPAL.MPR            11:19:16  
+*       * 24/02/2016           PRINCIPAL.MPR            07:31:37  
 *       *                                                         
 *       *********************************************************
 *       *                                                         
 *       * Virginio Gonzalez                                       
 *       *                                                         
-*       * Copyright (C) 2015 Futura Software                      
+*       * Copyright (C) 2016 Futura Software                      
 *       * Address                                                 
 *       * City,     Zip                                           
 *       *                                                         
@@ -38,7 +38,7 @@ DEFINE PAD _administracion OF _MSYSMENU PROMPT "A\<dministración" COLOR SCHEME 3
 DEFINE PAD _system OF _MSYSMENU PROMPT "Utilidades" COLOR SCHEME 3 ;
 	KEY ALT+P, "ALT+P" ;
 	MESSAGE "Ventanas Seguimiento, Depuración y Vista, suspender, reanudar y cancelar programas"
-DEFINE PAD _4bn0o9jon OF _MSYSMENU PROMPT "Sistemas" COLOR SCHEME 3 ;
+DEFINE PAD _4kn0g4sog OF _MSYSMENU PROMPT "Sistemas" COLOR SCHEME 3 ;
 	KEY ALT+S, ""
 DEFINE PAD _MSM_SYSTM OF _MSYSMENU PROMPT "Ay\<uda" COLOR SCHEME 3 ;
 	KEY ALT+U, "ALT+U" ;
@@ -47,7 +47,7 @@ ON PAD pad OF _MSYSMENU ACTIVATE POPUP archivo
 ON PAD _MSM_EDIT OF _MSYSMENU ACTIVATE POPUP edición
 ON PAD _administracion OF _MSYSMENU ACTIVATE POPUP _qx713dsus
 ON PAD _system OF _MSYSMENU ACTIVATE POPUP utilidades
-ON PAD _4bn0o9jon OF _MSYSMENU ACTIVATE POPUP sistemas
+ON PAD _4kn0g4sog OF _MSYSMENU ACTIVATE POPUP sistemas
 ON PAD _MSM_SYSTM OF _MSYSMENU ACTIVATE POPUP help
 
 DEFINE POPUP archivo MARGIN RELATIVE SHADOW COLOR SCHEME 4
@@ -131,7 +131,7 @@ DEFINE BAR 12 OF edición PROMPT "Copiar registros en Portapapeles"
 ON SELECTION BAR 8 OF edición OAPP.OTOOLBAR.CMDBUSCAR.CLICK()
 ON SELECTION BAR 11 OF edición notyet()
 ON SELECTION BAR 12 OF edición ;
-	DO _4bn0o9joo ;
+	DO _4kn0g4soh ;
 	IN LOCFILE("FUTURA9\MENUS\PRINCIPAL" ,"MPX;MPR|FXP;PRG" ,"WHERE is PRINCIPAL?")
 
 DEFINE POPUP _qx713dsus MARGIN RELATIVE SHADOW COLOR SCHEME 4
@@ -144,19 +144,29 @@ DEFINE BAR 2 OF _qx713dsus PROMPT "C\<ambiar contraseña" ;
 DEFINE BAR 3 OF _qx713dsus PROMPT "\<Usuarios" ;
 	SKIP FOR verificar()  or .NOT. oapp.permisos(15)  ;
 	MESSAGE "Agrega, modifica o elimina usuarios"
-DEFINE BAR 4 OF _qx713dsus PROMPT "\-"
-DEFINE BAR 5 OF _qx713dsus PROMPT "\<Sistema"
-DEFINE BAR 6 OF _qx713dsus PROMPT "\-"
+DEFINE BAR 4 OF _qx713dsus PROMPT "Perfiles" ;
+	SKIP FOR .NOT. oapp.permisos(1207) 
+DEFINE BAR 5 OF _qx713dsus PROMPT "Marcar Favoritos"
+DEFINE BAR 6 OF _qx713dsus PROMPT "Periodos de Trabajo" ;
+	SKIP FOR .NOT. oapp.permisos(1210) 
+DEFINE BAR 7 OF _qx713dsus PROMPT "\-"
+DEFINE BAR 8 OF _qx713dsus PROMPT "\<Sistema"
+DEFINE BAR 9 OF _qx713dsus PROMPT "\-"
 DEFINE BAR 100 OF _qx713dsus PROMPT "\<Ejercicios"
-DEFINE BAR 8 OF _qx713dsus PROMPT "\-"
-DEFINE BAR 9 OF _qx713dsus PROMPT "Panel Gerencial"
+DEFINE BAR 11 OF _qx713dsus PROMPT "\-"
+DEFINE BAR 12 OF _qx713dsus PROMPT "Panel Gerencial"
 ON SELECTION BAR 1 OF _qx713dsus ;
 	DO _1Y2199LOR ;
 	IN LOCFILE("FUTURA9\MENUS\PRINCIPAL" ,"MPX;MPR|FXP;PRG" ,"WHERE is PRINCIPAL?")
 ON SELECTION BAR 2 OF _qx713dsus DO FORM CHNGPSWD
 ON SELECTION BAR 3 OF _qx713dsus OAPP.DOFORM("EMPLOYEE")
-ON BAR 5 OF _qx713dsus ACTIVATE POPUP _09o0v4rap
-ON SELECTION BAR 9 OF _qx713dsus oApp.DoForm('sys_panel')
+ON SELECTION BAR 4 OF _qx713dsus oApp.DoForm('sys_perfil')
+ON SELECTION BAR 5 OF _qx713dsus ;
+	DO _4kn0g4sov ;
+	IN LOCFILE("FUTURA9\MENUS\PRINCIPAL" ,"MPX;MPR|FXP;PRG" ,"WHERE is PRINCIPAL?")
+ON SELECTION BAR 6 OF _qx713dsus oApp.DoForm('sys_periodos')
+ON BAR 8 OF _qx713dsus ACTIVATE POPUP _09o0v4rap
+ON SELECTION BAR 12 OF _qx713dsus oApp.DoForm('sys_panel')
 
 DEFINE POPUP _09o0v4rap MARGIN RELATIVE SHADOW COLOR SCHEME 4
 DEFINE BAR 1 OF _09o0v4rap PROMPT "Seguridad y Grupos de Usuarios" ;
@@ -175,7 +185,7 @@ ON SELECTION BAR 3 OF _09o0v4rap OAPP.DOFORM('BS_CONFIG')
 ON SELECTION BAR 4 OF _09o0v4rap OAPP.DOFORM('EMPRESA')
 ON SELECTION BAR 6 OF _09o0v4rap OAPP.DOFORM('SYS_SQL')
 ON SELECTION BAR 7 OF _09o0v4rap ;
-	DO _4bn0o9jop ;
+	DO _4kn0g4sow ;
 	IN LOCFILE("FUTURA9\MENUS\PRINCIPAL" ,"MPX;MPR|FXP;PRG" ,"WHERE is PRINCIPAL?")
 ON SELECTION BAR 8 OF _09o0v4rap oApp.Doform('sys_panelBI')
 
@@ -211,7 +221,7 @@ DEFINE BAR 4 OF help PROMPT "\-"
 DEFINE BAR 5 OF help PROMPT "\<Acerca de..." ;
 	MESSAGE "Muestra información sobre esta aplicación y la configuración del sistema"
 ON SELECTION BAR 5 OF help ;
-	DO _4bn0o9joq ;
+	DO _4kn0g4sox ;
 	IN LOCFILE("FUTURA9\MENUS\PRINCIPAL" ,"MPX;MPR|FXP;PRG" ,"WHERE is PRINCIPAL?")
 
 ON SELECTION MENU _MSYSMENU *-- (C) MICROSOFT CORPORATION 1995
@@ -280,7 +290,7 @@ ON ERROR &lcOldError
 
 *       *********************************************************
 *       *                                                         
-*       * _4BN0O9JOO  ON SELECTION BAR 12 OF POPUP edición        
+*       * _4KN0G4SOH  ON SELECTION BAR 12 OF POPUP edición        
 *       *                                                         
 *       * Procedure Origin:                                       
 *       *                                                         
@@ -291,7 +301,7 @@ ON ERROR &lcOldError
 *       *                                                         
 *       *********************************************************
 *
-PROCEDURE _4bn0o9joo
+PROCEDURE _4kn0g4soh
 IF USED()
 	_vfp.DataToClip(,,3)
 	MESSAGEBOX("Se ha copiado los registros en el Portapapeles." + CHR(13) + "Seleccione la aplicacion destino y pegue en el mismo",64,"Futura Software")
@@ -324,18 +334,39 @@ oapp.dosys(oapp.sistema)
 
 *       *********************************************************
 *       *                                                         
-*       * _4BN0O9JOP  ON SELECTION BAR 7 OF POPUP _09o0v4rap      
+*       * _4KN0G4SOV  ON SELECTION BAR 5 OF POPUP _qx713dsus      
 *       *                                                         
 *       * Procedure Origin:                                       
 *       *                                                         
-*       * From Menu:  PRINCIPAL.MPR,            Record:   47      
-*       * Called By:  ON SELECTION BAR 7 OF POPUP _09o0v4rap      
-*       * Prompt:     Abrir DBF...                                
+*       * From Menu:  PRINCIPAL.MPR,            Record:   39      
+*       * Called By:  ON SELECTION BAR 5 OF POPUP _qx713dsus      
+*       * Prompt:     Marcar Favoritos                            
 *       * Snippet:    4                                           
 *       *                                                         
 *       *********************************************************
 *
-PROCEDURE _4bn0o9jop
+PROCEDURE _4kn0g4sov
+****
+IF FormIsObject()
+	_screen.ActiveForm.addFAV()
+ENDIF
+	
+
+
+*       *********************************************************
+*       *                                                         
+*       * _4KN0G4SOW  ON SELECTION BAR 7 OF POPUP _09o0v4rap      
+*       *                                                         
+*       * Procedure Origin:                                       
+*       *                                                         
+*       * From Menu:  PRINCIPAL.MPR,            Record:   50      
+*       * Called By:  ON SELECTION BAR 7 OF POPUP _09o0v4rap      
+*       * Prompt:     Abrir DBF...                                
+*       * Snippet:    5                                           
+*       *                                                         
+*       *********************************************************
+*
+PROCEDURE _4kn0g4sow
 Use ? in 0 ALIAS _xTabla
 IF USED('_xTabla')
 	SELECT _xTabla
@@ -347,18 +378,18 @@ ENDIF
 
 *       *********************************************************
 *       *                                                         
-*       * _4BN0O9JOQ  ON SELECTION BAR 5 OF POPUP help            
+*       * _4KN0G4SOX  ON SELECTION BAR 5 OF POPUP help            
 *       *                                                         
 *       * Procedure Origin:                                       
 *       *                                                         
-*       * From Menu:  PRINCIPAL.MPR,            Record:   75      
+*       * From Menu:  PRINCIPAL.MPR,            Record:   78      
 *       * Called By:  ON SELECTION BAR 5 OF POPUP help            
 *       * Prompt:     Acerca de...                                
-*       * Snippet:    5                                           
+*       * Snippet:    6                                           
 *       *                                                         
 *       *********************************************************
 *
-PROCEDURE _4bn0o9joq
+PROCEDURE _4kn0g4sox
 LOCAL loaboutbox, lcVersion
 SET CLASSLIB TO about ADDITIVE
 AGETFILEVERSION(LAVERSION, "futura.EXE")

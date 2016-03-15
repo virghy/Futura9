@@ -11,18 +11,19 @@ DEFINE CLASS _splash1 AS _splash OF "..\libs\_dialogs.vcx"
  	*< CLASSDATA: Baseclass="form" Timestamp="" Scale="" Uniqueid="" />
 
 	*-- OBJECTDATA items order determines ZOrder / El orden de los items OBJECTDATA determina el ZOrder 
+	*< OBJECTDATA: ObjPath="Image1" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Label4" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Label16" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="NroRegistro" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Label15" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Serie" UniqueID="" Timestamp="" />
+	*< OBJECTDATA: ObjPath="Label15" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Label14" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Label13" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="UsuarioAutorizado" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Label5" UniqueID="" Timestamp="" />
+	*< OBJECTDATA: ObjPath="Line1" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Label2" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Label6" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Line1" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Label7" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Label8" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Label9" UniqueID="" Timestamp="" />
@@ -53,9 +54,21 @@ DEFINE CLASS _splash1 AS _splash OF "..\libs\_dialogs.vcx"
 	Label1.Left = 84
 	Label1.Name = "Label1"
 	Label1.Top = 84
+	Label1.Visible = .F.
 	Label1.Width = 151
 	Label1.WordWrap = .F.
-	Label1.ZOrderSet = 23
+	Label1.ZOrderSet = 2
+
+	ADD OBJECT 'Image1' AS image WITH ;
+		Height = 225, ;
+		Left = 19, ;
+		Name = "Image1", ;
+		Picture = ..\bitmaps\fondo800.jpg, ;
+		Stretch = 2, ;
+		Top = -22, ;
+		Width = 332, ;
+		ZOrderSet = 0
+		*< END OBJECT: BaseClass="image" />
 
 	ADD OBJECT 'Label10' AS label WITH ;
 		BackColor = 234,227,206, ;
@@ -72,9 +85,9 @@ DEFINE CLASS _splash1 AS _splash OF "..\libs\_dialogs.vcx"
 		BackStyle = 0, ;
 		Caption = "®", ;
 		Height = 17, ;
-		Left = 235, ;
+		Left = 282, ;
 		Name = "Label11", ;
-		Top = 96, ;
+		Top = 46, ;
 		Width = 12, ;
 		ZOrderSet = 18
 		*< END OBJECT: BaseClass="label" />
@@ -95,7 +108,7 @@ DEFINE CLASS _splash1 AS _splash OF "..\libs\_dialogs.vcx"
 		Top = 255, ;
 		Width = 165, ;
 		WordWrap = .F., ;
-		ZOrderSet = 19
+		ZOrderSet = 20
 		*< END OBJECT: BaseClass="label" />
 
 	ADD OBJECT 'Label13' AS label WITH ;
@@ -106,7 +119,7 @@ DEFINE CLASS _splash1 AS _splash OF "..\libs\_dialogs.vcx"
 		Name = "Label13", ;
 		Top = 255, ;
 		Width = 9, ;
-		ZOrderSet = 9
+		ZOrderSet = 8
 		*< END OBJECT: BaseClass="label" />
 
 	ADD OBJECT 'Label14' AS label WITH ;
@@ -117,7 +130,7 @@ DEFINE CLASS _splash1 AS _splash OF "..\libs\_dialogs.vcx"
 		Name = "Label14", ;
 		Top = 255, ;
 		Width = 9, ;
-		ZOrderSet = 8
+		ZOrderSet = 7
 		*< END OBJECT: BaseClass="label" />
 
 	ADD OBJECT 'Label15' AS label WITH ;
@@ -128,7 +141,7 @@ DEFINE CLASS _splash1 AS _splash OF "..\libs\_dialogs.vcx"
 		Name = "Label15", ;
 		Top = 255, ;
 		Width = 7, ;
-		ZOrderSet = 7
+		ZOrderSet = 6
 		*< END OBJECT: BaseClass="label" />
 
 	ADD OBJECT 'Label16' AS label WITH ;
@@ -146,7 +159,7 @@ DEFINE CLASS _splash1 AS _splash OF "..\libs\_dialogs.vcx"
 		Top = 152, ;
 		Width = 288, ;
 		WordWrap = .T., ;
-		ZOrderSet = 20
+		ZOrderSet = 3
 		*< END OBJECT: BaseClass="label" />
 
 	ADD OBJECT 'Label2' AS label WITH ;
@@ -154,7 +167,7 @@ DEFINE CLASS _splash1 AS _splash OF "..\libs\_dialogs.vcx"
 		AutoSize = .F., ;
 		BackStyle = 0, ;
 		BorderStyle = 0, ;
-		Caption = "Este programa está protegido por las leyes de propiedad intelectual, según se describe en Acerca de. © 1999-2011 - Futura Software ", ;
+		Caption = "Este programa está protegido por las leyes de propiedad intelectual, según se describe en Acerca de. © 1999-2015 - Futura Software ", ;
 		FontSize = 7, ;
 		Height = 30, ;
 		Left = 34, ;
@@ -180,7 +193,7 @@ DEFINE CLASS _splash1 AS _splash OF "..\libs\_dialogs.vcx"
 		Top = 252, ;
 		Width = 101, ;
 		WordWrap = .T., ;
-		ZOrderSet = 22
+		ZOrderSet = 19
 		*< END OBJECT: BaseClass="label" />
 
 	ADD OBJECT 'Label4' AS label WITH ;
@@ -197,8 +210,9 @@ DEFINE CLASS _splash1 AS _splash OF "..\libs\_dialogs.vcx"
 		Name = "Label4", ;
 		Tag = "00", ;
 		Top = 87, ;
+		Visible = .F., ;
 		Width = 151, ;
-		ZOrderSet = 0
+		ZOrderSet = 1
 		*< END OBJECT: BaseClass="label" />
 
 	ADD OBJECT 'Label5' AS label WITH ;
@@ -215,7 +229,7 @@ DEFINE CLASS _splash1 AS _splash OF "..\libs\_dialogs.vcx"
 		Name = "Label5", ;
 		Top = 0, ;
 		Width = 160, ;
-		ZOrderSet = 11
+		ZOrderSet = 10
 		*< END OBJECT: BaseClass="label" />
 
 	ADD OBJECT 'Label6' AS label WITH ;
@@ -287,7 +301,7 @@ DEFINE CLASS _splash1 AS _splash OF "..\libs\_dialogs.vcx"
 		Name = "Line1", ;
 		Top = 168, ;
 		Width = 205, ;
-		ZOrderSet = 24
+		ZOrderSet = 11
 		*< END OBJECT: BaseClass="line" />
 
 	ADD OBJECT 'NroRegistro' AS label WITH ;
@@ -305,7 +319,7 @@ DEFINE CLASS _splash1 AS _splash OF "..\libs\_dialogs.vcx"
 		Top = 192, ;
 		Width = 288, ;
 		WordWrap = .T., ;
-		ZOrderSet = 21
+		ZOrderSet = 4
 		*< END OBJECT: BaseClass="label" />
 
 	ADD OBJECT 'Serie' AS label WITH ;
@@ -323,7 +337,7 @@ DEFINE CLASS _splash1 AS _splash OF "..\libs\_dialogs.vcx"
 		Top = 208, ;
 		Width = 288, ;
 		WordWrap = .T., ;
-		ZOrderSet = 22
+		ZOrderSet = 5
 		*< END OBJECT: BaseClass="label" />
 
 	ADD OBJECT 'UsuarioAutorizado' AS label WITH ;
@@ -341,7 +355,7 @@ DEFINE CLASS _splash1 AS _splash OF "..\libs\_dialogs.vcx"
 		Top = 176, ;
 		Width = 296, ;
 		WordWrap = .T., ;
-		ZOrderSet = 10
+		ZOrderSet = 9
 		*< END OBJECT: BaseClass="label" />
 	
 	PROCEDURE Init

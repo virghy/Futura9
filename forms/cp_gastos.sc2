@@ -46,29 +46,35 @@ DEFINE CLASS tsmaintform12 AS tsmovform OF "..\libs\tsbase.vcx"
 
 	*-- OBJECTDATA items order determines ZOrder / El orden de los items OBJECTDATA determina el ZOrder 
 	*< OBJECTDATA: ObjPath="Pageframe1.Page1.Ts3dshape1" UniqueID="" Timestamp="" />
+	*< OBJECTDATA: ObjPath="Pageframe1.Page1.Ts3dshape3" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.Page1.Ts3dshape2" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.Page1.lblCódigo" UniqueID="" Timestamp="" />
+	*< OBJECTDATA: ObjPath="Pageframe1.Page1.Proyecto" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.Page1.Cuenta" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.Page1.lblTipocomprobante" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.Page1.txtComprobante" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Pageframe1.Page1.Tstextbox4" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Pageframe1.Page1.txtNroRef" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.Page1.Cotizacion" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Pageframe1.Page1.txtVence" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Pageframe1.Page1.Tslabel19" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Pageframe1.Page1.Tslabel10" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.Page1.Tstextbox1" UniqueID="" Timestamp="" />
+	*< OBJECTDATA: ObjPath="Pageframe1.Page1.cboCuenta" UniqueID="" Timestamp="" />
+	*< OBJECTDATA: ObjPath="Pageframe1.Page1.txtGravada5" UniqueID="" Timestamp="" />
+	*< OBJECTDATA: ObjPath="Pageframe1.Page1.lblIddeposito" UniqueID="" Timestamp="" />
+	*< OBJECTDATA: ObjPath="Pageframe1.Page1.Tslabel15" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.Page1.Tslabel6" UniqueID="" Timestamp="" />
+	*< OBJECTDATA: ObjPath="Pageframe1.Page1.Tstextbox3" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.Page1.txtFechacomprobante" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.Page1.lblFechacomprobante" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.Page1.txtGravadas" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.Page1.Tslabel1" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Pageframe1.Page1.txtIva" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.Page1.lblGravadas" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.Page1.txtExentas" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.Page1.lblExentas" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Pageframe1.Page1.Tslabel11" UniqueID="" Timestamp="" />
+	*< OBJECTDATA: ObjPath="Pageframe1.Page1.Tslabel17" UniqueID="" Timestamp="" />
+	*< OBJECTDATA: ObjPath="Pageframe1.Page1.NroCheque" UniqueID="" Timestamp="" />
+	*< OBJECTDATA: ObjPath="Pageframe1.Page1.Tslabel13" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.Page1.txtIva5" UniqueID="" Timestamp="" />
+	*< OBJECTDATA: ObjPath="Pageframe1.Page1.Tslabel9" UniqueID="" Timestamp="" />
+	*< OBJECTDATA: ObjPath="Pageframe1.Page1.Tslabel14" UniqueID="" Timestamp="" />
+	*< OBJECTDATA: ObjPath="Pageframe1.Page1.Tslabel18" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.Page1.lblConcepto" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.Page1.TotalFactura" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.Page1.Tslabel3" UniqueID="" Timestamp="" />
@@ -76,35 +82,29 @@ DEFINE CLASS tsmaintform12 AS tsmovform OF "..\libs\tsbase.vcx"
 	*< OBJECTDATA: ObjPath="Pageframe1.Page1.txtRetencionesiva" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.Page1.Tstextbox2" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.Page1.Tslabel4" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Pageframe1.Page1.Tslabel16" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.Page1.lblRetencionesiva" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.Page1.Tslabel2" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.Page1.txtRetencionesrenta" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.Page1.lblRetencionesrenta" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.Page1.lblSucursal" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Pageframe1.Page1.lblRef" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.Page1.lblTipo" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.Page1.Proveedor" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.Page1.lblComprobante" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.Page1.Tslabel7" UniqueID="" Timestamp="" />
+	*< OBJECTDATA: ObjPath="Pageframe1.Page1.Tstextbox4" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.Page1.TipoAplicacion" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.Page1.Campo_clave1" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.Page1.Tscheckbox1" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Pageframe1.Page1.Tslabel9" UniqueID="" Timestamp="" />
+	*< OBJECTDATA: ObjPath="Pageframe1.Page1.Tslabel10" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.Page1.Tslabel5" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Pageframe1.Page1.Tstextbox3" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.Page1.Tslabel8" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Pageframe1.Page1.Proyecto" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Pageframe1.Page1.Ts3dshape3" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Pageframe1.Page1.cboCuenta" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Pageframe1.Page1.lblIddeposito" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Pageframe1.Page1.NroCheque" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Pageframe1.Page1.Tslabel13" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Pageframe1.Page1.Tslabel14" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Pageframe1.Page1.txtGravada5" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Pageframe1.Page1.Tslabel15" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Pageframe1.Page1.Tslabel17" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Pageframe1.Page1.Tslabel18" UniqueID="" Timestamp="" />
+	*< OBJECTDATA: ObjPath="Pageframe1.Page1.txtNroRef" UniqueID="" Timestamp="" />
+	*< OBJECTDATA: ObjPath="Pageframe1.Page1.lblRef" UniqueID="" Timestamp="" />
+	*< OBJECTDATA: ObjPath="Pageframe1.Page1.txtIva" UniqueID="" Timestamp="" />
+	*< OBJECTDATA: ObjPath="Pageframe1.Page1.Tslabel11" UniqueID="" Timestamp="" />
+	*< OBJECTDATA: ObjPath="Pageframe1.Page1.Tslabel16" UniqueID="" Timestamp="" />
+	*< OBJECTDATA: ObjPath="Pageframe1.Page1.txtVence" UniqueID="" Timestamp="" />
+	*< OBJECTDATA: ObjPath="Pageframe1.Page1.Tslabel19" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.Page1.Cbosucursal1" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.Page1.Cbomoneda1" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.Page1.condicion" UniqueID="" Timestamp="" />
@@ -272,7 +272,7 @@ DEFINE CLASS tsmaintform12 AS tsmovform OF "..\libs\tsbase.vcx"
 		Comment = "", ;
 		ControlSource = "cp_gastos.cotizacion", ;
 		Height = 22, ;
-		InputMask = "99999,99", ;
+		InputMask = "99,999.99", ;
 		Left = 395, ;
 		Name = "Cotizacion", ;
 		TabIndex = 11, ;

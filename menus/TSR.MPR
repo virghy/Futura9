@@ -1,6 +1,6 @@
 *       *********************************************************
 *       *                                                         
-*       * 23/03/2015              TSR.MPR               11:51:18  
+*       * 07/10/2015              TSR.MPR               10:01:18  
 *       *                                                         
 *       *********************************************************
 *       *                                                         
@@ -50,7 +50,7 @@ DEFINE BAR 7 OF movimiento PROMPT "\-"
 DEFINE BAR 8 OF movimiento PROMPT "Cierre de Caja" ;
 	SKIP FOR !oApp.Permisos(1189)
 ON SELECTION BAR 1 OF movimiento ;
-	DO _4b70peqy8 ;
+	DO _4gp0lh874 ;
 	IN LOCFILE("FUTURA9\MENUS\TSR" ,"MPX;MPR|FXP;PRG" ,"WHERE is TSR?")
 ON SELECTION BAR 3 OF movimiento OAPP.DOFORM('TS_DEPOSITOS')
 ON SELECTION BAR 5 OF movimiento OAPP.DOFORM('TS_CAMBIOESTADO')
@@ -82,7 +82,7 @@ ON SELECTION MENU _MSYSMENU *-- (C) MICROSOFT CORPORATION 1995
 
 *       *********************************************************
 *       *                                                         
-*       * _4B70PEQY8  ON SELECTION BAR 1 OF POPUP movimiento      
+*       * _4GP0LH874  ON SELECTION BAR 1 OF POPUP movimiento      
 *       *                                                         
 *       * Procedure Origin:                                       
 *       *                                                         
@@ -93,7 +93,7 @@ ON SELECTION MENU _MSYSMENU *-- (C) MICROSOFT CORPORATION 1995
 *       *                                                         
 *       *********************************************************
 *
-PROCEDURE _4b70peqy8
+PROCEDURE _4gp0lh874
 IF oApp.LeerConstante('TS_DETALLE_CHEQUE','CHAR(1)')='S'
 	OAPP.DOFORM('TS_CHEQUESCONCEPTO')
 ELSE

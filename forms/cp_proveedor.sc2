@@ -101,6 +101,8 @@ DEFINE CLASS tsmaintform12 AS tsmovform OF "..\libs\tsbase.vcx"
 	*< OBJECTDATA: ObjPath="Pageframe1.Page1.Tsgrid1.Column3.Header1" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.Page1.Tsgrid1.Column3.Text1" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.Page1.Tslabel4" UniqueID="" Timestamp="" />
+	*< OBJECTDATA: ObjPath="Pageframe1.Page1.Tstextbox1" UniqueID="" Timestamp="" />
+	*< OBJECTDATA: ObjPath="Pageframe1.Page1.Tslabel5" UniqueID="" Timestamp="" />
 
 	camponro = IdProveedor,cp_Proveedor,IdEmpresa=?oApp.Empresa
 	campos = idEmpresa
@@ -154,7 +156,7 @@ DEFINE CLASS tsmaintform12 AS tsmovform OF "..\libs\tsbase.vcx"
 		Left = 163, ;
 		Name = "Campo_busca1", ;
 		Top = 11
-		*< END OBJECT: ClassLib="..\..\casalatina\futura9\libs\tsbase.vcx" BaseClass="textbox" />
+		*< END OBJECT: ClassLib="..\libs\tsbase.vcx" BaseClass="textbox" />
 
 	ADD OBJECT 'Pageframe1.Page1.CboCartera' AS tscombobox WITH ;
 		BoundColumn = 2, ;
@@ -457,7 +459,7 @@ DEFINE CLASS tsmaintform12 AS tsmovform OF "..\libs\tsbase.vcx"
 		Column3.FontSize = 8, ;
 		Column3.Name = "Column3", ;
 		Column3.Width = 102
-		*< END OBJECT: ClassLib="..\..\versiones\eme\libs\tsbase.vcx" BaseClass="grid" />
+		*< END OBJECT: ClassLib="..\libs\tsbase.vcx" BaseClass="grid" />
 
 	ADD OBJECT 'Pageframe1.Page1.Tsgrid1.Column1.Header1' AS header WITH ;
 		Caption = "Desde Fecha", ;
@@ -549,7 +551,29 @@ DEFINE CLASS tsmaintform12 AS tsmovform OF "..\libs\tsbase.vcx"
 		TabIndex = 22, ;
 		Top = 138, ;
 		Width = 136
-		*< END OBJECT: ClassLib="..\..\casalatina\futura9\libs\tsbase.vcx" BaseClass="label" />
+		*< END OBJECT: ClassLib="..\libs\tsbase.vcx" BaseClass="label" />
+
+	ADD OBJECT 'Pageframe1.Page1.Tslabel5' AS tslabel WITH ;
+		Caption = "Ruc Hechauka", ;
+		Height = 16, ;
+		Left = 300, ;
+		Name = "Tslabel5", ;
+		TabIndex = 21, ;
+		Top = 106, ;
+		Width = 78
+		*< END OBJECT: ClassLib="..\libs\tsbase.vcx" BaseClass="label" />
+
+	ADD OBJECT 'Pageframe1.Page1.Tstextbox1' AS tstextbox WITH ;
+		Comment = "", ;
+		ControlSource = "cp_vproveedores.ruchechauka", ;
+		Format = "!", ;
+		Height = 22, ;
+		Left = 383, ;
+		Name = "Tstextbox1", ;
+		TabIndex = 5, ;
+		Top = 106, ;
+		Width = 92
+		*< END OBJECT: ClassLib="..\libs\tsbase.vcx" BaseClass="textbox" />
 
 	ADD OBJECT 'Pageframe1.Page1.txtCargocontacto' AS tstextbox WITH ;
 		Comment = "", ;
@@ -624,6 +648,7 @@ DEFINE CLASS tsmaintform12 AS tsmovform OF "..\libs\tsbase.vcx"
 		Height = 22, ;
 		Left = 163, ;
 		Name = "txtRuc", ;
+		requerido = .T., ;
 		TabIndex = 5, ;
 		Top = 106, ;
 		Width = 132

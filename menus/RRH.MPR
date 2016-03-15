@@ -1,6 +1,6 @@
 *       *********************************************************
 *       *                                                         
-*       * 23/03/2015              RRH.MPR               11:51:18  
+*       * 18/11/2015              RRH.MPR               16:54:51  
 *       *                                                         
 *       *********************************************************
 *       *                                                         
@@ -36,19 +36,23 @@ ON PAD _movimientos OF _MSYSMENU ACTIVATE POPUP movimiento
 ON PAD _definiciones OF _MSYSMENU ACTIVATE POPUP definicion
 
 DEFINE POPUP movimiento MARGIN RELATIVE SHADOW COLOR SCHEME 4
-DEFINE BAR 1 OF movimiento PROMPT "Liquidacion" ;
+DEFINE BAR 1 OF movimiento PROMPT "Novedades" ;
+	SKIP FOR !oApp.Permisos(1201)
+DEFINE BAR 2 OF movimiento PROMPT "\-"
+DEFINE BAR 3 OF movimiento PROMPT "Liquidacion" ;
 	SKIP FOR !oApp.Permisos(427)
-DEFINE BAR 2 OF movimiento PROMPT "Recargos y Descuentos"
-DEFINE BAR 3 OF movimiento PROMPT "\-"
-DEFINE BAR 4 OF movimiento PROMPT "Deducciones y Beneficios" ;
-	SKIP FOR !oApp.Permisos(428)
+DEFINE BAR 4 OF movimiento PROMPT "Recargos y Descuentos"
 DEFINE BAR 5 OF movimiento PROMPT "\-"
-DEFINE BAR 6 OF movimiento PROMPT "Liquidacion Aguinaldo" ;
+DEFINE BAR 6 OF movimiento PROMPT "Deducciones y Beneficios" ;
+	SKIP FOR !oApp.Permisos(428)
+DEFINE BAR 7 OF movimiento PROMPT "\-"
+DEFINE BAR 8 OF movimiento PROMPT "Liquidacion Aguinaldo" ;
 	SKIP FOR !oApp.Permisos(427)
-ON SELECTION BAR 1 OF movimiento OAPP.DOFORM('RH_LIQUIDACION')
-ON BAR 2 OF movimiento ACTIVATE POPUP recargosyd
-ON SELECTION BAR 4 OF movimiento OAPP.DOFORM('RH_COMPLEMENTO')
-ON SELECTION BAR 6 OF movimiento OAPP.DOFORM('RH_LIQUIDACION','A')
+ON SELECTION BAR 1 OF movimiento OAPP.DOFORM('RH_novedad')
+ON SELECTION BAR 3 OF movimiento OAPP.DOFORM('RH_LIQUIDACION')
+ON BAR 4 OF movimiento ACTIVATE POPUP recargosyd
+ON SELECTION BAR 6 OF movimiento OAPP.DOFORM('RH_COMPLEMENTO')
+ON SELECTION BAR 8 OF movimiento OAPP.DOFORM('RH_LIQUIDACION','A')
 
 DEFINE POPUP recargosyd MARGIN RELATIVE SHADOW COLOR SCHEME 4
 DEFINE BAR 1 OF recargosyd PROMPT "Por Empleado" ;
@@ -86,12 +90,15 @@ DEFINE BAR 5 OF proveedore PROMPT "Categoría de Horarios" ;
 DEFINE BAR 6 OF proveedore PROMPT "\-"
 DEFINE BAR 7 OF proveedore PROMPT "Frecuencia de Liquidación" ;
 	SKIP FOR !oApp.Permisos(438)
+DEFINE BAR 8 OF proveedore PROMPT "Tipos de Novedades" ;
+	SKIP FOR !oApp.Permisos(1200)
 ON SELECTION BAR 1 OF proveedore OAPP.DOFORM('RH_CONCEPTOS')
 ON SELECTION BAR 2 OF proveedore OAPP.DOFORM('RH_SECCION')
 ON SELECTION BAR 3 OF proveedore OAPP.DOFORM('bs_Centros')
 ON SELECTION BAR 4 OF proveedore OAPP.DOFORM('RH_MOTBAJA')
 ON SELECTION BAR 5 OF proveedore OAPP.DOFORM('RH_HORARIO')
 ON SELECTION BAR 7 OF proveedore OAPP.DOFORM('RH_FRECLIQUI')
+ON SELECTION BAR 8 OF proveedore OAPP.DOFORM('RH_TipoNovedad')
 
 ON SELECTION MENU _MSYSMENU *-- (C) MICROSOFT CORPORATION 1995
 

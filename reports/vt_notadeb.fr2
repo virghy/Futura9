@@ -357,7 +357,8 @@ TTOPTION=1
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA["Fecha Comp."]]>
+	<expr><![CDATA["Fecha Comp.
+"]]>
 	<supexpr><![CDATA[]]>
 	<comment><![CDATA[]]>
 	<user><![CDATA[]]>
@@ -369,7 +370,8 @@ TTOPTION=1
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA["Exenta"]]>
+	<expr><![CDATA["Exenta
+"]]>
 	<supexpr><![CDATA[]]>
 	<comment><![CDATA[]]>
 	<user><![CDATA[]]>
@@ -381,7 +383,8 @@ TTOPTION=1
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA["Gravada"]]>
+	<expr><![CDATA["Gravada
+"]]>
 	<supexpr><![CDATA[]]>
 	<comment><![CDATA[]]>
 	<user><![CDATA[]]>
@@ -393,7 +396,8 @@ TTOPTION=1
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA["Iva"]]>
+	<expr><![CDATA["Iva
+"]]>
 	<supexpr><![CDATA[]]>
 	<comment><![CDATA[]]>
 	<user><![CDATA[]]>
@@ -405,7 +409,8 @@ TTOPTION=1
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA["Total"]]>
+	<expr><![CDATA["Total
+"]]>
 	<supexpr><![CDATA[]]>
 	<comment><![CDATA[]]>
 	<user><![CDATA[]]>
@@ -417,7 +422,8 @@ TTOPTION=1
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
-	<expr><![CDATA["Moneda"]]>
+	<expr><![CDATA["Moneda
+"]]>
 	<supexpr><![CDATA[]]>
 	<comment><![CDATA[]]>
 	<user><![CDATA[]]>
@@ -665,8 +671,7 @@ TTOPTION=1
 <Reportes 
 	platform="WINDOWS " uniqueid="" timestamp="0" objtype="25" objcode="0" name="dataenvironment" vpos="0.000" hpos="0.000" height="0.000" width="0.000" order="" unique=".F." environ=".F." boxchar=" " fillchar=" " pengreen="0" penblue="0" fillred="0" fillgreen="0" fillblue="0" pensize="0" penpat="0" fillpat="0" fontface="" fontstyle="0" fontsize="0" mode="0" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".F." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="0" double=".F." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="0" topmargin="0" botmargin="0" totaltype="0" resettotal="0" resoid="0" curpos=".F." supalways=".F." supovflow=".F." suprpcol="0" supgroup="0" supvalchng=".F." 
 	<picture><![CDATA[]]>
-	<tag><![CDATA[
-]]>
+	<tag><![CDATA[]]>
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
@@ -683,8 +688,7 @@ Name = "Dataenvironment"
 <Reportes 
 	platform="WINDOWS " uniqueid="" timestamp="0" objtype="26" objcode="0" name="cursor" vpos="0.000" hpos="0.000" height="0.000" width="0.000" order="" unique=".F." environ=".F." boxchar=" " fillchar=" " pengreen="0" penblue="0" fillred="0" fillgreen="0" fillblue="0" pensize="0" penpat="0" fillpat="0" fontface="" fontstyle="0" fontsize="0" mode="0" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".F." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="0" double=".F." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="0" topmargin="0" botmargin="0" totaltype="0" resettotal="0" resoid="0" curpos=".F." supalways=".F." supovflow=".F." suprpcol="0" supgroup="0" supvalchng=".F." 
 	<picture><![CDATA[]]>
-	<tag><![CDATA[
-]]>
+	<tag><![CDATA[]]>
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
@@ -696,8 +700,10 @@ Alias = "vt_clientes_base"
 Database = ..\data\datos.dbc
 CursorSource = "vt_clientes_base"
 Name = "Cursor1"
-@f»À »lü\‹»ò•K·uv¼ËòçËım££l¤ıÈ6¶Ğv}¤¨3¦á`‹Î[¯xË¾*!°T¥†zÜ¦ZM"òc€Íó\i’ ¨¥Š¸¾ºœe*,ïÅÉL€Oaj“K±™ÙÏÛÛ"+úŞ-¾Qdª§Ô‘‰ÂaNä¼é™Ãš’/CØ<~cÔü¿‘¡MÒyúíM³^gè{ˆ?Cg©iOÔ[é
-Ã–-5/ëƒß¬¿8Õò‰TÚ³2ğÅÒ¿ØPo%:uñ8Ÿ}!€fm¬³Ö«|Kêu|j»õƒğ<®_:±ø÷È½pë‚+3{V=]¬ èGîû¦³ú½û»0˜ÒÊ9èØû
+@f»À »lü\‹»ò•K·uv¼ËòçËım££l¤ıÈ6¶Ğv}¤¨3¦á`‹Î[¯xË¾*
+!°T¥†zÜ¦ZM"òc€Íó\i’ ¨¥Š¸¾ºœe*,ïÅÉL€Oaj“K±™ÙÏÛÛ"+úŞ-¾Qdª§Ô‘‰ÂaNä¼é™Ãš’/CØ<~cÔü¿‘¡MÒyúíM³^gè{ˆ?Cg©iOÔ[é
+Ã–-5/ë
+ƒß¬¿8Õò‰TÚ³2ğÅÒ¿ØPo%:uñ8Ÿ}!€fm¬³Ö«|Kêu|j»õƒğ<®_:±ø÷È½pë‚+3{V=]¬ èGîû¦³ú½û»0˜ÒÊ9èØû
 qùôô¸'Kcÿ¸Ğø5Rmöq9;ı4Á_¶C¿Çlº;lB3!P|ºÌ_‰\­7nO2Q,#zv†ƒØŠÇ‰>­T>¶i¸LñvĞİ¿”®#tÄcéB[ )×Û94Øº!ïy}œMtˆd·¿‰´óJ¼‹¦z‹­´tü…Èüo.Z¯³pmƒ…§¼œ!|¤¿A¨“t£•r!u«	‰eøU_ ,{s ¥Néc`.Âkî_zW8°Mç€—*±Ø3~ì8fGëç÷’Æ9ë¬LÀí.Ïux¾ÉˆNj®s¢ÚíÚ]]>
 	<supexpr><![CDATA[]]>
 	<comment><![CDATA[]]>
@@ -706,8 +712,7 @@ qùôô¸'Kcÿ¸Ğø5Rmöq9;ı4Á_¶C¿Çlº;lB3!P|ºÌ_‰\­7nO2Q,#zv†ƒØŠÇ‰>­T>¶i¸LñvĞİ¿”®
 <Reportes 
 	platform="WINDOWS " uniqueid="" timestamp="0" objtype="26" objcode="0" name="cursor" vpos="0.000" hpos="0.000" height="0.000" width="0.000" order="" unique=".F." environ=".F." boxchar=" " fillchar=" " pengreen="0" penblue="0" fillred="0" fillgreen="0" fillblue="0" pensize="0" penpat="0" fillpat="0" fontface="" fontstyle="0" fontsize="0" mode="0" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".F." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="0" double=".F." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="0" topmargin="0" botmargin="0" totaltype="0" resettotal="0" resoid="0" curpos=".F." supalways=".F." supovflow=".F." suprpcol="0" supgroup="0" supvalchng=".F." 
 	<picture><![CDATA[]]>
-	<tag><![CDATA[
-]]>
+	<tag><![CDATA[]]>
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>
@@ -727,8 +732,7 @@ Name = "Cursor2"
 <Reportes 
 	platform="WINDOWS " uniqueid="" timestamp="0" objtype="26" objcode="0" name="cursor" vpos="0.000" hpos="0.000" height="0.000" width="0.000" order="" unique=".F." environ=".F." boxchar=" " fillchar=" " pengreen="0" penblue="0" fillred="0" fillgreen="0" fillblue="0" pensize="0" penpat="0" fillpat="0" fontface="" fontstyle="0" fontsize="0" mode="0" ruler="0" rulerlines="0" grid=".F." gridv="0" gridh="0" float=".F." stretch=".F." stretchtop=".F." top=".F." bottom=".F." suptype="0" suprest="0" norepeat=".F." resetrpt="0" pagebreak=".F." colbreak=".F." resetpage=".F." general="0" spacing="0" double=".F." swapheader=".F." swapfooter=".F." ejectbefor=".F." ejectafter=".F." plain=".F." summary=".F." addalias=".F." offset="0" topmargin="0" botmargin="0" totaltype="0" resettotal="0" resoid="0" curpos=".F." supalways=".F." supovflow=".F." suprpcol="0" supgroup="0" supvalchng=".F." 
 	<picture><![CDATA[]]>
-	<tag><![CDATA[
-]]>
+	<tag><![CDATA[]]>
 	<tag2><![CDATA[]]>
 	<penred><![CDATA[0]]>
 	<style><![CDATA[]]>

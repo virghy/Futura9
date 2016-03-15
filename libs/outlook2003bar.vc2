@@ -1034,7 +1034,7 @@ DEFINE CLASS splitter2 AS shape 		&& Up-Down Splitter class. Support ActiveX con
 	*</DefinedPropArrayMethod>
 
 	HIDDEN hiddencontrols
-	PROTECTED Init,MouseDown
+	PROTECTED Init,mousedown
 	Height = 4
 	MousePointer = 7
 	Name = "splitter2"

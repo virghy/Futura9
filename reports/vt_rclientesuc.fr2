@@ -682,16 +682,20 @@ ENDIF
 	
 
 TEXT TO cmdSQL
-select 	ISNULL(c.IdZonaCom,'99') +' '+ ISNULL(zc.descripcion,'Otros') ZonaCom,
-		ISNULL(c.IdZonaGeog,'99') +' '+ ISNULL(z.descripcion,'Otros') Zona, b.idcliente, 
+select 	ISNULL(ISNULL(cd.IdZonaCom,c.IdZonaCom),'99') +' '+ ISNULL(ISNULL(zcd.descripcion,zc.descripcion),'Otros') ZonaCom,
+		ISNULL(ISNULL(cd.IdZonaGeog,c.IdZonaGeog),'99') +' '+ ISNULL(ISNULL(zd.descripcion,z.descripcion),'Otros') Zona, 
+		b.idcliente idcliente, 
 		c.razsocial, b.IdMoneda, c.NomContacto Contacto,
 		f.Descripcion NombreFamilia,
 		sum(case when b.Sucursal ='01' then  m.Importe else 0 end) T1,
 		sum(case when b.Sucursal ='02' then  m.Importe else 0 end) T2
 		from vt_factura b inner join vt_clientes c on  b.idcliente = c.idcliente and b.IdEmpresa = c.IdEmpresa 
+		left join vt_clientes cd on  ISNULL(b.idcliente1,b.idcliente) = cd.idcliente and b.IdEmpresa = cd.IdEmpresa 
 		inner join sucursal d on b.sucursal = d.sucursal and b.IdEmpresa = d.IdEmpresa 
 		left join vt_zonageog z on c.IdEmpresa=z.idempresa and c.IdZonaGeog = z.idzonageog
 		left join vt_zonacom zc on c.IdEmpresa=zc.idempresa and c.IdZonaCom = zc.IdZonaCom
+		left join vt_zonageog zd on cd.IdEmpresa=zd.idempresa and cd.IdZonaGeog = zd.idzonageog
+		left join vt_zonacom zcd on cd.IdEmpresa=zcd.idempresa and cd.IdZonaCom = zcd.IdZonaCom	
 		left join st_Movimiento_Det m on b.idfactura = m.idfactura
 		left join st_Producto p on m.idempresa=p.IdEmpresa and m.IdProducto = p.IdProducto
 		left join st_Familia f on p.IdEmpresa = f.IdEmpresa and p.Familia = f.IdFamilia  
@@ -699,11 +703,13 @@ select 	ISNULL(c.IdZonaCom,'99') +' '+ ISNULL(zc.descripcion,'Otros') ZonaCom,
 		and b.fecha BETWEEN ?m.dfecha and ?m.hfecha
 		and (ISNULL(c.IdZonaCom,'99')=?m.ZonaCom or ?m.ZonaCom is null)
 		and (p.Familia=?m.Familia or ?m.Familia is null)
-		group by ISNULL(c.IdZonaCom,'99') +' '+ ISNULL(zc.descripcion,'Otros'), ISNULL(c.IdZonaGeog,'99') +' '+ ISNULL(z.descripcion,'Otros'),b.idcliente,c.NomContacto, 
+		group by ISNULL(ISNULL(cd.IdZonaCom,c.IdZonaCom),'99') +' '+ ISNULL(ISNULL(zcd.descripcion,zc.descripcion),'Otros'),
+		ISNULL(ISNULL(cd.IdZonaGeog,c.IdZonaGeog),'99') +' '+ ISNULL(ISNULL(zd.descripcion,z.descripcion),'Otros'), 
+		b.idcliente,c.NomContacto, 
 		c.razsocial,b.IdMoneda,f.Descripcion 
-		order by B.IdMoneda,ISNULL(c.IdZonaCom,'99') +' '+ ISNULL(zc.descripcion,'Otros'),
-		ISNULL(c.IdZonaGeog,'99') +' '+ ISNULL(z.descripcion,'Otros'), b.idcliente
-
+		order by B.IdMoneda,ISNULL(ISNULL(cd.IdZonaCom,c.IdZonaCom),'99') +' '+ ISNULL(ISNULL(zcd.descripcion,zc.descripcion),'Otros'),
+		ISNULL(ISNULL(cd.IdZonaGeog,c.IdZonaGeog),'99') +' '+ ISNULL(ISNULL(zd.descripcion,z.descripcion),'Otros'), 
+		b.idcliente
 ENDTEXT
 
 sql(cmdSQL,'Clientes')

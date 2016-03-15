@@ -17,9 +17,9 @@ DEFINE CLASS dataenvironment AS dataenvironment
 	DataSource = .NULL.
 	Height = 384
 	InitialSelectedAlias = "vAsientos"
-	Left = -10
+	Left = -98
 	Name = "Dataenvironment"
-	Top = 77
+	Top = 80
 	Width = 792
 
 	ADD OBJECT 'Cursor2' AS cursor WITH ;
@@ -44,7 +44,7 @@ DEFINE CLASS dataenvironment AS dataenvironment
 		Left = 37, ;
 		Name = "Cursor6", ;
 		NoDataOnLoad = .T., ;
-		Top = 25, ;
+		Top = 26, ;
 		Width = 95
 		*< END OBJECT: BaseClass="cursor" />
 	
@@ -811,11 +811,16 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 	PROCEDURE imprimir
 		M.DFECHA = VASIENTOS.FECHA
 		M.HFECHA = VASIENTOS.FECHA
-		M.DNUMERO = VAL(VASIENTOS.NÚMERO)
-		M.HNUMERO = VAL(VASIENTOS.NÚMERO)
+		*M.DNUMERO = VAL(VASIENTOS.NÚMERO)
+		*M.HNUMERO = VAL(VASIENTOS.NÚMERO)
+		M.DNUMERO = VASIENTOS.NÚMERO
+		M.HNUMERO = VASIENTOS.NÚMERO
+		
 		M.SUCURSAL = VASIENTOS.SUCURSAL
 		EMPRESA = OAPP.NOMBREEMPRESA
-		REPORT FORM cn_Asientos TO PRINTER PROMPT NOCONSOLE
+		*REPORT FORM cn_Asientos TO PRINTER PROMPT NOCONSOLE
+		oApp.DoReport('cn_Asientos','PREVIEW')
+		
 	ENDPROC
 
 	PROCEDURE Init

@@ -1,6 +1,6 @@
 *       *********************************************************
 *       *                                                         
-*       * 23/03/2015              CPP.MPR               11:51:18  
+*       * 23/12/2015              CPP.MPR               16:08:21  
 *       *                                                         
 *       *********************************************************
 *       *                                                         
@@ -79,6 +79,8 @@ DEFINE BAR 11 OF definicion PROMPT "\<Marcas" ;
 	SKIP FOR !oApp.Permisos(410)
 DEFINE BAR 12 OF definicion PROMPT "\<Unidades de Medida" ;
 	SKIP FOR !oApp.Permisos(411)
+DEFINE BAR 13 OF definicion PROMPT "Centro Costo" ;
+	SKIP FOR !oApp.Permisos(34)
 ON SELECTION BAR 1 OF definicion OAPP.DOFORM('ST_PRODUCTOS')
 ON SELECTION BAR 2 OF definicion OAPP.DOFORM('CP_PROVEEDOR')
 ON SELECTION BAR 4 OF definicion OAPP.DOFORM('CP_COMPROB')
@@ -89,5 +91,6 @@ ON SELECTION BAR 9 OF definicion OAPP.DOFORM('ST_FAMILIAS')
 ON SELECTION BAR 10 OF definicion OAPP.DOFORM('ST_LINEAS')
 ON SELECTION BAR 11 OF definicion OAPP.DOFORM('ST_MARCAS')
 ON SELECTION BAR 12 OF definicion OAPP.DOFORM('ST_UNIDADES')
+ON SELECTION BAR 13 OF definicion OAPP.DOFORM('BS_CENTROS')
 
 ON SELECTION MENU _MSYSMENU *-- (C) MICROSOFT CORPORATION 1995

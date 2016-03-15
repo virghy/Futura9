@@ -1,6 +1,6 @@
 *       *********************************************************
 *       *                                                         
-*       * 23/03/2015             TSR1.MPR               11:51:18  
+*       * 07/10/2015             TSR1.MPR               10:01:18  
 *       *                                                         
 *       *********************************************************
 *       *                                                         
@@ -77,7 +77,7 @@ ON SELECTION BAR 2 OF _23h0y7ko2 OAPP.DOFORM('BS_PERSONAS')
 ON SELECTION BAR 3 OF _23h0y7ko2 OAPP.DOFORM('BS_TIPODOC')
 ON SELECTION BAR 5 OF _23h0y7ko2 OAPP.DOFORM('BS_IVA')
 ON SELECTION BAR 7 OF _23h0y7ko2 ;
-	DO _4b70peqz4 ;
+	DO _4gp0lh8a9 ;
 	IN LOCFILE("FUTURA9\MENUS\TSR1" ,"MPX;MPR|FXP;PRG" ,"WHERE is TSR1?")
 
 DEFINE POPUP contabilid MARGIN RELATIVE SHADOW COLOR SCHEME 4
@@ -524,7 +524,7 @@ ON SELECTION BAR 5 OF _23i0yswb9 ;
 	IN LOCFILE("FUTURA9\MENUS\TSR1" ,"MPX;MPR|FXP;PRG" ,"WHERE is TSR1?")
 ON SELECTION BAR 6 OF _23i0yswb9 OAPP.DOFORM('OS_REMISION')
 ON SELECTION BAR 8 OF _23i0yswb9 ;
-	DO _4b70peqz5 ;
+	DO _4gp0lh8bk ;
 	IN LOCFILE("FUTURA9\MENUS\TSR1" ,"MPX;MPR|FXP;PRG" ,"WHERE is TSR1?")
 ON SELECTION BAR 9 OF _23i0yswb9 OAPP.DOFORM('VT_CAJA')
 ON SELECTION BAR 10 OF _23i0yswb9 OAPP.DOFORM('VT_MOVCAJA')
@@ -595,7 +595,7 @@ ON SELECTION BAR 9 OF _23i0yuokh OAPP.DOFORM('VT_COBRADOR')
 
 *       *********************************************************
 *       *                                                         
-*       * _4B70PEQZ4  ON SELECTION BAR 7 OF POPUP _23h0y7ko2      
+*       * _4GP0LH8A9  ON SELECTION BAR 7 OF POPUP _23h0y7ko2      
 *       *                                                         
 *       * Procedure Origin:                                       
 *       *                                                         
@@ -606,7 +606,7 @@ ON SELECTION BAR 9 OF _23i0yuokh OAPP.DOFORM('VT_COBRADOR')
 *       *                                                         
 *       *********************************************************
 *
-PROCEDURE _4b70peqz4
+PROCEDURE _4gp0lh8a9
 DO seteo
 WAIT WINDOW NOCLEAR NOWAIT "Actualizando Objetos..."
 USE sysobjetos
@@ -681,7 +681,7 @@ ENDIF
 
 *       *********************************************************
 *       *                                                         
-*       * _4B70PEQZ5  ON SELECTION BAR 8 OF POPUP _23i0yswb9      
+*       * _4GP0LH8BK  ON SELECTION BAR 8 OF POPUP _23i0yswb9      
 *       *                                                         
 *       * Procedure Origin:                                       
 *       *                                                         
@@ -692,7 +692,7 @@ ENDIF
 *       *                                                         
 *       *********************************************************
 *
-PROCEDURE _4b70peqz5
+PROCEDURE _4gp0lh8bk
 TEXT TO cmdsql TEXTMERGE NOSHOW
 	SELECT IdCaja FROM vt_caja
 		where idEmpresa=?oApp.Empresa

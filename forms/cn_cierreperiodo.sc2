@@ -208,6 +208,7 @@ DEFINE CLASS tsbaseform12 AS tsbaseform OF "..\libs\tsbase.vcx"
 	
 	PROCEDURE Init
 		DODEFAULT()
+		
 		DO CASE
 		CASE OAPP.PERIODO=12
 		THISFORM.PAGEFRAME1.PAGE1.TSCBO_PERIODO.VALUE = 13
@@ -233,7 +234,7 @@ DEFINE CLASS tsbaseform12 AS tsbaseform OF "..\libs\tsbase.vcx"
 		TEXT TO CMDSQL NOSHOW
 			BEGIN TRANSACTION 
 			Declare @Nro int, @IdAsiento int
-			Select top 1 @Nro = Nro_Asiento
+			Select top 1 @Nro = ISNULL(Nro_Asiento,0)
 			from cn_Asientos
 			where IdEmpresa = ?oApp.Empresa
 				and Ejercicio = ?oApp.Ejercicio
@@ -296,6 +297,7 @@ DEFINE CLASS tsbaseform12 AS tsbaseform OF "..\libs\tsbase.vcx"
 		ENDTEXT
 		IF SQL(CMDSQL, 'Cursor')>0
 		MESSAGEBOX('El cierre de periodo se realizó correctamente', 64, "Futura Software")
+		oApp.DoEjercicio(ALLTRIM(STR(oApp.Ejercicio)))
 		THISFORM.RELEASE()
 		ENDIF
 	ENDPROC
@@ -334,6 +336,7 @@ DEFINE CLASS tsbaseform12 AS tsbaseform OF "..\libs\tsbase.vcx"
 		ENDTEXT
 		IF SQL(CMDSQL, 'Cursor')>0
 		MESSAGEBOX('La reversion del cierre de periodo se realizó correctamente', 64, "Futura Software")
+		oApp.DoEjercicio(ALLTRIM(STR(oApp.Ejercicio)))
 		THISFORM.RELEASE()
 		ENDIF
 	ENDPROC

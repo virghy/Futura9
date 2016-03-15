@@ -17,9 +17,9 @@ DEFINE CLASS dataenvironment AS dataenvironment
 	DataSource = .NULL.
 	Height = 440
 	InitialSelectedAlias = "cp_vcompra"
-	Left = 244
+	Left = 72
 	Name = "Dataenvironment"
-	Top = 61
+	Top = 77
 	Width = 792
 
 	ADD OBJECT 'Cursor1' AS cursor WITH ;
@@ -67,24 +67,12 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.Tsgrid1.total.txttotal" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.Tsgrid1.modelo.Modelo" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.Tsgrid1.modelo.Text1" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.Tsgrid1.serie.Header1" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.Tsgrid1.serie.Tscommandbutton1" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.Tsgrid1.marca.Header1" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.Tsgrid1.marca.Text1" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.Tsgrid1.Deposito.Header1" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.Tsgrid1.Deposito.Tscombobox1" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.Tsgrid1.obs.Header1" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.Tsgrid1.obs.Text1" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.Tsgrid1.RT.Header1" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.Tsgrid1.RT.Tscheckbox1" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.Tsgrid1.IdCliente.Header1" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.Tsgrid1.IdCliente.Idcliente1" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.Tsgrid1.Cliente.Header1" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.Tsgrid1.Cliente.Text1" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.Tsgrid1.Column15.Header1" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.Tsgrid1.Column15.Text1" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.Tsgrid1.Column16.Header1" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.Tsgrid1.Column16.Tscombobox1" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.Tsgrid1.UM.Header1" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.Tsgrid1.UM.Text1" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.Tsgrid1.Column18.Header1" UniqueID="" Timestamp="" />
@@ -124,13 +112,13 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.totales.iva" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.totales.Tslabel6" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.totales.Tslabel4" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.totales.Tslabel7" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.totales.Tslabel5" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.totales.Tslabel1" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.totales.Tslabel2" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.totales.Tslabel3" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.totales.Tslabel8" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.totales.Tslabel9" UniqueID="" Timestamp="" />
+	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.totales.Tslabel8" UniqueID="" Timestamp="" />
+	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.totales.Tslabel3" UniqueID="" Timestamp="" />
+	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.totales.Tslabel2" UniqueID="" Timestamp="" />
+	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.totales.Tslabel1" UniqueID="" Timestamp="" />
+	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.totales.Tslabel5" UniqueID="" Timestamp="" />
+	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.totales.Tslabel7" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.totales.porcentaje" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.totales.total" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.totales.exento" UniqueID="" Timestamp="" />
@@ -169,6 +157,7 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 	asientorecordsource = cp_vCompra.NroAsiento
 	auditmarcahora = AuditFecha
 	auditusuario = AuditUsuario
+	BindControls = .T.
 	campos = idempresa, idfactura, IdMoneda, Sucursal,tipo, FormaIva, LibroIva
 	Caption = "Compras"
 	Comment = "número,cn_Asientos,idempresa = ?oApp.Empresa and ejercicio = ?oApp.Ejercicio"
@@ -187,7 +176,7 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 	tablaconsulta = COMPRA HAC
 	valores = oApp.Empresa,newid('cp_compra'), oApp.Monedabase, oApp.Sucursal,'H', 'I',.t.
 	valor_iva = 10		&& valor del iva
-	Width = 756
+	Width = 886
 	lblRequerido.Enabled = .F.
 	lblRequerido.Name = "lblRequerido"
 	lblRequerido.TabIndex = 2
@@ -207,7 +196,7 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 	Pageframe1.TabStop = .F.
 	Pageframe1.TabStyle = 0
 	Pageframe1.Top = 0
-	Pageframe1.Width = 755
+	Pageframe1.Width = 888
 
 	ADD OBJECT 'Pageframe1.PAGE1.CalculoManual' AS tscheckbox WITH ;
 		Alignment = 1, ;
@@ -237,7 +226,7 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 		ControlSource = "cp_vCompra.idcondicion", ;
 		cursor = cp_condicion, ;
 		editable = .T., ;
-		Left = 610, ;
+		Left = 753, ;
 		mensajevalidacion = Debe indicar una condición., ;
 		Name = "condicion", ;
 		RowSource = "cp_condicion.descripcion,idcondicion", ;
@@ -285,7 +274,7 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 		ControlSource = "cp_vcompra.idorden", ;
 		datoayuda = Pedidos   , ;
 		Height = 22, ;
-		Left = 610, ;
+		Left = 753, ;
 		Name = "idorden", ;
 		TabIndex = 8, ;
 		Top = 10, ;
@@ -341,7 +330,7 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 		ControlSource = "cp_vcompra.idfactura", ;
 		editable = .F., ;
 		Enabled = .F., ;
-		Left = 610, ;
+		Left = 753, ;
 		Name = "NroComprob", ;
 		TabIndex = 10, ;
 		Top = 58, ;
@@ -401,7 +390,7 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 		editable = .T., ;
 		FontBold = .T., ;
 		ForeColor = 0,0,128, ;
-		Left = 610, ;
+		Left = 753, ;
 		Name = "tipo", ;
 		solonuevo = .F., ;
 		Style = 2, ;
@@ -706,7 +695,7 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 		Caption = "", ;
 		ControlSource = "cp_vcompra.libroiva", ;
 		Height = 15, ;
-		Left = 502, ;
+		Left = 645, ;
 		Name = "Tscheckbox2", ;
 		TabIndex = 36, ;
 		Top = 130, ;
@@ -721,7 +710,7 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 		editable = .T., ;
 		FirstElement = 1, ;
 		Height = 22, ;
-		Left = 610, ;
+		Left = 753, ;
 		Name = "Tscombobox1", ;
 		NumberOfElements = 0, ;
 		RowSource = "Discriminado,D,Incluido,I", ;
@@ -733,10 +722,10 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 		*< END OBJECT: ClassLib="..\libs\tsbase.vcx" BaseClass="combobox" />
 
 	ADD OBJECT 'Pageframe1.PAGE1.Tsgrid1' AS tsgrid WITH ;
-		campo = IdEmpresa, idcompra,idcomprobante,IdDeposito_Ent, ;
+		campo = IdEmpresa, idcompra,idcomprobante,IdDeposito_Ent,Comision, ;
 		cfieldtosum = iif(iva=0,precio*cantidad,0),iif(iva<>0,precio*cantidad,0),  ValorIva*Cantidad, ;
 		codigo = idproducto, ;
-		ColumnCount = 21, ;
+		ColumnCount = 15, ;
 		editable = .T., ;
 		FontSize = 8, ;
 		GridLines = 2, ;
@@ -753,7 +742,7 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 		valor = oApp.Empresa, cp_vCompra.idfactura,xVenta.cpbt_stk, sucursal.IdDeposito,0, ;
 		valorvariable = cp_vCompra.idfactura, ;
 		variablevista = M.IDFACTURA, ;
-		Width = 731, ;
+		Width = 863, ;
 		Column1.ColumnOrder = 1, ;
 		Column1.ControlSource = "cp_vdetfactu.idproducto", ;
 		Column1.FontBold = .F., ;
@@ -761,89 +750,55 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 		Column1.Name = "producto", ;
 		Column1.Sparse = .F., ;
 		Column1.Width = 54, ;
-		Column10.ColumnOrder = 17, ;
-		Column10.ControlSource = "cp_vdetfactu.obs", ;
+		Column10.ColumnOrder = 4, ;
+		Column10.ControlSource = "cp_vdetfactu.categoria", ;
 		Column10.FontSize = 8, ;
-		Column10.Name = "obs", ;
-		Column10.Width = 225, ;
-		Column11.ColumnOrder = 15, ;
-		Column11.ControlSource = "cp_vdetfactu.regimenturismo", ;
+		Column10.Name = "UM", ;
+		Column10.ReadOnly = .T., ;
+		Column10.Width = 22, ;
+		Column11.ColumnOrder = 6, ;
+		Column11.ControlSource = "cp_vdetfactu.clase", ;
+		Column11.CurrentControl = "Text1", ;
 		Column11.FontSize = 8, ;
-		Column11.Name = "RT", ;
-		Column11.ReadOnly = .F., ;
-		Column11.Sparse = .F., ;
-		Column11.Width = 25, ;
-		Column12.ColumnOrder = 18, ;
-		Column12.ControlSource = "cp_vdetfactu.idcliente", ;
+		Column11.Name = "Column18", ;
+		Column11.Width = 38, ;
+		Column12.ColumnOrder = 8, ;
+		Column12.ControlSource = "cp_vdetfactu.pbruto", ;
 		Column12.FontSize = 8, ;
-		Column12.Name = "IdCliente", ;
-		Column12.Width = 48, ;
-		Column13.ColumnOrder = 19, ;
-		Column13.ControlSource = "cp_vdetfactu.razsocial", ;
+		Column12.InputMask = "99,999,999", ;
+		Column12.Name = "Column19", ;
+		Column12.Width = 69, ;
+		Column13.ColumnOrder = 12, ;
+		Column13.ControlSource = "mton(pbruto)/mton(cantidad)", ;
 		Column13.FontSize = 8, ;
-		Column13.Name = "Cliente", ;
-		Column13.ReadOnly = .T., ;
-		Column13.Width = 108, ;
-		Column14.ColumnOrder = 20, ;
-		Column14.ControlSource = "cp_vdetfactu.garantia", ;
+		Column13.InputMask = "999,999,999.99", ;
+		Column13.Name = "Column20", ;
+		Column13.Width = 70, ;
+		Column14.ColumnOrder = 13, ;
+		Column14.ControlSource = "mton(itotal)/mton(pbruto)", ;
 		Column14.FontSize = 8, ;
-		Column14.InputMask = "999", ;
-		Column14.Name = "Column15", ;
-		Column14.Width = 52, ;
-		Column15.ColumnOrder = 21, ;
-		Column15.ControlSource = "cp_vdetfactu.tiempogarantia", ;
+		Column14.InputMask = "999,999,999.99", ;
+		Column14.Name = "Column21", ;
+		Column14.Width = 79, ;
+		Column15.ColumnOrder = 14, ;
+		Column15.ControlSource = "mton(itotal)/mton(cantidad)", ;
 		Column15.FontSize = 8, ;
-		Column15.Name = "Column16", ;
-		Column15.Width = 61, ;
-		Column16.ColumnOrder = 4, ;
-		Column16.ControlSource = "cp_vdetfactu.categoria", ;
-		Column16.FontSize = 8, ;
-		Column16.Name = "UM", ;
-		Column16.ReadOnly = .T., ;
-		Column16.Width = 22, ;
-		Column17.ColumnOrder = 6, ;
-		Column17.ControlSource = "cp_vdetfactu.clase", ;
-		Column17.CurrentControl = "Text1", ;
-		Column17.FontSize = 8, ;
-		Column17.Name = "Column18", ;
-		Column17.Width = 38, ;
-		Column18.ColumnOrder = 8, ;
-		Column18.ControlSource = "cp_vdetfactu.pbruto", ;
-		Column18.FontSize = 8, ;
-		Column18.InputMask = "99,999,999", ;
-		Column18.Name = "Column19", ;
-		Column18.Width = 63, ;
-		Column19.ColumnOrder = 12, ;
-		Column19.ControlSource = "pbruto/Cantidad", ;
-		Column19.FontSize = 8, ;
-		Column19.InputMask = "99,999.99", ;
-		Column19.Name = "Column20", ;
-		Column19.Width = 70, ;
+		Column15.InputMask = "999,999,999,999", ;
+		Column15.Name = "Column22", ;
+		Column15.Width = 80, ;
 		Column2.ColumnOrder = 2, ;
 		Column2.ControlSource = "cp_vdetfactu.descripcion", ;
 		Column2.FontBold = .F., ;
 		Column2.FontSize = 8, ;
 		Column2.Name = "descripcion", ;
-		Column2.Width = 174, ;
-		Column20.ColumnOrder = 13, ;
-		Column20.ControlSource = "itotal/pbruto", ;
-		Column20.FontSize = 8, ;
-		Column20.InputMask = "9,999,999.99", ;
-		Column20.Name = "Column21", ;
-		Column20.Width = 79, ;
-		Column21.ColumnOrder = 14, ;
-		Column21.ControlSource = "itotal/Cantidad", ;
-		Column21.FontSize = 8, ;
-		Column21.InputMask = "999,999,999", ;
-		Column21.Name = "Column22", ;
-		Column21.Width = 80, ;
+		Column2.Width = 136, ;
 		Column3.ColumnOrder = 7, ;
 		Column3.ControlSource = "cp_vdetfactu.cantidad", ;
 		Column3.FontBold = .F., ;
 		Column3.FontSize = 8, ;
-		Column3.InputMask = "999,999.999", ;
+		Column3.InputMask = "99,999,999.999", ;
 		Column3.Name = "cantidad", ;
-		Column3.Width = 50, ;
+		Column3.Width = 55, ;
 		Column4.ColumnOrder = 5, ;
 		Column4.ControlSource = "cp_vdetfactu.iva", ;
 		Column4.FontBold = .F., ;
@@ -855,9 +810,9 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 		Column5.ControlSource = "cp_vdetfactu.itotal", ;
 		Column5.FontBold = .F., ;
 		Column5.FontSize = 8, ;
-		Column5.InputMask = "999,999,999.99", ;
+		Column5.InputMask = "99,999,999,999.99", ;
 		Column5.Name = "total", ;
-		Column5.Width = 71, ;
+		Column5.Width = 81, ;
 		Column6.ColumnOrder = 10, ;
 		Column6.ControlSource = "cp_vdetfactu.modelo", ;
 		Column6.FontBold = .F., ;
@@ -865,28 +820,26 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 		Column6.Name = "modelo", ;
 		Column6.Visible = .F., ;
 		Column6.Width = 56, ;
-		Column7.ColumnOrder = 16, ;
-		Column7.ControlSource = "cp_vdetfactu.serie", ;
+		Column7.ColumnOrder = 9, ;
+		Column7.ControlSource = "cp_vdetfactu.marca", ;
 		Column7.FontBold = .F., ;
 		Column7.FontSize = 8, ;
-		Column7.Name = "serie", ;
-		Column7.Sparse = .F., ;
-		Column7.Width = 56, ;
-		Column8.ColumnOrder = 9, ;
-		Column8.ControlSource = "cp_vdetfactu.marca", ;
+		Column7.Name = "marca", ;
+		Column7.Visible = .F., ;
+		Column7.Width = 67, ;
+		Column8.ColumnOrder = 3, ;
+		Column8.ControlSource = "cp_vdetfactu.iddeposito_ent", ;
+		Column8.CurrentControl = "Tscombobox1", ;
 		Column8.FontBold = .F., ;
 		Column8.FontSize = 8, ;
-		Column8.Name = "marca", ;
-		Column8.Visible = .F., ;
-		Column8.Width = 67, ;
-		Column9.ColumnOrder = 3, ;
-		Column9.ControlSource = "cp_vdetfactu.iddeposito_ent", ;
-		Column9.CurrentControl = "Tscombobox1", ;
-		Column9.FontBold = .F., ;
+		Column8.Name = "Deposito", ;
+		Column8.Sparse = .F., ;
+		Column8.Width = 49, ;
+		Column9.ColumnOrder = 15, ;
+		Column9.ControlSource = "cp_vdetfactu.obs", ;
 		Column9.FontSize = 8, ;
-		Column9.Name = "Deposito", ;
-		Column9.Sparse = .F., ;
-		Column9.Width = 55
+		Column9.Name = "obs", ;
+		Column9.Width = 225
 		*< END OBJECT: ClassLib="..\libs\tsbase.vcx" BaseClass="grid" />
 
 	ADD OBJECT 'Pageframe1.PAGE1.Tsgrid1.cantidad.Header1' AS header WITH ;
@@ -908,64 +861,6 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 		SelectedBackColor = 247,223,187, ;
 		SelectedForeColor = 0,64,128
 		*< END OBJECT: BaseClass="textbox" />
-
-	ADD OBJECT 'Pageframe1.PAGE1.Tsgrid1.Cliente.Header1' AS header WITH ;
-		Caption = "Razon Social", ;
-		FontBold = .T., ;
-		FontSize = 8, ;
-		Name = "Header1"
-		*< END OBJECT: BaseClass="header" />
-
-	ADD OBJECT 'Pageframe1.PAGE1.Tsgrid1.Cliente.Text1' AS textbox WITH ;
-		BackColor = 255,255,255, ;
-		BorderStyle = 0, ;
-		FontBold = .F., ;
-		FontSize = 8, ;
-		ForeColor = 0,0,0, ;
-		Margin = 0, ;
-		Name = "Text1", ;
-		ReadOnly = .T., ;
-		SelectedBackColor = 247,223,187, ;
-		SelectedForeColor = 0,64,128
-		*< END OBJECT: BaseClass="textbox" />
-
-	ADD OBJECT 'Pageframe1.PAGE1.Tsgrid1.Column15.Header1' AS header WITH ;
-		Caption = "Garantia", ;
-		FontBold = .T., ;
-		FontSize = 8, ;
-		Name = "Header1"
-		*< END OBJECT: BaseClass="header" />
-
-	ADD OBJECT 'Pageframe1.PAGE1.Tsgrid1.Column15.Text1' AS textbox WITH ;
-		BackColor = 255,255,255, ;
-		BorderStyle = 0, ;
-		FontSize = 8, ;
-		ForeColor = 0,0,0, ;
-		InputMask = "999", ;
-		Margin = 0, ;
-		Name = "Text1", ;
-		SelectedBackColor = 247,223,187, ;
-		SelectedForeColor = 0,64,128
-		*< END OBJECT: BaseClass="textbox" />
-
-	ADD OBJECT 'Pageframe1.PAGE1.Tsgrid1.Column16.Header1' AS header WITH ;
-		Caption = "T.Garantia", ;
-		FontBold = .T., ;
-		FontSize = 8, ;
-		Name = "Header1"
-		*< END OBJECT: BaseClass="header" />
-
-	ADD OBJECT 'Pageframe1.PAGE1.Tsgrid1.Column16.Tscombobox1' AS tscombobox WITH ;
-		BoundColumn = 2, ;
-		ColumnCount = 2, ;
-		ColumnWidths = "50", ;
-		FontSize = 8, ;
-		Left = 26, ;
-		Name = "Tscombobox1", ;
-		RowSource = "Dias,D,Meses,M,Años,A", ;
-		RowSourceType = 1, ;
-		Top = 34
-		*< END OBJECT: ClassLib="..\libs\tsbase.vcx" BaseClass="combobox" />
 
 	ADD OBJECT 'Pageframe1.PAGE1.Tsgrid1.Column18.Header1' AS header WITH ;
 		Caption = "Categ.", ;
@@ -1093,24 +988,6 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 		SelectedForeColor = 0,64,128
 		*< END OBJECT: BaseClass="textbox" />
 
-	ADD OBJECT 'Pageframe1.PAGE1.Tsgrid1.IdCliente.Header1' AS header WITH ;
-		Caption = "Cliente", ;
-		FontBold = .T., ;
-		FontSize = 8, ;
-		Name = "Header1"
-		*< END OBJECT: BaseClass="header" />
-
-	ADD OBJECT 'Pageframe1.PAGE1.Tsgrid1.IdCliente.Idcliente1' AS idcliente WITH ;
-		actualizar = .F., ;
-		FontSize = 8, ;
-		Left = 222, ;
-		Name = "Idcliente1", ;
-		objeto = this.parent.parent.Cliente.text1, ;
-		SelectedBackColor = 247,223,187, ;
-		SelectedForeColor = 0,64,128, ;
-		Top = 74
-		*< END OBJECT: ClassLib="..\libs\futura.vcx" BaseClass="textbox" />
-
 	ADD OBJECT 'Pageframe1.PAGE1.Tsgrid1.iva.Header1' AS header WITH ;
 		Caption = "IVA", ;
 		FontBold = .T., ;
@@ -1226,41 +1103,6 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 		validar = .F.
 		*< END OBJECT: ClassLib="..\libs\tsbase.vcx" BaseClass="textbox" />
 
-	ADD OBJECT 'Pageframe1.PAGE1.Tsgrid1.RT.Header1' AS header WITH ;
-		Caption = "R.T.", ;
-		FontBold = .T., ;
-		FontSize = 8, ;
-		Name = "Header1"
-		*< END OBJECT: BaseClass="header" />
-
-	ADD OBJECT 'Pageframe1.PAGE1.Tsgrid1.RT.Tscheckbox1' AS tscheckbox WITH ;
-		Alignment = 0, ;
-		Caption = "", ;
-		FontSize = 8, ;
-		Left = 33, ;
-		Name = "Tscheckbox1", ;
-		ReadOnly = .F., ;
-		SpecialEffect = 1, ;
-		Top = 35
-		*< END OBJECT: ClassLib="..\libs\tsbase.vcx" BaseClass="checkbox" />
-
-	ADD OBJECT 'Pageframe1.PAGE1.Tsgrid1.serie.Header1' AS header WITH ;
-		Caption = "Serie", ;
-		FontBold = .T., ;
-		FontSize = 8, ;
-		Name = "Header1"
-		*< END OBJECT: BaseClass="header" />
-
-	ADD OBJECT 'Pageframe1.PAGE1.Tsgrid1.serie.Tscommandbutton1' AS tscommandbutton WITH ;
-		Caption = "...", ;
-		FontSize = 8, ;
-		Height = 26, ;
-		Left = 478, ;
-		Name = "Tscommandbutton1", ;
-		Top = 94, ;
-		Width = 36
-		*< END OBJECT: ClassLib="..\libs\tsbase.vcx" BaseClass="commandbutton" />
-
 	ADD OBJECT 'Pageframe1.PAGE1.Tsgrid1.total.Header1' AS header WITH ;
 		Caption = "Importe", ;
 		FontBold = .T., ;
@@ -1274,7 +1116,7 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 		FontBold = .F., ;
 		FontSize = 8, ;
 		ForeColor = 0,0,0, ;
-		InputMask = "999,999,999.99", ;
+		InputMask = "99,999,999,999.99", ;
 		Margin = 0, ;
 		Name = "txttotal", ;
 		SelectedBackColor = 247,223,187, ;
@@ -1305,7 +1147,7 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 		AutoSize = .F., ;
 		Caption = "Nro. O.C.", ;
 		Height = 16, ;
-		Left = 553, ;
+		Left = 696, ;
 		Name = "Tslabel1", ;
 		TabIndex = 22, ;
 		Top = 10, ;
@@ -1327,7 +1169,7 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 		AutoSize = .F., ;
 		Caption = "Forma IVA", ;
 		Height = 16, ;
-		Left = 539, ;
+		Left = 682, ;
 		Name = "Tslabel11", ;
 		TabIndex = 17, ;
 		Top = 106, ;
@@ -1350,7 +1192,7 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 	ADD OBJECT 'Pageframe1.PAGE1.Tslabel13' AS tslabel WITH ;
 		Caption = "Timbrado", ;
 		Height = 17, ;
-		Left = 531, ;
+		Left = 674, ;
 		Name = "Tslabel13", ;
 		TabIndex = 31, ;
 		Top = 130, ;
@@ -1415,7 +1257,7 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 		AutoSize = .F., ;
 		Caption = "Tipo Factura", ;
 		Height = 16, ;
-		Left = 533, ;
+		Left = 676, ;
 		Name = "Tslabel6", ;
 		TabIndex = 27, ;
 		Top = 34, ;
@@ -1427,7 +1269,7 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 		AutoSize = .F., ;
 		Caption = "Número", ;
 		Height = 16, ;
-		Left = 556, ;
+		Left = 699, ;
 		Name = "Tslabel7", ;
 		TabIndex = 28, ;
 		Top = 58, ;
@@ -1450,7 +1292,7 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 		AutoSize = .F., ;
 		Caption = "Condición", ;
 		Height = 16, ;
-		Left = 545, ;
+		Left = 688, ;
 		Name = "Tslabel9", ;
 		TabIndex = 29, ;
 		Top = 82, ;
@@ -1461,7 +1303,7 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 		ControlSource = "cp_vcompra.timbrado", ;
 		Height = 21, ;
 		InputMask = "99999999", ;
-		Left = 610, ;
+		Left = 753, ;
 		Name = "Tstextbox1", ;
 		requerido = .T., ;
 		TabIndex = 13, ;
@@ -1483,13 +1325,16 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 	
 	PROCEDURE calculariva
 		SELECT CP_VDETFACTU
+		
 		SCAN
 			NRODECIMALES = IIF(CU_MONEDA.DECIMALES=0, 0, 4)
-			replace GRAVADAINCLUIDO WITH itotal/Cantidad
+			replace GRAVADAINCLUIDO WITH IIF(Cantidad>0,itotal/Cantidad,0)
 			IF CP_VCOMPRA.FORMAIVA='I'
-				LNPORCENTAJE = ROUND((100+CP_VDETFACTU.IVA)/CP_VDETFACTU.IVA, NRODECIMALES)
-				REPLACE VALORIVA WITH ROUND(itotal/(LNPORCENTAJE), NRODECIMALES) IN CP_VDETFACTU
-				M.IVA = ROUND(CP_VDETFACTU.GRAVADAINCLUIDO/(LNPORCENTAJE), NRODECIMALES)
+				LNPORCENTAJE = IIF(CP_VDETFACTU.IVA>0,ROUND((100+CP_VDETFACTU.IVA)/CP_VDETFACTU.IVA, NRODECIMALES),0)
+				
+				REPLACE VALORIVA WITH IIF(lnPorcentaje>0,ROUND(itotal/(LNPORCENTAJE), NRODECIMALES),0) IN CP_VDETFACTU
+				
+				M.IVA = IIF(LNPORCENTAJE>0,ROUND(CP_VDETFACTU.GRAVADAINCLUIDO/(LNPORCENTAJE), NRODECIMALES),0)
 				REPLACE PRECIO WITH GRAVADAINCLUIDO-M.IVA IN CP_VDETFACTU
 			ELSE
 				REPLACE VALORIVA WITH ROUND(CP_VDETFACTU.PRECIO*CP_VDETFACTU.CANTIDAD*CP_VDETFACTU.IVA/100, NRODECIMALES) IN CP_VDETFACTU
@@ -1507,38 +1352,39 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 		IF SQL(STRSQL, 'vparam')>0
 			THIS.TIPO_FACT = VPARAM.VALOR
 		ENDIF
+		
 		STRSQL = "Select valor from bs_constante where constante = "+"'"+"CONDICION_COMPRA"+"'"+"AND idempresa = "+"'"+OAPP.EMPRESA+"'"
 		IF SQL(STRSQL, 'vparam')>0
 			THIS.CONDICION_DEF = VPARAM.VALOR
 		ENDIF
 		IF OAPP.PRODUCTO_DECIMAL>0
-			THISFORM.PAGEFRAME1.PAGE1.TSGRID1.CANTIDAD.INPUTMASK = "999,999."+REPLICATE('9', OAPP.PRODUCTO_DECIMAL)
-			THISFORM.PAGEFRAME1.PAGE1.TSGRID1.CANTIDAD.TXTCANTIDAD.INPUTMASK = "999,999."+REPLICATE('9', OAPP.PRODUCTO_DECIMAL)
+			THISFORM.PAGEFRAME1.PAGE1.TSGRID1.CANTIDAD.INPUTMASK = "99,999,999."+REPLICATE('9', OAPP.PRODUCTO_DECIMAL)
+			THISFORM.PAGEFRAME1.PAGE1.TSGRID1.CANTIDAD.TXTCANTIDAD.INPUTMASK = "99,999,999."+REPLICATE('9', OAPP.PRODUCTO_DECIMAL)
 		ELSE
-			THISFORM.PAGEFRAME1.PAGE1.TSGRID1.CANTIDAD.INPUTMASK = "999,999"
-			THISFORM.PAGEFRAME1.PAGE1.TSGRID1.CANTIDAD.TXTCANTIDAD.INPUTMASK = "999,999"
+			THISFORM.PAGEFRAME1.PAGE1.TSGRID1.CANTIDAD.INPUTMASK = "99,999,999"
+			THISFORM.PAGEFRAME1.PAGE1.TSGRID1.CANTIDAD.TXTCANTIDAD.INPUTMASK = "99,999,999"
 		ENDIF
 		
-		IF THIS.RUNSQL("Select convert(char(1),dbo.LeerConstante(?oApp.Empresa,'VT_INF_PRODUCTO')) as Inf_Producto", 'cConfig')>0
-			IF NVL(CCONFIG.INF_PRODUCTO, '')='S'
-				*THISFORM.PAGEFRAME1.PAGE1.TSGRID1.MARCA.VISIBLE = NVL(CCONFIG.INF_PRODUCTO, '')='S'
-				*THISFORM.PAGEFRAME1.PAGE1.TSGRID1.MODELO.VISIBLE = NVL(CCONFIG.INF_PRODUCTO, '')='S'
-				THISFORM.PAGEFRAME1.PAGE1.TSGRID1.SERIE.VISIBLE = NVL(CCONFIG.INF_PRODUCTO, '')='S'
-				*THISFORM.PAGEFRAME1.PAGE1.TSGRID1.MARCA.COLUMNORDER = 11
-				*THISFORM.PAGEFRAME1.PAGE1.TSGRID1.MODELO.COLUMNORDER = 12
-				*THISFORM.PAGEFRAME1.PAGE1.TSGRID1.SERIE.COLUMNORDER = 13
-			ENDIF
-		ENDIF
+		*!*	IF THIS.RUNSQL("Select convert(char(1),dbo.LeerConstante(?oApp.Empresa,'VT_INF_PRODUCTO')) as Inf_Producto", 'cConfig')>0
+		*!*		IF NVL(CCONFIG.INF_PRODUCTO, '')='S'
+		*!*			*THISFORM.PAGEFRAME1.PAGE1.TSGRID1.MARCA.VISIBLE = NVL(CCONFIG.INF_PRODUCTO, '')='S'
+		*!*			*THISFORM.PAGEFRAME1.PAGE1.TSGRID1.MODELO.VISIBLE = NVL(CCONFIG.INF_PRODUCTO, '')='S'
+		*!*			THISFORM.PAGEFRAME1.PAGE1.TSGRID1.SERIE.VISIBLE = NVL(CCONFIG.INF_PRODUCTO, '')='S'
+		*!*			*THISFORM.PAGEFRAME1.PAGE1.TSGRID1.MARCA.COLUMNORDER = 11
+		*!*			*THISFORM.PAGEFRAME1.PAGE1.TSGRID1.MODELO.COLUMNORDER = 12
+		*!*			*THISFORM.PAGEFRAME1.PAGE1.TSGRID1.SERIE.COLUMNORDER = 13
+		*!*		ENDIF
+		*!*	ENDIF
 		
 		
-		IF THIS.RUNSQL("Select convert(char(1),dbo.LeerConstante(?oApp.Empresa,'ST_REGIMENTURISMO')) as RT", 'cConfig')>0
-			IF RECCOUNT('cConfig')>0 .AND. NVL(CCONFIG.RT, '')='S'
-				THISFORM.PAGEFRAME1.PAGE1.TSGRID1.RT.VISIBLE = .T.
-			ELSE
-				THISFORM.PAGEFRAME1.PAGE1.TSGRID1.RT.VISIBLE = .F.
-				THISFORM.PAGEFRAME1.PAGE1.TSGRID1.RT.COLUMNORDER = 12
-			ENDIF
-		ENDIF
+		*!*	IF THIS.RUNSQL("Select convert(char(1),dbo.LeerConstante(?oApp.Empresa,'ST_REGIMENTURISMO')) as RT", 'cConfig')>0
+		*!*		IF RECCOUNT('cConfig')>0 .AND. NVL(CCONFIG.RT, '')='S'
+		*!*			THISFORM.PAGEFRAME1.PAGE1.TSGRID1.RT.VISIBLE = .T.
+		*!*		ELSE
+		*!*			THISFORM.PAGEFRAME1.PAGE1.TSGRID1.RT.VISIBLE = .F.
+		*!*			THISFORM.PAGEFRAME1.PAGE1.TSGRID1.RT.COLUMNORDER = 12
+		*!*		ENDIF
+		*!*	ENDIF
 		
 		IF THIS.RUNSQL("Select convert(char(1),dbo.LeerConstante(?oApp.Empresa,'ST_MODIFICAIVA')) as IVA", 'cConfig')>0
 			THISFORM.MODIFICAIVA = NVL(CCONFIG.IVA, '')='S'
@@ -1547,11 +1393,11 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 
 	PROCEDURE refreshform
 		IF XVENTA.TIPO='EN'
-		THISFORM.PAGEFRAME1.PAGE1.TSGRID1.DEPOSITO.CONTROLSOURCE = 'cp_vdetfactu.IdDeposito_Ent'
-		THISFORM.PAGEFRAME1.PAGE1.TSGRID1.CAMPO = 'IdEmpresa, idcompra,idcomprobante,IdDeposito_Ent'
+			THISFORM.PAGEFRAME1.PAGE1.TSGRID1.DEPOSITO.CONTROLSOURCE = 'cp_vdetfactu.IdDeposito_Ent'
+			THISFORM.PAGEFRAME1.PAGE1.TSGRID1.CAMPO = 'IdEmpresa, idcompra,idcomprobante,IdDeposito_Ent,Comision'
 		ELSE
-		THISFORM.PAGEFRAME1.PAGE1.TSGRID1.DEPOSITO.CONTROLSOURCE = 'cp_vdetfactu.IdDeposito_Sal'
-		THISFORM.PAGEFRAME1.PAGE1.TSGRID1.CAMPO = 'IdEmpresa, idcompra,idcomprobante,IdDeposito_Sal'
+			THISFORM.PAGEFRAME1.PAGE1.TSGRID1.DEPOSITO.CONTROLSOURCE = 'cp_vdetfactu.IdDeposito_Sal'
+			THISFORM.PAGEFRAME1.PAGE1.TSGRID1.CAMPO = 'IdEmpresa, idcompra,idcomprobante,IdDeposito_Sal,Comision'
 		ENDIF
 		DODEFAULT()
 		THISFORM.PAGEFRAME1.PAGE1.LBLREF.REFRESH()
@@ -1710,13 +1556,13 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 			replace IdDeposito_Sal WITH IdDeposito_Ent IN cp_vdetfactu ALL FOR !EMPTY(NVL(IdDeposito_Ent,''))
 			replace IdDeposito_sal WITH null IN cp_vdetfactu ALL 
 			Thisform.PAGEFRAME1.PAGE1.TSGRID1.DEPOSITO.ControlSource = 'cp_vdetfactu.IdDeposito_Ent'
-			Thisform.PAGEFRAME1.PAGE1.TSGRID1.CAMPO = 'IdEmpresa, idcompra,idcomprobante,IdDeposito_Ent'
+			Thisform.PAGEFRAME1.PAGE1.TSGRID1.CAMPO = 'IdEmpresa, idcompra,idcomprobante,IdDeposito_Ent,Comision'
 		ELSE
 			replace IdDeposito_Ent WITH IdDeposito_Sal IN cp_vdetfactu ALL FOR !EMPTY(NVL(IdDeposito_Sal,''))
 			replace IdDeposito_Sal WITH IdDeposito_Ent IN cp_vdetfactu ALL FOR !EMPTY(NVL(IdDeposito_Ent,''))
 			replace IdDeposito_Ent WITH null IN cp_vdetfactu ALL 
 			Thisform.PAGEFRAME1.PAGE1.TSGRID1.DEPOSITO.ControlSource = 'cp_vdetfactu.IdDeposito_Sal'
-			Thisform.PAGEFRAME1.PAGE1.TSGRID1.CAMPO = 'IdEmpresa, idcompra,idcomprobante,IdDeposito_Sal'
+			Thisform.PAGEFRAME1.PAGE1.TSGRID1.CAMPO = 'IdEmpresa, idcompra,idcomprobante,IdDeposito_Sal,Comision'
 		ENDIF
 		
 		This.Parent.LBLREF.Refresh()
@@ -1942,27 +1788,12 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 		Endif
 		If Thisform.EDITMODE
 			Thisform.CALCULARIVA()
-		Endif
+		ENDIF
+		
 		This.Parent.TOTALES.Refresh()
 		This.IVA.Enabled = Thisform.EDITMODE .And. Thisform.MODIFICAIVA
 		This.IVA.TXTIVA.Enabled = Thisform.EDITMODE .And. Thisform.MODIFICAIVA
-		This.SERIE.Enabled = .T.
-	ENDPROC
-
-	PROCEDURE Pageframe1.PAGE1.Tsgrid1.serie.Tscommandbutton1.Click
-		IF EMPTY(CP_VDETFACTU.IDDETALLE)
-			MESSAGEBOX("Debe Grabar primeramente su factura para poder cargar la serie",64,TASTRADE_LOC)
-		ELSE
-			
-		
-			DO FORM st_series WITH CP_VDETFACTU.IDDETALLE
-		ENDIF
-		
-		
-	ENDPROC
-
-	PROCEDURE Pageframe1.PAGE1.Tsgrid1.serie.Tscommandbutton1.Refresh
-		THIS.ENABLED =  .NOT. EMPTY(CP_VDETFACTU.IDDETALLE)
+		*This.SERIE.Enabled = .T.
 	ENDPROC
 
 ENDDEFINE

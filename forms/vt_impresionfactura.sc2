@@ -39,6 +39,7 @@ DEFINE CLASS tsbaseform12 AS tsbaseform OF "..\libs\tsbase.vcx"
 	Name = "Tsbaseform12"
 	Width = 554
 	lblRequerido.Name = "lblRequerido"
+	lblRequerido.TabIndex = 6
 
 	ADD OBJECT 'Tipo' AS tscombobox WITH ;
 		BoundColumn = 2, ;
@@ -55,7 +56,7 @@ DEFINE CLASS tsbaseform12 AS tsbaseform OF "..\libs\tsbase.vcx"
 		RowSource = "", ;
 		RowSourceType = 0, ;
 		Style = 2, ;
-		TabIndex = 13, ;
+		TabIndex = 1, ;
 		Top = 21, ;
 		Width = 183, ;
 		ZOrderSet = 9
@@ -67,6 +68,7 @@ DEFINE CLASS tsbaseform12 AS tsbaseform OF "..\libs\tsbase.vcx"
 		Height = 15, ;
 		Left = 96, ;
 		Name = "Tscheckbox1", ;
+		TabIndex = 4, ;
 		Top = 120, ;
 		Width = 180
 		*< END OBJECT: ClassLib="..\libs\tsbase.vcx" BaseClass="checkbox" />
@@ -75,6 +77,7 @@ DEFINE CLASS tsbaseform12 AS tsbaseform OF "..\libs\tsbase.vcx"
 		Caption = "Imprimir", ;
 		Left = 96, ;
 		Name = "Tscommandbutton1", ;
+		TabIndex = 5, ;
 		Top = 156
 		*< END OBJECT: ClassLib="..\libs\tsbase.vcx" BaseClass="commandbutton" />
 
@@ -84,7 +87,7 @@ DEFINE CLASS tsbaseform12 AS tsbaseform OF "..\libs\tsbase.vcx"
 		Caption = "Desde Nro.", ;
 		Left = 24, ;
 		Name = "Tslabel1", ;
-		TabIndex = 28, ;
+		TabIndex = 7, ;
 		Top = 60, ;
 		ZOrderSet = 19
 		*< END OBJECT: ClassLib="..\libs\tsbase.vcx" BaseClass="label" />
@@ -95,7 +98,7 @@ DEFINE CLASS tsbaseform12 AS tsbaseform OF "..\libs\tsbase.vcx"
 		Caption = "Hasta Nro.", ;
 		Left = 24, ;
 		Name = "Tslabel2", ;
-		TabIndex = 28, ;
+		TabIndex = 8, ;
 		Top = 84, ;
 		ZOrderSet = 19
 		*< END OBJECT: ClassLib="..\libs\tsbase.vcx" BaseClass="label" />
@@ -106,7 +109,7 @@ DEFINE CLASS tsbaseform12 AS tsbaseform OF "..\libs\tsbase.vcx"
 		Caption = "Tipo Factura", ;
 		Left = 24, ;
 		Name = "Tslabel6", ;
-		TabIndex = 28, ;
+		TabIndex = 9, ;
 		Top = 24, ;
 		ZOrderSet = 19
 		*< END OBJECT: ClassLib="..\libs\tsbase.vcx" BaseClass="label" />
@@ -115,6 +118,7 @@ DEFINE CLASS tsbaseform12 AS tsbaseform OF "..\libs\tsbase.vcx"
 		Alignment = 3, ;
 		Left = 96, ;
 		Name = "Tstextbox1", ;
+		TabIndex = 2, ;
 		Top = 60, ;
 		Value = (0)
 		*< END OBJECT: ClassLib="..\libs\tsbase.vcx" BaseClass="textbox" />
@@ -123,6 +127,7 @@ DEFINE CLASS tsbaseform12 AS tsbaseform OF "..\libs\tsbase.vcx"
 		Alignment = 3, ;
 		Left = 96, ;
 		Name = "Tstextbox2", ;
+		TabIndex = 3, ;
 		Top = 84, ;
 		Value = (0)
 		*< END OBJECT: ClassLib="..\libs\tsbase.vcx" BaseClass="textbox" />

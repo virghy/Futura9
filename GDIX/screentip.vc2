@@ -56,7 +56,7 @@ DEFINE CLASS screentip AS control
 	*</DefinedPropArrayMethod>
 
 	HIDDEN effects,hwnd,image,imgbackground,margin,maxwidth,opacitystep,roundfactor,shadowdistance,shadowlength,text,title,type
-	PROTECTED Init
+	PROTECTED init
 	endbackcolor = .F.
 	Height = 23
 	hideinterval = 0

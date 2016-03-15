@@ -782,6 +782,9 @@ DEFINE CLASS tsbaseform12 AS tsbaseform OF "..\libs\tsbase.vcx"
 		
 		=Sql('update cn_asientos set Ejercicio = YEAR(Fecha) where IdEmpresa=?oapp.Empresa and YEAR(fecha)=?oApp.Ejercicio and YEAR(fecha)<>ejercicio','')
 		
+		
+		
+		
 		**VG 23/05/2013
 		**Agregamos nuevas cuentas en el nuevo ejercicio por si no existan
 		
@@ -807,12 +810,17 @@ DEFINE CLASS tsbaseform12 AS tsbaseform OF "..\libs\tsbase.vcx"
 		= Sql('Select * from cn_cuentas where idEmpresa = ?oapp.Empresa and Ejercicio = ?oApp.Ejercicio', 'cuentas_Base')
 		= Sql('Select * from empresa where idEmpresa = ?oapp.Empresa ', 'Empresa')
 		lerror = This.balanceo()
+		
 		Set ENGINEBEHAVIOR 70
+		
 		If lerror
 			Thisform.pageframe1.page3.SetFocus()
 			Thisform.pageframe1.ActivePage = 3
 			Return
-		Endif
+		ENDIF
+		
+		
+		
 		Local xdecimales, vperíodo, vfechai, vfechaf, vsucursal, lnresultado
 		Local paginai, paginaf
 		xdecimales = 0
@@ -913,6 +921,8 @@ DEFINE CLASS tsbaseform12 AS tsbaseform OF "..\libs\tsbase.vcx"
 		
 		
 		ENDTEXT
+		
+		this.runsql(cmdSQL,'')
 		
 		
 		

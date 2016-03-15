@@ -74,6 +74,10 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.tsgrid1.iva.Text1" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.tsgrid1.total.Header1" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.tsgrid1.total.Text1" UniqueID="" Timestamp="" />
+	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.tsgrid1.Column7.Header1" UniqueID="" Timestamp="" />
+	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.tsgrid1.Column7.Text1" UniqueID="" Timestamp="" />
+	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.tsgrid1.Column8.Header1" UniqueID="" Timestamp="" />
+	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.tsgrid1.Column8.Text1" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.sucursal" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.Cotizacion" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.Tslabel2" UniqueID="" Timestamp="" />
@@ -110,6 +114,8 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.Campo_busca1" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.Tseditbox2" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.Tslabel11" UniqueID="" Timestamp="" />
+	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.Tslabel12" UniqueID="" Timestamp="" />
+	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.Tstextbox4" UniqueID="" Timestamp="" />
 
 	*<DefinedPropArrayMethod>
 		*p: estado_def		&& Estado por defecto
@@ -157,10 +163,10 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 	ADD OBJECT 'Pageframe1.PAGE1.Campo_busca1' AS campo_busca WITH ;
 		ControlSource = "cp_vorden_compra.numero", ;
 		Height = 22, ;
-		Left = 513, ;
+		Left = 647, ;
 		Name = "Campo_busca1", ;
 		Top = 22, ;
-		Width = 104
+		Width = 180
 		*< END OBJECT: ClassLib="..\libs\tsbase.vcx" BaseClass="textbox" />
 
 	ADD OBJECT 'Pageframe1.PAGE1.Cbomoneda1' AS cbomoneda WITH ;
@@ -230,13 +236,13 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 		ControlSource = "cp_vorden_compra.est_ord", ;
 		cursor = estados, ;
 		Height = 22, ;
-		Left = 513, ;
+		Left = 647, ;
 		Name = "estado", ;
 		RowSource = "estados.descripcion, cod_esta", ;
 		RowSourceType = 6, ;
 		TabIndex = 16, ;
 		Top = 118, ;
-		Width = 104
+		Width = 180
 		*< END OBJECT: ClassLib="..\libs\tsbase.vcx" BaseClass="combobox" />
 
 	ADD OBJECT 'Pageframe1.PAGE1.fec_env' AS tstextbox WITH ;
@@ -245,17 +251,17 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 		DateFormat = 13, ;
 		editable = .T., ;
 		Height = 22, ;
-		Left = 513, ;
+		Left = 647, ;
 		Name = "fec_env", ;
 		TabIndex = 14, ;
 		Top = 94, ;
-		Width = 104
+		Width = 180
 		*< END OBJECT: ClassLib="..\libs\tsbase.vcx" BaseClass="textbox" />
 
 	ADD OBJECT 'Pageframe1.PAGE1.lblFecha' AS tslabel WITH ;
 		Caption = "Fecha", ;
 		Height = 16, ;
-		Left = 476, ;
+		Left = 610, ;
 		Name = "lblFecha", ;
 		TabIndex = 11, ;
 		Top = 70, ;
@@ -266,7 +272,7 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 		Caption = "Número", ;
 		FontBold = .T., ;
 		Height = 16, ;
-		Left = 464, ;
+		Left = 598, ;
 		Name = "lblNúmero", ;
 		TabIndex = 27, ;
 		Top = 22, ;
@@ -483,6 +489,7 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 		*< END OBJECT: ClassLib="..\libs\tsbase.vcx" BaseClass="editbox" />
 
 	ADD OBJECT 'Pageframe1.PAGE1.Tseditbox2' AS tseditbox WITH ;
+		Anchor = 13, ;
 		ControlSource = "cp_vdet_ord.descripcion1", ;
 		editable = .T., ;
 		Height = 146, ;
@@ -494,9 +501,10 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 		*< END OBJECT: ClassLib="..\libs\tsbase.vcx" BaseClass="editbox" />
 
 	ADD OBJECT 'Pageframe1.PAGE1.tsgrid1' AS tsgrid WITH ;
+		Anchor = 10, ;
 		campo = idorden,idempresa,deposito_ent, ;
 		cfieldtosum = iif(cp_vdet_ord.iva=0,cp_vdet_ord.cantidad*cp_vdet_ord.precio,0),iif(cp_vdet_ord.iva<>0,cp_vdet_ord.cantidad*cp_vdet_ord.precio,0),precio*cantidad/ROUND((100+iva)/iva, monedas.decimales), ;
-		ColumnCount = 6, ;
+		ColumnCount = 8, ;
 		editable = .T., ;
 		FontSize = 8, ;
 		GridLines = 0, ;
@@ -547,7 +555,17 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 		Column6.FontSize = 8, ;
 		Column6.InputMask = "999,999,999.99", ;
 		Column6.Name = "total", ;
-		Column6.Width = 114
+		Column6.Width = 114, ;
+		Column7.ControlSource = "cp_vdet_ord.cantidadrecibido", ;
+		Column7.FontSize = 8, ;
+		Column7.InputMask = "999,999.99", ;
+		Column7.Name = "Column7", ;
+		Column7.Width = 97, ;
+		Column8.ControlSource = "cp_vdet_ord.importerecibido", ;
+		Column8.FontSize = 8, ;
+		Column8.InputMask = "999,999,999,999.99", ;
+		Column8.Name = "Column8", ;
+		Column8.Width = 90
 		*< END OBJECT: ClassLib="..\libs\tsbase.vcx" BaseClass="grid" />
 
 	ADD OBJECT 'Pageframe1.PAGE1.tsgrid1.cantidad.Header1' AS header WITH ;
@@ -567,6 +585,40 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 		FontSize = 8, ;
 		ForeColor = 0,0,0, ;
 		InputMask = "999,999.99", ;
+		Margin = 0, ;
+		Name = "Text1", ;
+		SelectedBackColor = 247,223,187, ;
+		SelectedForeColor = 0,64,128
+		*< END OBJECT: BaseClass="textbox" />
+
+	ADD OBJECT 'Pageframe1.PAGE1.tsgrid1.Column7.Header1' AS header WITH ;
+		Caption = "Cant Recibida", ;
+		FontSize = 8, ;
+		Name = "Header1"
+		*< END OBJECT: BaseClass="header" />
+
+	ADD OBJECT 'Pageframe1.PAGE1.tsgrid1.Column7.Text1' AS textbox WITH ;
+		BackColor = 255,255,255, ;
+		BorderStyle = 0, ;
+		FontSize = 8, ;
+		ForeColor = 0,0,0, ;
+		Margin = 0, ;
+		Name = "Text1", ;
+		SelectedBackColor = 247,223,187, ;
+		SelectedForeColor = 0,64,128
+		*< END OBJECT: BaseClass="textbox" />
+
+	ADD OBJECT 'Pageframe1.PAGE1.tsgrid1.Column8.Header1' AS header WITH ;
+		Caption = "Total Recibido", ;
+		FontSize = 8, ;
+		Name = "Header1"
+		*< END OBJECT: BaseClass="header" />
+
+	ADD OBJECT 'Pageframe1.PAGE1.tsgrid1.Column8.Text1' AS textbox WITH ;
+		BackColor = 255,255,255, ;
+		BorderStyle = 0, ;
+		FontSize = 8, ;
+		ForeColor = 0,0,0, ;
 		Margin = 0, ;
 		Name = "Text1", ;
 		SelectedBackColor = 247,223,187, ;
@@ -726,6 +778,7 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 		*< END OBJECT: ClassLib="..\libs\tsbase.vcx" BaseClass="label" />
 
 	ADD OBJECT 'Pageframe1.PAGE1.Tslabel11' AS tslabel WITH ;
+		Anchor = 13, ;
 		Caption = "Descripcion Adicional", ;
 		Height = 16, ;
 		Left = 616, ;
@@ -733,6 +786,18 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 		TabIndex = 18, ;
 		Top = 146, ;
 		Width = 121
+		*< END OBJECT: ClassLib="..\libs\tsbase.vcx" BaseClass="label" />
+
+	ADD OBJECT 'Pageframe1.PAGE1.Tslabel12' AS tslabel WITH ;
+		AutoSize = .F., ;
+		Caption = "Condición", ;
+		Height = 16, ;
+		Left = 587, ;
+		Name = "Tslabel12", ;
+		TabIndex = 39, ;
+		Top = 45, ;
+		Width = 57, ;
+		ZOrderSet = 39
 		*< END OBJECT: ClassLib="..\libs\tsbase.vcx" BaseClass="label" />
 
 	ADD OBJECT 'Pageframe1.PAGE1.Tslabel2' AS tslabel WITH ;
@@ -758,7 +823,7 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 	ADD OBJECT 'Pageframe1.PAGE1.Tslabel4' AS tslabel WITH ;
 		Caption = "Fecha Envio", ;
 		Height = 16, ;
-		Left = 440, ;
+		Left = 574, ;
 		Name = "Tslabel4", ;
 		TabIndex = 13, ;
 		Top = 94, ;
@@ -768,7 +833,7 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 	ADD OBJECT 'Pageframe1.PAGE1.Tslabel5' AS tslabel WITH ;
 		Caption = "Estado", ;
 		Height = 16, ;
-		Left = 440, ;
+		Left = 574, ;
 		Name = "Tslabel5", ;
 		TabIndex = 15, ;
 		Top = 118, ;
@@ -854,17 +919,30 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 		Width = 276
 		*< END OBJECT: ClassLib="..\libs\tsbase.vcx" BaseClass="textbox" />
 
+	ADD OBJECT 'Pageframe1.PAGE1.Tstextbox4' AS tstextbox WITH ;
+		Comment = "", ;
+		ControlSource = "cp_vorden_compra.condicion", ;
+		DateFormat = 13, ;
+		editable = .T., ;
+		Height = 22, ;
+		Left = 647, ;
+		Name = "Tstextbox4", ;
+		TabIndex = 5, ;
+		Top = 46, ;
+		Width = 180
+		*< END OBJECT: ClassLib="..\libs\tsbase.vcx" BaseClass="textbox" />
+
 	ADD OBJECT 'Pageframe1.PAGE1.txtFecha' AS tstextbox WITH ;
 		Comment = "", ;
 		ControlSource = "cp_vorden_compra.fec_ord", ;
 		DateFormat = 13, ;
 		editable = .T., ;
 		Height = 22, ;
-		Left = 513, ;
+		Left = 647, ;
 		Name = "txtFecha", ;
 		TabIndex = 12, ;
 		Top = 70, ;
-		Width = 104
+		Width = 180
 		*< END OBJECT: ClassLib="..\libs\tsbase.vcx" BaseClass="textbox" />
 	
 	PROCEDURE addnew

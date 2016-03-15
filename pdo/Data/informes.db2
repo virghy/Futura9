@@ -461,17 +461,17 @@
 
 	<INDEXES>
 		<INDEX>
-			<TagName>KEY</TagName>
+			<TagName>ARBOL</TagName>
 			<TagType>REGULAR</TagType>
-			<Key>KEY</Key>
+			<Key>SUBSTR(SUBSTR(PARENT,1,LEN(ALLTRIM(PARENT))-1)+"0000",1,5)+TEXT</Key>
 			<Filter></Filter>
 			<Order>ASCENDING</Order>
 			<Collate>MACHINE</Collate>
 		</INDEX>
 		<INDEX>
-			<TagName>ARBOL</TagName>
+			<TagName>KEY</TagName>
 			<TagType>REGULAR</TagType>
-			<Key>SUBSTR(SUBSTR(PARENT,1,LEN(ALLTRIM(PARENT))-1)+"0000",1,5)+TEXT</Key>
+			<Key>KEY</Key>
 			<Filter></Filter>
 			<Order>ASCENDING</Order>
 			<Collate>MACHINE</Collate>

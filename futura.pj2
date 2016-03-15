@@ -26,7 +26,7 @@ _LegalTrademark = ""
 _ProductName = "Futura Software"
 _MajorVer = "4"
 _MinorVer = "0"
-_Revision = " 218"
+_Revision = " 248"
 _LanguageID = ""
 _AutoIncrement = "1"
 *</DevInfo>
@@ -50,7 +50,6 @@ MODIFY PROJECT 'futura.pjx' NOWAIT NOSHOW NOPROJECTHOOK
 loProject = _VFP.Projects('futura.pjx')
 
 WITH loProject.FILES
-	.ADD('_creporte.prg')		&& *< FileMetadata: Type="P" Cpid="1252" Timestamp="0" ID="0" ObjRev="544" />
 	.ADD('bitmaps\_cancel.bmp')		&& *< FileMetadata: Type="x" Cpid="0" Timestamp="0" ID="0" ObjRev="0" />
 	.ADD('bitmaps\_save.bmp')		&& *< FileMetadata: Type="x" Cpid="0" Timestamp="0" ID="0" ObjRev="0" />
 	.ADD('bitmaps\add.bmp')		&& *< FileMetadata: Type="x" Cpid="0" Timestamp="0" ID="0" ObjRev="0" />
@@ -121,7 +120,6 @@ WITH loProject.FILES
 	.ADD('bitmaps\wzplus.bmp')		&& *< FileMetadata: Type="x" Cpid="0" Timestamp="0" ID="0" ObjRev="0" />
 	.ADD('bitmaps\wzprint.bmp')		&& *< FileMetadata: Type="x" Cpid="0" Timestamp="0" ID="0" ObjRev="0" />
 	.ADD('data\datos.dbc')		&& *< FileMetadata: Type="d" Cpid="1252" Timestamp="0" ID="0" ObjRev="544" />
-	.ADD('form2.scx')		&& *< FileMetadata: Type="K" Cpid="1252" Timestamp="0" ID="0" ObjRev="544" />
 	.ADD('forms\arbol.scx')		&& *< FileMetadata: Type="K" Cpid="0" Timestamp="0" ID="0" ObjRev="544" />
 	.ADD('forms\bs_bancos.scx')		&& *< FileMetadata: Type="K" Cpid="0" Timestamp="0" ID="0" ObjRev="544" />
 	.ADD('forms\bs_barrios.scx')		&& *< FileMetadata: Type="K" Cpid="0" Timestamp="0" ID="0" ObjRev="544" />
@@ -175,6 +173,11 @@ WITH loProject.FILES
 	.ADD('forms\cp_pagos.scx')		&& *< FileMetadata: Type="K" Cpid="0" Timestamp="0" ID="0" ObjRev="544" />
 	.ADD('forms\cp_pagos_aut.scx')		&& *< FileMetadata: Type="K" Cpid="0" Timestamp="0" ID="0" ObjRev="544" />
 	.ADD('forms\cp_proveedor.scx')		&& *< FileMetadata: Type="K" Cpid="0" Timestamp="0" ID="0" ObjRev="544" />
+	.ADD('forms\elt_contrato.scx')		&& *< FileMetadata: Type="K" Cpid="1252" Timestamp="0" ID="0" ObjRev="544" />
+	.ADD('forms\elt_facturarservicio.scx')		&& *< FileMetadata: Type="K" Cpid="1252" Timestamp="0" ID="0" ObjRev="544" />
+	.ADD('forms\elt_lecturas.scx')		&& *< FileMetadata: Type="K" Cpid="1252" Timestamp="0" ID="0" ObjRev="544" />
+	.ADD('forms\elt_medidores.scx')		&& *< FileMetadata: Type="K" Cpid="1252" Timestamp="0" ID="0" ObjRev="544" />
+	.ADD('forms\elt_servicios.scx')		&& *< FileMetadata: Type="K" Cpid="1252" Timestamp="0" ID="0" ObjRev="544" />
 	.ADD('forms\employee.scx')		&& *< FileMetadata: Type="K" Cpid="0" Timestamp="0" ID="0" ObjRev="544" />
 	.ADD('forms\empresa.scx')		&& *< FileMetadata: Type="K" Cpid="0" Timestamp="0" ID="0" ObjRev="544" />
 	.ADD('forms\ev_clientes.scx')		&& *< FileMetadata: Type="K" Cpid="0" Timestamp="0" ID="0" ObjRev="544" />
@@ -373,7 +376,7 @@ WITH loProject.FILES
 	.ADD('gdix\zoomnavbar.vcx')		&& *< FileMetadata: Type="V" Cpid="0" Timestamp="0" ID="0" ObjRev="544" />
 	.ADD('imagenes\caja24-1.png')		&& *< FileMetadata: Type="x" Cpid="1252" Timestamp="0" ID="0" ObjRev="0" />
 	.ADD('include\_movers.h')		&& *< FileMetadata: Type="T" Cpid="0" Timestamp="0" ID="0" ObjRev="0" />
-	.ADD('include\config.fpw')		&& *< FileMetadata: Type="x" Cpid="0" Timestamp="0" ID="0" ObjRev="0" />
+	.ADD('include\config.fpw')		&& *< FileMetadata: Type="T" Cpid="0" Timestamp="0" ID="0" ObjRev="0" />
 	.ADD('include\registry.h')		&& *< FileMetadata: Type="T" Cpid="0" Timestamp="0" ID="0" ObjRev="0" />
 	.ADD('include\strings.h')		&& *< FileMetadata: Type="T" Cpid="0" Timestamp="0" ID="0" ObjRev="0" />
 	.ADD('include\tastrade.h')		&& *< FileMetadata: Type="T" Cpid="0" Timestamp="0" ID="0" ObjRev="0" />
@@ -382,6 +385,7 @@ WITH loProject.FILES
 	.ADD('libs\_environ.vcx')		&& *< FileMetadata: Type="V" Cpid="0" Timestamp="0" ID="0" ObjRev="544" />
 	.ADD('libs\_menu.vcx')		&& *< FileMetadata: Type="V" Cpid="0" Timestamp="0" ID="0" ObjRev="544" />
 	.ADD('libs\_movers.vcx')		&& *< FileMetadata: Type="V" Cpid="0" Timestamp="0" ID="0" ObjRev="544" />
+	.ADD('libs\_multimedia.vcx')		&& *< FileMetadata: Type="V" Cpid="1252" Timestamp="0" ID="0" ObjRev="544" />
 	.ADD('libs\about.vcx')		&& *< FileMetadata: Type="V" Cpid="0" Timestamp="0" ID="0" ObjRev="544" />
 	.ADD('libs\bbglowingbutton.vcx')		&& *< FileMetadata: Type="V" Cpid="1252" Timestamp="0" ID="0" ObjRev="544" />
 	.ADD('libs\bbmedia.vcx')		&& *< FileMetadata: Type="V" Cpid="0" Timestamp="0" ID="0" ObjRev="544" />
@@ -407,6 +411,7 @@ WITH loProject.FILES
 	.ADD('menus\cnt.mnx')		&& *< FileMetadata: Type="M" Cpid="0" Timestamp="0" ID="0" ObjRev="544" />
 	.ADD('menus\cpp.mnx')		&& *< FileMetadata: Type="M" Cpid="0" Timestamp="0" ID="0" ObjRev="544" />
 	.ADD('menus\detalle.mnx')		&& *< FileMetadata: Type="M" Cpid="0" Timestamp="0" ID="0" ObjRev="544" />
+	.ADD('menus\elt.mnx')		&& *< FileMetadata: Type="M" Cpid="1252" Timestamp="0" ID="0" ObjRev="544" />
 	.ADD('menus\evt.mnx')		&& *< FileMetadata: Type="M" Cpid="0" Timestamp="0" ID="0" ObjRev="544" />
 	.ADD('menus\fnc.mnx')		&& *< FileMetadata: Type="M" Cpid="1252" Timestamp="0" ID="0" ObjRev="544" />
 	.ADD('menus\hcd.mnx')		&& *< FileMetadata: Type="M" Cpid="0" Timestamp="0" ID="0" ObjRev="544" />
@@ -434,14 +439,15 @@ WITH loProject.FILES
 	.ADD('progs\main.prg')		&& *< FileMetadata: Type="P" Cpid="0" Timestamp="0" ID="0" ObjRev="544" />
 	.ADD('progs\notacredito050.prg')		&& *< FileMetadata: Type="P" Cpid="1252" Timestamp="0" ID="0" ObjRev="544" />
 	.ADD('progs\notaremision050.prg')		&& *< FileMetadata: Type="P" Cpid="1252" Timestamp="0" ID="0" ObjRev="544" />
-	.ADD('progs\repenhance.fxp')		&& *< FileMetadata: Type="P" Cpid="1252" Timestamp="0" ID="0" ObjRev="544" />
-	.ADD('progs\repexpfl.fxp')		&& *< FileMetadata: Type="P" Cpid="1252" Timestamp="0" ID="0" ObjRev="544" />
+	.ADD('progs\repenhance.fxp')		&& *< FileMetadata: Type="x" Cpid="1252" Timestamp="0" ID="0" ObjRev="544" />
+	.ADD('progs\repexpfl.fxp')		&& *< FileMetadata: Type="x" Cpid="1252" Timestamp="0" ID="0" ObjRev="544" />
 	.ADD('progs\setobjrf.prg')		&& *< FileMetadata: Type="P" Cpid="0" Timestamp="0" ID="0" ObjRev="544" />
 	.ADD('progs\socketwrapper.prg')		&& *< FileMetadata: Type="P" Cpid="1252" Timestamp="0" ID="0" ObjRev="544" />
 	.ADD('progs\utility.prg')		&& *< FileMetadata: Type="P" Cpid="0" Timestamp="0" ID="0" ObjRev="544" />
 	.ADD('reports\bs_cumplemes.frx')		&& *< FileMetadata: Type="R" Cpid="1252" Timestamp="0" ID="0" ObjRev="0" />
 	.ADD('reports\bs_mensajes.frx')		&& *< FileMetadata: Type="R" Cpid="1252" Timestamp="0" ID="0" ObjRev="0" />
 	.ADD('reports\cn_analisis1.frx')		&& *< FileMetadata: Type="R" Cpid="0" Timestamp="0" ID="0" ObjRev="0" />
+	.ADD('reports\cn_analisis1bi.frx')		&& *< FileMetadata: Type="R" Cpid="1252" Timestamp="0" ID="0" ObjRev="0" />
 	.ADD('reports\cn_analisispres.frx')		&& *< FileMetadata: Type="R" Cpid="0" Timestamp="0" ID="0" ObjRev="0" />
 	.ADD('reports\cn_analisispres1.frx')		&& *< FileMetadata: Type="R" Cpid="0" Timestamp="0" ID="0" ObjRev="0" />
 	.ADD('reports\cn_asientoresumen.frx')		&& *< FileMetadata: Type="R" Cpid="1252" Timestamp="0" ID="0" ObjRev="0" />
@@ -471,6 +477,7 @@ WITH loProject.FILES
 	.ADD('reports\cn_diario.frx')		&& *< FileMetadata: Type="R" Cpid="0" Timestamp="0" ID="0" ObjRev="0" />
 	.ADD('reports\cn_gastos.frx')		&& *< FileMetadata: Type="R" Cpid="0" Timestamp="0" ID="0" ObjRev="0" />
 	.ADD('reports\cn_gastos_2s.frx')		&& *< FileMetadata: Type="R" Cpid="0" Timestamp="0" ID="0" ObjRev="0" />
+	.ADD('reports\cn_gastos_2sbi.frx')		&& *< FileMetadata: Type="R" Cpid="1252" Timestamp="0" ID="0" ObjRev="0" />
 	.ADD('reports\cn_ivacompra.frx')		&& *< FileMetadata: Type="R" Cpid="0" Timestamp="0" ID="0" ObjRev="0" />
 	.ADD('reports\cn_ivacompracpbt.frx')		&& *< FileMetadata: Type="R" Cpid="0" Timestamp="0" ID="0" ObjRev="0" />
 	.ADD('reports\cn_ivacompradet.frx')		&& *< FileMetadata: Type="R" Cpid="0" Timestamp="0" ID="0" ObjRev="0" />
@@ -481,6 +488,7 @@ WITH loProject.FILES
 	.ADD('reports\cn_mayor_libro.frx')		&& *< FileMetadata: Type="R" Cpid="1252" Timestamp="0" ID="0" ObjRev="0" />
 	.ADD('reports\cn_mayor_ov.frx')		&& *< FileMetadata: Type="R" Cpid="0" Timestamp="0" ID="0" ObjRev="0" />
 	.ADD('reports\cn_planingegr.frx')		&& *< FileMetadata: Type="R" Cpid="0" Timestamp="0" ID="0" ObjRev="0" />
+	.ADD('reports\cn_planingegr1.frx')		&& *< FileMetadata: Type="R" Cpid="1252" Timestamp="0" ID="0" ObjRev="0" />
 	.ADD('reports\cn_presmensual.frx')		&& *< FileMetadata: Type="R" Cpid="0" Timestamp="0" ID="0" ObjRev="0" />
 	.ADD('reports\cn_presupuesto.frx')		&& *< FileMetadata: Type="R" Cpid="0" Timestamp="0" ID="0" ObjRev="0" />
 	.ADD('reports\cn_saldos.frx')		&& *< FileMetadata: Type="R" Cpid="0" Timestamp="0" ID="0" ObjRev="0" />
@@ -506,6 +514,7 @@ WITH loProject.FILES
 	.ADD('reports\cp_ordencompra.frx')		&& *< FileMetadata: Type="R" Cpid="0" Timestamp="0" ID="0" ObjRev="0" />
 	.ADD('reports\cp_ordencompra050.frx')		&& *< FileMetadata: Type="R" Cpid="0" Timestamp="0" ID="0" ObjRev="0" />
 	.ADD('reports\cp_ordencompra0501.frx')		&& *< FileMetadata: Type="R" Cpid="1252" Timestamp="0" ID="0" ObjRev="0" />
+	.ADD('reports\cp_ordencompra0502.frx')		&& *< FileMetadata: Type="R" Cpid="1252" Timestamp="0" ID="0" ObjRev="0" />
 	.ADD('reports\cp_ordencompra2.frx')		&& *< FileMetadata: Type="R" Cpid="0" Timestamp="0" ID="0" ObjRev="0" />
 	.ADD('reports\cp_ordencompra301.frx')		&& *< FileMetadata: Type="R" Cpid="1252" Timestamp="0" ID="0" ObjRev="0" />
 	.ADD('reports\cp_ordenpago.frx')		&& *< FileMetadata: Type="R" Cpid="0" Timestamp="0" ID="0" ObjRev="0" />
@@ -513,6 +522,8 @@ WITH loProject.FILES
 	.ADD('reports\cp_ordenpago3.frx')		&& *< FileMetadata: Type="R" Cpid="0" Timestamp="0" ID="0" ObjRev="0" />
 	.ADD('reports\cp_ordenpagogca.frx')		&& *< FileMetadata: Type="R" Cpid="0" Timestamp="0" ID="0" ObjRev="0" />
 	.ADD('reports\cp_ordenpagolc.frx')		&& *< FileMetadata: Type="R" Cpid="0" Timestamp="0" ID="0" ObjRev="0" />
+	.ADD('reports\cp_ordenpagoov.frx')		&& *< FileMetadata: Type="R" Cpid="1252" Timestamp="0" ID="0" ObjRev="0" />
+	.ADD('reports\cp_ordenpagopa.frx')		&& *< FileMetadata: Type="R" Cpid="1252" Timestamp="0" ID="0" ObjRev="0" />
 	.ADD('reports\cp_recibopago.frx')		&& *< FileMetadata: Type="R" Cpid="0" Timestamp="0" ID="0" ObjRev="0" />
 	.ADD('reports\cp_recordatoriopago.frx')		&& *< FileMetadata: Type="R" Cpid="0" Timestamp="0" ID="0" ObjRev="0" />
 	.ADD('reports\cp_saldo_def.frx')		&& *< FileMetadata: Type="R" Cpid="0" Timestamp="0" ID="0" ObjRev="0" />
@@ -590,6 +601,7 @@ WITH loProject.FILES
 	.ADD('reports\st_exist_art.frx')		&& *< FileMetadata: Type="R" Cpid="0" Timestamp="0" ID="0" ObjRev="0" />
 	.ADD('reports\st_inventario.frx')		&& *< FileMetadata: Type="R" Cpid="0" Timestamp="0" ID="0" ObjRev="0" />
 	.ADD('reports\st_movi_cpbt.frx')		&& *< FileMetadata: Type="R" Cpid="0" Timestamp="0" ID="0" ObjRev="0" />
+	.ADD('reports\st_movim_dep.frx')		&& *< FileMetadata: Type="R" Cpid="1252" Timestamp="0" ID="0" ObjRev="0" />
 	.ADD('reports\st_moviprod.frx')		&& *< FileMetadata: Type="R" Cpid="0" Timestamp="0" ID="0" ObjRev="0" />
 	.ADD('reports\st_moviprod_cpbt.frx')		&& *< FileMetadata: Type="R" Cpid="0" Timestamp="0" ID="0" ObjRev="0" />
 	.ADD('reports\st_moviprod_cpbt1.frx')		&& *< FileMetadata: Type="R" Cpid="1252" Timestamp="0" ID="0" ObjRev="0" />
@@ -626,6 +638,7 @@ WITH loProject.FILES
 	.ADD('reports\ts_consolidado.frx')		&& *< FileMetadata: Type="R" Cpid="0" Timestamp="0" ID="0" ObjRev="0" />
 	.ADD('reports\ts_estado_cuenta.frx')		&& *< FileMetadata: Type="R" Cpid="0" Timestamp="0" ID="0" ObjRev="0" />
 	.ADD('reports\ts_estado_cuentadet.frx')		&& *< FileMetadata: Type="R" Cpid="1252" Timestamp="0" ID="0" ObjRev="0" />
+	.ADD('reports\ts_estado_cuentaproy.frx')		&& *< FileMetadata: Type="R" Cpid="1252" Timestamp="0" ID="0" ObjRev="0" />
 	.ADD('reports\ts_flujocaja.frx')		&& *< FileMetadata: Type="R" Cpid="1252" Timestamp="0" ID="0" ObjRev="0" />
 	.ADD('reports\ts_formatocheque.frx')		&& *< FileMetadata: Type="R" Cpid="0" Timestamp="0" ID="0" ObjRev="0" />
 	.ADD('reports\ts_imprimircheques.frx')		&& *< FileMetadata: Type="R" Cpid="0" Timestamp="0" ID="0" ObjRev="0" />
@@ -670,6 +683,8 @@ WITH loProject.FILES
 	.ADD('reports\vt_factura_glomar.frx')		&& *< FileMetadata: Type="R" Cpid="1252" Timestamp="0" ID="0" ObjRev="0" />
 	.ADD('reports\vt_factura_latata.frx')		&& *< FileMetadata: Type="R" Cpid="1252" Timestamp="0" ID="0" ObjRev="0" />
 	.ADD('reports\vt_factura_medident.frx')		&& *< FileMetadata: Type="R" Cpid="1252" Timestamp="0" ID="0" ObjRev="0" />
+	.ADD('reports\vt_factura_pa.frx')		&& *< FileMetadata: Type="R" Cpid="1252" Timestamp="0" ID="0" ObjRev="0" />
+	.ADD('reports\vt_factura_pa1.frx')		&& *< FileMetadata: Type="R" Cpid="1252" Timestamp="0" ID="0" ObjRev="0" />
 	.ADD('reports\vt_factura_prom.frx')		&& *< FileMetadata: Type="R" Cpid="1252" Timestamp="0" ID="0" ObjRev="0" />
 	.ADD('reports\vt_factura_tecpar.frx')		&& *< FileMetadata: Type="R" Cpid="1252" Timestamp="0" ID="0" ObjRev="0" />
 	.ADD('reports\vt_factura_tecpar_old.frx')		&& *< FileMetadata: Type="R" Cpid="1252" Timestamp="0" ID="0" ObjRev="0" />
@@ -704,6 +719,7 @@ WITH loProject.FILES
 	.ADD('reports\vt_rec_concep.frx')		&& *< FileMetadata: Type="R" Cpid="0" Timestamp="0" ID="0" ObjRev="0" />
 	.ADD('reports\vt_recibo.frx')		&& *< FileMetadata: Type="R" Cpid="0" Timestamp="0" ID="0" ObjRev="0" />
 	.ADD('reports\vt_recibo_full.frx')		&& *< FileMetadata: Type="R" Cpid="1252" Timestamp="0" ID="0" ObjRev="0" />
+	.ADD('reports\vt_recibo_pa.frx')		&& *< FileMetadata: Type="R" Cpid="1252" Timestamp="0" ID="0" ObjRev="0" />
 	.ADD('reports\vt_recibocobrador.frx')		&& *< FileMetadata: Type="R" Cpid="0" Timestamp="0" ID="0" ObjRev="0" />
 	.ADD('reports\vt_recibos.frx')		&& *< FileMetadata: Type="R" Cpid="0" Timestamp="0" ID="0" ObjRev="0" />
 	.ADD('reports\vt_remision.frx')		&& *< FileMetadata: Type="R" Cpid="1252" Timestamp="0" ID="0" ObjRev="0" />
@@ -711,6 +727,7 @@ WITH loProject.FILES
 	.ADD('reports\vt_remision_latata.frx')		&& *< FileMetadata: Type="R" Cpid="1252" Timestamp="0" ID="0" ObjRev="0" />
 	.ADD('reports\vt_rsaldo_cli.frx')		&& *< FileMetadata: Type="R" Cpid="0" Timestamp="0" ID="0" ObjRev="0" />
 	.ADD('reports\vt_saldo_cli.frx')		&& *< FileMetadata: Type="R" Cpid="0" Timestamp="0" ID="0" ObjRev="0" />
+	.ADD('reports\vt_saldo_fecha.frx')		&& *< FileMetadata: Type="R" Cpid="1252" Timestamp="0" ID="0" ObjRev="0" />
 	.ADD('reports\vt_saldoan.frx')		&& *< FileMetadata: Type="R" Cpid="1252" Timestamp="0" ID="0" ObjRev="0" />
 	.ADD('reports\vt_saldomor.frx')		&& *< FileMetadata: Type="R" Cpid="0" Timestamp="0" ID="0" ObjRev="0" />
 	.ADD('reports\vt_saldomor2.frx')		&& *< FileMetadata: Type="R" Cpid="0" Timestamp="0" ID="0" ObjRev="0" />
@@ -736,9 +753,8 @@ WITH loProject.FILES
 	*</FileComments>
 
 	*<ExcludedFiles>
-	.ITEM(lcCurdir + '_creporte.prg').Exclude = .T.
 	.ITEM(lcCurdir + 'data\datos.dbc').Exclude = .T.
-	.ITEM(lcCurdir + 'form2.scx').Exclude = .T.
+	.ITEM(lcCurdir + 'forms\cp_deb_cred.scx').Exclude = .T.
 	.ITEM(lcCurdir + 'forms\gn_lote1.scx').Exclude = .T.
 	.ITEM(lcCurdir + 'forms\vt_facturas1.scx').Exclude = .T.
 	.ITEM(lcCurdir + 'futura.ini').Exclude = .T.
@@ -751,6 +767,7 @@ WITH loProject.FILES
 	.ITEM(lcCurdir + 'reports\bs_cumplemes.frx').Exclude = .T.
 	.ITEM(lcCurdir + 'reports\bs_mensajes.frx').Exclude = .T.
 	.ITEM(lcCurdir + 'reports\cn_analisis1.frx').Exclude = .T.
+	.ITEM(lcCurdir + 'reports\cn_analisis1bi.frx').Exclude = .T.
 	.ITEM(lcCurdir + 'reports\cn_analisispres.frx').Exclude = .T.
 	.ITEM(lcCurdir + 'reports\cn_analisispres1.frx').Exclude = .T.
 	.ITEM(lcCurdir + 'reports\cn_asientoresumen.frx').Exclude = .T.
@@ -780,6 +797,7 @@ WITH loProject.FILES
 	.ITEM(lcCurdir + 'reports\cn_diario.frx').Exclude = .T.
 	.ITEM(lcCurdir + 'reports\cn_gastos.frx').Exclude = .T.
 	.ITEM(lcCurdir + 'reports\cn_gastos_2s.frx').Exclude = .T.
+	.ITEM(lcCurdir + 'reports\cn_gastos_2sbi.frx').Exclude = .T.
 	.ITEM(lcCurdir + 'reports\cn_ivacompra.frx').Exclude = .T.
 	.ITEM(lcCurdir + 'reports\cn_ivacompracpbt.frx').Exclude = .T.
 	.ITEM(lcCurdir + 'reports\cn_ivacompradet.frx').Exclude = .T.
@@ -790,6 +808,7 @@ WITH loProject.FILES
 	.ITEM(lcCurdir + 'reports\cn_mayor_libro.frx').Exclude = .T.
 	.ITEM(lcCurdir + 'reports\cn_mayor_ov.frx').Exclude = .T.
 	.ITEM(lcCurdir + 'reports\cn_planingegr.frx').Exclude = .T.
+	.ITEM(lcCurdir + 'reports\cn_planingegr1.frx').Exclude = .T.
 	.ITEM(lcCurdir + 'reports\cn_presmensual.frx').Exclude = .T.
 	.ITEM(lcCurdir + 'reports\cn_presupuesto.frx').Exclude = .T.
 	.ITEM(lcCurdir + 'reports\cn_saldos.frx').Exclude = .T.
@@ -815,6 +834,7 @@ WITH loProject.FILES
 	.ITEM(lcCurdir + 'reports\cp_ordencompra.frx').Exclude = .T.
 	.ITEM(lcCurdir + 'reports\cp_ordencompra050.frx').Exclude = .T.
 	.ITEM(lcCurdir + 'reports\cp_ordencompra0501.frx').Exclude = .T.
+	.ITEM(lcCurdir + 'reports\cp_ordencompra0502.frx').Exclude = .T.
 	.ITEM(lcCurdir + 'reports\cp_ordencompra2.frx').Exclude = .T.
 	.ITEM(lcCurdir + 'reports\cp_ordencompra301.frx').Exclude = .T.
 	.ITEM(lcCurdir + 'reports\cp_ordenpago.frx').Exclude = .T.
@@ -822,6 +842,8 @@ WITH loProject.FILES
 	.ITEM(lcCurdir + 'reports\cp_ordenpago3.frx').Exclude = .T.
 	.ITEM(lcCurdir + 'reports\cp_ordenpagogca.frx').Exclude = .T.
 	.ITEM(lcCurdir + 'reports\cp_ordenpagolc.frx').Exclude = .T.
+	.ITEM(lcCurdir + 'reports\cp_ordenpagoov.frx').Exclude = .T.
+	.ITEM(lcCurdir + 'reports\cp_ordenpagopa.frx').Exclude = .T.
 	.ITEM(lcCurdir + 'reports\cp_recibopago.frx').Exclude = .T.
 	.ITEM(lcCurdir + 'reports\cp_recordatoriopago.frx').Exclude = .T.
 	.ITEM(lcCurdir + 'reports\cp_saldo_def.frx').Exclude = .T.
@@ -897,6 +919,7 @@ WITH loProject.FILES
 	.ITEM(lcCurdir + 'reports\st_exist_art.frx').Exclude = .T.
 	.ITEM(lcCurdir + 'reports\st_inventario.frx').Exclude = .T.
 	.ITEM(lcCurdir + 'reports\st_movi_cpbt.frx').Exclude = .T.
+	.ITEM(lcCurdir + 'reports\st_movim_dep.frx').Exclude = .T.
 	.ITEM(lcCurdir + 'reports\st_moviprod.frx').Exclude = .T.
 	.ITEM(lcCurdir + 'reports\st_moviprod_cpbt.frx').Exclude = .T.
 	.ITEM(lcCurdir + 'reports\st_moviprod_cpbt1.frx').Exclude = .T.
@@ -933,6 +956,7 @@ WITH loProject.FILES
 	.ITEM(lcCurdir + 'reports\ts_consolidado.frx').Exclude = .T.
 	.ITEM(lcCurdir + 'reports\ts_estado_cuenta.frx').Exclude = .T.
 	.ITEM(lcCurdir + 'reports\ts_estado_cuentadet.frx').Exclude = .T.
+	.ITEM(lcCurdir + 'reports\ts_estado_cuentaproy.frx').Exclude = .T.
 	.ITEM(lcCurdir + 'reports\ts_flujocaja.frx').Exclude = .T.
 	.ITEM(lcCurdir + 'reports\ts_formatocheque.frx').Exclude = .T.
 	.ITEM(lcCurdir + 'reports\ts_imprimircheques.frx').Exclude = .T.
@@ -977,6 +1001,8 @@ WITH loProject.FILES
 	.ITEM(lcCurdir + 'reports\vt_factura_glomar.frx').Exclude = .T.
 	.ITEM(lcCurdir + 'reports\vt_factura_latata.frx').Exclude = .T.
 	.ITEM(lcCurdir + 'reports\vt_factura_medident.frx').Exclude = .T.
+	.ITEM(lcCurdir + 'reports\vt_factura_pa.frx').Exclude = .T.
+	.ITEM(lcCurdir + 'reports\vt_factura_pa1.frx').Exclude = .T.
 	.ITEM(lcCurdir + 'reports\vt_factura_prom.frx').Exclude = .T.
 	.ITEM(lcCurdir + 'reports\vt_factura_tecpar.frx').Exclude = .T.
 	.ITEM(lcCurdir + 'reports\vt_factura_tecpar_old.frx').Exclude = .T.
@@ -1010,6 +1036,7 @@ WITH loProject.FILES
 	.ITEM(lcCurdir + 'reports\vt_rec_concep.frx').Exclude = .T.
 	.ITEM(lcCurdir + 'reports\vt_recibo.frx').Exclude = .T.
 	.ITEM(lcCurdir + 'reports\vt_recibo_full.frx').Exclude = .T.
+	.ITEM(lcCurdir + 'reports\vt_recibo_pa.frx').Exclude = .T.
 	.ITEM(lcCurdir + 'reports\vt_recibocobrador.frx').Exclude = .T.
 	.ITEM(lcCurdir + 'reports\vt_recibos.frx').Exclude = .T.
 	.ITEM(lcCurdir + 'reports\vt_remision.frx').Exclude = .T.
@@ -1017,6 +1044,7 @@ WITH loProject.FILES
 	.ITEM(lcCurdir + 'reports\vt_remision_latata.frx').Exclude = .T.
 	.ITEM(lcCurdir + 'reports\vt_rsaldo_cli.frx').Exclude = .T.
 	.ITEM(lcCurdir + 'reports\vt_saldo_cli.frx').Exclude = .T.
+	.ITEM(lcCurdir + 'reports\vt_saldo_fecha.frx').Exclude = .T.
 	.ITEM(lcCurdir + 'reports\vt_saldoan.frx').Exclude = .T.
 	.ITEM(lcCurdir + 'reports\vt_saldomor.frx').Exclude = .T.
 	.ITEM(lcCurdir + 'reports\vt_saldomor2.frx').Exclude = .T.

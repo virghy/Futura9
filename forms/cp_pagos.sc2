@@ -259,7 +259,7 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 		Height = 22, ;
 		Left = 516, ;
 		Name = "nrocomprobante", ;
-		solonuevo = .T., ;
+		solonuevo = .F., ;
 		TabIndex = 7, ;
 		Top = 60, ;
 		Width = 92
@@ -883,17 +883,17 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 		*< END OBJECT: ClassLib="..\libs\tsbase.vcx" BaseClass="label" />
 
 	ADD OBJECT 'Tslabel5' AS tslabel WITH ;
-		Caption = "Fecha", ;
+		Caption = "Fecha Recibo", ;
 		Height = 17, ;
-		Left = 456, ;
+		Left = 432, ;
 		Name = "Tslabel5", ;
 		TabIndex = 11, ;
 		Top = 36, ;
-		Width = 53
+		Width = 77
 		*< END OBJECT: ClassLib="..\libs\tsbase.vcx" BaseClass="label" />
 
 	ADD OBJECT 'Tslabel6' AS tslabel WITH ;
-		Caption = "Rec. Proveedor", ;
+		Caption = "Nro Recibo", ;
 		Height = 14, ;
 		Left = 420, ;
 		Name = "Tslabel6", ;
@@ -903,13 +903,13 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 		*< END OBJECT: ClassLib="..\libs\tsbase.vcx" BaseClass="label" />
 
 	ADD OBJECT 'Tslabel7' AS tslabel WITH ;
-		Caption = "Número", ;
+		Caption = "Nro Operacion", ;
 		Height = 16, ;
-		Left = 456, ;
+		Left = 432, ;
 		Name = "Tslabel7", ;
 		TabIndex = 13, ;
 		Top = 12, ;
-		Width = 53
+		Width = 77
 		*< END OBJECT: ClassLib="..\libs\tsbase.vcx" BaseClass="label" />
 
 	ADD OBJECT 'Tslabel8' AS tslabel WITH ;

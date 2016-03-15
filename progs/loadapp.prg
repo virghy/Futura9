@@ -9,8 +9,7 @@ ENDPROC
 PROCEDURE loadForm
 LPARAMETERS lcform, lcparam
 IF PCOUNT() = 2
-     DO FORM (lcform) WITH  ;
-        lcparam
+     DO FORM (lcform) WITH lcparam
 ELSE
      DO FORM (lcform)
 ENDIF

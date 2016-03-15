@@ -119,7 +119,7 @@ DEFINE CLASS dataenvironment AS dataenvironment
 
 ENDDEFINE
 
-DEFINE CLASS st_movimientos AS tsmaintform OF "..\libs\tsbase.vcx" 
+DEFINE CLASS st_movimientos AS tsmovform OF "..\libs\tsbase.vcx" 
  	*< CLASSDATA: Baseclass="form" Timestamp="" Scale="" Uniqueid="" />
 
 	*-- OBJECTDATA items order determines ZOrder / El orden de los items OBJECTDATA determina el ZOrder 
@@ -163,7 +163,7 @@ DEFINE CLASS st_movimientos AS tsmaintform OF "..\libs\tsbase.vcx"
 
 	BufferMode = 0
 	camponro = Nro,st_Inventario, Idempresa=?oApp.Empresa
-	campos = IdEmpresa,IdInventario
+	campos = IdEmpresa,IdInventario,Cerrado
 	campotam = 
 	Caption = "Toma de Inventario"
 	DataSession = 2
@@ -172,13 +172,15 @@ DEFINE CLASS st_movimientos AS tsmaintform OF "..\libs\tsbase.vcx"
 	editmode = .F.
 	etiquetamenu = Compras
 	Height = 530
+	identidad = IdInventario
 	LockScreen = .F.
 	Name = "st_Movimientos"
 	tabla1 = st_Inventario
 	tabla2 = st_InventarioDet
 	tabla3 = st_movimiento
 	tabla4 = st_detfactu
-	valores = oApp.Empresa,NEWID('ST_INVENTARIO')
+	tablaconsulta = Inventario
+	valores = oApp.Empresa,NEWID('ST_INVENTARIO'),.f.
 	WhatsThisButton = .T.
 	Width = 779
 	WindowState = 0
@@ -722,7 +724,7 @@ DEFINE CLASS st_movimientos AS tsmaintform OF "..\libs\tsbase.vcx"
 	ENDPROC
 
 	PROCEDURE lallowedits_access
-		RETURN NVL(st_inventario.cerrado,.f.)
+		RETURN !NVL(st_inventario.cerrado,.f.)
 	ENDPROC
 
 	PROCEDURE Pageframe1.Page1.totales.Refresh

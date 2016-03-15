@@ -181,17 +181,17 @@
 
 	<INDEXES>
 		<INDEX>
-			<TagName>ORDEN</TagName>
+			<TagName>IDFORMATO</TagName>
 			<TagType>REGULAR</TagType>
-			<Key>ORDEN</Key>
+			<Key>STR(IDFORMATO)+TIPO+STR(ORDEN)</Key>
 			<Filter></Filter>
 			<Order>ASCENDING</Order>
 			<Collate>MACHINE</Collate>
 		</INDEX>
 		<INDEX>
-			<TagName>IDFORMATO</TagName>
+			<TagName>ORDEN</TagName>
 			<TagType>REGULAR</TagType>
-			<Key>STR(IDFORMATO)+TIPO+STR(ORDEN)</Key>
+			<Key>ORDEN</Key>
 			<Filter></Filter>
 			<Order>ASCENDING</Order>
 			<Collate>MACHINE</Collate>

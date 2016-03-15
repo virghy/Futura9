@@ -93,6 +93,9 @@ DEFINE CLASS tsmaintform1 AS tsmaintform OF "..\libs\tsbase.vcx"
 	*< OBJECTDATA: ObjPath="Pageframe1.Page1.Exportar" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.Page1.Importar" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.Page1.EditComandoImpresion" UniqueID="" Timestamp="" />
+	*< OBJECTDATA: ObjPath="Pageframe1.Page1.Tslabel3" UniqueID="" Timestamp="" />
+	*< OBJECTDATA: ObjPath="Pageframe1.Page1.Tslabel4" UniqueID="" Timestamp="" />
+	*< OBJECTDATA: ObjPath="Pageframe1.Page1.Tslabel5" UniqueID="" Timestamp="" />
 
 	campos = idempresa,codigo
 	Caption = "Impresión"
@@ -125,7 +128,7 @@ DEFINE CLASS tsmaintform1 AS tsmaintform OF "..\libs\tsbase.vcx"
 		Name = "EditComandoImpresion", ;
 		TabIndex = 4, ;
 		Top = 192, ;
-		Width = 372
+		Width = 312
 		*< END OBJECT: ClassLib="..\libs\tsbase.vcx" BaseClass="editbox" />
 
 	ADD OBJECT 'Pageframe1.Page1.edtDescripcionsql' AS tseditbox WITH ;
@@ -463,6 +466,40 @@ DEFINE CLASS tsmaintform1 AS tsmaintform OF "..\libs\tsbase.vcx"
 		Width = 113
 		*< END OBJECT: ClassLib="..\libs\tsbase.vcx" BaseClass="label" />
 
+	ADD OBJECT 'Pageframe1.Page1.Tslabel3' AS tslabel WITH ;
+		Alignment = 0, ;
+		Caption = "Ejemplos de Comandos de Impresion:", ;
+		Height = 22, ;
+		Left = 464, ;
+		Name = "Tslabel3", ;
+		Top = 195, ;
+		Width = 228
+		*< END OBJECT: ClassLib="..\..\eme\libs\tsbase.vcx" BaseClass="label" />
+
+	ADD OBJECT 'Pageframe1.Page1.Tslabel4' AS tslabel WITH ;
+		Alignment = 0, ;
+		Caption = "1) PRINTRAW(NombreArchivoDestino): Imprime directamente en la impresora seleccionada. ", ;
+		FontBold = .F., ;
+		Height = 30, ;
+		Left = 464, ;
+		Name = "Tslabel4", ;
+		Top = 212, ;
+		Width = 288, ;
+		WordWrap = .T.
+		*< END OBJECT: ClassLib="..\..\eme\libs\tsbase.vcx" BaseClass="label" />
+
+	ADD OBJECT 'Pageframe1.Page1.Tslabel5' AS tslabel WITH ;
+		Alignment = 0, ;
+		Caption = "2) !imprimir.cmd. Llama a un script personalizado para realizar la impresion", ;
+		FontBold = .F., ;
+		Height = 30, ;
+		Left = 464, ;
+		Name = "Tslabel5", ;
+		Top = 239, ;
+		Width = 288, ;
+		WordWrap = .T.
+		*< END OBJECT: ClassLib="..\..\eme\libs\tsbase.vcx" BaseClass="label" />
+
 	ADD OBJECT 'Pageframe1.Page1.Tstextbox1' AS tstextbox WITH ;
 		Comment = "", ;
 		ControlSource = "sys_impresion.destino", ;
@@ -485,7 +522,7 @@ DEFINE CLASS tsmaintform1 AS tsmaintform OF "..\libs\tsbase.vcx"
 		TabIndex = 4, ;
 		Top = 192, ;
 		Visible = .F., ;
-		Width = 372
+		Width = 312
 		*< END OBJECT: ClassLib="..\libs\tsbase.vcx" BaseClass="textbox" />
 
 	ADD OBJECT 'Pageframe1.Page1.txtCodigo' AS tstextbox WITH ;

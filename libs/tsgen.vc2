@@ -288,7 +288,7 @@ DEFINE CLASS application AS custom 		&& Clase de aplicación estándar
 		oApp.FinalEjercicio = cEjercicio.FinalEjercicio
 		_Screen.Caption=STRTRAN(_Screen.Caption,ALLTRIM(STR(oApp.Ejercicio)),lEjercicio)
 		oApp.Ejercicio = cEjercicio.Ejercicio
-		oApp.Periodo = cEjercicio.Ultimocierre
+		oApp.Periodo = NVL(cEjercicio.Ultimocierre,0)
 		
 		
 		
@@ -415,6 +415,7 @@ DEFINE CLASS application AS custom 		&& Clase de aplicación estándar
 		
 		***********
 		= SQL("select * from sys_Sistemas where idsistema ='"+LCSISTEMA+"'", 'cSistema')
+		SET STEP ON
 		IF RECCOUNT('cSistema')>0
 			IF  .NOT. EMPTY(THIS.SYSMENU)
 				RELEASE POPUPS EXTENDED MOVIMIENTOS, DEFINICIONES
@@ -450,7 +451,9 @@ DEFINE CLASS application AS custom 		&& Clase de aplicación estándar
 				USE IN CUSUARIOS
 			ENDIF
 		ENDIF
+		
 		THIS.NROMENU = BAR()
+		
 		IF THIS.NROMENU=0
 			FOR LNBAR = CNTBAR("Sistemas") TO 1 STEP -1
 					IF UPPER(PRMBAR("Sistemas", GETBAR("Sistemas", LNBAR)))=ALLTRIM(UPPER(CSISTEMA.SISTEMA))

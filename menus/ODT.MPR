@@ -1,6 +1,6 @@
 *       *********************************************************
 *       *                                                         
-*       * 23/03/2015              ODT.MPR               11:51:18  
+*       * 07/10/2015              ODT.MPR               10:01:16  
 *       *                                                         
 *       *********************************************************
 *       *                                                         
@@ -57,7 +57,7 @@ DEFINE BAR 10 OF movimiento PROMPT "Movimiento de Caja" ;
 ON SELECTION BAR 1 OF movimiento OAPP.DOFORM('odt_Paciente')
 ON SELECTION BAR 2 OF movimiento OAPP.DOFORM('vt_facturas')
 ON SELECTION BAR 3 OF movimiento ;
-	DO _4b70peqq0 ;
+	DO _4gp0lh711 ;
 	IN LOCFILE("FUTURA9\MENUS\ODT" ,"MPX;MPR|FXP;PRG" ,"WHERE is ODT?")
 ON SELECTION BAR 4 OF movimiento OAPP.DOFORM('odt_OrdenTrabajo')
 ON SELECTION BAR 6 OF movimiento oApp.DoForm('odt_Panel')
@@ -94,7 +94,7 @@ ON SELECTION MENU _MSYSMENU *-- (C) MICROSOFT CORPORATION 1995
 
 *       *********************************************************
 *       *                                                         
-*       * _4B70PEQQ0  ON SELECTION BAR 3 OF POPUP movimiento      
+*       * _4GP0LH711  ON SELECTION BAR 3 OF POPUP movimiento      
 *       *                                                         
 *       * Procedure Origin:                                       
 *       *                                                         
@@ -105,7 +105,7 @@ ON SELECTION MENU _MSYSMENU *-- (C) MICROSOFT CORPORATION 1995
 *       *                                                         
 *       *********************************************************
 *
-PROCEDURE _4b70peqq0
+PROCEDURE _4gp0lh711
 IF sql( ;
    "Select Abrir=CONVERT(CHAR(1),dbo.LeerConstante(?oApp.Empresa,'VT_ABRIR_CAJA'))", ;
    'cConfig') > 0

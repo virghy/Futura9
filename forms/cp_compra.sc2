@@ -123,13 +123,13 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.totales.iva" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.totales.Tslabel6" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.totales.Tslabel4" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.totales.Tslabel9" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.totales.Tslabel8" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.totales.Tslabel3" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.totales.Tslabel2" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.totales.Tslabel1" UniqueID="" Timestamp="" />
-	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.totales.Tslabel5" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.totales.Tslabel7" UniqueID="" Timestamp="" />
+	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.totales.Tslabel5" UniqueID="" Timestamp="" />
+	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.totales.Tslabel1" UniqueID="" Timestamp="" />
+	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.totales.Tslabel2" UniqueID="" Timestamp="" />
+	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.totales.Tslabel3" UniqueID="" Timestamp="" />
+	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.totales.Tslabel8" UniqueID="" Timestamp="" />
+	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.totales.Tslabel9" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.totales.porcentaje" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.totales.total" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Pageframe1.PAGE1.totales.exento" UniqueID="" Timestamp="" />
@@ -189,7 +189,7 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 	tablaconsulta = COMPRA
 	valores = oApp.Empresa,newid('cp_compra'), oApp.Monedabase, oApp.Sucursal,'C', 'I',.t.
 	valor_iva = 10		&& valor del iva
-	Width = 978
+	Width = 969
 	lblRequerido.Enabled = .F.
 	lblRequerido.Name = "lblRequerido"
 	lblRequerido.TabIndex = 2
@@ -230,7 +230,7 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 		ControlSource = "cp_vCompra.idcondicion", ;
 		cursor = cp_condicion, ;
 		editable = .T., ;
-		Left = 610, ;
+		Left = 838, ;
 		mensajevalidacion = Debe indicar una condición., ;
 		Name = "condicion", ;
 		RowSource = "cp_condicion.descripcion,idcondicion", ;
@@ -278,7 +278,7 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 		ControlSource = "cp_vcompra.idorden", ;
 		datoayuda = Pedidos   , ;
 		Height = 22, ;
-		Left = 610, ;
+		Left = 838, ;
 		Name = "idorden", ;
 		TabIndex = 8, ;
 		Top = 10, ;
@@ -344,7 +344,7 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 		ControlSource = "cp_vcompra.idfactura", ;
 		editable = .F., ;
 		Enabled = .F., ;
-		Left = 610, ;
+		Left = 838, ;
 		Name = "NroComprob", ;
 		TabIndex = 10, ;
 		Top = 58, ;
@@ -418,7 +418,7 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 		editable = .T., ;
 		FontBold = .T., ;
 		ForeColor = 0,0,128, ;
-		Left = 610, ;
+		Left = 838, ;
 		Name = "tipo", ;
 		solonuevo = .F., ;
 		Style = 2, ;
@@ -738,7 +738,7 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 		editable = .T., ;
 		FirstElement = 1, ;
 		Height = 22, ;
-		Left = 610, ;
+		Left = 838, ;
 		Name = "Tscombobox1", ;
 		NumberOfElements = 0, ;
 		RowSource = "Discriminado,D,Incluido,I", ;
@@ -876,9 +876,9 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 		Column6.ControlSource = "precio*cantidad", ;
 		Column6.FontBold = .F., ;
 		Column6.FontSize = 8, ;
-		Column6.InputMask = "999,999,999.99", ;
+		Column6.InputMask = "99,999,999,999.99", ;
 		Column6.Name = "total", ;
-		Column6.Width = 71, ;
+		Column6.Width = 84, ;
 		Column7.ColumnOrder = 10, ;
 		Column7.ControlSource = "cp_vdetfactu.modelo", ;
 		Column7.FontBold = .F., ;
@@ -1290,7 +1290,7 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 		FontBold = .F., ;
 		FontSize = 8, ;
 		ForeColor = 0,0,0, ;
-		InputMask = "999,999,999.99", ;
+		InputMask = "99,999,999,999.99", ;
 		Margin = 0, ;
 		Name = "txttotal", ;
 		SelectedBackColor = 247,223,187, ;
@@ -1321,7 +1321,7 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 		AutoSize = .F., ;
 		Caption = "Nro. O.C.", ;
 		Height = 16, ;
-		Left = 553, ;
+		Left = 781, ;
 		Name = "Tslabel1", ;
 		TabIndex = 22, ;
 		Top = 10, ;
@@ -1343,7 +1343,7 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 		AutoSize = .F., ;
 		Caption = "Forma IVA", ;
 		Height = 16, ;
-		Left = 539, ;
+		Left = 767, ;
 		Name = "Tslabel11", ;
 		TabIndex = 17, ;
 		Top = 106, ;
@@ -1364,7 +1364,7 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 	ADD OBJECT 'Pageframe1.PAGE1.Tslabel13' AS tslabel WITH ;
 		Caption = "Timbrado", ;
 		Height = 17, ;
-		Left = 531, ;
+		Left = 759, ;
 		Name = "Tslabel13", ;
 		TabIndex = 31, ;
 		Top = 130, ;
@@ -1429,7 +1429,7 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 		AutoSize = .F., ;
 		Caption = "Tipo Factura", ;
 		Height = 16, ;
-		Left = 533, ;
+		Left = 761, ;
 		Name = "Tslabel6", ;
 		TabIndex = 27, ;
 		Top = 34, ;
@@ -1441,7 +1441,7 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 		AutoSize = .F., ;
 		Caption = "Número", ;
 		Height = 16, ;
-		Left = 556, ;
+		Left = 784, ;
 		Name = "Tslabel7", ;
 		TabIndex = 28, ;
 		Top = 58, ;
@@ -1464,7 +1464,7 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 		AutoSize = .F., ;
 		Caption = "Condición", ;
 		Height = 16, ;
-		Left = 545, ;
+		Left = 773, ;
 		Name = "Tslabel9", ;
 		TabIndex = 29, ;
 		Top = 82, ;
@@ -1475,7 +1475,7 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 		ControlSource = "cp_vcompra.timbrado", ;
 		Height = 21, ;
 		InputMask = "99999999", ;
-		Left = 610, ;
+		Left = 838, ;
 		Name = "Tstextbox1", ;
 		requerido = .T., ;
 		TabIndex = 13, ;
@@ -1500,9 +1500,9 @@ DEFINE CLASS tsmaintform1 AS tsmovform OF "..\libs\tsbase.vcx"
 		SCAN
 			NRODECIMALES = IIF(CU_MONEDA.DECIMALES=0, 0, 4)
 			IF CP_VCOMPRA.FORMAIVA='I'
-				LNPORCENTAJE = ROUND((100+CP_VDETFACTU.IVA)/CP_VDETFACTU.IVA, NRODECIMALES)
-				REPLACE VALORIVA WITH ROUND((CP_VDETFACTU.GRAVADAINCLUIDO*CP_VDETFACTU.CANTIDAD)/(LNPORCENTAJE), NRODECIMALES) IN CP_VDETFACTU
-				M.IVA = ROUND(CP_VDETFACTU.GRAVADAINCLUIDO/(LNPORCENTAJE), NRODECIMALES)
+				LNPORCENTAJE = IIF(CP_VDETFACTU.IVA>0,ROUND((100+CP_VDETFACTU.IVA)/CP_VDETFACTU.IVA, NRODECIMALES),0)
+				REPLACE VALORIVA WITH IIF(LNPORCENTAJE >0, ROUND((CP_VDETFACTU.GRAVADAINCLUIDO*CP_VDETFACTU.CANTIDAD)/(LNPORCENTAJE), NRODECIMALES),0) IN CP_VDETFACTU
+				M.IVA = IIF(LNPORCENTAJE>0, ROUND(CP_VDETFACTU.GRAVADAINCLUIDO/(LNPORCENTAJE), NRODECIMALES),0)
 				REPLACE PRECIO WITH GRAVADAINCLUIDO-M.IVA IN CP_VDETFACTU
 			ELSE
 				REPLACE VALORIVA WITH ROUND(CP_VDETFACTU.PRECIO*CP_VDETFACTU.CANTIDAD*CP_VDETFACTU.IVA/100, NRODECIMALES) IN CP_VDETFACTU
